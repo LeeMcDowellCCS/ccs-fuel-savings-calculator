@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 const GA_FALLBACK = 3.10
 const EIA_URL =
-  'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=DEMO_KEY&frequency=weekly&data[0]=value&facets[series][]=EMM_EPMRU_PTE_SGA_DPG&sort[0][column]=period&sort[0][direction]=desc&length=1'
+  'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=xI8f5dCEIevB4PTyk4hvb4gsoQ0UOc92ciqedgb0&frequency=weekly&data[0]=value&facets[series][]=EMM_EPMRU_PTE_SGA_DPG&sort[0][column]=period&sort[0][direction]=desc&length=1'
 
 export default function GasPrice({ onPriceChange }) {
   const [price, setPrice] = useState('')
