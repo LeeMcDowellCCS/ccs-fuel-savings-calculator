@@ -49,7 +49,7 @@ export default function GasPrice({ onPriceChange }) {
           {source === 'live' && (
             <span className="text-xs text-green-600 font-medium flex items-center gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block"></span>
-              Lower Atlantic Avg
+              Current GA Avg
             </span>
           )}
           {source === 'fallback' && (
