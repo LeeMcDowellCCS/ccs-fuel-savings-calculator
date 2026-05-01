@@ -26,8 +26,8 @@ export default function Header() {
             <img
               src="/ccs-logo.png"
               alt="Car Charger Specialists"
-              height="55"
-              style={{ height: '55px', width: 'auto' }}
+              height="110"
+              style={{ height: '110px', width: 'auto' }}
             />
           </a>
         </div>
