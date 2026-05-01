@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 const GA_FALLBACK = 3.10
 const EIA_URL =
-  'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=DEMO_KEY&frequency=weekly&data[0]=value&facets[series][]=EMM_EPM0_PTE_SGA_DPG&sort[0][column]=period&sort[0][direction]=desc&length=1'
+  'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=DEMO_KEY&frequency=weekly&data[0]=value&facets[series][]=EMM_EPMRU_PTE_SGA_DPG&sort[0][column]=period&sort[0][direction]=desc&length=1'
 
 export default function GasPrice({ onPriceChange }) {
   const [price, setPrice] = useState('')
@@ -13,7 +13,7 @@ export default function GasPrice({ onPriceChange }) {
       .then(r => r.json())
       .then(data => {
         const val = data?.response?.data?.[0]?.value
-        if (val && !isNaN(parseFloat(val))) {
+        if (val != null && !isNaN(parseFloat(val))) {
           const p = parseFloat(val).toFixed(2)
           setPrice(p)
           setSource('live')
@@ -55,7 +55,10 @@ export default function GasPrice({ onPriceChange }) {
             <span className="text-xs text-amber-600 font-medium">Recent estimate</span>
           )}
           {source === 'loading' && (
-            <span className="text-xs text-gray-400">Fetching…</span>
+            <span className="text-xs text-gray-400 flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-gray-400 inline-block animate-pulse"></span>
+              Refreshing…
+            </span>
           )}
         </div>
         <div className="relative">
@@ -71,7 +74,9 @@ export default function GasPrice({ onPriceChange }) {
           />
         </div>
         {source === 'fallback' && (
-          <p className="text-xs text-amber-600 mt-1">Live price unavailable — using a recent GA average. You can edit this.</p>
+          <p className="text-xs text-amber-600 mt-1">
+            Live price unavailable — using a recent GA average. You can edit this.
+          </p>
         )}
       </div>
     </div>

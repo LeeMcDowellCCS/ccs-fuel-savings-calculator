@@ -110,11 +110,23 @@ export default function App() {
         </div>
       </main>
 
-      <footer className="text-center py-6 text-xs text-gray-400 border-t border-gray-100 mt-8">
-        © {new Date().getFullYear()} Car Charger Specialists, LLC · Atlanta, GA ·{' '}
-        <a href="https://www.carchargerspecialists.com" className="hover:text-gray-600">
-          carchargerspecialists.com
-        </a>
+      <footer className="text-center py-6 text-xs text-gray-400 mt-8" style={{ backgroundColor: '#000000', color: '#9ca3af' }}>
+        <p>
+          © {new Date().getFullYear()} Car Charger Specialists, LLC · Atlanta, GA ·{' '}
+          <a
+            href="https://www.carchargerspecialists.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors"
+          >
+            carchargerspecialists.com
+          </a>
+        </p>
+        <p className="mt-1">
+          <a href="tel:4045207349" className="text-gray-400 hover:text-white transition-colors">
+            404-520-7349
+          </a>
+        </p>
       </footer>
     </div>
   )
