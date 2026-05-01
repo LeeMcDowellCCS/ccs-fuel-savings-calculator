@@ -38,14 +38,12 @@ export default function InstallationCost({ enabled, onToggle, onCostChange }) {
     <div className="card">
       <button
         onClick={onToggle}
-        className="w-full flex items-center justify-between text-left group"
+        className="w-full flex items-center gap-3 text-left group"
       >
-        <h2 className="section-title flex items-center gap-2 mb-0">
-          <span className={`w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-100 text-gray-600'}`}>6</span>
-          Charger Installation Cost
-          <span className="text-xs font-normal text-gray-400 ml-1">(optional)</span>
-        </h2>
-        <span className={`text-xs font-medium px-2 py-1 rounded-full transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-100 text-gray-500 group-hover:bg-gray-200'}`}>
+        <span className={`w-7 h-7 rounded-full flex-shrink-0 flex items-center justify-center text-sm font-bold transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-100 text-gray-600'}`}>6</span>
+        <span className="text-lg font-semibold text-ccs-black flex-1">Charger Installation Cost</span>
+        <span className="text-xs text-gray-400 flex-shrink-0">(optional)</span>
+        <span className={`flex-shrink-0 text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-100 text-gray-500 group-hover:bg-gray-200'}`}>
           {enabled ? 'Included ✓' : 'Add Payback Calc'}
         </span>
       </button>
