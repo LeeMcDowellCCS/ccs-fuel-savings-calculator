@@ -24,7 +24,7 @@ export default function Header() {
             rel="noopener noreferrer"
           >
             <img
-              src="/ccs-logo.png.png"
+              src="/ccs-logo.png"
               alt="Car Charger Specialists"
               height="55"
               style={{ height: '55px', width: 'auto' }}
