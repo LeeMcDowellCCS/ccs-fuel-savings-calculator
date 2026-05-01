@@ -1,0 +1,73 @@
+[
+  {
+    "id": "georgia-power",
+    "name": "Georgia Power",
+    "standardRate": 0.1338,
+    "touRate": 0.069,
+    "touOffPeakRate": 0.069,
+    "touPeakRate": 0.26,
+    "touLabel": "Nights & Weekends (off-peak ~$0.069/kWh, peak ~$0.26/kWh)",
+    "touDescription": "Georgia Power's EV-TOU plan offers low off-peak rates (9pm–9am weekdays, all weekend) ideal for overnight charging.",
+    "hasTou": true
+  },
+  {
+    "id": "sawnee-emc",
+    "name": "Sawnee EMC",
+    "standardRate": 0.1148,
+    "touRate": 0.079,
+    "touOffPeakRate": 0.079,
+    "touPeakRate": 0.22,
+    "touLabel": "Time-of-Use (off-peak ~$0.079/kWh)",
+    "touDescription": "Sawnee EMC offers a TOU rate option. Off-peak hours (typically nights/weekends) offer lower rates for EV charging.",
+    "hasTou": true
+  },
+  {
+    "id": "jackson-emc",
+    "name": "Jackson EMC",
+    "standardRate": 0.1102,
+    "touRate": null,
+    "touLabel": null,
+    "touDescription": null,
+    "hasTou": false
+  },
+  {
+    "id": "cobb-emc",
+    "name": "Cobb EMC",
+    "standardRate": 0.1195,
+    "touRate": 0.082,
+    "touOffPeakRate": 0.082,
+    "touPeakRate": 0.24,
+    "touLabel": "Time-of-Use EV Rate (off-peak ~$0.082/kWh)",
+    "touDescription": "Cobb EMC's TOU-EV rate provides reduced off-peak pricing for members who charge overnight.",
+    "hasTou": true
+  },
+  {
+    "id": "greystone-power",
+    "name": "Greystone Power EMC",
+    "standardRate": 0.1165,
+    "touRate": null,
+    "touLabel": null,
+    "touDescription": null,
+    "hasTou": false
+  },
+  {
+    "id": "snapping-shoals",
+    "name": "Snapping Shoals EMC",
+    "standardRate": 0.1089,
+    "touRate": null,
+    "touLabel": null,
+    "touDescription": null,
+    "hasTou": false
+  },
+  {
+    "id": "coweta-fayette",
+    "name": "Coweta-Fayette EMC",
+    "standardRate": 0.1134,
+    "touRate": 0.076,
+    "touOffPeakRate": 0.076,
+    "touPeakRate": 0.21,
+    "touLabel": "Time-of-Use Rate (off-peak ~$0.076/kWh)",
+    "touDescription": "Coweta-Fayette EMC offers a TOU option with lower rates during overnight hours — great for EV charging.",
+    "hasTou": true
+  }
+]

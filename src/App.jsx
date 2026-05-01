@@ -1,0 +1,121 @@
+import { useState, useMemo } from 'react'
+import Header from './components/Header'
+import { GasVehicleSelector, EVSelector } from './components/VehicleSelector'
+import UtilitySelector from './components/UtilitySelector'
+import GasPrice from './components/GasPrice'
+import MilesDriven from './components/MilesDriven'
+import InstallationCost from './components/InstallationCost'
+import Results from './components/Results'
+import SavingsGraph from './components/SavingsGraph'
+import CTA from './components/CTA'
+
+function calculate({ gasVehicle, evVehicle, electricRate, gasPrice, milesPerDay, installCost }) {
+  const annualMiles = milesPerDay * 365
+  const annualGasCost = (annualMiles / gasVehicle.mpg) * gasPrice
+  const kWhPer100Mi = 100 / evVehicle.miPerKWh
+  const annualElectricCost = (annualMiles * kWhPer100Mi / 100) * electricRate
+  const annualSavings = annualGasCost - annualElectricCost
+  const monthlySavings = annualSavings / 12
+  const paybackMonths = installCost != null ? installCost / monthlySavings : null
+
+  return { annualGasCost, annualElectricCost, annualSavings, monthlySavings, installCost, paybackMonths }
+}
+
+export default function App() {
+  const [gasVehicle, setGasVehicle] = useState(null)
+  const [evVehicle, setEvVehicle] = useState(null)
+  const [electricRate, setElectricRate] = useState(null)
+  const [gasPrice, setGasPrice] = useState(null)
+  const [milesPerDay, setMilesPerDay] = useState(35)
+  const [installEnabled, setInstallEnabled] = useState(false)
+  const [installCost, setInstallCost] = useState(null)
+
+  const ready = gasVehicle && evVehicle && electricRate && gasPrice
+
+  const calc = useMemo(() => {
+    if (!ready) return null
+    return calculate({
+      gasVehicle,
+      evVehicle,
+      electricRate,
+      gasPrice,
+      milesPerDay,
+      installCost: installEnabled ? installCost : null,
+    })
+  }, [gasVehicle, evVehicle, electricRate, gasPrice, milesPerDay, installEnabled, installCost])
+
+  const missingFields = []
+  if (!gasVehicle) missingFields.push('gas vehicle')
+  if (!evVehicle) missingFields.push('EV')
+  if (!electricRate) missingFields.push('utility & rate')
+  if (!gasPrice) missingFields.push('gas price')
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <Header />
+
+      <main className="max-w-5xl mx-auto px-4 py-8">
+        <div className="text-center mb-8">
+          <h1 className="text-3xl font-bold text-ccs-black mb-2">Fuel Savings Calculator</h1>
+          <p className="text-gray-500 max-w-xl mx-auto">
+            See exactly how much you'll save switching from gas to electric —
+            based on your actual vehicle, utility, and driving habits.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+          <GasVehicleSelector onSelect={setGasVehicle} />
+          <EVSelector onSelect={setEvVehicle} />
+          <UtilitySelector onRateChange={setElectricRate} />
+          <GasPrice onPriceChange={setGasPrice} />
+          <MilesDriven value={milesPerDay} onChange={setMilesPerDay} />
+          <InstallationCost
+            enabled={installEnabled}
+            onToggle={() => setInstallEnabled(e => !e)}
+            onCostChange={setInstallCost}
+          />
+        </div>
+
+        <div className="mt-8 space-y-5">
+          {!calc && (
+            <div className="card border border-dashed border-gray-200 text-center py-10">
+              <div className="text-4xl mb-3">⚡</div>
+              <p className="text-gray-500 font-medium">
+                Complete all fields to see your savings
+              </p>
+              {missingFields.length > 0 && (
+                <p className="text-sm text-gray-400 mt-1">
+                  Still needed: {missingFields.join(', ')}
+                </p>
+              )}
+            </div>
+          )}
+
+          {calc && calc.annualSavings <= 0 && (
+            <div className="card border border-amber-200 bg-amber-50">
+              <p className="text-amber-800 font-medium text-sm">
+                ⚠️ With these inputs, the EV costs more to charge than the gas vehicle costs to fuel.
+                Try adjusting the gas price, electric rate, or selecting a more efficient EV.
+              </p>
+            </div>
+          )}
+
+          {calc && (
+            <>
+              <Results calc={calc} />
+              <SavingsGraph calc={calc} />
+              <CTA />
+            </>
+          )}
+        </div>
+      </main>
+
+      <footer className="text-center py-6 text-xs text-gray-400 border-t border-gray-100 mt-8">
+        © {new Date().getFullYear()} Car Charger Specialists, LLC · Atlanta, GA ·{' '}
+        <a href="https://www.carchargerspecialists.com" className="hover:text-gray-600">
+          carchargerspecialists.com
+        </a>
+      </footer>
+    </div>
+  )
+}
