@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react'
 
 const GA_FALLBACK = 3.10
+// EIA doesn't track Georgia individually — Lower Atlantic (PADD 1C) is the closest regional proxy
 const EIA_URL =
-  'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=xI8f5dCEIevB4PTyk4hvb4gsoQ0UOc92ciqedgb0&frequency=weekly&data[0]=value&facets[series][]=EMM_EPMRU_PTE_SGA_DPG&sort[0][column]=period&sort[0][direction]=desc&length=1'
+  'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=xI8f5dCEIevB4PTyk4hvb4gsoQ0UOc92ciqedgb0&frequency=weekly&data%5B0%5D=value&facets%5Bduoarea%5D%5B%5D=R1Z&facets%5Bproduct%5D%5B%5D=EPM0&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&length=1'
 
 export default function GasPrice({ onPriceChange }) {
   const [price, setPrice] = useState('')
@@ -48,7 +49,7 @@ export default function GasPrice({ onPriceChange }) {
           {source === 'live' && (
             <span className="text-xs text-green-600 font-medium flex items-center gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block"></span>
-              Current GA Avg
+              Lower Atlantic Avg
             </span>
           )}
           {source === 'fallback' && (
