@@ -41,7 +41,7 @@ export default function Header() {
             {/* Right: reviews */}
             <div className="sm:flex-1 sm:order-3 flex items-center justify-end">
               <a
-                href="https://www.google.com/maps/search/Car+Charger+Specialists+Atlanta"
+                href="https://share.google/IqHZXHVdPeyNVS3k2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-white hover:text-gray-200 transition-colors whitespace-nowrap text-right"
