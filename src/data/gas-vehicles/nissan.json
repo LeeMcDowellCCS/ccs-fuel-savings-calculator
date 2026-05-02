@@ -1167,5 +1167,397 @@
     "model": "Murano",
     "trim": "2.5L Turbo AWD",
     "mpg": 27
+  },
+  {
+    "year": 2017,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2017,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2017,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2017,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2018,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2018,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2018,
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "S FWD (1.6L)",
+    "mpg": 33
+  },
+  {
+    "year": 2018,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2018,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2019,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2019,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2019,
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "S FWD (1.6L)",
+    "mpg": 33
+  },
+  {
+    "year": 2019,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2019,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "S FWD (1.6L)",
+    "mpg": 33
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Versa",
+    "trim": "S CVT FWD (1.6L)",
+    "mpg": 35
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "S FWD (1.6L)",
+    "mpg": 33
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Versa",
+    "trim": "S CVT FWD (1.6L)",
+    "mpg": 35
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "S FWD (1.6L)",
+    "mpg": 33
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Versa",
+    "trim": "S CVT FWD (1.6L)",
+    "mpg": 35
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "S FWD (1.6L)",
+    "mpg": 33
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Versa",
+    "trim": "S CVT FWD (1.6L)",
+    "mpg": 35
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "S FWD (1.6L)",
+    "mpg": 33
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Versa",
+    "trim": "S CVT FWD (1.6L)",
+    "mpg": 35
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "S FWD (1.6L)",
+    "mpg": 33
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Versa",
+    "trim": "S CVT FWD (1.6L)",
+    "mpg": 35
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "Platinum 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "S FWD (1.6L)",
+    "mpg": 33
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "S 2WD (5.6L V8)",
+    "mpg": 17
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Titan",
+    "trim": "Pro-4X 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Versa",
+    "trim": "S CVT FWD (1.6L)",
+    "mpg": 35
   }
 ]

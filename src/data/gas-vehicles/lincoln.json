@@ -404,5 +404,26 @@
     "model": "Nautilus",
     "trim": "Nautilus AWD (2.0T)",
     "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Reserve AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Reserve AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Reserve AWD (2.0L Turbo)",
+    "mpg": 24
   }
 ]

@@ -2449,54 +2449,6 @@
   },
   {
     "year": 2024,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Standard AWD",
-    "miPerKWh": 2.7,
-    "rangeMi": 270
-  },
-  {
-    "year": 2024,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Adventure AWD",
-    "miPerKWh": 2.5,
-    "rangeMi": 314
-  },
-  {
-    "year": 2024,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Performance AWD",
-    "miPerKWh": 2.4,
-    "rangeMi": 305
-  },
-  {
-    "year": 2024,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Standard AWD",
-    "miPerKWh": 2.7,
-    "rangeMi": 260
-  },
-  {
-    "year": 2024,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Adventure AWD",
-    "miPerKWh": 2.5,
-    "rangeMi": 321
-  },
-  {
-    "year": 2024,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Performance AWD",
-    "miPerKWh": 2.4,
-    "rangeMi": 312
-  },
-  {
-    "year": 2024,
     "make": "Hyundai",
     "model": "Ioniq 5",
     "trim": "SE Standard Range RWD",
@@ -3473,54 +3425,6 @@
   },
   {
     "year": 2025,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Standard AWD",
-    "miPerKWh": 2.7,
-    "rangeMi": 270
-  },
-  {
-    "year": 2025,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Adventure AWD",
-    "miPerKWh": 2.5,
-    "rangeMi": 314
-  },
-  {
-    "year": 2025,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Performance AWD",
-    "miPerKWh": 2.4,
-    "rangeMi": 305
-  },
-  {
-    "year": 2025,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Standard AWD",
-    "miPerKWh": 2.7,
-    "rangeMi": 260
-  },
-  {
-    "year": 2025,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Adventure AWD",
-    "miPerKWh": 2.5,
-    "rangeMi": 321
-  },
-  {
-    "year": 2025,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Performance AWD",
-    "miPerKWh": 2.4,
-    "rangeMi": 312
-  },
-  {
-    "year": 2025,
     "make": "Hyundai",
     "model": "Ioniq 5",
     "trim": "SE Standard Range RWD",
@@ -4417,54 +4321,6 @@
   },
   {
     "year": 2026,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Standard AWD",
-    "miPerKWh": 2.7,
-    "rangeMi": 270
-  },
-  {
-    "year": 2026,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Adventure AWD",
-    "miPerKWh": 2.5,
-    "rangeMi": 314
-  },
-  {
-    "year": 2026,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Performance AWD",
-    "miPerKWh": 2.4,
-    "rangeMi": 305
-  },
-  {
-    "year": 2026,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Standard AWD",
-    "miPerKWh": 2.7,
-    "rangeMi": 260
-  },
-  {
-    "year": 2026,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Adventure AWD",
-    "miPerKWh": 2.5,
-    "rangeMi": 321
-  },
-  {
-    "year": 2026,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Performance AWD",
-    "miPerKWh": 2.4,
-    "rangeMi": 312
-  },
-  {
-    "year": 2026,
     "make": "Hyundai",
     "model": "Ioniq 5",
     "trim": "SE Standard Range RWD",
@@ -5286,5 +5142,197 @@
     "trim": "SQ6 quattro",
     "miPerKWh": 3,
     "rangeMi": 285
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual-Motor Standard Battery",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual-Motor Large Battery",
+    "miPerKWh": 2.8,
+    "rangeMi": 410
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Quad-Motor Standard Battery",
+    "miPerKWh": 2.4,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Quad-Motor Large Battery",
+    "miPerKWh": 2.5,
+    "rangeMi": 314
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual-Motor Standard Battery",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual-Motor Large Battery",
+    "miPerKWh": 2.8,
+    "rangeMi": 368
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Quad-Motor Standard Battery",
+    "miPerKWh": 2.4,
+    "rangeMi": 265
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Quad-Motor Large Battery",
+    "miPerKWh": 2.5,
+    "rangeMi": 321
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual-Motor Standard Battery",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual-Motor Large Battery",
+    "miPerKWh": 2.8,
+    "rangeMi": 410
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Quad-Motor Standard Battery",
+    "miPerKWh": 2.4,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Quad-Motor Large Battery",
+    "miPerKWh": 2.5,
+    "rangeMi": 314
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual-Motor Standard Battery",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual-Motor Large Battery",
+    "miPerKWh": 2.8,
+    "rangeMi": 368
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Quad-Motor Standard Battery",
+    "miPerKWh": 2.4,
+    "rangeMi": 265
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Quad-Motor Large Battery",
+    "miPerKWh": 2.5,
+    "rangeMi": 321
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual-Motor Standard Battery",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual-Motor Large Battery",
+    "miPerKWh": 2.8,
+    "rangeMi": 410
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Quad-Motor Standard Battery",
+    "miPerKWh": 2.4,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Quad-Motor Large Battery",
+    "miPerKWh": 2.5,
+    "rangeMi": 314
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual-Motor Standard Battery",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual-Motor Large Battery",
+    "miPerKWh": 2.8,
+    "rangeMi": 368
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Quad-Motor Standard Battery",
+    "miPerKWh": 2.4,
+    "rangeMi": 265
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Quad-Motor Large Battery",
+    "miPerKWh": 2.5,
+    "rangeMi": 321
   }
 ]

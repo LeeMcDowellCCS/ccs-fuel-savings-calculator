@@ -593,5 +593,565 @@
     "model": "GLE",
     "trim": "GLE450 4MATIC AWD (3.0T)",
     "mpg": 21
+  },
+  {
+    "year": 2019,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "G 550 4MATIC (4.0L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2019,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "AMG G 63 4MATIC (4.0L V8)",
+    "mpg": 13
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 FWD (2.0L Turbo)",
+    "mpg": 33
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 4MATIC AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "G 550 4MATIC (4.0L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "AMG G 63 4MATIC (4.0L V8)",
+    "mpg": 13
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 4MATIC AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 FWD (2.0L Turbo)",
+    "mpg": 33
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 4MATIC AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "G 550 4MATIC (4.0L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "AMG G 63 4MATIC (4.0L V8)",
+    "mpg": 13
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 FWD (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "AMG GLA 35 4MATIC",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 4MATIC AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 500 4MATIC (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 580 4MATIC (4.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 63 AMG 4MATIC (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 FWD (2.0L Turbo)",
+    "mpg": 33
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 4MATIC AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "G 550 4MATIC (4.0L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "AMG G 63 4MATIC (4.0L V8)",
+    "mpg": 13
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 FWD (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "AMG GLA 35 4MATIC",
+    "mpg": 24
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 4MATIC AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 500 4MATIC (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 580 4MATIC (4.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 63 AMG 4MATIC (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 FWD (2.0L Turbo)",
+    "mpg": 33
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 4MATIC AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "G 550 4MATIC (4.0L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "AMG G 63 4MATIC (4.0L V8)",
+    "mpg": 13
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 FWD (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "AMG GLA 35 4MATIC",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 4MATIC AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 500 4MATIC (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 580 4MATIC (4.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 63 AMG 4MATIC (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 FWD (2.0L Turbo)",
+    "mpg": 33
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 4MATIC AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "G 550 4MATIC (4.0L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "AMG G 63 4MATIC (4.0L V8)",
+    "mpg": 13
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 FWD (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "AMG GLA 35 4MATIC",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 4MATIC AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 500 4MATIC (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 580 4MATIC (4.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 63 AMG 4MATIC (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 FWD (2.0L Turbo)",
+    "mpg": 33
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 4MATIC AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "G 550 4MATIC (4.0L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "AMG G 63 4MATIC (4.0L V8)",
+    "mpg": 13
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 FWD (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "AMG GLA 35 4MATIC",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 4MATIC AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 500 4MATIC (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 580 4MATIC (4.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 63 AMG 4MATIC (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 FWD (2.0L Turbo)",
+    "mpg": 33
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "trim": "CLA 250 4MATIC AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "G 550 4MATIC (4.0L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "trim": "AMG G 63 4MATIC (4.0L V8)",
+    "mpg": 13
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 FWD (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "GLA 250 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "GLA",
+    "trim": "AMG GLA 35 4MATIC",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "GLB",
+    "trim": "GLB 250 4MATIC AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 500 4MATIC (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 580 4MATIC (4.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "S-Class",
+    "trim": "S 63 AMG 4MATIC (4.0L V8)",
+    "mpg": 18
   }
 ]

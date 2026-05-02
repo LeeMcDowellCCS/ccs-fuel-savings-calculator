@@ -684,5 +684,208 @@
     "model": "Ascent",
     "trim": "2.4T H4 AWD",
     "mpg": 21
+  },
+  {
+    "year": 2020,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Base AWD (2.5L)",
+    "mpg": 30
+  },
+  {
+    "year": 2020,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Touring XT AWD (2.4L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Base AWD (2.5L)",
+    "mpg": 30
+  },
+  {
+    "year": 2021,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Touring XT AWD (2.4L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Premium 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Limited 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Base AWD (2.5L)",
+    "mpg": 30
+  },
+  {
+    "year": 2022,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Touring XT AWD (2.4L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "Base AWD (2.4L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Premium 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Limited 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Base AWD (2.5L)",
+    "mpg": 30
+  },
+  {
+    "year": 2023,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Touring XT AWD (2.4L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "Base AWD (2.4L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "GT AWD (2.4L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Premium 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Limited 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Base AWD (2.5L)",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "Subaru",
+    "model": "Legacy",
+    "trim": "Touring XT AWD (2.4L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "Base AWD (2.4L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "GT AWD (2.4L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Premium 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Limited 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "Base AWD (2.4L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "GT AWD (2.4L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Premium 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Subaru",
+    "model": "BRZ",
+    "trim": "Limited 2.4L RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "Base AWD (2.4L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "GT AWD (2.4L Turbo)",
+    "mpg": 22
   }
 ]

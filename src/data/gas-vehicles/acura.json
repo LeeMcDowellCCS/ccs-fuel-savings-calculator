@@ -474,5 +474,61 @@
     "model": "TLX",
     "trim": "TLX SH-AWD (2.0T)",
     "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "Acura",
+    "model": "NSX",
+    "trim": "Type S AWD (3.5L V6 Hybrid)",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Acura",
+    "model": "Integra",
+    "trim": "Base FWD (1.5L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "Acura",
+    "model": "Integra",
+    "trim": "Base FWD (1.5L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "Acura",
+    "model": "Integra",
+    "trim": "Type S AWD (2.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Acura",
+    "model": "Integra",
+    "trim": "Base FWD (1.5L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "Acura",
+    "model": "Integra",
+    "trim": "Type S AWD (2.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Acura",
+    "model": "Integra",
+    "trim": "Base FWD (1.5L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "Acura",
+    "model": "Integra",
+    "trim": "Type S AWD (2.0L Turbo)",
+    "mpg": 22
   }
 ]

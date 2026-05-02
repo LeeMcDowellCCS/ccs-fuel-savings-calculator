@@ -859,5 +859,971 @@
     "model": "X5",
     "trim": "M60i AWD (V8)",
     "mpg": 19
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "xDrive30i AWD (2.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "M40i AWD (3.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 21
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "sDrive30i RWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "M40i RWD (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "228i xDrive Gran Coupe",
+    "mpg": 29
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "740i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "760i xDrive (4.4L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "M35i xDrive AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "xDrive30i AWD (2.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "M40i AWD (3.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 21
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "sDrive30i RWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "M40i RWD (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "228i xDrive Gran Coupe",
+    "mpg": 29
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i RWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i xDrive AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "M440i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "740i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "760i xDrive (4.4L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "M35i xDrive AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "xDrive30i AWD (2.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "M40i AWD (3.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 21
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "sDrive30i RWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "M40i RWD (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "M240i xDrive (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "228i xDrive Gran Coupe",
+    "mpg": 29
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i RWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i xDrive AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "M440i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "740i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "760i xDrive (4.4L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "M35i xDrive AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "xDrive30i AWD (2.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "M40i AWD (3.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 21
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "sDrive30i RWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "M40i RWD (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "M240i xDrive (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "228i xDrive Gran Coupe",
+    "mpg": 29
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i RWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i xDrive AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "M440i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "740i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "760i xDrive (4.4L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "M35i xDrive AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "xDrive30i AWD (2.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "M40i AWD (3.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "sDrive30i RWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "M40i RWD (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "M240i xDrive (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "228i xDrive Gran Coupe",
+    "mpg": 29
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i RWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i xDrive AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "M440i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "740i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "760i xDrive (4.4L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "M35i xDrive AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "xDrive30i AWD (2.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "M40i AWD (3.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "sDrive30i RWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "M40i RWD (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "M240i xDrive (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "228i xDrive Gran Coupe",
+    "mpg": 29
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i RWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i xDrive AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "M440i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "740i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "760i xDrive (4.4L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "M35i xDrive AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "xDrive30i AWD (2.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "M40i AWD (3.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "sDrive30i RWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "M40i RWD (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "M240i xDrive (3.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "228i xDrive Gran Coupe",
+    "mpg": 29
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i RWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "430i xDrive AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "4 Series",
+    "trim": "M440i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "740i xDrive (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "7 Series",
+    "trim": "760i xDrive (4.4L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X1",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "sDrive28i (2.0L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "xDrive28i AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X2",
+    "trim": "M35i xDrive AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "xDrive30i AWD (2.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X4",
+    "trim": "M40i AWD (3.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X6",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "xDrive40i AWD (3.0L Turbo)",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X7",
+    "trim": "M60i AWD (4.4L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "sDrive30i RWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "Z4",
+    "trim": "M40i RWD (3.0L Turbo)",
+    "mpg": 26
   }
 ]

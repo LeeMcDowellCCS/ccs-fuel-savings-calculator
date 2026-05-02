@@ -740,5 +740,796 @@
     "model": "GX",
     "trim": "GX 550 4WD (3.4T V6)",
     "mpg": 20
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500 RWD (5.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500h Hybrid RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 RWD (3.5L V6T)",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 AWD (3.5L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500h AWD Hybrid",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500 RWD (5.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500h Hybrid RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 RWD (3.5L V6T)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 AWD (3.5L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500h AWD Hybrid",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 300 RWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h FWD Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h AWD Hybrid",
+    "mpg": 37
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500 RWD (5.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500h Hybrid RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 RWD (3.5L V6T)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 AWD (3.5L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500h AWD Hybrid",
+    "mpg": 27
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 300 RWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h FWD Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h AWD Hybrid",
+    "mpg": 37
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 300 RWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500 RWD (5.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500h Hybrid RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 RWD (3.5L V6T)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 AWD (3.5L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500h AWD Hybrid",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 300 RWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h FWD Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h AWD Hybrid",
+    "mpg": 37
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 300 RWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 500 F Sport RWD (5.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500 RWD (5.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500h Hybrid RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 RWD (3.5L V6T)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 AWD (3.5L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500h AWD Hybrid",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 4WD (3.5L V6T)",
+    "mpg": 17
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 Ultra Luxury 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 300 RWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h FWD Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h AWD Hybrid",
+    "mpg": 37
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 300 RWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 500 F Sport RWD (5.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500 RWD (5.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500h Hybrid RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 RWD (3.5L V6T)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 AWD (3.5L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500h AWD Hybrid",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 4WD (3.5L V6T)",
+    "mpg": 17
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 Ultra Luxury 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 300 RWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h FWD Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h AWD Hybrid",
+    "mpg": 37
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 300 RWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 500 F Sport RWD (5.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500 RWD (5.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500h Hybrid RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 RWD (3.5L V6T)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 AWD (3.5L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500h AWD Hybrid",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 4WD (3.5L V6T)",
+    "mpg": 17
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 Ultra Luxury 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 300 RWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "TX",
+    "trim": "TX 350 FWD (2.4L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "TX",
+    "trim": "TX 350 AWD (2.4L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "TX",
+    "trim": "TX 500h AWD Hybrid",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h FWD Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h AWD Hybrid",
+    "mpg": 37
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 300 RWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 500 F Sport RWD (5.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500 RWD (5.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500h Hybrid RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 RWD (3.5L V6T)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 AWD (3.5L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500h AWD Hybrid",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 4WD (3.5L V6T)",
+    "mpg": 17
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 Ultra Luxury 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 300 RWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "TX",
+    "trim": "TX 350 FWD (2.4L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "TX",
+    "trim": "TX 350 AWD (2.4L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "TX",
+    "trim": "TX 500h AWD Hybrid",
+    "mpg": 30
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h FWD Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h AWD Hybrid",
+    "mpg": 37
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 300 RWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 500 F Sport RWD (5.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500 RWD (5.0L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "LC",
+    "trim": "LC 500h Hybrid RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 RWD (3.5L V6T)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500 AWD (3.5L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "LS",
+    "trim": "LS 500h AWD Hybrid",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 4WD (3.5L V6T)",
+    "mpg": 17
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "LX",
+    "trim": "LX 600 Ultra Luxury 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 300 RWD (2.0L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "RC",
+    "trim": "RC 350 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "TX",
+    "trim": "TX 350 FWD (2.4L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "TX",
+    "trim": "TX 350 AWD (2.4L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "TX",
+    "trim": "TX 500h AWD Hybrid",
+    "mpg": 30
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h FWD Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "UX",
+    "trim": "UX 250h AWD Hybrid",
+    "mpg": 37
   }
 ]

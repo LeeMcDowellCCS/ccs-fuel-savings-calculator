@@ -1153,5 +1153,96 @@
     "model": "Ridgeline",
     "trim": "Sport AWD (3.5L V6)",
     "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "Sport FWD (3.5L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2020,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "Sport FWD (3.5L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2021,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "Sport FWD (3.5L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "Sport FWD (3.5L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "TrailSport AWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "Sport FWD (3.5L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "TrailSport AWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "Sport FWD (3.5L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "TrailSport AWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "Sport FWD (3.5L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "TrailSport AWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "Sport FWD (3.5L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "Honda",
+    "model": "Passport",
+    "trim": "TrailSport AWD (3.5L V6)",
+    "mpg": 21
   }
 ]

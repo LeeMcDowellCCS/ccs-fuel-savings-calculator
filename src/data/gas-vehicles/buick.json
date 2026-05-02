@@ -663,5 +663,47 @@
     "model": "Envision",
     "trim": "Envision AWD (2.0T)",
     "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Buick",
+    "model": "Envista",
+    "trim": "Preferred FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "Buick",
+    "model": "Envista",
+    "trim": "Avenir AWD (1.2L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Buick",
+    "model": "Envista",
+    "trim": "Preferred FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "Buick",
+    "model": "Envista",
+    "trim": "Avenir AWD (1.2L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Buick",
+    "model": "Envista",
+    "trim": "Preferred FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "Buick",
+    "model": "Envista",
+    "trim": "Avenir AWD (1.2L Turbo)",
+    "mpg": 28
   }
 ]

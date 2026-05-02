@@ -845,5 +845,194 @@
     "model": "Gladiator",
     "trim": "3.6L V6 4WD",
     "mpg": 18
+  },
+  {
+    "year": 2019,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Sport FWD (1.3L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2019,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Trailhawk AWD (1.3L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Sport FWD (1.3L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2020,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Trailhawk AWD (1.3L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "6.4L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2021,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Sport FWD (1.3L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2021,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Trailhawk AWD (1.3L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "3.0L Turbo I6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "6.4L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2022,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "Series III L 3.0T 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Sport FWD (1.3L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2022,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Trailhawk AWD (1.3L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "3.0L Turbo I6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "6.4L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2023,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "Series III L 3.0T 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Sport FWD (1.3L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2023,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Trailhawk AWD (1.3L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "3.0L Turbo I6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "6.4L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2024,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "Series III L 3.0T 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Sport FWD (1.3L Turbo)",
+    "mpg": 29
+  },
+  {
+    "year": 2024,
+    "make": "Jeep",
+    "model": "Renegade",
+    "trim": "Trailhawk AWD (1.3L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "3.0L Turbo I6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "6.4L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2025,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "Series III L 3.0T 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "3.0L Turbo I6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "trim": "Series III L 3.0T 4WD",
+    "mpg": 18
   }
 ]

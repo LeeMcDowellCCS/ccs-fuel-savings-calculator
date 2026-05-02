@@ -600,5 +600,117 @@
     "model": "S60",
     "trim": "S60 FWD (2.0T)",
     "mpg": 31
+  },
+  {
+    "year": 2021,
+    "make": "Volvo",
+    "model": "V60 Cross Country",
+    "trim": "B5 AWD (2.0L Mild Hybrid)",
+    "mpg": 30
+  },
+  {
+    "year": 2022,
+    "make": "Volvo",
+    "model": "S90",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Volvo",
+    "model": "V60 Cross Country",
+    "trim": "B5 AWD (2.0L Mild Hybrid)",
+    "mpg": 30
+  },
+  {
+    "year": 2022,
+    "make": "Volvo",
+    "model": "V90 Cross Country",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Volvo",
+    "model": "S90",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Volvo",
+    "model": "V60 Cross Country",
+    "trim": "B5 AWD (2.0L Mild Hybrid)",
+    "mpg": 30
+  },
+  {
+    "year": 2023,
+    "make": "Volvo",
+    "model": "V90 Cross Country",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Volvo",
+    "model": "S90",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Volvo",
+    "model": "V60 Cross Country",
+    "trim": "B5 AWD (2.0L Mild Hybrid)",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "Volvo",
+    "model": "V90 Cross Country",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "S90",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "V60 Cross Country",
+    "trim": "B5 AWD (2.0L Mild Hybrid)",
+    "mpg": 30
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "V90 Cross Country",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "S90",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "V60 Cross Country",
+    "trim": "B5 AWD (2.0L Mild Hybrid)",
+    "mpg": 30
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "V90 Cross Country",
+    "trim": "B6 AWD (2.0L Mild Hybrid)",
+    "mpg": 28
   }
 ]

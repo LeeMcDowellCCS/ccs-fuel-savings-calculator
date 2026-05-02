@@ -712,5 +712,411 @@
     "model": "Q7",
     "trim": "Q7 AWD (3.0T V6)",
     "mpg": 21
+  },
+  {
+    "year": 2019,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2019,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Audi",
+    "model": "Q3",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2020,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "S7 TFSI quattro AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Audi",
+    "model": "Q3",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2020,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "SQ8 TFSI quattro AWD (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "S7 TFSI quattro AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "60 TFSI e quattro PHEV",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "Q3",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "SQ8 TFSI quattro AWD (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "S7 TFSI quattro AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "60 TFSI e quattro PHEV",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "Q3",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "SQ8 TFSI quattro AWD (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "S7 TFSI quattro AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "60 TFSI e quattro PHEV",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "Q3",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "SQ8 TFSI quattro AWD (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "A5",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "A5",
+    "trim": "S5 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "S7 TFSI quattro AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "60 TFSI e quattro PHEV",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "Q3",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "SQ8 TFSI quattro AWD (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "A5",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "A5",
+    "trim": "S5 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "S7 TFSI quattro AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "60 TFSI e quattro PHEV",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q3",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "SQ8 TFSI quattro AWD (4.0L V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "A5",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 30
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "A5",
+    "trim": "S5 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "A7",
+    "trim": "S7 TFSI quattro AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "A8",
+    "trim": "60 TFSI e quattro PHEV",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q3",
+    "trim": "45 TFSI quattro AWD (2.0L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "55 TFSI quattro AWD (3.0L Turbo)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q8",
+    "trim": "SQ8 TFSI quattro AWD (4.0L V8)",
+    "mpg": 18
   }
 ]

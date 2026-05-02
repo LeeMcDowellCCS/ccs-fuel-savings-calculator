@@ -663,5 +663,229 @@
     "model": "Atlas",
     "trim": "2.0T 4Motion AWD",
     "mpg": 21
+  },
+  {
+    "year": 2015,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2016,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2017,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2018,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2019,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "Autobahn 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Volkswagen",
+    "model": "Golf R",
+    "trim": "2.0T TSI 4MOTION AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T FWD",
+    "mpg": 31
+  },
+  {
+    "year": 2022,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T 4MOTION AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "Autobahn 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Volkswagen",
+    "model": "Golf R",
+    "trim": "2.0T TSI 4MOTION AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T FWD",
+    "mpg": 31
+  },
+  {
+    "year": 2023,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T 4MOTION AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "Autobahn 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Volkswagen",
+    "model": "Golf R",
+    "trim": "2.0T TSI 4MOTION AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T FWD",
+    "mpg": 31
+  },
+  {
+    "year": 2024,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T 4MOTION AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "Autobahn 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "Golf R",
+    "trim": "2.0T TSI 4MOTION AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T FWD",
+    "mpg": 31
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T 4MOTION AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "S 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "trim": "Autobahn 2.0T TSI",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "Golf R",
+    "trim": "2.0T TSI 4MOTION AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T FWD",
+    "mpg": 31
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "Taos",
+    "trim": "1.5T 4MOTION AWD",
+    "mpg": 27
   }
 ]

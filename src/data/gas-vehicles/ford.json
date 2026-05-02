@@ -1405,5 +1405,306 @@
     "model": "Bronco",
     "trim": "2.7L EcoBoost V6 4WD",
     "mpg": 18
+  },
+  {
+    "year": 2020,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost RWD",
+    "mpg": 17
+  },
+  {
+    "year": 2020,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2020,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "Max XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Base 1.5L EcoBoost 4WD",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Badlands 2.0L EcoBoost 4WD",
+    "mpg": 23
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost RWD",
+    "mpg": 17
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "Max XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Base 1.5L EcoBoost 4WD",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Badlands 2.0L EcoBoost 4WD",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost RWD",
+    "mpg": 17
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "Max XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "Hybrid FWD (2.5L)",
+    "mpg": 42
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "EcoBoost AWD (2.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Base 1.5L EcoBoost 4WD",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Badlands 2.0L EcoBoost 4WD",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost RWD",
+    "mpg": 17
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "Max XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "Hybrid FWD (2.5L)",
+    "mpg": 42
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "EcoBoost AWD (2.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Base 1.5L EcoBoost 4WD",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Badlands 2.0L EcoBoost 4WD",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost RWD",
+    "mpg": 17
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "Max XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "Hybrid FWD (2.5L)",
+    "mpg": 42
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "EcoBoost AWD (2.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Base 1.5L EcoBoost 4WD",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Badlands 2.0L EcoBoost 4WD",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost RWD",
+    "mpg": 17
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "Max XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "Hybrid FWD (2.5L)",
+    "mpg": 42
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "EcoBoost AWD (2.0L Turbo)",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Base 1.5L EcoBoost 4WD",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Bronco Sport",
+    "trim": "Badlands 2.0L EcoBoost 4WD",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost RWD",
+    "mpg": 17
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Expedition",
+    "trim": "Max XLT 3.5L EcoBoost 4WD",
+    "mpg": 16
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "Hybrid FWD (2.5L)",
+    "mpg": 42
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Maverick",
+    "trim": "EcoBoost AWD (2.0L Turbo)",
+    "mpg": 23
   }
 ]

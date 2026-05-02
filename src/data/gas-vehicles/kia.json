@@ -901,5 +901,257 @@
     "model": "Telluride",
     "trim": "3.8L V6 AWD",
     "mpg": 19
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "Hybrid FWD (1.6L)",
+    "mpg": 53
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "PHEV FWD (1.6L)",
+    "mpg": 46
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Stinger",
+    "trim": "GT2 AWD (3.3L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "Hybrid FWD (1.6L)",
+    "mpg": 53
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "PHEV FWD (1.6L)",
+    "mpg": 46
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Stinger",
+    "trim": "GT2 AWD (3.3L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "Hybrid FWD (1.6L)",
+    "mpg": 53
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "PHEV FWD (1.6L)",
+    "mpg": 46
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Stinger",
+    "trim": "GT2 AWD (3.3L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "Hybrid FWD (1.6L)",
+    "mpg": 53
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "PHEV FWD (1.6L)",
+    "mpg": 46
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Stinger",
+    "trim": "GT2 AWD (3.3L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "LX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "EX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "Hybrid FWD (1.6L)",
+    "mpg": 53
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "PHEV FWD (1.6L)",
+    "mpg": 46
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Stinger",
+    "trim": "GT-Line AWD (2.5L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Stinger",
+    "trim": "GT2 AWD (3.3L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "LX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "EX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "Hybrid FWD (1.6L)",
+    "mpg": 53
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "PHEV FWD (1.6L)",
+    "mpg": 46
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Stinger",
+    "trim": "GT-Line AWD (2.5L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Stinger",
+    "trim": "GT2 AWD (3.3L V6T)",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "LX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "EX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "Hybrid FWD (1.6L)",
+    "mpg": 53
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "PHEV FWD (1.6L)",
+    "mpg": 46
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "LX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "EX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "Hybrid FWD (1.6L)",
+    "mpg": 53
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "PHEV FWD (1.6L)",
+    "mpg": 46
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "LX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Carnival",
+    "trim": "EX (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "Hybrid FWD (1.6L)",
+    "mpg": 53
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Niro",
+    "trim": "PHEV FWD (1.6L)",
+    "mpg": 46
   }
 ]

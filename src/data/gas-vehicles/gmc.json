@@ -873,5 +873,229 @@
     "model": "Acadia",
     "trim": "2.5L Turbo AWD",
     "mpg": 23
+  },
+  {
+    "year": 2020,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L V8 Gas 2WD",
+    "mpg": 14
+  },
+  {
+    "year": 2020,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L Duramax Diesel 2WD",
+    "mpg": 20
+  },
+  {
+    "year": 2021,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L V8 Gas 2WD",
+    "mpg": 14
+  },
+  {
+    "year": 2021,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L Duramax Diesel 2WD",
+    "mpg": 20
+  },
+  {
+    "year": 2021,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "5.3L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2021,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L V8 Gas 2WD",
+    "mpg": 14
+  },
+  {
+    "year": 2022,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L Duramax Diesel 2WD",
+    "mpg": 20
+  },
+  {
+    "year": 2022,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "5.3L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2022,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L V8 Gas 2WD",
+    "mpg": 14
+  },
+  {
+    "year": 2023,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L Duramax Diesel 2WD",
+    "mpg": 20
+  },
+  {
+    "year": 2023,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "5.3L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2023,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "GMC",
+    "model": "Envoy",
+    "trim": "FWD (1.5L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "GMC",
+    "model": "Envoy",
+    "trim": "AWD (1.5L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L V8 Gas 2WD",
+    "mpg": 14
+  },
+  {
+    "year": 2024,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L Duramax Diesel 2WD",
+    "mpg": 20
+  },
+  {
+    "year": 2024,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "5.3L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2024,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "GMC",
+    "model": "Envoy",
+    "trim": "FWD (1.5L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "GMC",
+    "model": "Envoy",
+    "trim": "AWD (1.5L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L V8 Gas 2WD",
+    "mpg": 14
+  },
+  {
+    "year": 2025,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L Duramax Diesel 2WD",
+    "mpg": 20
+  },
+  {
+    "year": 2025,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "5.3L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2025,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Envoy",
+    "trim": "FWD (1.5L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Envoy",
+    "trim": "AWD (1.5L Turbo)",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L V8 Gas 2WD",
+    "mpg": 14
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Sierra 2500HD",
+    "trim": "6.6L Duramax Diesel 2WD",
+    "mpg": 20
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "5.3L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Yukon XL",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 23
   }
 ]

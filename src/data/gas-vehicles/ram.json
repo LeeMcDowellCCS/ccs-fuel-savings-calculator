@@ -439,5 +439,138 @@
     "model": "2500",
     "trim": "6.4L Hemi V8 2WD",
     "mpg": 13
+  },
+  {
+    "year": 2014,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2015,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2016,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2017,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2018,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2019,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2020,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2021,
+    "make": "Ram",
+    "model": "1500 TRX",
+    "trim": "6.2L Supercharged V8 4WD",
+    "mpg": 12
+  },
+  {
+    "year": 2021,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2022,
+    "make": "Ram",
+    "model": "1500 TRX",
+    "trim": "6.2L Supercharged V8 4WD",
+    "mpg": 12
+  },
+  {
+    "year": 2022,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2023,
+    "make": "Ram",
+    "model": "1500 TRX",
+    "trim": "6.2L Supercharged V8 4WD",
+    "mpg": 12
+  },
+  {
+    "year": 2023,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2024,
+    "make": "Ram",
+    "model": "1500 TRX",
+    "trim": "6.2L Supercharged V8 4WD",
+    "mpg": 12
+  },
+  {
+    "year": 2024,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2025,
+    "make": "Ram",
+    "model": "1500 TRX",
+    "trim": "6.2L Supercharged V8 4WD",
+    "mpg": 12
+  },
+  {
+    "year": 2025,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2026,
+    "make": "Ram",
+    "model": "1500 TRX",
+    "trim": "6.2L Supercharged V8 4WD",
+    "mpg": 12
+  },
+  {
+    "year": 2026,
+    "make": "Ram",
+    "model": "ProMaster",
+    "trim": "1500 Cargo 3.6L V6 FWD",
+    "mpg": 17
   }
 ]

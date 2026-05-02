@@ -467,5 +467,236 @@
     "model": "XT4",
     "trim": "XT4 AWD (2.0T)",
     "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.0T RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.7T AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "AWD (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2021,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.0T RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.7T AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "AWD (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2022,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.0T RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.7T AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2022,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "V-Series Blackwing 3.6T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2022,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "AWD (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2023,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.0T RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.7T AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "V-Series Blackwing 3.6T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "AWD (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2024,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.0T RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.7T AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "V-Series Blackwing 3.6T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "AWD (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.0T RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.7T AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "V-Series Blackwing 3.6T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "AWD (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.0T RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "2.7T AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "CT4",
+    "trim": "V-Series Blackwing 3.6T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "XT6",
+    "trim": "AWD (3.6L V6)",
+    "mpg": 20
   }
 ]

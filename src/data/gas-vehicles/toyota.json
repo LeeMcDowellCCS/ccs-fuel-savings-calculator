@@ -2301,5 +2301,264 @@
     "model": "Sienna",
     "trim": "Hybrid AWD",
     "mpg": 35
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Venza",
+    "trim": "Limited Hybrid AWD (2.5L)",
+    "mpg": 40
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "GR86",
+    "trim": "Premium RWD (2.4L)",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "SR5 Hybrid 2WD (3.5L TTV6)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "TRD Pro Hybrid 4WD (3.5L TTV6)",
+    "mpg": 20
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Venza",
+    "trim": "Limited Hybrid AWD (2.5L)",
+    "mpg": 40
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Crown",
+    "trim": "XLE Hybrid FWD (2.5L)",
+    "mpg": 41
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Crown",
+    "trim": "Platinum Hybrid AWD (2.5L)",
+    "mpg": 38
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "GR Corolla",
+    "trim": "Core AWD (1.6L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "GR86",
+    "trim": "Premium RWD (2.4L)",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "SR5 Hybrid 2WD (3.5L TTV6)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "TRD Pro Hybrid 4WD (3.5L TTV6)",
+    "mpg": 20
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Venza",
+    "trim": "Limited Hybrid AWD (2.5L)",
+    "mpg": 40
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Crown",
+    "trim": "XLE Hybrid FWD (2.5L)",
+    "mpg": 41
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Crown",
+    "trim": "Platinum Hybrid AWD (2.5L)",
+    "mpg": 38
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "GR Corolla",
+    "trim": "Core AWD (1.6L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "GR86",
+    "trim": "Premium RWD (2.4L)",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "trim": "1958 2.4L TT Hybrid AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "trim": "First Edition Hybrid AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "SR5 Hybrid 2WD (3.5L TTV6)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "TRD Pro Hybrid 4WD (3.5L TTV6)",
+    "mpg": 20
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Venza",
+    "trim": "Limited Hybrid AWD (2.5L)",
+    "mpg": 40
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Crown",
+    "trim": "XLE Hybrid FWD (2.5L)",
+    "mpg": 41
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Crown",
+    "trim": "Platinum Hybrid AWD (2.5L)",
+    "mpg": 38
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "GR Corolla",
+    "trim": "Core AWD (1.6L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "GR86",
+    "trim": "Premium RWD (2.4L)",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "trim": "1958 2.4L TT Hybrid AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "trim": "First Edition Hybrid AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "SR5 Hybrid 2WD (3.5L TTV6)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "TRD Pro Hybrid 4WD (3.5L TTV6)",
+    "mpg": 20
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Crown",
+    "trim": "XLE Hybrid FWD (2.5L)",
+    "mpg": 41
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Crown",
+    "trim": "Platinum Hybrid AWD (2.5L)",
+    "mpg": 38
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "GR Corolla",
+    "trim": "Core AWD (1.6L Turbo)",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "GR86",
+    "trim": "Premium RWD (2.4L)",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "trim": "1958 2.4L TT Hybrid AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "trim": "First Edition Hybrid AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "SR5 Hybrid 2WD (3.5L TTV6)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Sequoia",
+    "trim": "TRD Pro Hybrid 4WD (3.5L TTV6)",
+    "mpg": 20
   }
 ]

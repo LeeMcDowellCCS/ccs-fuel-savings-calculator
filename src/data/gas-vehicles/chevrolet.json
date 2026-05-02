@@ -1454,5 +1454,404 @@
     "model": "Colorado",
     "trim": "2.7L Turbo 4WD",
     "mpg": 20
+  },
+  {
+    "year": 2019,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "LT FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2019,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "RS AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "LT FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "RS AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Stingray 3LT (6.2L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "LT FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "RS AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Stingray 3LT (6.2L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "5.3L V8 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "LS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "ACTIV AWD (1.3L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "LT FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "RS AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Stingray 3LT (6.2L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "5.3L V8 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 24
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "LS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "ACTIV AWD (1.3L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "LT FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "RS AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Stingray 3LT (6.2L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Z06 (5.5L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "5.3L V8 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "LS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "ACTIV AWD (1.3L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "LT FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "RS AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Stingray 3LT (6.2L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Z06 (5.5L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "5.3L V8 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "LS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "ACTIV AWD (1.3L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Trax",
+    "trim": "LS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Trax",
+    "trim": "RS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "LT FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "RS AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Stingray 3LT (6.2L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Z06 (5.5L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "5.3L V8 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "LS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "ACTIV AWD (1.3L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Trax",
+    "trim": "LS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Trax",
+    "trim": "RS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "LT FWD (2.0L Turbo)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "trim": "RS AWD (2.0L Turbo)",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Stingray 3LT (6.2L V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "Z06 (5.5L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "5.3L V8 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "trim": "3.0L Duramax Diesel 2WD",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "LS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Trailblazer",
+    "trim": "ACTIV AWD (1.3L Turbo)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Trax",
+    "trim": "LS FWD (1.2L Turbo)",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Trax",
+    "trim": "RS FWD (1.2L Turbo)",
+    "mpg": 32
   }
 ]

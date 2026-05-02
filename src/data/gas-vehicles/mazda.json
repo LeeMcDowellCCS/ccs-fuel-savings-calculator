@@ -733,5 +733,327 @@
     "model": "CX-90",
     "trim": "3.3T AWD",
     "mpg": 23
+  },
+  {
+    "year": 2016,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2017,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2017,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "2.5L FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "2.5L FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "2.5L FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "2.5L FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "CX-50",
+    "trim": "2.5L AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "CX-50",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "2.5L FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "CX-50",
+    "trim": "2.5L AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "CX-50",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "2.5L FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-50",
+    "trim": "2.5L AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-50",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-70",
+    "trim": "PHEV AWD (2.5L)",
+    "mpg": 56
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-70",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "2.5L FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-30",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-50",
+    "trim": "2.5L AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-50",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-70",
+    "trim": "PHEV AWD (2.5L)",
+    "mpg": 56
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-70",
+    "trim": "Turbo AWD (2.5L)",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "Sport RWD (2.0L)",
+    "mpg": 35
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "trim": "RF Grand Touring RWD (2.0L)",
+    "mpg": 34
   }
 ]

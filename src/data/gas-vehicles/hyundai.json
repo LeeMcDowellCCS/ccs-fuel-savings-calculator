@@ -957,5 +957,229 @@
     "model": "Palisade",
     "trim": "3.8L V6 AWD",
     "mpg": 19
+  },
+  {
+    "year": 2017,
+    "make": "Hyundai",
+    "model": "Ioniq",
+    "trim": "Blue Hybrid FWD",
+    "mpg": 59
+  },
+  {
+    "year": 2018,
+    "make": "Hyundai",
+    "model": "Ioniq",
+    "trim": "Blue Hybrid FWD",
+    "mpg": 59
+  },
+  {
+    "year": 2019,
+    "make": "Hyundai",
+    "model": "Ioniq",
+    "trim": "Blue Hybrid FWD",
+    "mpg": 59
+  },
+  {
+    "year": 2019,
+    "make": "Hyundai",
+    "model": "Nexo",
+    "trim": "FWD Hydrogen",
+    "mpg": 57
+  },
+  {
+    "year": 2020,
+    "make": "Hyundai",
+    "model": "Ioniq",
+    "trim": "Blue Hybrid FWD",
+    "mpg": 59
+  },
+  {
+    "year": 2020,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "SE FWD (2.0L)",
+    "mpg": 32
+  },
+  {
+    "year": 2020,
+    "make": "Hyundai",
+    "model": "Nexo",
+    "trim": "FWD Hydrogen",
+    "mpg": 57
+  },
+  {
+    "year": 2020,
+    "make": "Hyundai",
+    "model": "Venue",
+    "trim": "SE FWD (1.6L)",
+    "mpg": 32
+  },
+  {
+    "year": 2021,
+    "make": "Hyundai",
+    "model": "Ioniq",
+    "trim": "Blue Hybrid FWD",
+    "mpg": 59
+  },
+  {
+    "year": 2021,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "SE FWD (2.0L)",
+    "mpg": 32
+  },
+  {
+    "year": 2021,
+    "make": "Hyundai",
+    "model": "Nexo",
+    "trim": "FWD Hydrogen",
+    "mpg": 57
+  },
+  {
+    "year": 2021,
+    "make": "Hyundai",
+    "model": "Venue",
+    "trim": "SE FWD (1.6L)",
+    "mpg": 32
+  },
+  {
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Ioniq",
+    "trim": "Blue Hybrid FWD",
+    "mpg": 59
+  },
+  {
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "SE FWD (2.0L)",
+    "mpg": 32
+  },
+  {
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "N-Line AWD (1.6T)",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Nexo",
+    "trim": "FWD Hydrogen",
+    "mpg": 57
+  },
+  {
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Venue",
+    "trim": "SE FWD (1.6L)",
+    "mpg": 32
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "SE FWD (2.0L)",
+    "mpg": 32
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "N-Line AWD (1.6T)",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Nexo",
+    "trim": "FWD Hydrogen",
+    "mpg": 57
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Venue",
+    "trim": "SE FWD (1.6L)",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "SE FWD (2.0L)",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "N-Line AWD (1.6T)",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Nexo",
+    "trim": "FWD Hydrogen",
+    "mpg": 57
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Venue",
+    "trim": "SE FWD (1.6L)",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "SE FWD (2.0L)",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "N-Line AWD (1.6T)",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Nexo",
+    "trim": "FWD Hydrogen",
+    "mpg": 57
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Venue",
+    "trim": "SE FWD (1.6L)",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "SE FWD (2.0L)",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Kona",
+    "trim": "N-Line AWD (1.6T)",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Venue",
+    "trim": "SE FWD (1.6L)",
+    "mpg": 32
   }
 ]
