@@ -1401,14 +1401,6 @@
   },
   {
     "year": 2022,
-    "make": "Mazda",
-    "model": "MX-30",
-    "trim": "Premium Plus",
-    "miPerKWh": 3,
-    "rangeMi": 100
-  },
-  {
-    "year": 2022,
     "make": "Subaru",
     "model": "Solterra",
     "trim": "AWD",
@@ -2150,30 +2142,6 @@
     "trim": "AWD",
     "miPerKWh": 2.8,
     "rangeMi": 282
-  },
-  {
-    "year": 2023,
-    "make": "Fisker",
-    "model": "Ocean",
-    "trim": "Sport RWD",
-    "miPerKWh": 3,
-    "rangeMi": 250
-  },
-  {
-    "year": 2023,
-    "make": "Fisker",
-    "model": "Ocean",
-    "trim": "Ultra AWD",
-    "miPerKWh": 2.8,
-    "rangeMi": 340
-  },
-  {
-    "year": 2023,
-    "make": "Fisker",
-    "model": "Ocean",
-    "trim": "Extreme AWD",
-    "miPerKWh": 2.7,
-    "rangeMi": 360
   },
   {
     "year": 2023,
@@ -3065,14 +3033,6 @@
   },
   {
     "year": 2024,
-    "make": "Ram",
-    "model": "1500 REV",
-    "trim": "AWD",
-    "miPerKWh": 2,
-    "rangeMi": 350
-  },
-  {
-    "year": 2024,
     "make": "Honda",
     "model": "Prologue",
     "trim": "EX AWD",
@@ -3889,22 +3849,6 @@
   },
   {
     "year": 2025,
-    "make": "Volvo",
-    "model": "XC40 Recharge",
-    "trim": "Pure Electric AWD",
-    "miPerKWh": 2.8,
-    "rangeMi": 223
-  },
-  {
-    "year": 2025,
-    "make": "Volvo",
-    "model": "C40 Recharge",
-    "trim": "Pure Electric AWD",
-    "miPerKWh": 2.8,
-    "rangeMi": 226
-  },
-  {
-    "year": 2025,
     "make": "Subaru",
     "model": "Solterra",
     "trim": "AWD",
@@ -4041,22 +3985,6 @@
   },
   {
     "year": 2025,
-    "make": "Volkswagen",
-    "model": "ID.Buzz",
-    "trim": "Pro AWD",
-    "miPerKWh": 2.9,
-    "rangeMi": 234
-  },
-  {
-    "year": 2025,
-    "make": "Ram",
-    "model": "1500 REV",
-    "trim": "AWD",
-    "miPerKWh": 2,
-    "rangeMi": 350
-  },
-  {
-    "year": 2025,
     "make": "Rolls-Royce",
     "model": "Spectre",
     "trim": "AWD",
@@ -4182,22 +4110,6 @@
     "trim": "Cyberbeast AWD",
     "miPerKWh": 2.1,
     "rangeMi": 301
-  },
-  {
-    "year": 2026,
-    "make": "Nissan",
-    "model": "Leaf",
-    "trim": "40 kWh S",
-    "miPerKWh": 3.5,
-    "rangeMi": 149
-  },
-  {
-    "year": 2026,
-    "make": "Nissan",
-    "model": "Leaf",
-    "trim": "40 kWh SV Plus",
-    "miPerKWh": 3.2,
-    "rangeMi": 212
   },
   {
     "year": 2026,
@@ -4350,30 +4262,6 @@
     "trim": "N AWD",
     "miPerKWh": 2.8,
     "rangeMi": 266
-  },
-  {
-    "year": 2026,
-    "make": "Hyundai",
-    "model": "Ioniq 6",
-    "trim": "SE Long Range RWD",
-    "miPerKWh": 4,
-    "rangeMi": 361
-  },
-  {
-    "year": 2026,
-    "make": "Hyundai",
-    "model": "Ioniq 6",
-    "trim": "SEL Long Range AWD",
-    "miPerKWh": 3.5,
-    "rangeMi": 316
-  },
-  {
-    "year": 2026,
-    "make": "Hyundai",
-    "model": "Ioniq 6",
-    "trim": "Limited Long Range AWD",
-    "miPerKWh": 3.5,
-    "rangeMi": 316
   },
   {
     "year": 2026,
@@ -4785,22 +4673,6 @@
   },
   {
     "year": 2026,
-    "make": "Volvo",
-    "model": "XC40 Recharge",
-    "trim": "Pure Electric AWD",
-    "miPerKWh": 2.8,
-    "rangeMi": 223
-  },
-  {
-    "year": 2026,
-    "make": "Volvo",
-    "model": "C40 Recharge",
-    "trim": "Pure Electric AWD",
-    "miPerKWh": 2.8,
-    "rangeMi": 226
-  },
-  {
-    "year": 2026,
     "make": "Subaru",
     "model": "Solterra",
     "trim": "AWD",
@@ -4865,30 +4737,6 @@
   },
   {
     "year": 2026,
-    "make": "Nissan",
-    "model": "Ariya",
-    "trim": "Engage FWD",
-    "miPerKWh": 3.3,
-    "rangeMi": 216
-  },
-  {
-    "year": 2026,
-    "make": "Nissan",
-    "model": "Ariya",
-    "trim": "Engage+ FWD",
-    "miPerKWh": 3.2,
-    "rangeMi": 304
-  },
-  {
-    "year": 2026,
-    "make": "Nissan",
-    "model": "Ariya",
-    "trim": "Engage+ e-4ORCE AWD",
-    "miPerKWh": 2.9,
-    "rangeMi": 272
-  },
-  {
-    "year": 2026,
     "make": "Honda",
     "model": "Prologue",
     "trim": "EX AWD",
@@ -4937,67 +4785,11 @@
   },
   {
     "year": 2026,
-    "make": "Volkswagen",
-    "model": "ID.Buzz",
-    "trim": "Pro AWD",
-    "miPerKWh": 2.9,
-    "rangeMi": 234
-  },
-  {
-    "year": 2026,
-    "make": "Ram",
-    "model": "1500 REV",
-    "trim": "AWD",
-    "miPerKWh": 2,
-    "rangeMi": 350
-  },
-  {
-    "year": 2026,
     "make": "Rolls-Royce",
     "model": "Spectre",
     "trim": "AWD",
     "miPerKWh": 2,
     "rangeMi": 260
-  },
-  {
-    "year": 2026,
-    "make": "Hyundai",
-    "model": "Ioniq 9",
-    "trim": "SE Standard RWD",
-    "miPerKWh": 3.1,
-    "rangeMi": 335
-  },
-  {
-    "year": 2026,
-    "make": "Hyundai",
-    "model": "Ioniq 9",
-    "trim": "SEL Long Range AWD",
-    "miPerKWh": 2.8,
-    "rangeMi": 311
-  },
-  {
-    "year": 2026,
-    "make": "Hyundai",
-    "model": "Ioniq 9",
-    "trim": "Limited Long Range AWD",
-    "miPerKWh": 2.8,
-    "rangeMi": 311
-  },
-  {
-    "year": 2026,
-    "make": "Lucid",
-    "model": "Gravity",
-    "trim": "Grand Touring AWD",
-    "miPerKWh": 3.5,
-    "rangeMi": 450
-  },
-  {
-    "year": 2026,
-    "make": "Lucid",
-    "model": "Gravity",
-    "trim": "Performance AWD",
-    "miPerKWh": 3.2,
-    "rangeMi": 420
   },
   {
     "year": 2026,
@@ -5014,14 +4806,6 @@
     "trim": "Standard AWD",
     "miPerKWh": 3.2,
     "rangeMi": 285
-  },
-  {
-    "year": 2026,
-    "make": "Cadillac",
-    "model": "Escalade IQ",
-    "trim": "AWD",
-    "miPerKWh": 2.2,
-    "rangeMi": 450
   },
   {
     "year": 2026,
@@ -5147,192 +4931,1664 @@
     "year": 2024,
     "make": "Rivian",
     "model": "R1T",
-    "trim": "Dual-Motor Standard Battery",
-    "miPerKWh": 2.7,
+    "trim": "Dual Motor Standard Pack",
+    "miPerKWh": 3,
     "rangeMi": 270
   },
   {
     "year": 2024,
     "make": "Rivian",
     "model": "R1T",
-    "trim": "Dual-Motor Large Battery",
-    "miPerKWh": 2.8,
+    "trim": "Dual Motor Large Pack",
+    "miPerKWh": 3,
+    "rangeMi": 330
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual Motor Max Pack",
+    "miPerKWh": 3,
+    "rangeMi": 420
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Performance Dual Motor Large Pack",
+    "miPerKWh": 2.9,
+    "rangeMi": 320
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Tri Motor Large Pack",
+    "miPerKWh": 2.5,
+    "rangeMi": 290
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Quad Motor Large Pack",
+    "miPerKWh": 2.4,
+    "rangeMi": 280
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual Motor Standard Pack",
+    "miPerKWh": 2.9,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual Motor Large Pack",
+    "miPerKWh": 2.9,
+    "rangeMi": 329
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual Motor Max Pack",
+    "miPerKWh": 2.9,
     "rangeMi": 410
   },
   {
     "year": 2024,
     "make": "Rivian",
-    "model": "R1T",
-    "trim": "Quad-Motor Standard Battery",
-    "miPerKWh": 2.4,
-    "rangeMi": 270
-  },
-  {
-    "year": 2024,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Quad-Motor Large Battery",
-    "miPerKWh": 2.5,
-    "rangeMi": 314
-  },
-  {
-    "year": 2024,
-    "make": "Rivian",
     "model": "R1S",
-    "trim": "Dual-Motor Standard Battery",
+    "trim": "Performance Dual Motor Large Pack",
     "miPerKWh": 2.7,
-    "rangeMi": 260
+    "rangeMi": 310
   },
   {
     "year": 2024,
     "make": "Rivian",
     "model": "R1S",
-    "trim": "Dual-Motor Large Battery",
-    "miPerKWh": 2.8,
-    "rangeMi": 368
-  },
-  {
-    "year": 2024,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Quad-Motor Standard Battery",
+    "trim": "Tri Motor Large Pack",
     "miPerKWh": 2.4,
-    "rangeMi": 265
+    "rangeMi": 280
   },
   {
     "year": 2024,
     "make": "Rivian",
     "model": "R1S",
-    "trim": "Quad-Motor Large Battery",
-    "miPerKWh": 2.5,
-    "rangeMi": 321
-  },
-  {
-    "year": 2025,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Dual-Motor Standard Battery",
-    "miPerKWh": 2.7,
+    "trim": "Quad Motor Large Pack",
+    "miPerKWh": 2.3,
     "rangeMi": 270
   },
   {
     "year": 2025,
     "make": "Rivian",
     "model": "R1T",
-    "trim": "Dual-Motor Large Battery",
-    "miPerKWh": 2.8,
+    "trim": "Dual Motor Standard Pack",
+    "miPerKWh": 3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual Motor Large Pack",
+    "miPerKWh": 3,
+    "rangeMi": 330
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual Motor Max Pack",
+    "miPerKWh": 3,
+    "rangeMi": 420
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Performance Dual Motor Large Pack",
+    "miPerKWh": 2.9,
+    "rangeMi": 320
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Tri Motor Large Pack",
+    "miPerKWh": 2.5,
+    "rangeMi": 290
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Quad Motor Large Pack",
+    "miPerKWh": 2.4,
+    "rangeMi": 280
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual Motor Standard Pack",
+    "miPerKWh": 2.9,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual Motor Large Pack",
+    "miPerKWh": 2.9,
+    "rangeMi": 329
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual Motor Max Pack",
+    "miPerKWh": 2.9,
     "rangeMi": 410
   },
   {
     "year": 2025,
     "make": "Rivian",
-    "model": "R1T",
-    "trim": "Quad-Motor Standard Battery",
-    "miPerKWh": 2.4,
-    "rangeMi": 270
-  },
-  {
-    "year": 2025,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Quad-Motor Large Battery",
-    "miPerKWh": 2.5,
-    "rangeMi": 314
-  },
-  {
-    "year": 2025,
-    "make": "Rivian",
     "model": "R1S",
-    "trim": "Dual-Motor Standard Battery",
+    "trim": "Performance Dual Motor Large Pack",
     "miPerKWh": 2.7,
-    "rangeMi": 260
+    "rangeMi": 310
   },
   {
     "year": 2025,
     "make": "Rivian",
     "model": "R1S",
-    "trim": "Dual-Motor Large Battery",
-    "miPerKWh": 2.8,
-    "rangeMi": 368
-  },
-  {
-    "year": 2025,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Quad-Motor Standard Battery",
+    "trim": "Tri Motor Large Pack",
     "miPerKWh": 2.4,
-    "rangeMi": 265
+    "rangeMi": 280
   },
   {
     "year": 2025,
     "make": "Rivian",
     "model": "R1S",
-    "trim": "Quad-Motor Large Battery",
-    "miPerKWh": 2.5,
-    "rangeMi": 321
-  },
-  {
-    "year": 2026,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Dual-Motor Standard Battery",
-    "miPerKWh": 2.7,
+    "trim": "Quad Motor Large Pack",
+    "miPerKWh": 2.3,
     "rangeMi": 270
   },
   {
     "year": 2026,
     "make": "Rivian",
     "model": "R1T",
-    "trim": "Dual-Motor Large Battery",
-    "miPerKWh": 2.8,
+    "trim": "Dual Motor Standard Pack",
+    "miPerKWh": 3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual Motor Large Pack",
+    "miPerKWh": 3,
+    "rangeMi": 330
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Dual Motor Max Pack",
+    "miPerKWh": 3,
+    "rangeMi": 420
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Performance Dual Motor Large Pack",
+    "miPerKWh": 2.9,
+    "rangeMi": 320
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Tri Motor Large Pack",
+    "miPerKWh": 2.5,
+    "rangeMi": 290
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Quad Motor Large Pack",
+    "miPerKWh": 2.4,
+    "rangeMi": 280
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual Motor Standard Pack",
+    "miPerKWh": 2.9,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual Motor Large Pack",
+    "miPerKWh": 2.9,
+    "rangeMi": 329
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Dual Motor Max Pack",
+    "miPerKWh": 2.9,
     "rangeMi": 410
   },
   {
     "year": 2026,
     "make": "Rivian",
-    "model": "R1T",
-    "trim": "Quad-Motor Standard Battery",
-    "miPerKWh": 2.4,
-    "rangeMi": 270
-  },
-  {
-    "year": 2026,
-    "make": "Rivian",
-    "model": "R1T",
-    "trim": "Quad-Motor Large Battery",
-    "miPerKWh": 2.5,
-    "rangeMi": 314
+    "model": "R1S",
+    "trim": "Performance Dual Motor Large Pack",
+    "miPerKWh": 2.7,
+    "rangeMi": 310
   },
   {
     "year": 2026,
     "make": "Rivian",
     "model": "R1S",
-    "trim": "Dual-Motor Standard Battery",
+    "trim": "Tri Motor Large Pack",
+    "miPerKWh": 2.4,
+    "rangeMi": 280
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Quad Motor Large Pack",
+    "miPerKWh": 2.3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Jeep",
+    "model": "Wagoneer S",
+    "trim": "Limited AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 294
+  },
+  {
+    "year": 2025,
+    "make": "Jeep",
+    "model": "Wagoneer S",
+    "trim": "Trailhawk AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 280
+  },
+  {
+    "year": 2026,
+    "make": "Jeep",
+    "model": "Wagoneer S",
+    "trim": "Limited AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 294
+  },
+  {
+    "year": 2026,
+    "make": "Jeep",
+    "model": "Wagoneer S",
+    "trim": "Trailhawk AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 280
+  },
+  {
+    "year": 2025,
+    "make": "Dodge",
+    "model": "Charger Daytona",
+    "trim": "R/T AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 274
+  },
+  {
+    "year": 2025,
+    "make": "Dodge",
+    "model": "Charger Daytona",
+    "trim": "Scat Pack AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 279
+  },
+  {
+    "year": 2026,
+    "make": "Dodge",
+    "model": "Charger Daytona",
+    "trim": "R/T AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 274
+  },
+  {
+    "year": 2026,
+    "make": "Dodge",
+    "model": "Charger Daytona",
+    "trim": "Scat Pack AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 279
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "Escalade IQ",
+    "trim": "Luxury AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 450
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "Escalade IQ",
+    "trim": "Sport AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 450
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "Escalade IQ",
+    "trim": "Premium Luxury AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 450
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "Escalade IQ",
+    "trim": "Luxury AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 450
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "Escalade IQ",
+    "trim": "Sport AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 450
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "Escalade IQ",
+    "trim": "Premium Luxury AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 450
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "Escalade IQL",
+    "trim": "Premium Luxury AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 460
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "Escalade IQL",
+    "trim": "Premium Sport AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 460
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "LT FWD",
+    "miPerKWh": 3.6,
+    "rangeMi": 312
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "RS FWD",
+    "miPerKWh": 3.6,
+    "rangeMi": 334
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "RS AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 283
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "SS AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 302
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "LT FWD",
+    "miPerKWh": 3.6,
+    "rangeMi": 312
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "RS FWD",
+    "miPerKWh": 3.6,
+    "rangeMi": 334
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "RS AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 283
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "SS AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 302
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "LT FWD",
+    "miPerKWh": 3.6,
+    "rangeMi": 312
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "RS FWD",
+    "miPerKWh": 3.6,
+    "rangeMi": 334
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "RS AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 283
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Blazer EV",
+    "trim": "SS AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 302
+  },
+  {
+    "year": 2025,
+    "make": "Lucid",
+    "model": "Gravity",
+    "trim": "Touring AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 337
+  },
+  {
+    "year": 2025,
+    "make": "Lucid",
+    "model": "Gravity",
+    "trim": "Grand Touring AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 450
+  },
+  {
+    "year": 2026,
+    "make": "Lucid",
+    "model": "Gravity",
+    "trim": "Touring AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 337
+  },
+  {
+    "year": 2026,
+    "make": "Lucid",
+    "model": "Gravity",
+    "trim": "Grand Touring AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 450
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "S RWD",
+    "miPerKWh": 3,
+    "rangeMi": 335
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "SE AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 320
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "SEL AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 315
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "Limited AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 311
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "Calligraphy AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 311
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "S RWD",
+    "miPerKWh": 3,
+    "rangeMi": 335
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "SE AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 320
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "SEL AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 315
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "Limited AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 311
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "Calligraphy AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 311
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "XRT AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 259
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "XRT AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 259
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "N AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 250
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light RWD (63 kWh)",
+    "miPerKWh": 3.7,
+    "rangeMi": 237
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light Long Range RWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 310
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light Long Range AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 275
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light RWD (63 kWh)",
+    "miPerKWh": 3.7,
+    "rangeMi": 237
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light Long Range RWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 310
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light Long Range AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 275
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light RWD (63 kWh)",
+    "miPerKWh": 3.7,
+    "rangeMi": 237
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light Long Range RWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 310
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light Long Range AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 275
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Light Long Range RWD",
+    "miPerKWh": 3,
+    "rangeMi": 305
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Land AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Light Long Range RWD",
+    "miPerKWh": 3,
+    "rangeMi": 305
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Land AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Light Long Range RWD",
+    "miPerKWh": 3,
+    "rangeMi": 305
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Land AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "350+ RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 308
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "350 4MATIC AWD",
+    "miPerKWh": 3,
+    "rangeMi": 267
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "trim": "350+ RWD",
+    "miPerKWh": 3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "trim": "350 4MATIC AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 253
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "450+ RWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 323
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "450 4MATIC AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 312
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "580 4MATIC AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 317
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "350+ RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 308
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "350 4MATIC AWD",
+    "miPerKWh": 3,
+    "rangeMi": 267
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "trim": "350+ RWD",
+    "miPerKWh": 3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "trim": "350 4MATIC AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 253
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "450+ RWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 323
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "450 4MATIC AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 312
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "580 4MATIC AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 317
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "350+ RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 308
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "350 4MATIC AWD",
+    "miPerKWh": 3,
+    "rangeMi": 267
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "trim": "350+ RWD",
+    "miPerKWh": 3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "trim": "350 4MATIC AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 253
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "450+ RWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 323
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "450 4MATIC AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 312
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "580 4MATIC AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 317
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "350+ RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 308
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "350 4MATIC AWD",
+    "miPerKWh": 3,
+    "rangeMi": 267
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "trim": "350+ RWD",
+    "miPerKWh": 3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQE SUV",
+    "trim": "350 4MATIC AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 253
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "450+ RWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 323
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQS SUV",
+    "trim": "580 4MATIC AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 317
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "RWD (355 hp)",
+    "miPerKWh": 3.3,
+    "rangeMi": 308
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "Macan 4 AWD (402 hp)",
+    "miPerKWh": 3,
+    "rangeMi": 288
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "Macan Turbo AWD (630 hp)",
+    "miPerKWh": 2.7,
+    "rangeMi": 265
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "RWD (355 hp)",
+    "miPerKWh": 3.3,
+    "rangeMi": 308
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "Macan 4 AWD (402 hp)",
+    "miPerKWh": 3,
+    "rangeMi": 288
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "Macan Turbo AWD (630 hp)",
+    "miPerKWh": 2.7,
+    "rangeMi": 265
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "RWD (355 hp)",
+    "miPerKWh": 3.3,
+    "rangeMi": 308
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "Macan 4 AWD (402 hp)",
+    "miPerKWh": 3,
+    "rangeMi": 288
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "Macan 4S AWD (509 hp)",
+    "miPerKWh": 2.9,
+    "rangeMi": 280
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "Macan GTS AWD (563 hp)",
+    "miPerKWh": 2.8,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Macan Electric",
+    "trim": "Macan Turbo AWD (630 hp)",
+    "miPerKWh": 2.7,
+    "rangeMi": 265
+  },
+  {
+    "year": 2022,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo Cross Turismo AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 270
+  },
+  {
+    "year": 2022,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S Cross Turismo AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo Cross Turismo AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 270
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S Cross Turismo AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo Cross Turismo AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S Cross Turismo AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo Cross Turismo AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S Cross Turismo AWD",
     "miPerKWh": 2.7,
     "rangeMi": 260
   },
   {
     "year": 2026,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Dual-Motor Large Battery",
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo Cross Turismo AWD",
     "miPerKWh": 2.8,
-    "rangeMi": 368
+    "rangeMi": 270
   },
   {
     "year": 2026,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Quad-Motor Standard Battery",
-    "miPerKWh": 2.4,
-    "rangeMi": 265
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S Cross Turismo AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "45 Premium RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 288
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Premium Plus AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 256
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Sportback AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 252
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "45 Premium RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 288
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Premium Plus AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 256
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Sportback AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 252
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "45 Premium RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 288
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Premium Plus AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 256
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Sportback AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 252
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "45 Premium RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 288
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Premium Plus AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 256
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Sportback AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 252
   },
   {
     "year": 2026,
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Quad-Motor Large Battery",
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "45 Premium RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 288
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Premium Plus AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 256
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q4 e-tron",
+    "trim": "55 Sportback AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 252
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "S e-tron GT AWD (670 hp)",
+    "miPerKWh": 2.9,
+    "rangeMi": 298
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "RS e-tron GT Performance AWD (912 hp)",
+    "miPerKWh": 2.8,
+    "rangeMi": 278
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "S e-tron GT AWD (670 hp)",
+    "miPerKWh": 2.9,
+    "rangeMi": 298
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "RS e-tron GT Performance AWD (912 hp)",
+    "miPerKWh": 2.8,
+    "rangeMi": 278
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q6 e-tron",
+    "trim": "quattro AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 307
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q6 e-tron",
+    "trim": "SQ6 quattro AWD",
+    "miPerKWh": 3,
+    "rangeMi": 285
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q6 e-tron",
+    "trim": "quattro AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 307
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q6 e-tron",
+    "trim": "SQ6 quattro AWD",
+    "miPerKWh": 3,
+    "rangeMi": 285
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive45 AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 310
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive60 AWD",
+    "miPerKWh": 3,
+    "rangeMi": 364
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "M70 AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 285
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "xDrive40 Gran Coupe AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 270
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "xDrive40 Gran Coupe AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "xDrive40 Gran Coupe AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "xDrive40 Gran Coupe AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "xDrive40 Gran Coupe AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.Buzz",
+    "trim": "Pro S RWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 234
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.Buzz",
+    "trim": "Pro S Plus RWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 234
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.Buzz",
+    "trim": "Pro S Plus AWD",
     "miPerKWh": 2.5,
-    "rangeMi": 321
+    "rangeMi": 231
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.Buzz",
+    "trim": "1st Edition RWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 234
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.Buzz",
+    "trim": "1st Edition AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 231
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EX30",
+    "trim": "Single Motor Plus RWD",
+    "miPerKWh": 4,
+    "rangeMi": 261
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EX30",
+    "trim": "Twin Motor Ultra AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 253
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EX30",
+    "trim": "Cross Country Twin Motor Ultra AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 245
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EX40",
+    "trim": "Single Motor Plus RWD",
+    "miPerKWh": 3.6,
+    "rangeMi": 296
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EX40",
+    "trim": "Twin Motor Ultra AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 260
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EC40",
+    "trim": "Single Motor Plus RWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 290
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EC40",
+    "trim": "Twin Motor Ultra AWD",
+    "miPerKWh": 3,
+    "rangeMi": 255
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EX90",
+    "trim": "Twin Motor Plus AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 305
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EX90",
+    "trim": "Twin Motor Ultra AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 305
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "EX90",
+    "trim": "Twin Motor Performance Ultra AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 295
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX30",
+    "trim": "Single Motor Plus RWD",
+    "miPerKWh": 4,
+    "rangeMi": 261
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX30",
+    "trim": "Twin Motor Ultra AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 253
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX30",
+    "trim": "Cross Country Twin Motor Ultra AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 245
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX40",
+    "trim": "Single Motor Plus RWD",
+    "miPerKWh": 3.6,
+    "rangeMi": 296
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX40",
+    "trim": "Twin Motor Ultra AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 260
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EC40",
+    "trim": "Single Motor Plus RWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 290
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EC40",
+    "trim": "Twin Motor Ultra AWD",
+    "miPerKWh": 3,
+    "rangeMi": 255
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX90",
+    "trim": "Twin Motor Plus AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 305
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX90",
+    "trim": "Twin Motor Ultra AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 305
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX90",
+    "trim": "Twin Motor Performance Ultra AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 295
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "S RWD (53 kWh)",
+    "miPerKWh": 4.8,
+    "rangeMi": 255
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "S+ RWD (75 kWh)",
+    "miPerKWh": 4,
+    "rangeMi": 303
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "SV+ RWD (75 kWh)",
+    "miPerKWh": 3.8,
+    "rangeMi": 288
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "Platinum+ RWD (75 kWh)",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2025,
+    "make": "Polestar",
+    "model": "Polestar 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 315
+  },
+  {
+    "year": 2025,
+    "make": "Polestar",
+    "model": "Polestar 3",
+    "trim": "Long Range Performance AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 299
+  },
+  {
+    "year": 2025,
+    "make": "Polestar",
+    "model": "Polestar 4",
+    "trim": "Long Range RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 300
+  },
+  {
+    "year": 2025,
+    "make": "Polestar",
+    "model": "Polestar 4",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 280
   }
 ]
