@@ -1,60 +1,408 @@
 [
-  {"year":2010,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (5.4L V8)","mpg":14},
-  {"year":2011,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (5.4L V8)","mpg":14},
-  {"year":2012,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (5.4L V8)","mpg":14},
-  {"year":2013,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (5.4L V8)","mpg":14},
-  {"year":2014,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (5.4L V8)","mpg":14},
-  {"year":2015,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (5.4L V8)","mpg":14},
-  {"year":2016,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (5.4L V8)","mpg":14},
-  {"year":2017,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (5.4L V8)","mpg":14},
-  {"year":2018,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (3.5T V6)","mpg":17},
-  {"year":2019,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (3.5T V6)","mpg":17},
-  {"year":2020,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (3.5T V6)","mpg":17},
-  {"year":2021,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (3.5T V6)","mpg":17},
-  {"year":2022,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (3.5T V6)","mpg":17},
-  {"year":2023,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (3.5T V6)","mpg":17},
-  {"year":2024,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (3.5T V6)","mpg":17},
-  {"year":2025,"make":"Lincoln","model":"Navigator","trim":"Navigator 4WD (3.5T V6)","mpg":17},
-
-  {"year":2020,"make":"Lincoln","model":"Aviator","trim":"Aviator AWD (3.0T V6)","mpg":19},
-  {"year":2021,"make":"Lincoln","model":"Aviator","trim":"Aviator AWD (3.0T V6)","mpg":19},
-  {"year":2022,"make":"Lincoln","model":"Aviator","trim":"Aviator AWD (3.0T V6)","mpg":19},
-  {"year":2023,"make":"Lincoln","model":"Aviator","trim":"Aviator AWD (3.0T V6)","mpg":19},
-  {"year":2024,"make":"Lincoln","model":"Aviator","trim":"Aviator AWD (3.0T V6)","mpg":19},
-  {"year":2025,"make":"Lincoln","model":"Aviator","trim":"Aviator AWD (3.0T V6)","mpg":19},
-
-  {"year":2020,"make":"Lincoln","model":"Corsair","trim":"Corsair AWD (2.0T)","mpg":26},
-  {"year":2021,"make":"Lincoln","model":"Corsair","trim":"Corsair AWD (2.0T)","mpg":26},
-  {"year":2022,"make":"Lincoln","model":"Corsair","trim":"Corsair AWD (2.0T)","mpg":26},
-  {"year":2023,"make":"Lincoln","model":"Corsair","trim":"Corsair AWD (2.0T)","mpg":26},
-  {"year":2024,"make":"Lincoln","model":"Corsair","trim":"Corsair AWD (2.0T)","mpg":26},
-  {"year":2025,"make":"Lincoln","model":"Corsair","trim":"Corsair AWD (2.0T)","mpg":26},
-
-  {"year":2010,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (3.5L V6)","mpg":22},
-  {"year":2011,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (3.5L V6)","mpg":22},
-  {"year":2012,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (3.5L V6)","mpg":22},
-  {"year":2013,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (2.0T)","mpg":27},
-  {"year":2014,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (2.0T)","mpg":27},
-  {"year":2015,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (2.0T)","mpg":27},
-  {"year":2016,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (2.0T)","mpg":27},
-  {"year":2017,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (2.0T)","mpg":27},
-  {"year":2018,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (2.0T)","mpg":27},
-  {"year":2019,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (2.0T)","mpg":27},
-  {"year":2020,"make":"Lincoln","model":"MKZ","trim":"MKZ FWD (2.0T)","mpg":27},
-
-  {"year":2011,"make":"Lincoln","model":"MKX","trim":"MKX AWD (3.7L V6)","mpg":19},
-  {"year":2012,"make":"Lincoln","model":"MKX","trim":"MKX AWD (3.7L V6)","mpg":19},
-  {"year":2013,"make":"Lincoln","model":"MKX","trim":"MKX AWD (3.7L V6)","mpg":19},
-  {"year":2014,"make":"Lincoln","model":"MKX","trim":"MKX AWD (3.7L V6)","mpg":19},
-  {"year":2015,"make":"Lincoln","model":"MKX","trim":"MKX AWD (3.7L V6)","mpg":19},
-  {"year":2016,"make":"Lincoln","model":"MKX","trim":"MKX AWD (3.7L V6)","mpg":19},
-  {"year":2017,"make":"Lincoln","model":"Nautilus","trim":"Nautilus AWD (2.0T)","mpg":23},
-  {"year":2018,"make":"Lincoln","model":"Nautilus","trim":"Nautilus AWD (2.0T)","mpg":23},
-  {"year":2019,"make":"Lincoln","model":"Nautilus","trim":"Nautilus AWD (2.0T)","mpg":23},
-  {"year":2020,"make":"Lincoln","model":"Nautilus","trim":"Nautilus AWD (2.0T)","mpg":23},
-  {"year":2021,"make":"Lincoln","model":"Nautilus","trim":"Nautilus AWD (2.0T)","mpg":23},
-  {"year":2022,"make":"Lincoln","model":"Nautilus","trim":"Nautilus AWD (2.0T)","mpg":23},
-  {"year":2023,"make":"Lincoln","model":"Nautilus","trim":"Nautilus AWD (2.0T)","mpg":23},
-  {"year":2024,"make":"Lincoln","model":"Nautilus","trim":"Nautilus AWD (2.0T)","mpg":23},
-  {"year":2025,"make":"Lincoln","model":"Nautilus","trim":"Nautilus AWD (2.0T)","mpg":23}
+  {
+    "year": 2010,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (5.4L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2011,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (5.4L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2012,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (5.4L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2013,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (5.4L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2014,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (5.4L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2015,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (5.4L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2016,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (5.4L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2017,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (5.4L V8)",
+    "mpg": 14
+  },
+  {
+    "year": 2018,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (3.5T V6)",
+    "mpg": 17
+  },
+  {
+    "year": 2019,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (3.5T V6)",
+    "mpg": 17
+  },
+  {
+    "year": 2020,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (3.5T V6)",
+    "mpg": 17
+  },
+  {
+    "year": 2021,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (3.5T V6)",
+    "mpg": 17
+  },
+  {
+    "year": 2022,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (3.5T V6)",
+    "mpg": 17
+  },
+  {
+    "year": 2023,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (3.5T V6)",
+    "mpg": 17
+  },
+  {
+    "year": 2024,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (3.5T V6)",
+    "mpg": 17
+  },
+  {
+    "year": 2025,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (3.5T V6)",
+    "mpg": 17
+  },
+  {
+    "year": 2020,
+    "make": "Lincoln",
+    "model": "Aviator",
+    "trim": "Aviator AWD (3.0T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2021,
+    "make": "Lincoln",
+    "model": "Aviator",
+    "trim": "Aviator AWD (3.0T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "Lincoln",
+    "model": "Aviator",
+    "trim": "Aviator AWD (3.0T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "Lincoln",
+    "model": "Aviator",
+    "trim": "Aviator AWD (3.0T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2024,
+    "make": "Lincoln",
+    "model": "Aviator",
+    "trim": "Aviator AWD (3.0T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2025,
+    "make": "Lincoln",
+    "model": "Aviator",
+    "trim": "Aviator AWD (3.0T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2020,
+    "make": "Lincoln",
+    "model": "Corsair",
+    "trim": "Corsair AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Lincoln",
+    "model": "Corsair",
+    "trim": "Corsair AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Lincoln",
+    "model": "Corsair",
+    "trim": "Corsair AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Lincoln",
+    "model": "Corsair",
+    "trim": "Corsair AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Lincoln",
+    "model": "Corsair",
+    "trim": "Corsair AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Lincoln",
+    "model": "Corsair",
+    "trim": "Corsair AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2010,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2011,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2012,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2013,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2014,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2015,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2016,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2017,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2018,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2020,
+    "make": "Lincoln",
+    "model": "MKZ",
+    "trim": "MKZ FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2011,
+    "make": "Lincoln",
+    "model": "MKX",
+    "trim": "MKX AWD (3.7L V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2012,
+    "make": "Lincoln",
+    "model": "MKX",
+    "trim": "MKX AWD (3.7L V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2013,
+    "make": "Lincoln",
+    "model": "MKX",
+    "trim": "MKX AWD (3.7L V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2014,
+    "make": "Lincoln",
+    "model": "MKX",
+    "trim": "MKX AWD (3.7L V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2015,
+    "make": "Lincoln",
+    "model": "MKX",
+    "trim": "MKX AWD (3.7L V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2016,
+    "make": "Lincoln",
+    "model": "MKX",
+    "trim": "MKX AWD (3.7L V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2017,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  },
+  {
+    "year": 2018,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  },
+  {
+    "year": 2019,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  },
+  {
+    "year": 2020,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  },
+  {
+    "year": 2021,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "Lincoln",
+    "model": "Navigator",
+    "trim": "Navigator 4WD (3.5T V6)",
+    "mpg": 17
+  },
+  {
+    "year": 2026,
+    "make": "Lincoln",
+    "model": "Aviator",
+    "trim": "Aviator AWD (3.0T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2026,
+    "make": "Lincoln",
+    "model": "Corsair",
+    "trim": "Corsair AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Lincoln",
+    "model": "Nautilus",
+    "trim": "Nautilus AWD (2.0T)",
+    "mpg": 23
+  }
 ]

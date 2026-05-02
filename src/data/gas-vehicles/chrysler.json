@@ -1,45 +1,296 @@
 [
-  {"year":2011,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2011,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2012,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2012,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2013,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2013,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2014,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2014,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2015,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2015,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2016,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2016,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2017,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2017,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2018,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2018,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2019,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2019,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2020,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2020,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2021,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2021,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2022,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-  {"year":2022,"make":"Chrysler","model":"300","trim":"300C RWD (5.7L HEMI)","mpg":19},
-  {"year":2023,"make":"Chrysler","model":"300","trim":"300 RWD (3.6L V6)","mpg":23},
-
-  {"year":2010,"make":"Chrysler","model":"Town & Country","trim":"Town & Country (3.8L V6)","mpg":18},
-  {"year":2011,"make":"Chrysler","model":"Town & Country","trim":"Town & Country (3.6L V6)","mpg":20},
-  {"year":2012,"make":"Chrysler","model":"Town & Country","trim":"Town & Country (3.6L V6)","mpg":20},
-  {"year":2013,"make":"Chrysler","model":"Town & Country","trim":"Town & Country (3.6L V6)","mpg":20},
-  {"year":2014,"make":"Chrysler","model":"Town & Country","trim":"Town & Country (3.6L V6)","mpg":20},
-  {"year":2015,"make":"Chrysler","model":"Town & Country","trim":"Town & Country (3.6L V6)","mpg":20},
-  {"year":2016,"make":"Chrysler","model":"Town & Country","trim":"Town & Country (3.6L V6)","mpg":20},
-
-  {"year":2017,"make":"Chrysler","model":"Pacifica","trim":"Pacifica FWD (3.6L V6)","mpg":22},
-  {"year":2018,"make":"Chrysler","model":"Pacifica","trim":"Pacifica FWD (3.6L V6)","mpg":22},
-  {"year":2019,"make":"Chrysler","model":"Pacifica","trim":"Pacifica FWD (3.6L V6)","mpg":22},
-  {"year":2020,"make":"Chrysler","model":"Pacifica","trim":"Pacifica FWD (3.6L V6)","mpg":22},
-  {"year":2021,"make":"Chrysler","model":"Pacifica","trim":"Pacifica FWD (3.6L V6)","mpg":22},
-  {"year":2022,"make":"Chrysler","model":"Pacifica","trim":"Pacifica FWD (3.6L V6)","mpg":22},
-  {"year":2023,"make":"Chrysler","model":"Pacifica","trim":"Pacifica FWD (3.6L V6)","mpg":22},
-  {"year":2024,"make":"Chrysler","model":"Pacifica","trim":"Pacifica FWD (3.6L V6)","mpg":22},
-  {"year":2025,"make":"Chrysler","model":"Pacifica","trim":"Pacifica FWD (3.6L V6)","mpg":22}
+  {
+    "year": 2011,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2011,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2012,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2012,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2013,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2013,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2014,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2014,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2015,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2015,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2016,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2016,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2017,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2017,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2018,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2018,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2019,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2019,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2020,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2020,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2021,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2021,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300C RWD (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "Chrysler",
+    "model": "300",
+    "trim": "300 RWD (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2010,
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "trim": "Town & Country (3.8L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2011,
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "trim": "Town & Country (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2012,
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "trim": "Town & Country (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2013,
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "trim": "Town & Country (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2014,
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "trim": "Town & Country (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2015,
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "trim": "Town & Country (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2016,
+    "make": "Chrysler",
+    "model": "Town & Country",
+    "trim": "Town & Country (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2017,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "trim": "Pacifica FWD (3.6L V6)",
+    "mpg": 22
+  }
 ]

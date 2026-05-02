@@ -1,69 +1,478 @@
 [
-  {"year":2010,"make":"Acura","model":"MDX","trim":"MDX AWD (3.7L V6)","mpg":18},
-  {"year":2011,"make":"Acura","model":"MDX","trim":"MDX AWD (3.7L V6)","mpg":18},
-  {"year":2012,"make":"Acura","model":"MDX","trim":"MDX AWD (3.7L V6)","mpg":18},
-  {"year":2013,"make":"Acura","model":"MDX","trim":"MDX AWD (3.7L V6)","mpg":18},
-  {"year":2014,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":20},
-  {"year":2015,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":20},
-  {"year":2016,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":20},
-  {"year":2017,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":20},
-  {"year":2018,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":20},
-  {"year":2019,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":20},
-  {"year":2020,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":20},
-  {"year":2021,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":20},
-  {"year":2022,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":21},
-  {"year":2023,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":21},
-  {"year":2024,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":21},
-  {"year":2025,"make":"Acura","model":"MDX","trim":"MDX AWD (3.5L V6)","mpg":21},
-
-  {"year":2010,"make":"Acura","model":"RDX","trim":"RDX AWD (2.3T)","mpg":19},
-  {"year":2011,"make":"Acura","model":"RDX","trim":"RDX AWD (2.3T)","mpg":19},
-  {"year":2012,"make":"Acura","model":"RDX","trim":"RDX AWD (2.3T)","mpg":19},
-  {"year":2013,"make":"Acura","model":"RDX","trim":"RDX AWD (3.5L V6)","mpg":22},
-  {"year":2014,"make":"Acura","model":"RDX","trim":"RDX AWD (3.5L V6)","mpg":22},
-  {"year":2015,"make":"Acura","model":"RDX","trim":"RDX AWD (3.5L V6)","mpg":22},
-  {"year":2016,"make":"Acura","model":"RDX","trim":"RDX AWD (3.5L V6)","mpg":22},
-  {"year":2017,"make":"Acura","model":"RDX","trim":"RDX AWD (3.5L V6)","mpg":22},
-  {"year":2018,"make":"Acura","model":"RDX","trim":"RDX AWD (3.5L V6)","mpg":22},
-  {"year":2019,"make":"Acura","model":"RDX","trim":"RDX AWD (2.0T)","mpg":26},
-  {"year":2020,"make":"Acura","model":"RDX","trim":"RDX AWD (2.0T)","mpg":26},
-  {"year":2021,"make":"Acura","model":"RDX","trim":"RDX AWD (2.0T)","mpg":26},
-  {"year":2022,"make":"Acura","model":"RDX","trim":"RDX AWD (2.0T)","mpg":26},
-  {"year":2023,"make":"Acura","model":"RDX","trim":"RDX AWD (2.0T)","mpg":26},
-  {"year":2024,"make":"Acura","model":"RDX","trim":"RDX AWD (2.0T)","mpg":26},
-  {"year":2025,"make":"Acura","model":"RDX","trim":"RDX AWD (2.0T)","mpg":26},
-
-  {"year":2015,"make":"Acura","model":"TLX","trim":"TLX FWD (2.4L)","mpg":28},
-  {"year":2015,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (3.5L V6)","mpg":24},
-  {"year":2016,"make":"Acura","model":"TLX","trim":"TLX FWD (2.4L)","mpg":28},
-  {"year":2016,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (3.5L V6)","mpg":24},
-  {"year":2017,"make":"Acura","model":"TLX","trim":"TLX FWD (2.4L)","mpg":28},
-  {"year":2017,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (3.5L V6)","mpg":24},
-  {"year":2018,"make":"Acura","model":"TLX","trim":"TLX FWD (2.4L)","mpg":28},
-  {"year":2018,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (3.5L V6)","mpg":24},
-  {"year":2019,"make":"Acura","model":"TLX","trim":"TLX FWD (2.4L)","mpg":28},
-  {"year":2019,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (3.5L V6)","mpg":24},
-  {"year":2020,"make":"Acura","model":"TLX","trim":"TLX FWD (2.4L)","mpg":28},
-  {"year":2020,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (3.5L V6)","mpg":24},
-  {"year":2021,"make":"Acura","model":"TLX","trim":"TLX FWD (2.0T)","mpg":27},
-  {"year":2021,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (2.0T)","mpg":25},
-  {"year":2022,"make":"Acura","model":"TLX","trim":"TLX FWD (2.0T)","mpg":27},
-  {"year":2022,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (2.0T)","mpg":25},
-  {"year":2023,"make":"Acura","model":"TLX","trim":"TLX FWD (2.0T)","mpg":27},
-  {"year":2023,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (2.0T)","mpg":25},
-  {"year":2024,"make":"Acura","model":"TLX","trim":"TLX FWD (2.0T)","mpg":27},
-  {"year":2024,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (2.0T)","mpg":25},
-  {"year":2025,"make":"Acura","model":"TLX","trim":"TLX FWD (2.0T)","mpg":27},
-  {"year":2025,"make":"Acura","model":"TLX","trim":"TLX SH-AWD (2.0T)","mpg":25},
-
-  {"year":2013,"make":"Acura","model":"ILX","trim":"ILX FWD (2.0L)","mpg":28},
-  {"year":2014,"make":"Acura","model":"ILX","trim":"ILX FWD (2.0L)","mpg":28},
-  {"year":2015,"make":"Acura","model":"ILX","trim":"ILX FWD (2.0L)","mpg":28},
-  {"year":2016,"make":"Acura","model":"ILX","trim":"ILX FWD (2.4L)","mpg":28},
-  {"year":2017,"make":"Acura","model":"ILX","trim":"ILX FWD (2.4L)","mpg":28},
-  {"year":2018,"make":"Acura","model":"ILX","trim":"ILX FWD (2.4L)","mpg":28},
-  {"year":2019,"make":"Acura","model":"ILX","trim":"ILX FWD (2.4L)","mpg":28},
-  {"year":2020,"make":"Acura","model":"ILX","trim":"ILX FWD (2.4L)","mpg":28},
-  {"year":2021,"make":"Acura","model":"ILX","trim":"ILX FWD (2.4L)","mpg":28},
-  {"year":2022,"make":"Acura","model":"ILX","trim":"ILX FWD (2.4L)","mpg":28}
+  {
+    "year": 2010,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.7L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2011,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.7L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2012,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.7L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2013,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.7L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2014,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2015,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2016,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2017,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2018,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2019,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2020,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2021,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2022,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2010,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.3T)",
+    "mpg": 19
+  },
+  {
+    "year": 2011,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.3T)",
+    "mpg": 19
+  },
+  {
+    "year": 2012,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.3T)",
+    "mpg": 19
+  },
+  {
+    "year": 2013,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2014,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2015,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2016,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2017,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2015,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2015,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2016,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2016,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2017,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2017,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2018,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2018,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2019,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2019,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2013,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.0L)",
+    "mpg": 28
+  },
+  {
+    "year": 2014,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.0L)",
+    "mpg": 28
+  },
+  {
+    "year": 2015,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.0L)",
+    "mpg": 28
+  },
+  {
+    "year": 2016,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2017,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2018,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2019,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Acura",
+    "model": "ILX",
+    "trim": "ILX FWD (2.4L)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Acura",
+    "model": "MDX",
+    "trim": "MDX AWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "Acura",
+    "model": "RDX",
+    "trim": "RDX AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX FWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Acura",
+    "model": "TLX",
+    "trim": "TLX SH-AWD (2.0T)",
+    "mpg": 25
+  }
 ]

@@ -1,317 +1,2305 @@
 [
-  {"year":2010,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":25},
-  {"year":2010,"make":"Toyota","model":"Camry","trim":"SE V6 (3.5L)","mpg":22},
-  {"year":2010,"make":"Toyota","model":"Camry","trim":"Hybrid","mpg":33},
-  {"year":2011,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":25},
-  {"year":2011,"make":"Toyota","model":"Camry","trim":"SE V6 (3.5L)","mpg":22},
-  {"year":2011,"make":"Toyota","model":"Camry","trim":"Hybrid","mpg":33},
-  {"year":2012,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":28},
-  {"year":2012,"make":"Toyota","model":"Camry","trim":"SE V6 (3.5L)","mpg":25},
-  {"year":2012,"make":"Toyota","model":"Camry","trim":"Hybrid","mpg":40},
-  {"year":2013,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":28},
-  {"year":2013,"make":"Toyota","model":"Camry","trim":"SE V6 (3.5L)","mpg":25},
-  {"year":2013,"make":"Toyota","model":"Camry","trim":"Hybrid","mpg":40},
-  {"year":2014,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":28},
-  {"year":2014,"make":"Toyota","model":"Camry","trim":"SE V6 (3.5L)","mpg":25},
-  {"year":2014,"make":"Toyota","model":"Camry","trim":"Hybrid","mpg":40},
-  {"year":2015,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":28},
-  {"year":2015,"make":"Toyota","model":"Camry","trim":"SE V6 (3.5L)","mpg":25},
-  {"year":2015,"make":"Toyota","model":"Camry","trim":"Hybrid","mpg":40},
-  {"year":2016,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":28},
-  {"year":2016,"make":"Toyota","model":"Camry","trim":"SE V6 (3.5L)","mpg":25},
-  {"year":2016,"make":"Toyota","model":"Camry","trim":"Hybrid","mpg":40},
-  {"year":2017,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":28},
-  {"year":2017,"make":"Toyota","model":"Camry","trim":"SE V6 (3.5L)","mpg":25},
-  {"year":2017,"make":"Toyota","model":"Camry","trim":"Hybrid","mpg":40},
-  {"year":2018,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":29},
-  {"year":2018,"make":"Toyota","model":"Camry","trim":"XSE V6 (3.5L)","mpg":26},
-  {"year":2018,"make":"Toyota","model":"Camry","trim":"Hybrid LE","mpg":46},
-  {"year":2019,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":29},
-  {"year":2019,"make":"Toyota","model":"Camry","trim":"XSE V6 (3.5L)","mpg":26},
-  {"year":2019,"make":"Toyota","model":"Camry","trim":"Hybrid LE","mpg":46},
-  {"year":2020,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":29},
-  {"year":2020,"make":"Toyota","model":"Camry","trim":"XSE V6 (3.5L)","mpg":26},
-  {"year":2020,"make":"Toyota","model":"Camry","trim":"Hybrid LE","mpg":46},
-  {"year":2021,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":29},
-  {"year":2021,"make":"Toyota","model":"Camry","trim":"XSE V6 (3.5L)","mpg":26},
-  {"year":2021,"make":"Toyota","model":"Camry","trim":"Hybrid LE","mpg":46},
-  {"year":2022,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":29},
-  {"year":2022,"make":"Toyota","model":"Camry","trim":"XSE V6 (3.5L)","mpg":26},
-  {"year":2022,"make":"Toyota","model":"Camry","trim":"Hybrid LE","mpg":46},
-  {"year":2023,"make":"Toyota","model":"Camry","trim":"LE 4-cyl (2.5L)","mpg":29},
-  {"year":2023,"make":"Toyota","model":"Camry","trim":"XSE V6 (3.5L)","mpg":26},
-  {"year":2023,"make":"Toyota","model":"Camry","trim":"Hybrid LE","mpg":46},
-  {"year":2024,"make":"Toyota","model":"Camry","trim":"LE (2.5L 4-cyl)","mpg":32},
-  {"year":2024,"make":"Toyota","model":"Camry","trim":"Hybrid XLE","mpg":51},
-  {"year":2025,"make":"Toyota","model":"Camry","trim":"LE (2.5L 4-cyl)","mpg":32},
-  {"year":2025,"make":"Toyota","model":"Camry","trim":"Hybrid XLE","mpg":51},
-
-  {"year":2010,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":29},
-  {"year":2011,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":29},
-  {"year":2012,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":29},
-  {"year":2013,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":29},
-  {"year":2014,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":32},
-  {"year":2015,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":32},
-  {"year":2016,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":32},
-  {"year":2017,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":32},
-  {"year":2018,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":32},
-  {"year":2019,"make":"Toyota","model":"Corolla","trim":"L Base (1.8L)","mpg":32},
-  {"year":2020,"make":"Toyota","model":"Corolla","trim":"L Base (2.0L)","mpg":33},
-  {"year":2020,"make":"Toyota","model":"Corolla","trim":"Hybrid","mpg":52},
-  {"year":2021,"make":"Toyota","model":"Corolla","trim":"L Base (2.0L)","mpg":33},
-  {"year":2021,"make":"Toyota","model":"Corolla","trim":"Hybrid","mpg":52},
-  {"year":2022,"make":"Toyota","model":"Corolla","trim":"L Base (2.0L)","mpg":33},
-  {"year":2022,"make":"Toyota","model":"Corolla","trim":"Hybrid","mpg":52},
-  {"year":2023,"make":"Toyota","model":"Corolla","trim":"L Base (2.0L)","mpg":33},
-  {"year":2023,"make":"Toyota","model":"Corolla","trim":"Hybrid","mpg":52},
-  {"year":2024,"make":"Toyota","model":"Corolla","trim":"L Base (2.0L)","mpg":33},
-  {"year":2024,"make":"Toyota","model":"Corolla","trim":"Hybrid","mpg":52},
-  {"year":2025,"make":"Toyota","model":"Corolla","trim":"L Base (2.0L)","mpg":33},
-  {"year":2025,"make":"Toyota","model":"Corolla","trim":"Hybrid","mpg":52},
-
-  {"year":2010,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":24},
-  {"year":2010,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":23},
-  {"year":2011,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":24},
-  {"year":2011,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":23},
-  {"year":2012,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":24},
-  {"year":2012,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":23},
-  {"year":2013,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":25},
-  {"year":2013,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":24},
-  {"year":2014,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":25},
-  {"year":2014,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":24},
-  {"year":2015,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":25},
-  {"year":2015,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":24},
-  {"year":2016,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":25},
-  {"year":2016,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":24},
-  {"year":2016,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":34},
-  {"year":2017,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":25},
-  {"year":2017,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":24},
-  {"year":2017,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":34},
-  {"year":2018,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":25},
-  {"year":2018,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":24},
-  {"year":2018,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":34},
-  {"year":2019,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":30},
-  {"year":2019,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":29},
-  {"year":2019,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":40},
-  {"year":2020,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":30},
-  {"year":2020,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":29},
-  {"year":2020,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":40},
-  {"year":2021,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":30},
-  {"year":2021,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":29},
-  {"year":2021,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":40},
-  {"year":2022,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":30},
-  {"year":2022,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":29},
-  {"year":2022,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":40},
-  {"year":2023,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":30},
-  {"year":2023,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":29},
-  {"year":2023,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":38},
-  {"year":2024,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":30},
-  {"year":2024,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":29},
-  {"year":2024,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":39},
-  {"year":2025,"make":"Toyota","model":"RAV4","trim":"2.5L FWD","mpg":30},
-  {"year":2025,"make":"Toyota","model":"RAV4","trim":"2.5L AWD","mpg":29},
-  {"year":2025,"make":"Toyota","model":"RAV4","trim":"Hybrid AWD","mpg":39},
-
-  {"year":2010,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":19},
-  {"year":2010,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2011,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":19},
-  {"year":2011,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2012,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":19},
-  {"year":2012,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2013,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":19},
-  {"year":2013,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2014,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":21},
-  {"year":2014,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":20},
-  {"year":2014,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":27},
-  {"year":2015,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":21},
-  {"year":2015,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":20},
-  {"year":2015,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":27},
-  {"year":2016,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":21},
-  {"year":2016,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":20},
-  {"year":2016,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":27},
-  {"year":2017,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":21},
-  {"year":2017,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":20},
-  {"year":2017,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":27},
-  {"year":2018,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":21},
-  {"year":2018,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":20},
-  {"year":2018,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":27},
-  {"year":2019,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":21},
-  {"year":2019,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":20},
-  {"year":2019,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":27},
-  {"year":2020,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":24},
-  {"year":2020,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":22},
-  {"year":2020,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":36},
-  {"year":2021,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":24},
-  {"year":2021,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":22},
-  {"year":2021,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":36},
-  {"year":2022,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":24},
-  {"year":2022,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":22},
-  {"year":2022,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":36},
-  {"year":2023,"make":"Toyota","model":"Highlander","trim":"3.5L V6 FWD","mpg":24},
-  {"year":2023,"make":"Toyota","model":"Highlander","trim":"3.5L V6 AWD","mpg":22},
-  {"year":2023,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":36},
-  {"year":2024,"make":"Toyota","model":"Highlander","trim":"2.4L Turbo FWD","mpg":24},
-  {"year":2024,"make":"Toyota","model":"Highlander","trim":"2.4L Turbo AWD","mpg":22},
-  {"year":2024,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":36},
-  {"year":2025,"make":"Toyota","model":"Highlander","trim":"2.4L Turbo FWD","mpg":24},
-  {"year":2025,"make":"Toyota","model":"Highlander","trim":"2.4L Turbo AWD","mpg":22},
-  {"year":2025,"make":"Toyota","model":"Highlander","trim":"Hybrid AWD","mpg":36},
-
-  {"year":2010,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":21},
-  {"year":2010,"make":"Toyota","model":"Tacoma","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2011,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":21},
-  {"year":2011,"make":"Toyota","model":"Tacoma","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2012,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":21},
-  {"year":2012,"make":"Toyota","model":"Tacoma","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2013,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":21},
-  {"year":2013,"make":"Toyota","model":"Tacoma","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2014,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":21},
-  {"year":2014,"make":"Toyota","model":"Tacoma","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2015,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":21},
-  {"year":2015,"make":"Toyota","model":"Tacoma","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2016,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":22},
-  {"year":2016,"make":"Toyota","model":"Tacoma","trim":"3.5L V6 4WD","mpg":19},
-  {"year":2017,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":22},
-  {"year":2017,"make":"Toyota","model":"Tacoma","trim":"3.5L V6 4WD","mpg":19},
-  {"year":2018,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":22},
-  {"year":2018,"make":"Toyota","model":"Tacoma","trim":"3.5L V6 4WD","mpg":19},
-  {"year":2019,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":22},
-  {"year":2019,"make":"Toyota","model":"Tacoma","trim":"3.5L V6 4WD","mpg":19},
-  {"year":2020,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":22},
-  {"year":2020,"make":"Toyota","model":"Tacoma","trim":"3.5L V6 4WD","mpg":19},
-  {"year":2021,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":22},
-  {"year":2021,"make":"Toyota","model":"Tacoma","trim":"3.5L V6 4WD","mpg":19},
-  {"year":2022,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":22},
-  {"year":2022,"make":"Toyota","model":"Tacoma","trim":"3.5L V6 4WD","mpg":19},
-  {"year":2023,"make":"Toyota","model":"Tacoma","trim":"2.7L 4-cyl 2WD","mpg":22},
-  {"year":2023,"make":"Toyota","model":"Tacoma","trim":"3.5L V6 4WD","mpg":19},
-  {"year":2024,"make":"Toyota","model":"Tacoma","trim":"2.4L Turbo 2WD","mpg":23},
-  {"year":2024,"make":"Toyota","model":"Tacoma","trim":"2.4L Turbo 4WD","mpg":21},
-  {"year":2024,"make":"Toyota","model":"Tacoma","trim":"i-Force Max Hybrid 4WD","mpg":23},
-  {"year":2025,"make":"Toyota","model":"Tacoma","trim":"2.4L Turbo 2WD","mpg":23},
-  {"year":2025,"make":"Toyota","model":"Tacoma","trim":"2.4L Turbo 4WD","mpg":21},
-  {"year":2025,"make":"Toyota","model":"Tacoma","trim":"i-Force Max Hybrid 4WD","mpg":23},
-
-  {"year":2010,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2010,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2010,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2011,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2011,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2011,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2012,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2012,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2012,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2013,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2013,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2013,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2014,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2014,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2014,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2015,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2015,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2015,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2016,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2016,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2016,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2017,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2017,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2017,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2018,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2018,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2018,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2019,"make":"Toyota","model":"Tundra","trim":"4.6L V8 2WD","mpg":17},
-  {"year":2019,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2019,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2020,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2020,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2021,"make":"Toyota","model":"Tundra","trim":"5.7L V8 2WD","mpg":16},
-  {"year":2021,"make":"Toyota","model":"Tundra","trim":"5.7L V8 4WD","mpg":14},
-  {"year":2022,"make":"Toyota","model":"Tundra","trim":"3.5L TT V6 2WD","mpg":18},
-  {"year":2022,"make":"Toyota","model":"Tundra","trim":"3.5L TT V6 4WD","mpg":18},
-  {"year":2022,"make":"Toyota","model":"Tundra","trim":"i-Force Max Hybrid 4WD","mpg":20},
-  {"year":2023,"make":"Toyota","model":"Tundra","trim":"3.5L TT V6 2WD","mpg":18},
-  {"year":2023,"make":"Toyota","model":"Tundra","trim":"3.5L TT V6 4WD","mpg":18},
-  {"year":2023,"make":"Toyota","model":"Tundra","trim":"i-Force Max Hybrid 4WD","mpg":20},
-  {"year":2024,"make":"Toyota","model":"Tundra","trim":"3.5L TT V6 2WD","mpg":18},
-  {"year":2024,"make":"Toyota","model":"Tundra","trim":"3.5L TT V6 4WD","mpg":18},
-  {"year":2024,"make":"Toyota","model":"Tundra","trim":"i-Force Max Hybrid 4WD","mpg":20},
-  {"year":2025,"make":"Toyota","model":"Tundra","trim":"3.5L TT V6 2WD","mpg":18},
-  {"year":2025,"make":"Toyota","model":"Tundra","trim":"3.5L TT V6 4WD","mpg":18},
-  {"year":2025,"make":"Toyota","model":"Tundra","trim":"i-Force Max Hybrid 4WD","mpg":20},
-
-  {"year":2010,"make":"Toyota","model":"Prius","trim":"Base","mpg":50},
-  {"year":2011,"make":"Toyota","model":"Prius","trim":"Base","mpg":50},
-  {"year":2012,"make":"Toyota","model":"Prius","trim":"Base","mpg":50},
-  {"year":2013,"make":"Toyota","model":"Prius","trim":"Base","mpg":50},
-  {"year":2014,"make":"Toyota","model":"Prius","trim":"Base","mpg":50},
-  {"year":2015,"make":"Toyota","model":"Prius","trim":"Base","mpg":50},
-  {"year":2016,"make":"Toyota","model":"Prius","trim":"Two","mpg":52},
-  {"year":2017,"make":"Toyota","model":"Prius","trim":"Two","mpg":52},
-  {"year":2018,"make":"Toyota","model":"Prius","trim":"Two","mpg":52},
-  {"year":2019,"make":"Toyota","model":"Prius","trim":"L Eco","mpg":58},
-  {"year":2019,"make":"Toyota","model":"Prius","trim":"LE","mpg":52},
-  {"year":2020,"make":"Toyota","model":"Prius","trim":"L Eco","mpg":58},
-  {"year":2020,"make":"Toyota","model":"Prius","trim":"LE","mpg":52},
-  {"year":2021,"make":"Toyota","model":"Prius","trim":"L Eco","mpg":58},
-  {"year":2021,"make":"Toyota","model":"Prius","trim":"LE","mpg":52},
-  {"year":2022,"make":"Toyota","model":"Prius","trim":"L Eco","mpg":58},
-  {"year":2022,"make":"Toyota","model":"Prius","trim":"LE","mpg":52},
-  {"year":2023,"make":"Toyota","model":"Prius","trim":"LE FWD","mpg":57},
-  {"year":2023,"make":"Toyota","model":"Prius","trim":"XLE AWD","mpg":52},
-  {"year":2024,"make":"Toyota","model":"Prius","trim":"LE FWD","mpg":57},
-  {"year":2024,"make":"Toyota","model":"Prius","trim":"XLE AWD","mpg":52},
-  {"year":2025,"make":"Toyota","model":"Prius","trim":"LE FWD","mpg":57},
-  {"year":2025,"make":"Toyota","model":"Prius","trim":"XLE AWD","mpg":52},
-
-  {"year":2010,"make":"Toyota","model":"4Runner","trim":"4.0L V6 2WD","mpg":19},
-  {"year":2010,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2011,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2012,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2013,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2014,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2015,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2016,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2017,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2018,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2019,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2020,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2021,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2022,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2023,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2024,"make":"Toyota","model":"4Runner","trim":"4.0L V6 4WD","mpg":17},
-  {"year":2025,"make":"Toyota","model":"4Runner","trim":"2.4L Turbo 4WD","mpg":21},
-  {"year":2025,"make":"Toyota","model":"4Runner","trim":"i-Force Max Hybrid 4WD","mpg":27},
-
-  {"year":2010,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2010,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2011,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2011,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2012,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2012,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2013,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2013,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2014,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2014,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2015,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2015,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2016,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2016,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2017,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2017,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2018,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2018,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2019,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2019,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2020,"make":"Toyota","model":"Sienna","trim":"3.5L V6 FWD","mpg":20},
-  {"year":2020,"make":"Toyota","model":"Sienna","trim":"3.5L V6 AWD","mpg":18},
-  {"year":2021,"make":"Toyota","model":"Sienna","trim":"Hybrid FWD","mpg":36},
-  {"year":2021,"make":"Toyota","model":"Sienna","trim":"Hybrid AWD","mpg":35},
-  {"year":2022,"make":"Toyota","model":"Sienna","trim":"Hybrid FWD","mpg":36},
-  {"year":2022,"make":"Toyota","model":"Sienna","trim":"Hybrid AWD","mpg":35},
-  {"year":2023,"make":"Toyota","model":"Sienna","trim":"Hybrid FWD","mpg":36},
-  {"year":2023,"make":"Toyota","model":"Sienna","trim":"Hybrid AWD","mpg":35},
-  {"year":2024,"make":"Toyota","model":"Sienna","trim":"Hybrid FWD","mpg":36},
-  {"year":2024,"make":"Toyota","model":"Sienna","trim":"Hybrid AWD","mpg":35},
-  {"year":2025,"make":"Toyota","model":"Sienna","trim":"Hybrid FWD","mpg":36},
-  {"year":2025,"make":"Toyota","model":"Sienna","trim":"Hybrid AWD","mpg":35}
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "SE V6 (3.5L)",
+    "mpg": 22
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid",
+    "mpg": 33
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "SE V6 (3.5L)",
+    "mpg": 22
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid",
+    "mpg": 33
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "SE V6 (3.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "SE V6 (3.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "SE V6 (3.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "SE V6 (3.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "SE V6 (3.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "SE V6 (3.5L)",
+    "mpg": 25
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 29
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "XSE V6 (3.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid LE",
+    "mpg": 46
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 29
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "XSE V6 (3.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid LE",
+    "mpg": 46
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 29
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "XSE V6 (3.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid LE",
+    "mpg": 46
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 29
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "XSE V6 (3.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid LE",
+    "mpg": 46
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 29
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "XSE V6 (3.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid LE",
+    "mpg": 46
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE 4-cyl (2.5L)",
+    "mpg": 29
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "XSE V6 (3.5L)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid LE",
+    "mpg": 46
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE (2.5L 4-cyl)",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid XLE",
+    "mpg": 51
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE (2.5L 4-cyl)",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid XLE",
+    "mpg": 51
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 29
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 29
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 29
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 29
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 32
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 32
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 32
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 32
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 32
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (1.8L)",
+    "mpg": 32
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (2.0L)",
+    "mpg": 33
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "Hybrid",
+    "mpg": 52
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (2.0L)",
+    "mpg": 33
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "Hybrid",
+    "mpg": 52
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (2.0L)",
+    "mpg": 33
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "Hybrid",
+    "mpg": 52
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (2.0L)",
+    "mpg": 33
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "Hybrid",
+    "mpg": 52
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (2.0L)",
+    "mpg": 33
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "Hybrid",
+    "mpg": 52
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (2.0L)",
+    "mpg": 33
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "Hybrid",
+    "mpg": 52
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 34
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 34
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 24
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 34
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 29
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 40
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 29
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 40
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 29
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 40
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 29
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 40
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 29
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 38
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 29
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 39
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 29
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 39
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 19
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 19
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 19
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 19
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 21
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 21
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 21
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 21
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 21
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 21
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "3.5L V6 AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "2.4L Turbo FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "2.4L Turbo AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "2.4L Turbo FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "2.4L Turbo AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 21
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 21
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 21
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 21
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 21
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 21
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 22
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "3.5L V6 4WD",
+    "mpg": 19
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 22
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "3.5L V6 4WD",
+    "mpg": 19
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "3.5L V6 4WD",
+    "mpg": 19
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "3.5L V6 4WD",
+    "mpg": 19
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "3.5L V6 4WD",
+    "mpg": 19
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "3.5L V6 4WD",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "3.5L V6 4WD",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.7L 4-cyl 2WD",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "3.5L V6 4WD",
+    "mpg": 19
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.4L Turbo 2WD",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.4L Turbo 4WD",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.4L Turbo 2WD",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.4L Turbo 4WD",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 23
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "4.6L V8 2WD",
+    "mpg": 17
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 2WD",
+    "mpg": 16
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "5.7L V8 4WD",
+    "mpg": 14
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 20
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 20
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 20
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 20
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Base",
+    "mpg": 50
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Base",
+    "mpg": 50
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Base",
+    "mpg": 50
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Base",
+    "mpg": 50
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Base",
+    "mpg": 50
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Base",
+    "mpg": 50
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Two",
+    "mpg": 52
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Two",
+    "mpg": 52
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Two",
+    "mpg": 52
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "L Eco",
+    "mpg": 58
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "LE",
+    "mpg": 52
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "L Eco",
+    "mpg": 58
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "LE",
+    "mpg": 52
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "L Eco",
+    "mpg": 58
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "LE",
+    "mpg": 52
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "L Eco",
+    "mpg": 58
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "LE",
+    "mpg": 52
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "LE FWD",
+    "mpg": 57
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "XLE AWD",
+    "mpg": 52
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "LE FWD",
+    "mpg": 57
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "XLE AWD",
+    "mpg": 52
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "LE FWD",
+    "mpg": 57
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "XLE AWD",
+    "mpg": 52
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 2WD",
+    "mpg": 19
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "4.0L V6 4WD",
+    "mpg": 17
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "2.4L Turbo 4WD",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 27
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2010,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2011,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2012,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2013,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2014,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2015,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2016,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2017,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2018,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2019,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "3.5L V6 AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid FWD",
+    "mpg": 36
+  },
+  {
+    "year": 2021,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid AWD",
+    "mpg": 35
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid FWD",
+    "mpg": 36
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid AWD",
+    "mpg": 35
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid FWD",
+    "mpg": 36
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid AWD",
+    "mpg": 35
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid FWD",
+    "mpg": 36
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid AWD",
+    "mpg": 35
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid FWD",
+    "mpg": 36
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid AWD",
+    "mpg": 35
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE (2.5L 4-cyl)",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "Hybrid XLE",
+    "mpg": 51
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "L Base (2.0L)",
+    "mpg": 33
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "Hybrid",
+    "mpg": 52
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "2.5L AWD",
+    "mpg": 29
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Hybrid AWD",
+    "mpg": 39
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "2.4L Turbo FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "2.4L Turbo AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Highlander",
+    "trim": "Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.4L Turbo 2WD",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "2.4L Turbo 4WD",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 2WD",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "3.5L TT V6 4WD",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Tundra",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 20
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "LE FWD",
+    "mpg": 57
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "XLE AWD",
+    "mpg": 52
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "2.4L Turbo 4WD",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "4Runner",
+    "trim": "i-Force Max Hybrid 4WD",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid FWD",
+    "mpg": 36
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "Sienna",
+    "trim": "Hybrid AWD",
+    "mpg": 35
+  }
 ]

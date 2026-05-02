@@ -1,104 +1,744 @@
 [
-  {"year":2010,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":22},
-  {"year":2011,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":22},
-  {"year":2012,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":22},
-  {"year":2013,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":24},
-  {"year":2013,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":40},
-  {"year":2014,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":24},
-  {"year":2014,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":40},
-  {"year":2015,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":24},
-  {"year":2015,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":40},
-  {"year":2016,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":24},
-  {"year":2016,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":40},
-  {"year":2017,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":24},
-  {"year":2017,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":40},
-  {"year":2018,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":24},
-  {"year":2018,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":40},
-  {"year":2019,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":28},
-  {"year":2019,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":44},
-  {"year":2020,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":28},
-  {"year":2020,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":44},
-  {"year":2021,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":28},
-  {"year":2021,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":44},
-  {"year":2022,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":28},
-  {"year":2022,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":44},
-  {"year":2023,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":28},
-  {"year":2023,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":44},
-  {"year":2024,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":28},
-  {"year":2024,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":44},
-  {"year":2025,"make":"Lexus","model":"ES","trim":"ES 350 FWD (3.5L V6)","mpg":28},
-  {"year":2025,"make":"Lexus","model":"ES","trim":"ES 300h Hybrid","mpg":44},
-
-  {"year":2010,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2010,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":32},
-  {"year":2011,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2011,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":32},
-  {"year":2012,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2012,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":32},
-  {"year":2013,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":21},
-  {"year":2013,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":32},
-  {"year":2014,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":21},
-  {"year":2014,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":32},
-  {"year":2015,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":21},
-  {"year":2015,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":32},
-  {"year":2016,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2016,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":31},
-  {"year":2017,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2017,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":31},
-  {"year":2018,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2018,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":31},
-  {"year":2019,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2019,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":31},
-  {"year":2020,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2020,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":31},
-  {"year":2021,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2021,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":31},
-  {"year":2022,"make":"Lexus","model":"RX","trim":"RX 350 FWD (3.5L V6)","mpg":20},
-  {"year":2022,"make":"Lexus","model":"RX","trim":"RX 450h Hybrid AWD","mpg":31},
-  {"year":2023,"make":"Lexus","model":"RX","trim":"RX 350 FWD (2.4T)","mpg":24},
-  {"year":2023,"make":"Lexus","model":"RX","trim":"RX 350h Hybrid AWD","mpg":37},
-  {"year":2024,"make":"Lexus","model":"RX","trim":"RX 350 FWD (2.4T)","mpg":24},
-  {"year":2024,"make":"Lexus","model":"RX","trim":"RX 350h Hybrid AWD","mpg":37},
-  {"year":2025,"make":"Lexus","model":"RX","trim":"RX 350 FWD (2.4T)","mpg":24},
-  {"year":2025,"make":"Lexus","model":"RX","trim":"RX 350h Hybrid AWD","mpg":37},
-
-  {"year":2015,"make":"Lexus","model":"NX","trim":"NX 200t AWD (2.0T)","mpg":25},
-  {"year":2016,"make":"Lexus","model":"NX","trim":"NX 200t AWD (2.0T)","mpg":25},
-  {"year":2016,"make":"Lexus","model":"NX","trim":"NX 300h Hybrid AWD","mpg":33},
-  {"year":2017,"make":"Lexus","model":"NX","trim":"NX 200t AWD (2.0T)","mpg":25},
-  {"year":2017,"make":"Lexus","model":"NX","trim":"NX 300h Hybrid AWD","mpg":33},
-  {"year":2018,"make":"Lexus","model":"NX","trim":"NX 300 AWD (2.0T)","mpg":25},
-  {"year":2018,"make":"Lexus","model":"NX","trim":"NX 300h Hybrid AWD","mpg":33},
-  {"year":2019,"make":"Lexus","model":"NX","trim":"NX 300 AWD (2.0T)","mpg":25},
-  {"year":2019,"make":"Lexus","model":"NX","trim":"NX 300h Hybrid AWD","mpg":33},
-  {"year":2020,"make":"Lexus","model":"NX","trim":"NX 300 AWD (2.0T)","mpg":25},
-  {"year":2020,"make":"Lexus","model":"NX","trim":"NX 300h Hybrid AWD","mpg":33},
-  {"year":2021,"make":"Lexus","model":"NX","trim":"NX 300 AWD (2.0T)","mpg":25},
-  {"year":2021,"make":"Lexus","model":"NX","trim":"NX 300h Hybrid AWD","mpg":33},
-  {"year":2022,"make":"Lexus","model":"NX","trim":"NX 250 AWD (2.5L)","mpg":28},
-  {"year":2022,"make":"Lexus","model":"NX","trim":"NX 350 AWD (2.4T)","mpg":26},
-  {"year":2022,"make":"Lexus","model":"NX","trim":"NX 350h Hybrid AWD","mpg":36},
-  {"year":2023,"make":"Lexus","model":"NX","trim":"NX 250 AWD (2.5L)","mpg":28},
-  {"year":2023,"make":"Lexus","model":"NX","trim":"NX 350h Hybrid AWD","mpg":36},
-  {"year":2024,"make":"Lexus","model":"NX","trim":"NX 250 AWD (2.5L)","mpg":28},
-  {"year":2024,"make":"Lexus","model":"NX","trim":"NX 350h Hybrid AWD","mpg":36},
-  {"year":2025,"make":"Lexus","model":"NX","trim":"NX 250 AWD (2.5L)","mpg":28},
-  {"year":2025,"make":"Lexus","model":"NX","trim":"NX 350h Hybrid AWD","mpg":36},
-
-  {"year":2010,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2011,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2012,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2013,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2014,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2015,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2016,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2017,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2018,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2019,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2020,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2021,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2022,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2023,"make":"Lexus","model":"GX","trim":"GX 460 4WD (4.6L V8)","mpg":16},
-  {"year":2024,"make":"Lexus","model":"GX","trim":"GX 550 4WD (3.4T V6)","mpg":20},
-  {"year":2025,"make":"Lexus","model":"GX","trim":"GX 550 4WD (3.4T V6)","mpg":20}
+  {
+    "year": 2010,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2011,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2012,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2013,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2013,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2014,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2014,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2015,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2015,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2016,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2016,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2017,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2017,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 40
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 28
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 44
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 44
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 44
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 44
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 44
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 44
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 44
+  },
+  {
+    "year": 2010,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2010,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 32
+  },
+  {
+    "year": 2011,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2011,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 32
+  },
+  {
+    "year": 2012,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2012,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 32
+  },
+  {
+    "year": 2013,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2013,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 32
+  },
+  {
+    "year": 2014,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2014,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 32
+  },
+  {
+    "year": 2015,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2015,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 32
+  },
+  {
+    "year": 2016,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2016,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2017,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2017,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 450h Hybrid AWD",
+    "mpg": 31
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (2.4T)",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350h Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (2.4T)",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350h Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (2.4T)",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350h Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2015,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 200t AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2016,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 200t AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2016,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300h Hybrid AWD",
+    "mpg": 33
+  },
+  {
+    "year": 2017,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 200t AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2017,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300h Hybrid AWD",
+    "mpg": 33
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300 AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300h Hybrid AWD",
+    "mpg": 33
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300 AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300h Hybrid AWD",
+    "mpg": 33
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300 AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300h Hybrid AWD",
+    "mpg": 33
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300 AWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 300h Hybrid AWD",
+    "mpg": 33
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 250 AWD (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 350 AWD (2.4T)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 350h Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 250 AWD (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 350h Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 250 AWD (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 350h Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 250 AWD (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 350h Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2010,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2011,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2012,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2013,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2014,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2015,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2016,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2017,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2018,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2019,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2020,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2021,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2022,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2023,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 460 4WD (4.6L V8)",
+    "mpg": 16
+  },
+  {
+    "year": 2024,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 550 4WD (3.4T V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2025,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 550 4WD (3.4T V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 350 FWD (3.5L V6)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "ES",
+    "trim": "ES 300h Hybrid",
+    "mpg": 44
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350 FWD (2.4T)",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "RX",
+    "trim": "RX 350h Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 250 AWD (2.5L)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "NX",
+    "trim": "NX 350h Hybrid AWD",
+    "mpg": 36
+  },
+  {
+    "year": 2026,
+    "make": "Lexus",
+    "model": "GX",
+    "trim": "GX 550 4WD (3.4T V6)",
+    "mpg": 20
+  }
 ]

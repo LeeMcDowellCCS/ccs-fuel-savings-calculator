@@ -1,114 +1,779 @@
 [
-  {"year":2011,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":23},
-  {"year":2012,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":23},
-  {"year":2013,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2014,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2015,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2015,"make":"Dodge","model":"Charger","trim":"Charger R/T (5.7L HEMI)","mpg":22},
-  {"year":2015,"make":"Dodge","model":"Charger","trim":"Charger SRT 392 (6.4L)","mpg":18},
-  {"year":2016,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2016,"make":"Dodge","model":"Charger","trim":"Charger R/T (5.7L HEMI)","mpg":22},
-  {"year":2016,"make":"Dodge","model":"Charger","trim":"Charger Hellcat (6.2L SC)","mpg":16},
-  {"year":2017,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2017,"make":"Dodge","model":"Charger","trim":"Charger R/T (5.7L HEMI)","mpg":22},
-  {"year":2017,"make":"Dodge","model":"Charger","trim":"Charger Hellcat (6.2L SC)","mpg":16},
-  {"year":2018,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2018,"make":"Dodge","model":"Charger","trim":"Charger R/T (5.7L HEMI)","mpg":22},
-  {"year":2018,"make":"Dodge","model":"Charger","trim":"Charger Hellcat (6.2L SC)","mpg":16},
-  {"year":2019,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2019,"make":"Dodge","model":"Charger","trim":"Charger R/T (5.7L HEMI)","mpg":22},
-  {"year":2019,"make":"Dodge","model":"Charger","trim":"Charger Hellcat (6.2L SC)","mpg":16},
-  {"year":2020,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2020,"make":"Dodge","model":"Charger","trim":"Charger R/T (5.7L HEMI)","mpg":22},
-  {"year":2020,"make":"Dodge","model":"Charger","trim":"Charger Hellcat (6.2L SC)","mpg":16},
-  {"year":2021,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2021,"make":"Dodge","model":"Charger","trim":"Charger R/T (5.7L HEMI)","mpg":22},
-  {"year":2021,"make":"Dodge","model":"Charger","trim":"Charger Hellcat (6.2L SC)","mpg":16},
-  {"year":2022,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2022,"make":"Dodge","model":"Charger","trim":"Charger R/T (5.7L HEMI)","mpg":22},
-  {"year":2022,"make":"Dodge","model":"Charger","trim":"Charger Hellcat (6.2L SC)","mpg":16},
-  {"year":2023,"make":"Dodge","model":"Charger","trim":"Charger SE (3.6L V6)","mpg":24},
-  {"year":2023,"make":"Dodge","model":"Charger","trim":"Charger R/T (5.7L HEMI)","mpg":22},
-  {"year":2023,"make":"Dodge","model":"Charger","trim":"Charger Hellcat (6.2L SC)","mpg":16},
-
-  {"year":2010,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":22},
-  {"year":2010,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":19},
-  {"year":2011,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2011,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2012,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2012,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2013,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2013,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2014,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2014,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2015,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2015,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2015,"make":"Dodge","model":"Challenger","trim":"Challenger SRT 392 (6.4L)","mpg":17},
-  {"year":2016,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2016,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2016,"make":"Dodge","model":"Challenger","trim":"Challenger Hellcat (6.2L SC)","mpg":15},
-  {"year":2017,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2017,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2017,"make":"Dodge","model":"Challenger","trim":"Challenger Hellcat (6.2L SC)","mpg":15},
-  {"year":2018,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2018,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2018,"make":"Dodge","model":"Challenger","trim":"Challenger Hellcat (6.2L SC)","mpg":15},
-  {"year":2019,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2019,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2019,"make":"Dodge","model":"Challenger","trim":"Challenger Hellcat (6.2L SC)","mpg":15},
-  {"year":2020,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2020,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2020,"make":"Dodge","model":"Challenger","trim":"Challenger Hellcat (6.2L SC)","mpg":15},
-  {"year":2021,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2021,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2021,"make":"Dodge","model":"Challenger","trim":"Challenger Hellcat (6.2L SC)","mpg":15},
-  {"year":2022,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2022,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2022,"make":"Dodge","model":"Challenger","trim":"Challenger Hellcat (6.2L SC)","mpg":15},
-  {"year":2023,"make":"Dodge","model":"Challenger","trim":"Challenger SE (3.6L V6)","mpg":23},
-  {"year":2023,"make":"Dodge","model":"Challenger","trim":"Challenger R/T (5.7L HEMI)","mpg":20},
-  {"year":2023,"make":"Dodge","model":"Challenger","trim":"Challenger Hellcat (6.2L SC)","mpg":15},
-
-  {"year":2011,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2011,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2012,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2012,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2013,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2013,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2014,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2014,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2015,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2015,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2016,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2016,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2017,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2017,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2018,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2018,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2019,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2019,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2020,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2020,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2021,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2021,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2022,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2022,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2023,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2023,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2024,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2024,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-  {"year":2025,"make":"Dodge","model":"Durango","trim":"Durango FWD (3.6L V6)","mpg":18},
-  {"year":2025,"make":"Dodge","model":"Durango","trim":"Durango AWD (5.7L HEMI)","mpg":16},
-
-  {"year":2010,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.3L V6)","mpg":19},
-  {"year":2011,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20},
-  {"year":2012,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20},
-  {"year":2013,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20},
-  {"year":2014,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20},
-  {"year":2015,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20},
-  {"year":2016,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20},
-  {"year":2017,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20},
-  {"year":2018,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20},
-  {"year":2019,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20},
-  {"year":2020,"make":"Dodge","model":"Grand Caravan","trim":"Grand Caravan SE (3.6L V6)","mpg":20}
+  {
+    "year": 2011,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2012,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2013,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2014,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2015,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2015,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger R/T (5.7L HEMI)",
+    "mpg": 22
+  },
+  {
+    "year": 2015,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SRT 392 (6.4L)",
+    "mpg": 18
+  },
+  {
+    "year": 2016,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2016,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger R/T (5.7L HEMI)",
+    "mpg": 22
+  },
+  {
+    "year": 2016,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger Hellcat (6.2L SC)",
+    "mpg": 16
+  },
+  {
+    "year": 2017,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2017,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger R/T (5.7L HEMI)",
+    "mpg": 22
+  },
+  {
+    "year": 2017,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger Hellcat (6.2L SC)",
+    "mpg": 16
+  },
+  {
+    "year": 2018,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2018,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger R/T (5.7L HEMI)",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger Hellcat (6.2L SC)",
+    "mpg": 16
+  },
+  {
+    "year": 2019,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2019,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger R/T (5.7L HEMI)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger Hellcat (6.2L SC)",
+    "mpg": 16
+  },
+  {
+    "year": 2020,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger R/T (5.7L HEMI)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger Hellcat (6.2L SC)",
+    "mpg": 16
+  },
+  {
+    "year": 2021,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger R/T (5.7L HEMI)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger Hellcat (6.2L SC)",
+    "mpg": 16
+  },
+  {
+    "year": 2022,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2022,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger R/T (5.7L HEMI)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger Hellcat (6.2L SC)",
+    "mpg": 16
+  },
+  {
+    "year": 2023,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger SE (3.6L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger R/T (5.7L HEMI)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Dodge",
+    "model": "Charger",
+    "trim": "Charger Hellcat (6.2L SC)",
+    "mpg": 16
+  },
+  {
+    "year": 2010,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2010,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 19
+  },
+  {
+    "year": 2011,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2011,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2012,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2012,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2013,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2013,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2014,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2014,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2015,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2015,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2015,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SRT 392 (6.4L)",
+    "mpg": 17
+  },
+  {
+    "year": 2016,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2016,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2016,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger Hellcat (6.2L SC)",
+    "mpg": 15
+  },
+  {
+    "year": 2017,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2017,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2017,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger Hellcat (6.2L SC)",
+    "mpg": 15
+  },
+  {
+    "year": 2018,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2018,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2018,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger Hellcat (6.2L SC)",
+    "mpg": 15
+  },
+  {
+    "year": 2019,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2019,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2019,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger Hellcat (6.2L SC)",
+    "mpg": 15
+  },
+  {
+    "year": 2020,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2020,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2020,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger Hellcat (6.2L SC)",
+    "mpg": 15
+  },
+  {
+    "year": 2021,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2021,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2021,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger Hellcat (6.2L SC)",
+    "mpg": 15
+  },
+  {
+    "year": 2022,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2022,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger Hellcat (6.2L SC)",
+    "mpg": 15
+  },
+  {
+    "year": 2023,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger SE (3.6L V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger R/T (5.7L HEMI)",
+    "mpg": 20
+  },
+  {
+    "year": 2023,
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "Challenger Hellcat (6.2L SC)",
+    "mpg": 15
+  },
+  {
+    "year": 2011,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2011,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2012,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2012,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2013,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2013,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2014,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2014,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2015,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2015,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2016,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2016,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2017,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2017,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2018,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2018,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2019,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2019,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2020,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2020,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2021,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2021,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2022,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2022,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2023,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2023,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2024,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2024,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2025,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2025,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  },
+  {
+    "year": 2010,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.3L V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2011,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2012,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2013,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2014,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2015,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2016,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2017,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2018,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2019,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2020,
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "trim": "Grand Caravan SE (3.6L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2026,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango FWD (3.6L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2026,
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "Durango AWD (5.7L HEMI)",
+    "mpg": 16
+  }
 ]

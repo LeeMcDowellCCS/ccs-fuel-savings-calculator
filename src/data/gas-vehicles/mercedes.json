@@ -1,83 +1,597 @@
 [
-  {"year":2010,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (3.0L V6)","mpg":21},
-  {"year":2011,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (3.0L V6)","mpg":21},
-  {"year":2012,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (3.5L V6)","mpg":22},
-  {"year":2013,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (3.5L V6)","mpg":22},
-  {"year":2014,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (3.5L V6)","mpg":22},
-  {"year":2015,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":27},
-  {"year":2015,"make":"Mercedes-Benz","model":"C-Class","trim":"C400 4MATIC (3.0T V6)","mpg":24},
-  {"year":2016,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":27},
-  {"year":2016,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":26},
-  {"year":2017,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":27},
-  {"year":2017,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":26},
-  {"year":2018,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":27},
-  {"year":2018,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":26},
-  {"year":2019,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":27},
-  {"year":2019,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":26},
-  {"year":2020,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":27},
-  {"year":2020,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":26},
-  {"year":2021,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":27},
-  {"year":2021,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":26},
-  {"year":2022,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":28},
-  {"year":2022,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":27},
-  {"year":2023,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":28},
-  {"year":2023,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":27},
-  {"year":2024,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":28},
-  {"year":2024,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":27},
-  {"year":2025,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 RWD (2.0T)","mpg":28},
-  {"year":2025,"make":"Mercedes-Benz","model":"C-Class","trim":"C300 4MATIC AWD","mpg":27},
-
-  {"year":2010,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (3.5L V6)","mpg":20},
-  {"year":2011,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (3.5L V6)","mpg":20},
-  {"year":2012,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (3.5L V6)","mpg":20},
-  {"year":2013,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (3.5L V6)","mpg":21},
-  {"year":2014,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (3.5L V6)","mpg":21},
-  {"year":2015,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (3.5L V6)","mpg":21},
-  {"year":2016,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (3.5L V6)","mpg":21},
-  {"year":2017,"make":"Mercedes-Benz","model":"E-Class","trim":"E300 RWD (2.0T)","mpg":27},
-  {"year":2017,"make":"Mercedes-Benz","model":"E-Class","trim":"E400 4MATIC (3.0T V6)","mpg":22},
-  {"year":2018,"make":"Mercedes-Benz","model":"E-Class","trim":"E300 RWD (2.0T)","mpg":27},
-  {"year":2018,"make":"Mercedes-Benz","model":"E-Class","trim":"E400 4MATIC (3.0T V6)","mpg":22},
-  {"year":2019,"make":"Mercedes-Benz","model":"E-Class","trim":"E300 RWD (2.0T)","mpg":27},
-  {"year":2019,"make":"Mercedes-Benz","model":"E-Class","trim":"E450 4MATIC (3.0T V6)","mpg":24},
-  {"year":2020,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (2.0T)","mpg":25},
-  {"year":2020,"make":"Mercedes-Benz","model":"E-Class","trim":"E450 4MATIC (3.0T V6)","mpg":24},
-  {"year":2021,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (2.0T)","mpg":25},
-  {"year":2021,"make":"Mercedes-Benz","model":"E-Class","trim":"E450 4MATIC (3.0T V6)","mpg":23},
-  {"year":2022,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (2.0T)","mpg":25},
-  {"year":2022,"make":"Mercedes-Benz","model":"E-Class","trim":"E450 4MATIC (3.0T V6)","mpg":23},
-  {"year":2023,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (2.0T)","mpg":25},
-  {"year":2023,"make":"Mercedes-Benz","model":"E-Class","trim":"E450 4MATIC (3.0T V6)","mpg":23},
-  {"year":2024,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (2.0T)","mpg":27},
-  {"year":2024,"make":"Mercedes-Benz","model":"E-Class","trim":"E450 4MATIC (3.0T V6)","mpg":24},
-  {"year":2025,"make":"Mercedes-Benz","model":"E-Class","trim":"E350 RWD (2.0T)","mpg":27},
-  {"year":2025,"make":"Mercedes-Benz","model":"E-Class","trim":"E450 4MATIC (3.0T V6)","mpg":24},
-
-  {"year":2016,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":24},
-  {"year":2017,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":24},
-  {"year":2018,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":24},
-  {"year":2019,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":24},
-  {"year":2020,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":24},
-  {"year":2021,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":24},
-  {"year":2022,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":24},
-  {"year":2023,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":26},
-  {"year":2024,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":26},
-  {"year":2025,"make":"Mercedes-Benz","model":"GLC","trim":"GLC300 4MATIC AWD (2.0T)","mpg":26},
-
-  {"year":2016,"make":"Mercedes-Benz","model":"GLE","trim":"GLE350 4MATIC AWD (3.5L V6)","mpg":18},
-  {"year":2017,"make":"Mercedes-Benz","model":"GLE","trim":"GLE350 4MATIC AWD (3.5L V6)","mpg":18},
-  {"year":2018,"make":"Mercedes-Benz","model":"GLE","trim":"GLE350 4MATIC AWD (3.5L V6)","mpg":18},
-  {"year":2019,"make":"Mercedes-Benz","model":"GLE","trim":"GLE400 4MATIC AWD (3.0T V6)","mpg":21},
-  {"year":2020,"make":"Mercedes-Benz","model":"GLE","trim":"GLE350 4MATIC AWD (2.0T)","mpg":20},
-  {"year":2020,"make":"Mercedes-Benz","model":"GLE","trim":"GLE450 4MATIC AWD (3.0T)","mpg":21},
-  {"year":2021,"make":"Mercedes-Benz","model":"GLE","trim":"GLE350 4MATIC AWD (2.0T)","mpg":20},
-  {"year":2021,"make":"Mercedes-Benz","model":"GLE","trim":"GLE450 4MATIC AWD (3.0T)","mpg":21},
-  {"year":2022,"make":"Mercedes-Benz","model":"GLE","trim":"GLE350 4MATIC AWD (2.0T)","mpg":20},
-  {"year":2022,"make":"Mercedes-Benz","model":"GLE","trim":"GLE450 4MATIC AWD (3.0T)","mpg":21},
-  {"year":2023,"make":"Mercedes-Benz","model":"GLE","trim":"GLE350 4MATIC AWD (2.0T)","mpg":20},
-  {"year":2023,"make":"Mercedes-Benz","model":"GLE","trim":"GLE450 4MATIC AWD (3.0T)","mpg":21},
-  {"year":2024,"make":"Mercedes-Benz","model":"GLE","trim":"GLE350 4MATIC AWD (2.0T)","mpg":20},
-  {"year":2024,"make":"Mercedes-Benz","model":"GLE","trim":"GLE450 4MATIC AWD (3.0T)","mpg":21},
-  {"year":2025,"make":"Mercedes-Benz","model":"GLE","trim":"GLE350 4MATIC AWD (2.0T)","mpg":20},
-  {"year":2025,"make":"Mercedes-Benz","model":"GLE","trim":"GLE450 4MATIC AWD (3.0T)","mpg":21}
+  {
+    "year": 2010,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (3.0L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2011,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (3.0L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2012,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2013,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2014,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2015,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2015,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C400 4MATIC (3.0T V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2016,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2016,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2017,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2017,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2018,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2018,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2019,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2010,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2011,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2012,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2013,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2014,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2015,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2016,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (3.5L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2017,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2017,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E400 4MATIC (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2018,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E400 4MATIC (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E300 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E450 4MATIC (3.0T V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E450 4MATIC (3.0T V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E450 4MATIC (3.0T V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E450 4MATIC (3.0T V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (2.0T)",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E450 4MATIC (3.0T V6)",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E450 4MATIC (3.0T V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E450 4MATIC (3.0T V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2016,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2017,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2018,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2019,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2016,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (3.5L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2017,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (3.5L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2018,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (3.5L V6)",
+    "mpg": 18
+  },
+  {
+    "year": 2019,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE400 4MATIC AWD (3.0T V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (2.0T)",
+    "mpg": 20
+  },
+  {
+    "year": 2020,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE450 4MATIC AWD (3.0T)",
+    "mpg": 21
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (2.0T)",
+    "mpg": 20
+  },
+  {
+    "year": 2021,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE450 4MATIC AWD (3.0T)",
+    "mpg": 21
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (2.0T)",
+    "mpg": 20
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE450 4MATIC AWD (3.0T)",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (2.0T)",
+    "mpg": 20
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE450 4MATIC AWD (3.0T)",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (2.0T)",
+    "mpg": 20
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE450 4MATIC AWD (3.0T)",
+    "mpg": 21
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (2.0T)",
+    "mpg": 20
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE450 4MATIC AWD (3.0T)",
+    "mpg": 21
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 RWD (2.0T)",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "trim": "C300 4MATIC AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E350 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "trim": "E450 4MATIC (3.0T V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "trim": "GLC300 4MATIC AWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE350 4MATIC AWD (2.0T)",
+    "mpg": 20
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "trim": "GLE450 4MATIC AWD (3.0T)",
+    "mpg": 21
+  }
 ]

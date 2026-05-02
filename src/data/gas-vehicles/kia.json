@@ -1,126 +1,905 @@
 [
-  {"year":2010,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":24},
-  {"year":2011,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2011,"make":"Kia","model":"Optima","trim":"2.0T Turbo","mpg":27},
-  {"year":2011,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":35},
-  {"year":2012,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2012,"make":"Kia","model":"Optima","trim":"2.0T Turbo","mpg":27},
-  {"year":2012,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":36},
-  {"year":2013,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2013,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":36},
-  {"year":2014,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2014,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":36},
-  {"year":2015,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2015,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":38},
-  {"year":2016,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2016,"make":"Kia","model":"Optima","trim":"1.6T Turbo","mpg":29},
-  {"year":2016,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":39},
-  {"year":2017,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2017,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":39},
-  {"year":2018,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2018,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":39},
-  {"year":2019,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2019,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":39},
-  {"year":2020,"make":"Kia","model":"Optima","trim":"2.4L 4-cyl","mpg":28},
-  {"year":2020,"make":"Kia","model":"Optima","trim":"Hybrid","mpg":39},
-  {"year":2021,"make":"Kia","model":"K5","trim":"LX 1.6T FWD","mpg":30},
-  {"year":2021,"make":"Kia","model":"K5","trim":"GT 2.5T AWD","mpg":26},
-  {"year":2021,"make":"Kia","model":"K5","trim":"Hybrid","mpg":45},
-  {"year":2022,"make":"Kia","model":"K5","trim":"LX 1.6T FWD","mpg":30},
-  {"year":2022,"make":"Kia","model":"K5","trim":"GT 2.5T AWD","mpg":26},
-  {"year":2022,"make":"Kia","model":"K5","trim":"Hybrid","mpg":45},
-  {"year":2023,"make":"Kia","model":"K5","trim":"LX 1.6T FWD","mpg":30},
-  {"year":2023,"make":"Kia","model":"K5","trim":"Hybrid","mpg":45},
-  {"year":2024,"make":"Kia","model":"K5","trim":"LX 1.6T FWD","mpg":30},
-  {"year":2024,"make":"Kia","model":"K5","trim":"Hybrid","mpg":45},
-  {"year":2025,"make":"Kia","model":"K5","trim":"LX 1.6T FWD","mpg":30},
-  {"year":2025,"make":"Kia","model":"K5","trim":"Hybrid","mpg":45},
-
-  {"year":2010,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":22},
-  {"year":2011,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2011,"make":"Kia","model":"Sportage","trim":"2.0T AWD","mpg":22},
-  {"year":2012,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2013,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2014,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2015,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2016,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2017,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":25},
-  {"year":2017,"make":"Kia","model":"Sportage","trim":"2.0T AWD","mpg":23},
-  {"year":2018,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":25},
-  {"year":2018,"make":"Kia","model":"Sportage","trim":"2.0T AWD","mpg":23},
-  {"year":2019,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":25},
-  {"year":2019,"make":"Kia","model":"Sportage","trim":"2.0T AWD","mpg":23},
-  {"year":2020,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":25},
-  {"year":2020,"make":"Kia","model":"Sportage","trim":"2.0T AWD","mpg":23},
-  {"year":2021,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":25},
-  {"year":2021,"make":"Kia","model":"Sportage","trim":"2.0T AWD","mpg":23},
-  {"year":2022,"make":"Kia","model":"Sportage","trim":"2.4L 4-cyl FWD","mpg":25},
-  {"year":2023,"make":"Kia","model":"Sportage","trim":"2.5L 4-cyl FWD","mpg":29},
-  {"year":2023,"make":"Kia","model":"Sportage","trim":"Hybrid AWD","mpg":38},
-  {"year":2024,"make":"Kia","model":"Sportage","trim":"2.5L 4-cyl FWD","mpg":29},
-  {"year":2024,"make":"Kia","model":"Sportage","trim":"Hybrid AWD","mpg":38},
-  {"year":2025,"make":"Kia","model":"Sportage","trim":"2.5L 4-cyl FWD","mpg":29},
-  {"year":2025,"make":"Kia","model":"Sportage","trim":"Hybrid AWD","mpg":38},
-
-  {"year":2010,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":22},
-  {"year":2011,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":22},
-  {"year":2011,"make":"Kia","model":"Sorento","trim":"3.5L V6 AWD","mpg":19},
-  {"year":2012,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":22},
-  {"year":2013,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":22},
-  {"year":2014,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":22},
-  {"year":2015,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":22},
-  {"year":2015,"make":"Kia","model":"Sorento","trim":"3.3L V6 AWD","mpg":20},
-  {"year":2016,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2016,"make":"Kia","model":"Sorento","trim":"2.0T 4-cyl AWD","mpg":22},
-  {"year":2016,"make":"Kia","model":"Sorento","trim":"3.3L V6 AWD","mpg":21},
-  {"year":2017,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2017,"make":"Kia","model":"Sorento","trim":"3.3L V6 AWD","mpg":21},
-  {"year":2018,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2018,"make":"Kia","model":"Sorento","trim":"3.3L V6 AWD","mpg":21},
-  {"year":2019,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2019,"make":"Kia","model":"Sorento","trim":"3.3L V6 AWD","mpg":21},
-  {"year":2020,"make":"Kia","model":"Sorento","trim":"2.4L 4-cyl FWD","mpg":24},
-  {"year":2020,"make":"Kia","model":"Sorento","trim":"3.3L V6 AWD","mpg":21},
-  {"year":2021,"make":"Kia","model":"Sorento","trim":"2.5L 4-cyl FWD","mpg":29},
-  {"year":2021,"make":"Kia","model":"Sorento","trim":"2.5T AWD","mpg":25},
-  {"year":2021,"make":"Kia","model":"Sorento","trim":"Hybrid AWD","mpg":37},
-  {"year":2022,"make":"Kia","model":"Sorento","trim":"2.5L 4-cyl FWD","mpg":29},
-  {"year":2022,"make":"Kia","model":"Sorento","trim":"Hybrid AWD","mpg":37},
-  {"year":2023,"make":"Kia","model":"Sorento","trim":"2.5L 4-cyl FWD","mpg":29},
-  {"year":2023,"make":"Kia","model":"Sorento","trim":"Hybrid AWD","mpg":37},
-  {"year":2024,"make":"Kia","model":"Sorento","trim":"2.5L 4-cyl FWD","mpg":29},
-  {"year":2024,"make":"Kia","model":"Sorento","trim":"Hybrid AWD","mpg":37},
-  {"year":2025,"make":"Kia","model":"Sorento","trim":"2.5L 4-cyl FWD","mpg":29},
-  {"year":2025,"make":"Kia","model":"Sorento","trim":"Hybrid AWD","mpg":37},
-
-  {"year":2010,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":26},
-  {"year":2011,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":26},
-  {"year":2012,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":26},
-  {"year":2013,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":26},
-  {"year":2014,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":26},
-  {"year":2015,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":27},
-  {"year":2016,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":27},
-  {"year":2017,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":27},
-  {"year":2018,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":27},
-  {"year":2019,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":28},
-  {"year":2020,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":29},
-  {"year":2020,"make":"Kia","model":"Soul","trim":"1.6T Turbo","mpg":28},
-  {"year":2021,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":29},
-  {"year":2022,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":29},
-  {"year":2023,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":29},
-  {"year":2024,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":29},
-  {"year":2025,"make":"Kia","model":"Soul","trim":"2.0L 4-cyl","mpg":29},
-
-  {"year":2020,"make":"Kia","model":"Telluride","trim":"3.8L V6 FWD","mpg":20},
-  {"year":2020,"make":"Kia","model":"Telluride","trim":"3.8L V6 AWD","mpg":19},
-  {"year":2021,"make":"Kia","model":"Telluride","trim":"3.8L V6 FWD","mpg":20},
-  {"year":2021,"make":"Kia","model":"Telluride","trim":"3.8L V6 AWD","mpg":19},
-  {"year":2022,"make":"Kia","model":"Telluride","trim":"3.8L V6 FWD","mpg":20},
-  {"year":2022,"make":"Kia","model":"Telluride","trim":"3.8L V6 AWD","mpg":19},
-  {"year":2023,"make":"Kia","model":"Telluride","trim":"3.8L V6 FWD","mpg":20},
-  {"year":2023,"make":"Kia","model":"Telluride","trim":"3.8L V6 AWD","mpg":19},
-  {"year":2024,"make":"Kia","model":"Telluride","trim":"3.8L V6 FWD","mpg":20},
-  {"year":2024,"make":"Kia","model":"Telluride","trim":"3.8L V6 AWD","mpg":19},
-  {"year":2025,"make":"Kia","model":"Telluride","trim":"3.8L V6 FWD","mpg":20},
-  {"year":2025,"make":"Kia","model":"Telluride","trim":"3.8L V6 AWD","mpg":19}
+  {
+    "year": 2010,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 24
+  },
+  {
+    "year": 2011,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2011,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.0T Turbo",
+    "mpg": 27
+  },
+  {
+    "year": 2011,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 35
+  },
+  {
+    "year": 2012,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2012,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.0T Turbo",
+    "mpg": 27
+  },
+  {
+    "year": 2012,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 36
+  },
+  {
+    "year": 2013,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2013,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 36
+  },
+  {
+    "year": 2014,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2014,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 36
+  },
+  {
+    "year": 2015,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2015,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 38
+  },
+  {
+    "year": 2016,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2016,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "1.6T Turbo",
+    "mpg": 29
+  },
+  {
+    "year": 2016,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2017,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2017,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "2.4L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Optima",
+    "trim": "Hybrid",
+    "mpg": 39
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "LX 1.6T FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "GT 2.5T AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "Hybrid",
+    "mpg": 45
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "LX 1.6T FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "GT 2.5T AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "Hybrid",
+    "mpg": 45
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "LX 1.6T FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "Hybrid",
+    "mpg": 45
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "LX 1.6T FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "Hybrid",
+    "mpg": 45
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "LX 1.6T FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "Hybrid",
+    "mpg": 45
+  },
+  {
+    "year": 2010,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2011,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2011,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.0T AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2012,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2013,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2014,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2015,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2016,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2017,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2017,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.0T AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.0T AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.0T AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.0T AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.0T AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "Hybrid AWD",
+    "mpg": 38
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "Hybrid AWD",
+    "mpg": 38
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "Hybrid AWD",
+    "mpg": 38
+  },
+  {
+    "year": 2010,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2011,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2011,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "3.5L V6 AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2012,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2013,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2014,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2015,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2015,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "3.3L V6 AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2016,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2016,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.0T 4-cyl AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2016,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "3.3L V6 AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2017,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2017,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "3.3L V6 AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "3.3L V6 AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "3.3L V6 AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.4L 4-cyl FWD",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "3.3L V6 AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.5T AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2010,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 26
+  },
+  {
+    "year": 2011,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 26
+  },
+  {
+    "year": 2012,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 26
+  },
+  {
+    "year": 2013,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 26
+  },
+  {
+    "year": 2014,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 26
+  },
+  {
+    "year": 2015,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 27
+  },
+  {
+    "year": 2016,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 27
+  },
+  {
+    "year": 2017,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 27
+  },
+  {
+    "year": 2018,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 29
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "1.6T Turbo",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 29
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 29
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 29
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 29
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 29
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2020,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2021,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "LX 1.6T FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "K5",
+    "trim": "Hybrid",
+    "mpg": 45
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Sportage",
+    "trim": "Hybrid AWD",
+    "mpg": 38
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "2.5L 4-cyl FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "Hybrid AWD",
+    "mpg": 37
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Soul",
+    "trim": "2.0L 4-cyl",
+    "mpg": 29
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 FWD",
+    "mpg": 20
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "Telluride",
+    "trim": "3.8L V6 AWD",
+    "mpg": 19
+  }
 ]

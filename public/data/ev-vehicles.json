@@ -1,522 +1,5290 @@
 [
-  { "year": 2015, "make": "Tesla", "model": "Model S", "trim": "70D", "miPerKWh": 3.1, "rangeMi": 240 },
-  { "year": 2015, "make": "Tesla", "model": "Model S", "trim": "85D", "miPerKWh": 3.0, "rangeMi": 270 },
-  { "year": 2015, "make": "Tesla", "model": "Model S", "trim": "P85D", "miPerKWh": 2.8, "rangeMi": 253 },
-  { "year": 2015, "make": "Tesla", "model": "Model S", "trim": "90D", "miPerKWh": 3.1, "rangeMi": 270 },
-  { "year": 2015, "make": "Tesla", "model": "Model X", "trim": "90D", "miPerKWh": 2.8, "rangeMi": 257 },
-  { "year": 2015, "make": "Nissan", "model": "Leaf", "trim": "24 kWh", "miPerKWh": 3.5, "rangeMi": 84 },
-  { "year": 2016, "make": "Tesla", "model": "Model S", "trim": "75D", "miPerKWh": 3.1, "rangeMi": 249 },
-  { "year": 2016, "make": "Tesla", "model": "Model S", "trim": "90D", "miPerKWh": 3.0, "rangeMi": 294 },
-  { "year": 2016, "make": "Tesla", "model": "Model S", "trim": "P100D", "miPerKWh": 2.9, "rangeMi": 315 },
-  { "year": 2016, "make": "Tesla", "model": "Model X", "trim": "75D", "miPerKWh": 2.7, "rangeMi": 237 },
-  { "year": 2016, "make": "Tesla", "model": "Model X", "trim": "90D", "miPerKWh": 2.6, "rangeMi": 257 },
-  { "year": 2016, "make": "Tesla", "model": "Model X", "trim": "P100D", "miPerKWh": 2.5, "rangeMi": 289 },
-  { "year": 2016, "make": "Nissan", "model": "Leaf", "trim": "24 kWh", "miPerKWh": 3.5, "rangeMi": 84 },
-  { "year": 2016, "make": "Nissan", "model": "Leaf", "trim": "30 kWh", "miPerKWh": 3.5, "rangeMi": 107 },
-  { "year": 2017, "make": "Tesla", "model": "Model S", "trim": "75D", "miPerKWh": 3.1, "rangeMi": 249 },
-  { "year": 2017, "make": "Tesla", "model": "Model S", "trim": "100D", "miPerKWh": 3.3, "rangeMi": 335 },
-  { "year": 2017, "make": "Tesla", "model": "Model S", "trim": "P100D", "miPerKWh": 2.9, "rangeMi": 315 },
-  { "year": 2017, "make": "Tesla", "model": "Model X", "trim": "75D", "miPerKWh": 2.7, "rangeMi": 237 },
-  { "year": 2017, "make": "Tesla", "model": "Model X", "trim": "100D", "miPerKWh": 2.8, "rangeMi": 295 },
-  { "year": 2017, "make": "Tesla", "model": "Model X", "trim": "P100D", "miPerKWh": 2.5, "rangeMi": 289 },
-  { "year": 2017, "make": "Nissan", "model": "Leaf", "trim": "30 kWh", "miPerKWh": 3.5, "rangeMi": 107 },
-  { "year": 2017, "make": "Chevrolet", "model": "Bolt EV", "trim": "LT", "miPerKWh": 3.5, "rangeMi": 238 },
-  { "year": 2017, "make": "Chevrolet", "model": "Bolt EV", "trim": "Premier", "miPerKWh": 3.5, "rangeMi": 238 },
-  { "year": 2018, "make": "Tesla", "model": "Model S", "trim": "75D", "miPerKWh": 3.1, "rangeMi": 249 },
-  { "year": 2018, "make": "Tesla", "model": "Model S", "trim": "100D", "miPerKWh": 3.3, "rangeMi": 335 },
-  { "year": 2018, "make": "Tesla", "model": "Model S", "trim": "P100D", "miPerKWh": 2.9, "rangeMi": 315 },
-  { "year": 2018, "make": "Tesla", "model": "Model X", "trim": "75D", "miPerKWh": 2.7, "rangeMi": 237 },
-  { "year": 2018, "make": "Tesla", "model": "Model X", "trim": "100D", "miPerKWh": 2.8, "rangeMi": 295 },
-  { "year": 2018, "make": "Tesla", "model": "Model X", "trim": "P100D", "miPerKWh": 2.5, "rangeMi": 289 },
-  { "year": 2018, "make": "Tesla", "model": "Model 3", "trim": "Long Range RWD", "miPerKWh": 4.1, "rangeMi": 310 },
-  { "year": 2018, "make": "Tesla", "model": "Model 3", "trim": "Performance AWD", "miPerKWh": 3.8, "rangeMi": 310 },
-  { "year": 2018, "make": "Nissan", "model": "Leaf", "trim": "40 kWh", "miPerKWh": 3.5, "rangeMi": 151 },
-  { "year": 2018, "make": "Chevrolet", "model": "Bolt EV", "trim": "LT", "miPerKWh": 3.5, "rangeMi": 238 },
-  { "year": 2018, "make": "Chevrolet", "model": "Bolt EV", "trim": "Premier", "miPerKWh": 3.5, "rangeMi": 238 },
-  { "year": 2019, "make": "Tesla", "model": "Model S", "trim": "Long Range AWD", "miPerKWh": 3.5, "rangeMi": 370 },
-  { "year": 2019, "make": "Tesla", "model": "Model S", "trim": "Performance AWD", "miPerKWh": 3.2, "rangeMi": 345 },
-  { "year": 2019, "make": "Tesla", "model": "Model X", "trim": "Long Range AWD", "miPerKWh": 2.9, "rangeMi": 325 },
-  { "year": 2019, "make": "Tesla", "model": "Model X", "trim": "Performance AWD", "miPerKWh": 2.7, "rangeMi": 289 },
-  { "year": 2019, "make": "Tesla", "model": "Model 3", "trim": "Standard Range Plus RWD", "miPerKWh": 4.2, "rangeMi": 240 },
-  { "year": 2019, "make": "Tesla", "model": "Model 3", "trim": "Long Range AWD", "miPerKWh": 4.1, "rangeMi": 322 },
-  { "year": 2019, "make": "Tesla", "model": "Model 3", "trim": "Performance AWD", "miPerKWh": 3.8, "rangeMi": 310 },
-  { "year": 2019, "make": "Nissan", "model": "Leaf", "trim": "40 kWh S", "miPerKWh": 3.5, "rangeMi": 151 },
-  { "year": 2019, "make": "Nissan", "model": "Leaf", "trim": "40 kWh SV", "miPerKWh": 3.5, "rangeMi": 151 },
-  { "year": 2019, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus S", "miPerKWh": 3.2, "rangeMi": 226 },
-  { "year": 2019, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus SL", "miPerKWh": 3.2, "rangeMi": 215 },
-  { "year": 2019, "make": "Chevrolet", "model": "Bolt EV", "trim": "LT", "miPerKWh": 3.5, "rangeMi": 238 },
-  { "year": 2019, "make": "Chevrolet", "model": "Bolt EV", "trim": "Premier", "miPerKWh": 3.5, "rangeMi": 238 },
-  { "year": 2019, "make": "Audi", "model": "e-tron", "trim": "55 quattro", "miPerKWh": 2.5, "rangeMi": 204 },
-  { "year": 2020, "make": "Tesla", "model": "Model S", "trim": "Long Range AWD", "miPerKWh": 3.5, "rangeMi": 402 },
-  { "year": 2020, "make": "Tesla", "model": "Model S", "trim": "Performance AWD", "miPerKWh": 3.2, "rangeMi": 348 },
-  { "year": 2020, "make": "Tesla", "model": "Model X", "trim": "Long Range AWD", "miPerKWh": 2.9, "rangeMi": 328 },
-  { "year": 2020, "make": "Tesla", "model": "Model X", "trim": "Performance AWD", "miPerKWh": 2.7, "rangeMi": 305 },
-  { "year": 2020, "make": "Tesla", "model": "Model 3", "trim": "Standard Range Plus RWD", "miPerKWh": 4.2, "rangeMi": 250 },
-  { "year": 2020, "make": "Tesla", "model": "Model 3", "trim": "Long Range AWD", "miPerKWh": 4.1, "rangeMi": 322 },
-  { "year": 2020, "make": "Tesla", "model": "Model 3", "trim": "Performance AWD", "miPerKWh": 3.8, "rangeMi": 315 },
-  { "year": 2020, "make": "Tesla", "model": "Model Y", "trim": "Long Range AWD", "miPerKWh": 3.5, "rangeMi": 316 },
-  { "year": 2020, "make": "Tesla", "model": "Model Y", "trim": "Performance AWD", "miPerKWh": 3.2, "rangeMi": 291 },
-  { "year": 2020, "make": "Nissan", "model": "Leaf", "trim": "40 kWh S", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2020, "make": "Nissan", "model": "Leaf", "trim": "40 kWh SV", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2020, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus S", "miPerKWh": 3.2, "rangeMi": 226 },
-  { "year": 2020, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus SL", "miPerKWh": 3.2, "rangeMi": 215 },
-  { "year": 2020, "make": "Chevrolet", "model": "Bolt EV", "trim": "LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2020, "make": "Chevrolet", "model": "Bolt EV", "trim": "Premier", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2020, "make": "Audi", "model": "e-tron", "trim": "55 quattro", "miPerKWh": 2.5, "rangeMi": 222 },
-  { "year": 2020, "make": "Audi", "model": "e-tron", "trim": "50 quattro", "miPerKWh": 2.7, "rangeMi": 191 },
-  { "year": 2020, "make": "Porsche", "model": "Taycan", "trim": "4S", "miPerKWh": 2.8, "rangeMi": 203 },
-  { "year": 2020, "make": "Porsche", "model": "Taycan", "trim": "Turbo", "miPerKWh": 2.6, "rangeMi": 192 },
-  { "year": 2020, "make": "Porsche", "model": "Taycan", "trim": "Turbo S", "miPerKWh": 2.5, "rangeMi": 192 },
-  { "year": 2021, "make": "Tesla", "model": "Model S", "trim": "Long Range AWD", "miPerKWh": 3.8, "rangeMi": 405 },
-  { "year": 2021, "make": "Tesla", "model": "Model S", "trim": "Plaid AWD", "miPerKWh": 3.3, "rangeMi": 396 },
-  { "year": 2021, "make": "Tesla", "model": "Model X", "trim": "Long Range AWD", "miPerKWh": 3.0, "rangeMi": 371 },
-  { "year": 2021, "make": "Tesla", "model": "Model X", "trim": "Plaid AWD", "miPerKWh": 2.7, "rangeMi": 333 },
-  { "year": 2021, "make": "Tesla", "model": "Model 3", "trim": "Standard Range Plus RWD", "miPerKWh": 4.2, "rangeMi": 263 },
-  { "year": 2021, "make": "Tesla", "model": "Model 3", "trim": "Long Range AWD", "miPerKWh": 4.1, "rangeMi": 353 },
-  { "year": 2021, "make": "Tesla", "model": "Model 3", "trim": "Performance AWD", "miPerKWh": 3.8, "rangeMi": 315 },
-  { "year": 2021, "make": "Tesla", "model": "Model Y", "trim": "Standard Range RWD", "miPerKWh": 3.7, "rangeMi": 244 },
-  { "year": 2021, "make": "Tesla", "model": "Model Y", "trim": "Long Range AWD", "miPerKWh": 3.5, "rangeMi": 326 },
-  { "year": 2021, "make": "Tesla", "model": "Model Y", "trim": "Performance AWD", "miPerKWh": 3.2, "rangeMi": 303 },
-  { "year": 2021, "make": "Nissan", "model": "Leaf", "trim": "40 kWh S", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2021, "make": "Nissan", "model": "Leaf", "trim": "40 kWh SV", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2021, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus S", "miPerKWh": 3.2, "rangeMi": 212 },
-  { "year": 2021, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus SL", "miPerKWh": 3.2, "rangeMi": 212 },
-  { "year": 2021, "make": "Chevrolet", "model": "Bolt EV", "trim": "LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2021, "make": "Chevrolet", "model": "Bolt EV", "trim": "Premier", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2021, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select RWD SR", "miPerKWh": 3.3, "rangeMi": 230 },
-  { "year": 2021, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select AWD SR", "miPerKWh": 2.9, "rangeMi": 211 },
-  { "year": 2021, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium RWD ER", "miPerKWh": 3.2, "rangeMi": 305 },
-  { "year": 2021, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium AWD ER", "miPerKWh": 2.9, "rangeMi": 270 },
-  { "year": 2021, "make": "Ford", "model": "Mustang Mach-E", "trim": "California Route 1 RWD", "miPerKWh": 3.2, "rangeMi": 305 },
-  { "year": 2021, "make": "Ford", "model": "Mustang Mach-E", "trim": "GT AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2021, "make": "Audi", "model": "e-tron", "trim": "55 quattro", "miPerKWh": 2.5, "rangeMi": 222 },
-  { "year": 2021, "make": "Audi", "model": "e-tron", "trim": "50 quattro", "miPerKWh": 2.7, "rangeMi": 191 },
-  { "year": 2021, "make": "Audi", "model": "e-tron GT", "trim": "quattro", "miPerKWh": 2.9, "rangeMi": 238 },
-  { "year": 2021, "make": "Audi", "model": "e-tron GT", "trim": "RS quattro", "miPerKWh": 2.7, "rangeMi": 232 },
-  { "year": 2021, "make": "Porsche", "model": "Taycan", "trim": "RWD", "miPerKWh": 3.1, "rangeMi": 227 },
-  { "year": 2021, "make": "Porsche", "model": "Taycan", "trim": "4S", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2021, "make": "Porsche", "model": "Taycan", "trim": "Turbo", "miPerKWh": 2.6, "rangeMi": 212 },
-  { "year": 2021, "make": "Porsche", "model": "Taycan", "trim": "Turbo S", "miPerKWh": 2.5, "rangeMi": 204 },
-  { "year": 2021, "make": "Porsche", "model": "Taycan", "trim": "4 Cross Turismo", "miPerKWh": 2.7, "rangeMi": 215 },
-  { "year": 2021, "make": "Porsche", "model": "Taycan", "trim": "4S Cross Turismo", "miPerKWh": 2.7, "rangeMi": 204 },
-  { "year": 2021, "make": "Volkswagen", "model": "ID.4", "trim": "Pro RWD", "miPerKWh": 3.2, "rangeMi": 260 },
-  { "year": 2021, "make": "Volkswagen", "model": "ID.4", "trim": "Pro S RWD", "miPerKWh": 3.2, "rangeMi": 250 },
-  { "year": 2021, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Single Motor", "miPerKWh": 3.3, "rangeMi": 270 },
-  { "year": 2021, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Dual Motor", "miPerKWh": 3.0, "rangeMi": 249 },
-  { "year": 2021, "make": "Volvo", "model": "XC40 Recharge", "trim": "Pure Electric AWD", "miPerKWh": 2.8, "rangeMi": 208 },
-  { "year": 2022, "make": "Tesla", "model": "Model S", "trim": "Long Range AWD", "miPerKWh": 3.8, "rangeMi": 405 },
-  { "year": 2022, "make": "Tesla", "model": "Model S", "trim": "Plaid AWD", "miPerKWh": 3.3, "rangeMi": 396 },
-  { "year": 2022, "make": "Tesla", "model": "Model X", "trim": "Long Range AWD", "miPerKWh": 3.0, "rangeMi": 348 },
-  { "year": 2022, "make": "Tesla", "model": "Model X", "trim": "Plaid AWD", "miPerKWh": 2.7, "rangeMi": 333 },
-  { "year": 2022, "make": "Tesla", "model": "Model 3", "trim": "RWD Standard Range", "miPerKWh": 4.2, "rangeMi": 272 },
-  { "year": 2022, "make": "Tesla", "model": "Model 3", "trim": "Long Range AWD", "miPerKWh": 4.1, "rangeMi": 358 },
-  { "year": 2022, "make": "Tesla", "model": "Model 3", "trim": "Performance AWD", "miPerKWh": 3.8, "rangeMi": 315 },
-  { "year": 2022, "make": "Tesla", "model": "Model Y", "trim": "Long Range AWD", "miPerKWh": 3.5, "rangeMi": 330 },
-  { "year": 2022, "make": "Tesla", "model": "Model Y", "trim": "Performance AWD", "miPerKWh": 3.2, "rangeMi": 303 },
-  { "year": 2022, "make": "Nissan", "model": "Leaf", "trim": "40 kWh S", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2022, "make": "Nissan", "model": "Leaf", "trim": "40 kWh SV", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2022, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus S", "miPerKWh": 3.2, "rangeMi": 212 },
-  { "year": 2022, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus SL", "miPerKWh": 3.2, "rangeMi": 212 },
-  { "year": 2022, "make": "Chevrolet", "model": "Bolt EV", "trim": "1LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2022, "make": "Chevrolet", "model": "Bolt EV", "trim": "2LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2022, "make": "Chevrolet", "model": "Bolt EUV", "trim": "LT", "miPerKWh": 3.3, "rangeMi": 247 },
-  { "year": 2022, "make": "Chevrolet", "model": "Bolt EUV", "trim": "Premier", "miPerKWh": 3.3, "rangeMi": 247 },
-  { "year": 2022, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select RWD SR", "miPerKWh": 3.3, "rangeMi": 230 },
-  { "year": 2022, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select AWD SR", "miPerKWh": 2.9, "rangeMi": 211 },
-  { "year": 2022, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium RWD ER", "miPerKWh": 3.2, "rangeMi": 314 },
-  { "year": 2022, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium AWD ER", "miPerKWh": 2.9, "rangeMi": 277 },
-  { "year": 2022, "make": "Ford", "model": "Mustang Mach-E", "trim": "California Route 1 RWD", "miPerKWh": 3.2, "rangeMi": 314 },
-  { "year": 2022, "make": "Ford", "model": "Mustang Mach-E", "trim": "GT AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2022, "make": "Ford", "model": "Mustang Mach-E", "trim": "GT Performance AWD", "miPerKWh": 2.6, "rangeMi": 260 },
-  { "year": 2022, "make": "Rivian", "model": "R1T", "trim": "Adventure AWD", "miPerKWh": 2.5, "rangeMi": 314 },
-  { "year": 2022, "make": "Rivian", "model": "R1S", "trim": "Adventure AWD", "miPerKWh": 2.5, "rangeMi": 316 },
-  { "year": 2022, "make": "Hyundai", "model": "Ioniq 5", "trim": "SE Standard Range RWD", "miPerKWh": 3.5, "rangeMi": 220 },
-  { "year": 2022, "make": "Hyundai", "model": "Ioniq 5", "trim": "SEL Long Range RWD", "miPerKWh": 3.3, "rangeMi": 303 },
-  { "year": 2022, "make": "Hyundai", "model": "Ioniq 5", "trim": "Limited Long Range AWD", "miPerKWh": 3.0, "rangeMi": 266 },
-  { "year": 2022, "make": "Kia", "model": "EV6", "trim": "Light RWD SR", "miPerKWh": 3.5, "rangeMi": 232 },
-  { "year": 2022, "make": "Kia", "model": "EV6", "trim": "Wind RWD LR", "miPerKWh": 3.5, "rangeMi": 310 },
-  { "year": 2022, "make": "Kia", "model": "EV6", "trim": "Wind AWD LR", "miPerKWh": 3.0, "rangeMi": 274 },
-  { "year": 2022, "make": "Kia", "model": "EV6", "trim": "GT-Line AWD LR", "miPerKWh": 3.0, "rangeMi": 274 },
-  { "year": 2022, "make": "Kia", "model": "EV6", "trim": "GT AWD", "miPerKWh": 2.6, "rangeMi": 206 },
-  { "year": 2022, "make": "BMW", "model": "iX", "trim": "xDrive40", "miPerKWh": 2.8, "rangeMi": 324 },
-  { "year": 2022, "make": "BMW", "model": "iX", "trim": "xDrive50", "miPerKWh": 2.7, "rangeMi": 324 },
-  { "year": 2022, "make": "BMW", "model": "iX", "trim": "M60", "miPerKWh": 2.5, "rangeMi": 288 },
-  { "year": 2022, "make": "BMW", "model": "i4", "trim": "eDrive40", "miPerKWh": 3.5, "rangeMi": 301 },
-  { "year": 2022, "make": "BMW", "model": "i4", "trim": "M50", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2022, "make": "Mercedes-Benz", "model": "EQS", "trim": "450+", "miPerKWh": 3.2, "rangeMi": 350 },
-  { "year": 2022, "make": "Mercedes-Benz", "model": "EQS", "trim": "580 4MATIC", "miPerKWh": 2.9, "rangeMi": 340 },
-  { "year": 2022, "make": "Mercedes-Benz", "model": "EQB", "trim": "250+", "miPerKWh": 3.0, "rangeMi": 245 },
-  { "year": 2022, "make": "Mercedes-Benz", "model": "EQB", "trim": "350 4MATIC", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2022, "make": "Cadillac", "model": "Lyriq", "trim": "RWD", "miPerKWh": 3.1, "rangeMi": 312 },
-  { "year": 2022, "make": "Volkswagen", "model": "ID.4", "trim": "Pro RWD", "miPerKWh": 3.2, "rangeMi": 260 },
-  { "year": 2022, "make": "Volkswagen", "model": "ID.4", "trim": "Pro S RWD", "miPerKWh": 3.2, "rangeMi": 250 },
-  { "year": 2022, "make": "Volkswagen", "model": "ID.4", "trim": "Pro S AWD", "miPerKWh": 2.9, "rangeMi": 249 },
-  { "year": 2022, "make": "Audi", "model": "e-tron", "trim": "55 quattro", "miPerKWh": 2.5, "rangeMi": 222 },
-  { "year": 2022, "make": "Audi", "model": "e-tron", "trim": "50 quattro", "miPerKWh": 2.7, "rangeMi": 191 },
-  { "year": 2022, "make": "Audi", "model": "e-tron GT", "trim": "quattro", "miPerKWh": 2.9, "rangeMi": 238 },
-  { "year": 2022, "make": "Audi", "model": "e-tron GT", "trim": "RS quattro", "miPerKWh": 2.7, "rangeMi": 232 },
-  { "year": 2022, "make": "Lucid", "model": "Air", "trim": "Pure RWD", "miPerKWh": 5.0, "rangeMi": 410 },
-  { "year": 2022, "make": "Lucid", "model": "Air", "trim": "Touring AWD", "miPerKWh": 4.5, "rangeMi": 516 },
-  { "year": 2022, "make": "Lucid", "model": "Air", "trim": "Grand Touring AWD", "miPerKWh": 4.6, "rangeMi": 516 },
-  { "year": 2022, "make": "Lucid", "model": "Air", "trim": "Dream Edition AWD", "miPerKWh": 4.4, "rangeMi": 520 },
-  { "year": 2022, "make": "GMC", "model": "Hummer EV", "trim": "Pickup Edition 1 AWD", "miPerKWh": 1.9, "rangeMi": 329 },
-  { "year": 2022, "make": "GMC", "model": "Hummer EV", "trim": "Pickup 3X AWD", "miPerKWh": 1.9, "rangeMi": 329 },
-  { "year": 2022, "make": "Porsche", "model": "Taycan", "trim": "RWD", "miPerKWh": 3.1, "rangeMi": 227 },
-  { "year": 2022, "make": "Porsche", "model": "Taycan", "trim": "4S", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2022, "make": "Porsche", "model": "Taycan", "trim": "Turbo", "miPerKWh": 2.6, "rangeMi": 212 },
-  { "year": 2022, "make": "Porsche", "model": "Taycan", "trim": "Turbo S", "miPerKWh": 2.5, "rangeMi": 204 },
-  { "year": 2022, "make": "Porsche", "model": "Taycan", "trim": "4 Cross Turismo", "miPerKWh": 2.7, "rangeMi": 215 },
-  { "year": 2022, "make": "Porsche", "model": "Taycan", "trim": "4S Cross Turismo", "miPerKWh": 2.7, "rangeMi": 204 },
-  { "year": 2022, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Single Motor", "miPerKWh": 3.3, "rangeMi": 270 },
-  { "year": 2022, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Dual Motor", "miPerKWh": 3.0, "rangeMi": 249 },
-  { "year": 2022, "make": "Volvo", "model": "XC40 Recharge", "trim": "Pure Electric AWD", "miPerKWh": 2.8, "rangeMi": 226 },
-  { "year": 2022, "make": "Volvo", "model": "C40 Recharge", "trim": "Pure Electric AWD", "miPerKWh": 2.8, "rangeMi": 226 },
-  { "year": 2022, "make": "Genesis", "model": "GV60", "trim": "Standard AWD", "miPerKWh": 3.1, "rangeMi": 248 },
-  { "year": 2022, "make": "Genesis", "model": "GV60", "trim": "Advanced AWD", "miPerKWh": 3.0, "rangeMi": 248 },
-  { "year": 2022, "make": "Genesis", "model": "GV60", "trim": "Performance AWD", "miPerKWh": 2.8, "rangeMi": 235 },
-  { "year": 2022, "make": "Mazda", "model": "MX-30", "trim": "Premium Plus", "miPerKWh": 3.0, "rangeMi": 100 },
-  { "year": 2022, "make": "Subaru", "model": "Solterra", "trim": "AWD", "miPerKWh": 2.9, "rangeMi": 222 },
-  { "year": 2022, "make": "Toyota", "model": "bZ4X", "trim": "XLE FWD", "miPerKWh": 3.0, "rangeMi": 252 },
-  { "year": 2022, "make": "Toyota", "model": "bZ4X", "trim": "XLE AWD", "miPerKWh": 2.8, "rangeMi": 222 },
-  { "year": 2023, "make": "Tesla", "model": "Model S", "trim": "Long Range AWD", "miPerKWh": 3.8, "rangeMi": 405 },
-  { "year": 2023, "make": "Tesla", "model": "Model S", "trim": "Plaid AWD", "miPerKWh": 3.3, "rangeMi": 396 },
-  { "year": 2023, "make": "Tesla", "model": "Model X", "trim": "Long Range AWD", "miPerKWh": 3.0, "rangeMi": 348 },
-  { "year": 2023, "make": "Tesla", "model": "Model X", "trim": "Plaid AWD", "miPerKWh": 2.7, "rangeMi": 333 },
-  { "year": 2023, "make": "Tesla", "model": "Model 3", "trim": "RWD", "miPerKWh": 4.2, "rangeMi": 272 },
-  { "year": 2023, "make": "Tesla", "model": "Model 3", "trim": "Long Range AWD", "miPerKWh": 4.1, "rangeMi": 358 },
-  { "year": 2023, "make": "Tesla", "model": "Model 3", "trim": "Performance AWD", "miPerKWh": 3.8, "rangeMi": 315 },
-  { "year": 2023, "make": "Tesla", "model": "Model Y", "trim": "RWD", "miPerKWh": 3.9, "rangeMi": 330 },
-  { "year": 2023, "make": "Tesla", "model": "Model Y", "trim": "Long Range AWD", "miPerKWh": 3.5, "rangeMi": 330 },
-  { "year": 2023, "make": "Tesla", "model": "Model Y", "trim": "Performance AWD", "miPerKWh": 3.2, "rangeMi": 303 },
-  { "year": 2023, "make": "Nissan", "model": "Leaf", "trim": "40 kWh S", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2023, "make": "Nissan", "model": "Leaf", "trim": "40 kWh SV", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2023, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus S", "miPerKWh": 3.2, "rangeMi": 212 },
-  { "year": 2023, "make": "Nissan", "model": "Leaf", "trim": "62 kWh Plus SL", "miPerKWh": 3.2, "rangeMi": 212 },
-  { "year": 2023, "make": "Chevrolet", "model": "Bolt EV", "trim": "1LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2023, "make": "Chevrolet", "model": "Bolt EV", "trim": "2LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2023, "make": "Chevrolet", "model": "Bolt EUV", "trim": "LT", "miPerKWh": 3.3, "rangeMi": 247 },
-  { "year": 2023, "make": "Chevrolet", "model": "Bolt EUV", "trim": "Premier", "miPerKWh": 3.3, "rangeMi": 247 },
-  { "year": 2023, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select RWD SR", "miPerKWh": 3.3, "rangeMi": 230 },
-  { "year": 2023, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select AWD SR", "miPerKWh": 2.9, "rangeMi": 211 },
-  { "year": 2023, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium RWD ER", "miPerKWh": 3.2, "rangeMi": 312 },
-  { "year": 2023, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium AWD ER", "miPerKWh": 2.9, "rangeMi": 277 },
-  { "year": 2023, "make": "Ford", "model": "Mustang Mach-E", "trim": "California Route 1 RWD", "miPerKWh": 3.2, "rangeMi": 312 },
-  { "year": 2023, "make": "Ford", "model": "Mustang Mach-E", "trim": "GT AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2023, "make": "Ford", "model": "Mustang Mach-E", "trim": "GT Performance AWD", "miPerKWh": 2.6, "rangeMi": 260 },
-  { "year": 2023, "make": "Rivian", "model": "R1T", "trim": "Adventure AWD", "miPerKWh": 2.5, "rangeMi": 314 },
-  { "year": 2023, "make": "Rivian", "model": "R1T", "trim": "Performance AWD", "miPerKWh": 2.4, "rangeMi": 305 },
-  { "year": 2023, "make": "Rivian", "model": "R1S", "trim": "Adventure AWD", "miPerKWh": 2.5, "rangeMi": 321 },
-  { "year": 2023, "make": "Rivian", "model": "R1S", "trim": "Performance AWD", "miPerKWh": 2.4, "rangeMi": 312 },
-  { "year": 2023, "make": "Hyundai", "model": "Ioniq 5", "trim": "SE Standard Range RWD", "miPerKWh": 3.5, "rangeMi": 220 },
-  { "year": 2023, "make": "Hyundai", "model": "Ioniq 5", "trim": "SEL Long Range RWD", "miPerKWh": 3.3, "rangeMi": 303 },
-  { "year": 2023, "make": "Hyundai", "model": "Ioniq 5", "trim": "Limited Long Range AWD", "miPerKWh": 3.0, "rangeMi": 266 },
-  { "year": 2023, "make": "Hyundai", "model": "Ioniq 6", "trim": "SE Long Range RWD", "miPerKWh": 4.0, "rangeMi": 361 },
-  { "year": 2023, "make": "Hyundai", "model": "Ioniq 6", "trim": "SEL Long Range AWD", "miPerKWh": 3.5, "rangeMi": 316 },
-  { "year": 2023, "make": "Hyundai", "model": "Ioniq 6", "trim": "Limited Long Range AWD", "miPerKWh": 3.5, "rangeMi": 316 },
-  { "year": 2023, "make": "Hyundai", "model": "Ioniq 6", "trim": "SE Standard Range RWD", "miPerKWh": 3.8, "rangeMi": 240 },
-  { "year": 2023, "make": "Kia", "model": "EV6", "trim": "Light RWD SR", "miPerKWh": 3.5, "rangeMi": 232 },
-  { "year": 2023, "make": "Kia", "model": "EV6", "trim": "Wind RWD LR", "miPerKWh": 3.5, "rangeMi": 310 },
-  { "year": 2023, "make": "Kia", "model": "EV6", "trim": "Wind AWD LR", "miPerKWh": 3.0, "rangeMi": 274 },
-  { "year": 2023, "make": "Kia", "model": "EV6", "trim": "GT-Line AWD LR", "miPerKWh": 3.0, "rangeMi": 274 },
-  { "year": 2023, "make": "Kia", "model": "EV6", "trim": "GT AWD", "miPerKWh": 2.6, "rangeMi": 206 },
-  { "year": 2023, "make": "BMW", "model": "iX", "trim": "xDrive40", "miPerKWh": 2.8, "rangeMi": 324 },
-  { "year": 2023, "make": "BMW", "model": "iX", "trim": "xDrive50", "miPerKWh": 2.7, "rangeMi": 324 },
-  { "year": 2023, "make": "BMW", "model": "iX", "trim": "M60", "miPerKWh": 2.5, "rangeMi": 288 },
-  { "year": 2023, "make": "BMW", "model": "i4", "trim": "eDrive35", "miPerKWh": 3.7, "rangeMi": 301 },
-  { "year": 2023, "make": "BMW", "model": "i4", "trim": "eDrive40", "miPerKWh": 3.5, "rangeMi": 301 },
-  { "year": 2023, "make": "BMW", "model": "i4", "trim": "M50", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2023, "make": "Mercedes-Benz", "model": "EQS", "trim": "450+", "miPerKWh": 3.2, "rangeMi": 350 },
-  { "year": 2023, "make": "Mercedes-Benz", "model": "EQS", "trim": "580 4MATIC", "miPerKWh": 2.9, "rangeMi": 340 },
-  { "year": 2023, "make": "Mercedes-Benz", "model": "EQB", "trim": "250+", "miPerKWh": 3.0, "rangeMi": 245 },
-  { "year": 2023, "make": "Mercedes-Benz", "model": "EQB", "trim": "350 4MATIC", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2023, "make": "Cadillac", "model": "Lyriq", "trim": "RWD", "miPerKWh": 3.1, "rangeMi": 312 },
-  { "year": 2023, "make": "Cadillac", "model": "Lyriq", "trim": "AWD", "miPerKWh": 2.9, "rangeMi": 288 },
-  { "year": 2023, "make": "Volkswagen", "model": "ID.4", "trim": "Standard RWD", "miPerKWh": 3.2, "rangeMi": 209 },
-  { "year": 2023, "make": "Volkswagen", "model": "ID.4", "trim": "Pro RWD", "miPerKWh": 3.2, "rangeMi": 275 },
-  { "year": 2023, "make": "Volkswagen", "model": "ID.4", "trim": "Pro S RWD", "miPerKWh": 3.2, "rangeMi": 275 },
-  { "year": 2023, "make": "Volkswagen", "model": "ID.4", "trim": "Pro S AWD", "miPerKWh": 2.9, "rangeMi": 255 },
-  { "year": 2023, "make": "Audi", "model": "Q8 e-tron", "trim": "55 quattro", "miPerKWh": 2.7, "rangeMi": 285 },
-  { "year": 2023, "make": "Audi", "model": "Q8 e-tron", "trim": "55 Sportback quattro", "miPerKWh": 2.8, "rangeMi": 300 },
-  { "year": 2023, "make": "Audi", "model": "Q8 e-tron", "trim": "SQ8 quattro", "miPerKWh": 2.5, "rangeMi": 253 },
-  { "year": 2023, "make": "Audi", "model": "e-tron GT", "trim": "quattro", "miPerKWh": 2.9, "rangeMi": 238 },
-  { "year": 2023, "make": "Audi", "model": "e-tron GT", "trim": "RS quattro", "miPerKWh": 2.7, "rangeMi": 232 },
-  { "year": 2023, "make": "Lucid", "model": "Air", "trim": "Pure RWD", "miPerKWh": 5.0, "rangeMi": 410 },
-  { "year": 2023, "make": "Lucid", "model": "Air", "trim": "Touring AWD", "miPerKWh": 4.5, "rangeMi": 425 },
-  { "year": 2023, "make": "Lucid", "model": "Air", "trim": "Grand Touring AWD", "miPerKWh": 4.6, "rangeMi": 516 },
-  { "year": 2023, "make": "Lucid", "model": "Air", "trim": "Sapphire AWD", "miPerKWh": 3.8, "rangeMi": 427 },
-  { "year": 2023, "make": "GMC", "model": "Hummer EV", "trim": "Pickup EV2 AWD", "miPerKWh": 1.9, "rangeMi": 250 },
-  { "year": 2023, "make": "GMC", "model": "Hummer EV", "trim": "Pickup EV3X AWD", "miPerKWh": 1.9, "rangeMi": 329 },
-  { "year": 2023, "make": "GMC", "model": "Hummer EV", "trim": "SUV EV3X AWD", "miPerKWh": 1.9, "rangeMi": 314 },
-  { "year": 2023, "make": "Porsche", "model": "Taycan", "trim": "RWD", "miPerKWh": 3.1, "rangeMi": 246 },
-  { "year": 2023, "make": "Porsche", "model": "Taycan", "trim": "4S", "miPerKWh": 2.8, "rangeMi": 246 },
-  { "year": 2023, "make": "Porsche", "model": "Taycan", "trim": "GTS", "miPerKWh": 2.8, "rangeMi": 246 },
-  { "year": 2023, "make": "Porsche", "model": "Taycan", "trim": "Turbo", "miPerKWh": 2.6, "rangeMi": 246 },
-  { "year": 2023, "make": "Porsche", "model": "Taycan", "trim": "Turbo S", "miPerKWh": 2.5, "rangeMi": 225 },
-  { "year": 2023, "make": "Porsche", "model": "Taycan", "trim": "4 Cross Turismo", "miPerKWh": 2.7, "rangeMi": 233 },
-  { "year": 2023, "make": "Porsche", "model": "Taycan", "trim": "4S Cross Turismo", "miPerKWh": 2.7, "rangeMi": 233 },
-  { "year": 2023, "make": "Porsche", "model": "Taycan", "trim": "GTS Sport Turismo", "miPerKWh": 2.7, "rangeMi": 233 },
-  { "year": 2023, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Single Motor", "miPerKWh": 3.3, "rangeMi": 270 },
-  { "year": 2023, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Dual Motor", "miPerKWh": 3.0, "rangeMi": 249 },
-  { "year": 2023, "make": "Polestar", "model": "Polestar 2", "trim": "Standard Range Single Motor", "miPerKWh": 3.5, "rangeMi": 245 },
-  { "year": 2023, "make": "Volvo", "model": "XC40 Recharge", "trim": "Pure Electric AWD", "miPerKWh": 2.8, "rangeMi": 223 },
-  { "year": 2023, "make": "Volvo", "model": "C40 Recharge", "trim": "Pure Electric AWD", "miPerKWh": 2.8, "rangeMi": 226 },
-  { "year": 2023, "make": "Subaru", "model": "Solterra", "trim": "AWD", "miPerKWh": 2.9, "rangeMi": 222 },
-  { "year": 2023, "make": "Toyota", "model": "bZ4X", "trim": "XLE FWD", "miPerKWh": 3.0, "rangeMi": 252 },
-  { "year": 2023, "make": "Toyota", "model": "bZ4X", "trim": "XLE AWD", "miPerKWh": 2.8, "rangeMi": 222 },
-  { "year": 2023, "make": "Genesis", "model": "GV60", "trim": "Standard AWD", "miPerKWh": 3.1, "rangeMi": 248 },
-  { "year": 2023, "make": "Genesis", "model": "GV60", "trim": "Advanced AWD", "miPerKWh": 3.0, "rangeMi": 248 },
-  { "year": 2023, "make": "Genesis", "model": "GV60", "trim": "Performance AWD", "miPerKWh": 2.8, "rangeMi": 235 },
-  { "year": 2023, "make": "Genesis", "model": "GV70 Electrified", "trim": "AWD", "miPerKWh": 2.8, "rangeMi": 236 },
-  { "year": 2023, "make": "Genesis", "model": "G80 Electrified", "trim": "AWD", "miPerKWh": 2.8, "rangeMi": 282 },
-  { "year": 2023, "make": "Fisker", "model": "Ocean", "trim": "Sport RWD", "miPerKWh": 3.0, "rangeMi": 250 },
-  { "year": 2023, "make": "Fisker", "model": "Ocean", "trim": "Ultra AWD", "miPerKWh": 2.8, "rangeMi": 340 },
-  { "year": 2023, "make": "Fisker", "model": "Ocean", "trim": "Extreme AWD", "miPerKWh": 2.7, "rangeMi": 360 },
-  { "year": 2023, "make": "Nissan", "model": "Ariya", "trim": "Engage FWD", "miPerKWh": 3.3, "rangeMi": 216 },
-  { "year": 2023, "make": "Nissan", "model": "Ariya", "trim": "Engage+ FWD", "miPerKWh": 3.2, "rangeMi": 304 },
-  { "year": 2023, "make": "Nissan", "model": "Ariya", "trim": "Engage+ e-4ORCE AWD", "miPerKWh": 2.9, "rangeMi": 272 },
-  { "year": 2023, "make": "Chevrolet", "model": "Silverado EV", "trim": "Work Truck AWD", "miPerKWh": 2.5, "rangeMi": 450 },
-  { "year": 2023, "make": "Kia", "model": "EV9", "trim": "Light RWD", "miPerKWh": 3.0, "rangeMi": 304 },
-  { "year": 2023, "make": "Kia", "model": "EV9", "trim": "Wind AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2023, "make": "Kia", "model": "EV9", "trim": "GT-Line AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2024, "make": "Tesla", "model": "Model S", "trim": "Long Range AWD", "miPerKWh": 3.8, "rangeMi": 405 },
-  { "year": 2024, "make": "Tesla", "model": "Model S", "trim": "Plaid AWD", "miPerKWh": 3.3, "rangeMi": 396 },
-  { "year": 2024, "make": "Tesla", "model": "Model X", "trim": "Long Range AWD", "miPerKWh": 3.0, "rangeMi": 348 },
-  { "year": 2024, "make": "Tesla", "model": "Model X", "trim": "Plaid AWD", "miPerKWh": 2.7, "rangeMi": 333 },
-  { "year": 2024, "make": "Tesla", "model": "Model 3", "trim": "RWD", "miPerKWh": 4.2, "rangeMi": 272 },
-  { "year": 2024, "make": "Tesla", "model": "Model 3", "trim": "Long Range AWD", "miPerKWh": 4.1, "rangeMi": 341 },
-  { "year": 2024, "make": "Tesla", "model": "Model 3", "trim": "Long Range RWD", "miPerKWh": 4.3, "rangeMi": 333 },
-  { "year": 2024, "make": "Tesla", "model": "Model 3", "trim": "Performance AWD", "miPerKWh": 3.8, "rangeMi": 315 },
-  { "year": 2024, "make": "Tesla", "model": "Model Y", "trim": "RWD", "miPerKWh": 3.9, "rangeMi": 330 },
-  { "year": 2024, "make": "Tesla", "model": "Model Y", "trim": "Long Range AWD", "miPerKWh": 3.5, "rangeMi": 330 },
-  { "year": 2024, "make": "Tesla", "model": "Model Y", "trim": "Performance AWD", "miPerKWh": 3.2, "rangeMi": 303 },
-  { "year": 2024, "make": "Tesla", "model": "Cybertruck", "trim": "RWD", "miPerKWh": 2.7, "rangeMi": 320 },
-  { "year": 2024, "make": "Tesla", "model": "Cybertruck", "trim": "AWD", "miPerKWh": 2.4, "rangeMi": 340 },
-  { "year": 2024, "make": "Tesla", "model": "Cybertruck", "trim": "Cyberbeast AWD", "miPerKWh": 2.1, "rangeMi": 301 },
-  { "year": 2024, "make": "Nissan", "model": "Leaf", "trim": "40 kWh S", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2024, "make": "Nissan", "model": "Leaf", "trim": "40 kWh SV Plus", "miPerKWh": 3.2, "rangeMi": 212 },
-  { "year": 2024, "make": "Chevrolet", "model": "Bolt EV", "trim": "1LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2024, "make": "Chevrolet", "model": "Bolt EV", "trim": "2LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2024, "make": "Chevrolet", "model": "Bolt EUV", "trim": "LT", "miPerKWh": 3.3, "rangeMi": 247 },
-  { "year": 2024, "make": "Chevrolet", "model": "Bolt EUV", "trim": "Premier", "miPerKWh": 3.3, "rangeMi": 247 },
-  { "year": 2024, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select RWD SR", "miPerKWh": 3.3, "rangeMi": 230 },
-  { "year": 2024, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select AWD SR", "miPerKWh": 2.9, "rangeMi": 211 },
-  { "year": 2024, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium RWD ER", "miPerKWh": 3.2, "rangeMi": 312 },
-  { "year": 2024, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium AWD ER", "miPerKWh": 2.9, "rangeMi": 277 },
-  { "year": 2024, "make": "Ford", "model": "Mustang Mach-E", "trim": "California Route 1 RWD", "miPerKWh": 3.2, "rangeMi": 312 },
-  { "year": 2024, "make": "Ford", "model": "Mustang Mach-E", "trim": "GT AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2024, "make": "Ford", "model": "Mustang Mach-E", "trim": "GT Performance AWD", "miPerKWh": 2.6, "rangeMi": 260 },
-  { "year": 2024, "make": "Rivian", "model": "R1T", "trim": "Standard AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2024, "make": "Rivian", "model": "R1T", "trim": "Adventure AWD", "miPerKWh": 2.5, "rangeMi": 314 },
-  { "year": 2024, "make": "Rivian", "model": "R1T", "trim": "Performance AWD", "miPerKWh": 2.4, "rangeMi": 305 },
-  { "year": 2024, "make": "Rivian", "model": "R1S", "trim": "Standard AWD", "miPerKWh": 2.7, "rangeMi": 260 },
-  { "year": 2024, "make": "Rivian", "model": "R1S", "trim": "Adventure AWD", "miPerKWh": 2.5, "rangeMi": 321 },
-  { "year": 2024, "make": "Rivian", "model": "R1S", "trim": "Performance AWD", "miPerKWh": 2.4, "rangeMi": 312 },
-  { "year": 2024, "make": "Hyundai", "model": "Ioniq 5", "trim": "SE Standard Range RWD", "miPerKWh": 3.5, "rangeMi": 220 },
-  { "year": 2024, "make": "Hyundai", "model": "Ioniq 5", "trim": "SEL Long Range RWD", "miPerKWh": 3.3, "rangeMi": 303 },
-  { "year": 2024, "make": "Hyundai", "model": "Ioniq 5", "trim": "Limited Long Range AWD", "miPerKWh": 3.0, "rangeMi": 266 },
-  { "year": 2024, "make": "Hyundai", "model": "Ioniq 5", "trim": "N AWD", "miPerKWh": 2.8, "rangeMi": 266 },
-  { "year": 2024, "make": "Hyundai", "model": "Ioniq 6", "trim": "SE Long Range RWD", "miPerKWh": 4.0, "rangeMi": 361 },
-  { "year": 2024, "make": "Hyundai", "model": "Ioniq 6", "trim": "SEL Long Range AWD", "miPerKWh": 3.5, "rangeMi": 316 },
-  { "year": 2024, "make": "Hyundai", "model": "Ioniq 6", "trim": "Limited Long Range AWD", "miPerKWh": 3.5, "rangeMi": 316 },
-  { "year": 2024, "make": "Hyundai", "model": "Ioniq 6", "trim": "SE Standard Range RWD", "miPerKWh": 3.8, "rangeMi": 240 },
-  { "year": 2024, "make": "Kia", "model": "EV6", "trim": "Light RWD SR", "miPerKWh": 3.5, "rangeMi": 232 },
-  { "year": 2024, "make": "Kia", "model": "EV6", "trim": "Wind RWD LR", "miPerKWh": 3.5, "rangeMi": 310 },
-  { "year": 2024, "make": "Kia", "model": "EV6", "trim": "Wind AWD LR", "miPerKWh": 3.0, "rangeMi": 274 },
-  { "year": 2024, "make": "Kia", "model": "EV6", "trim": "GT-Line AWD LR", "miPerKWh": 3.0, "rangeMi": 274 },
-  { "year": 2024, "make": "Kia", "model": "EV6", "trim": "GT AWD", "miPerKWh": 2.6, "rangeMi": 206 },
-  { "year": 2024, "make": "Kia", "model": "EV9", "trim": "Light RWD", "miPerKWh": 3.0, "rangeMi": 304 },
-  { "year": 2024, "make": "Kia", "model": "EV9", "trim": "Wind AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2024, "make": "Kia", "model": "EV9", "trim": "GT-Line AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2024, "make": "BMW", "model": "iX", "trim": "xDrive40", "miPerKWh": 2.8, "rangeMi": 324 },
-  { "year": 2024, "make": "BMW", "model": "iX", "trim": "xDrive50", "miPerKWh": 2.7, "rangeMi": 324 },
-  { "year": 2024, "make": "BMW", "model": "iX", "trim": "M60", "miPerKWh": 2.5, "rangeMi": 288 },
-  { "year": 2024, "make": "BMW", "model": "i4", "trim": "eDrive35", "miPerKWh": 3.7, "rangeMi": 301 },
-  { "year": 2024, "make": "BMW", "model": "i4", "trim": "eDrive40", "miPerKWh": 3.5, "rangeMi": 301 },
-  { "year": 2024, "make": "BMW", "model": "i4", "trim": "M50", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2024, "make": "Mercedes-Benz", "model": "EQS", "trim": "450+", "miPerKWh": 3.2, "rangeMi": 350 },
-  { "year": 2024, "make": "Mercedes-Benz", "model": "EQS", "trim": "580 4MATIC", "miPerKWh": 2.9, "rangeMi": 340 },
-  { "year": 2024, "make": "Mercedes-Benz", "model": "EQB", "trim": "250+", "miPerKWh": 3.0, "rangeMi": 245 },
-  { "year": 2024, "make": "Mercedes-Benz", "model": "EQB", "trim": "350 4MATIC", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2024, "make": "Cadillac", "model": "Lyriq", "trim": "RWD", "miPerKWh": 3.1, "rangeMi": 314 },
-  { "year": 2024, "make": "Cadillac", "model": "Lyriq", "trim": "AWD", "miPerKWh": 2.9, "rangeMi": 288 },
-  { "year": 2024, "make": "Volkswagen", "model": "ID.4", "trim": "Standard RWD", "miPerKWh": 3.2, "rangeMi": 209 },
-  { "year": 2024, "make": "Volkswagen", "model": "ID.4", "trim": "Pro RWD", "miPerKWh": 3.2, "rangeMi": 291 },
-  { "year": 2024, "make": "Volkswagen", "model": "ID.4", "trim": "Pro S RWD", "miPerKWh": 3.2, "rangeMi": 291 },
-  { "year": 2024, "make": "Volkswagen", "model": "ID.4", "trim": "Pro S AWD", "miPerKWh": 2.9, "rangeMi": 255 },
-  { "year": 2024, "make": "Audi", "model": "Q8 e-tron", "trim": "55 quattro", "miPerKWh": 2.7, "rangeMi": 285 },
-  { "year": 2024, "make": "Audi", "model": "Q8 e-tron", "trim": "55 Sportback quattro", "miPerKWh": 2.8, "rangeMi": 300 },
-  { "year": 2024, "make": "Audi", "model": "Q8 e-tron", "trim": "SQ8 quattro", "miPerKWh": 2.5, "rangeMi": 253 },
-  { "year": 2024, "make": "Audi", "model": "e-tron GT", "trim": "quattro", "miPerKWh": 2.9, "rangeMi": 238 },
-  { "year": 2024, "make": "Audi", "model": "e-tron GT", "trim": "RS quattro", "miPerKWh": 2.7, "rangeMi": 232 },
-  { "year": 2024, "make": "Lucid", "model": "Air", "trim": "Pure RWD", "miPerKWh": 5.0, "rangeMi": 410 },
-  { "year": 2024, "make": "Lucid", "model": "Air", "trim": "Touring AWD", "miPerKWh": 4.5, "rangeMi": 425 },
-  { "year": 2024, "make": "Lucid", "model": "Air", "trim": "Grand Touring AWD", "miPerKWh": 4.6, "rangeMi": 516 },
-  { "year": 2024, "make": "Lucid", "model": "Air", "trim": "Sapphire AWD", "miPerKWh": 3.8, "rangeMi": 427 },
-  { "year": 2024, "make": "GMC", "model": "Hummer EV", "trim": "Pickup EV2 AWD", "miPerKWh": 1.9, "rangeMi": 250 },
-  { "year": 2024, "make": "GMC", "model": "Hummer EV", "trim": "Pickup EV3X AWD", "miPerKWh": 1.9, "rangeMi": 329 },
-  { "year": 2024, "make": "GMC", "model": "Hummer EV", "trim": "SUV EV3X AWD", "miPerKWh": 1.9, "rangeMi": 314 },
-  { "year": 2024, "make": "Porsche", "model": "Taycan", "trim": "RWD", "miPerKWh": 3.1, "rangeMi": 246 },
-  { "year": 2024, "make": "Porsche", "model": "Taycan", "trim": "4S", "miPerKWh": 2.8, "rangeMi": 246 },
-  { "year": 2024, "make": "Porsche", "model": "Taycan", "trim": "GTS", "miPerKWh": 2.8, "rangeMi": 246 },
-  { "year": 2024, "make": "Porsche", "model": "Taycan", "trim": "Turbo", "miPerKWh": 2.6, "rangeMi": 246 },
-  { "year": 2024, "make": "Porsche", "model": "Taycan", "trim": "Turbo GT", "miPerKWh": 2.4, "rangeMi": 222 },
-  { "year": 2024, "make": "Porsche", "model": "Taycan", "trim": "Turbo S", "miPerKWh": 2.5, "rangeMi": 225 },
-  { "year": 2024, "make": "Porsche", "model": "Taycan", "trim": "4 Cross Turismo", "miPerKWh": 2.7, "rangeMi": 233 },
-  { "year": 2024, "make": "Porsche", "model": "Taycan", "trim": "4S Cross Turismo", "miPerKWh": 2.7, "rangeMi": 233 },
-  { "year": 2024, "make": "Porsche", "model": "Taycan", "trim": "GTS Sport Turismo", "miPerKWh": 2.7, "rangeMi": 233 },
-  { "year": 2024, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Single Motor", "miPerKWh": 3.3, "rangeMi": 270 },
-  { "year": 2024, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Dual Motor", "miPerKWh": 3.0, "rangeMi": 249 },
-  { "year": 2024, "make": "Polestar", "model": "Polestar 2", "trim": "Standard Range Single Motor", "miPerKWh": 3.5, "rangeMi": 245 },
-  { "year": 2024, "make": "Volvo", "model": "XC40 Recharge", "trim": "Pure Electric AWD", "miPerKWh": 2.8, "rangeMi": 223 },
-  { "year": 2024, "make": "Volvo", "model": "C40 Recharge", "trim": "Pure Electric AWD", "miPerKWh": 2.8, "rangeMi": 226 },
-  { "year": 2024, "make": "Subaru", "model": "Solterra", "trim": "AWD", "miPerKWh": 2.9, "rangeMi": 222 },
-  { "year": 2024, "make": "Toyota", "model": "bZ4X", "trim": "XLE FWD", "miPerKWh": 3.0, "rangeMi": 252 },
-  { "year": 2024, "make": "Toyota", "model": "bZ4X", "trim": "XLE AWD", "miPerKWh": 2.8, "rangeMi": 222 },
-  { "year": 2024, "make": "Genesis", "model": "GV60", "trim": "Standard AWD", "miPerKWh": 3.1, "rangeMi": 248 },
-  { "year": 2024, "make": "Genesis", "model": "GV60", "trim": "Advanced AWD", "miPerKWh": 3.0, "rangeMi": 248 },
-  { "year": 2024, "make": "Genesis", "model": "GV60", "trim": "Performance AWD", "miPerKWh": 2.8, "rangeMi": 235 },
-  { "year": 2024, "make": "Genesis", "model": "GV70 Electrified", "trim": "AWD", "miPerKWh": 2.8, "rangeMi": 236 },
-  { "year": 2024, "make": "Genesis", "model": "G80 Electrified", "trim": "AWD", "miPerKWh": 2.8, "rangeMi": 282 },
-  { "year": 2024, "make": "Nissan", "model": "Ariya", "trim": "Engage FWD", "miPerKWh": 3.3, "rangeMi": 216 },
-  { "year": 2024, "make": "Nissan", "model": "Ariya", "trim": "Engage+ FWD", "miPerKWh": 3.2, "rangeMi": 304 },
-  { "year": 2024, "make": "Nissan", "model": "Ariya", "trim": "Engage+ e-4ORCE AWD", "miPerKWh": 2.9, "rangeMi": 272 },
-  { "year": 2024, "make": "Chevrolet", "model": "Silverado EV", "trim": "Work Truck AWD", "miPerKWh": 2.5, "rangeMi": 450 },
-  { "year": 2024, "make": "Chevrolet", "model": "Silverado EV", "trim": "LT AWD", "miPerKWh": 2.3, "rangeMi": 400 },
-  { "year": 2024, "make": "Chevrolet", "model": "Equinox EV", "trim": "LT FWD", "miPerKWh": 3.5, "rangeMi": 319 },
-  { "year": 2024, "make": "Chevrolet", "model": "Equinox EV", "trim": "2RS FWD", "miPerKWh": 3.5, "rangeMi": 319 },
-  { "year": 2024, "make": "Chevrolet", "model": "Equinox EV", "trim": "3RS AWD", "miPerKWh": 3.1, "rangeMi": 280 },
-  { "year": 2024, "make": "Ford", "model": "F-150 Lightning", "trim": "Pro SR AWD", "miPerKWh": 2.1, "rangeMi": 230 },
-  { "year": 2024, "make": "Ford", "model": "F-150 Lightning", "trim": "XLT ER AWD", "miPerKWh": 2.0, "rangeMi": 320 },
-  { "year": 2024, "make": "Ford", "model": "F-150 Lightning", "trim": "Platinum ER AWD", "miPerKWh": 1.9, "rangeMi": 300 },
-  { "year": 2024, "make": "Ram", "model": "1500 REV", "trim": "AWD", "miPerKWh": 2.0, "rangeMi": 350 },
-  { "year": 2024, "make": "Honda", "model": "Prologue", "trim": "EX AWD", "miPerKWh": 3.0, "rangeMi": 296 },
-  { "year": 2024, "make": "Honda", "model": "Prologue", "trim": "Sport AWD", "miPerKWh": 3.0, "rangeMi": 296 },
-  { "year": 2024, "make": "Honda", "model": "Prologue", "trim": "Touring AWD", "miPerKWh": 3.0, "rangeMi": 296 },
-  { "year": 2024, "make": "Acura", "model": "ZDX", "trim": "A-Spec AWD", "miPerKWh": 2.9, "rangeMi": 288 },
-  { "year": 2024, "make": "Acura", "model": "ZDX", "trim": "Type S AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2024, "make": "Jeep", "model": "Wrangler 4xe", "trim": "PHEV", "miPerKWh": 2.0, "rangeMi": 22 },
-  { "year": 2024, "make": "BMW", "model": "i5", "trim": "eDrive40", "miPerKWh": 3.4, "rangeMi": 295 },
-  { "year": 2024, "make": "BMW", "model": "i5", "trim": "M60 xDrive", "miPerKWh": 2.9, "rangeMi": 256 },
-  { "year": 2024, "make": "BMW", "model": "i7", "trim": "xDrive60", "miPerKWh": 2.8, "rangeMi": 318 },
-  { "year": 2024, "make": "BMW", "model": "i7", "trim": "M70 xDrive", "miPerKWh": 2.5, "rangeMi": 280 },
-  { "year": 2024, "make": "Cadillac", "model": "Optiq", "trim": "AWD", "miPerKWh": 3.0, "rangeMi": 300 },
-  { "year": 2024, "make": "Rolls-Royce", "model": "Spectre", "trim": "AWD", "miPerKWh": 2.0, "rangeMi": 260 },
-  { "year": 2025, "make": "Tesla", "model": "Model S", "trim": "Long Range AWD", "miPerKWh": 3.8, "rangeMi": 405 },
-  { "year": 2025, "make": "Tesla", "model": "Model S", "trim": "Plaid AWD", "miPerKWh": 3.3, "rangeMi": 396 },
-  { "year": 2025, "make": "Tesla", "model": "Model X", "trim": "Long Range AWD", "miPerKWh": 3.0, "rangeMi": 348 },
-  { "year": 2025, "make": "Tesla", "model": "Model X", "trim": "Plaid AWD", "miPerKWh": 2.7, "rangeMi": 333 },
-  { "year": 2025, "make": "Tesla", "model": "Model 3", "trim": "RWD", "miPerKWh": 4.2, "rangeMi": 272 },
-  { "year": 2025, "make": "Tesla", "model": "Model 3", "trim": "Long Range AWD", "miPerKWh": 4.1, "rangeMi": 358 },
-  { "year": 2025, "make": "Tesla", "model": "Model 3", "trim": "Long Range RWD", "miPerKWh": 4.3, "rangeMi": 363 },
-  { "year": 2025, "make": "Tesla", "model": "Model 3", "trim": "Performance AWD", "miPerKWh": 3.8, "rangeMi": 315 },
-  { "year": 2025, "make": "Tesla", "model": "Model Y", "trim": "RWD", "miPerKWh": 3.9, "rangeMi": 320 },
-  { "year": 2025, "make": "Tesla", "model": "Model Y", "trim": "Long Range AWD", "miPerKWh": 3.5, "rangeMi": 320 },
-  { "year": 2025, "make": "Tesla", "model": "Model Y", "trim": "Long Range RWD", "miPerKWh": 3.8, "rangeMi": 337 },
-  { "year": 2025, "make": "Tesla", "model": "Model Y", "trim": "Performance AWD", "miPerKWh": 3.2, "rangeMi": 303 },
-  { "year": 2025, "make": "Tesla", "model": "Cybertruck", "trim": "RWD", "miPerKWh": 2.7, "rangeMi": 320 },
-  { "year": 2025, "make": "Tesla", "model": "Cybertruck", "trim": "AWD", "miPerKWh": 2.4, "rangeMi": 340 },
-  { "year": 2025, "make": "Tesla", "model": "Cybertruck", "trim": "Cyberbeast AWD", "miPerKWh": 2.1, "rangeMi": 301 },
-  { "year": 2025, "make": "Nissan", "model": "Leaf", "trim": "40 kWh S", "miPerKWh": 3.5, "rangeMi": 149 },
-  { "year": 2025, "make": "Nissan", "model": "Leaf", "trim": "40 kWh SV Plus", "miPerKWh": 3.2, "rangeMi": 212 },
-  { "year": 2025, "make": "Chevrolet", "model": "Bolt EV", "trim": "1LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2025, "make": "Chevrolet", "model": "Bolt EV", "trim": "2LT", "miPerKWh": 3.5, "rangeMi": 259 },
-  { "year": 2025, "make": "Chevrolet", "model": "Equinox EV", "trim": "LT FWD", "miPerKWh": 3.5, "rangeMi": 319 },
-  { "year": 2025, "make": "Chevrolet", "model": "Equinox EV", "trim": "2RS FWD", "miPerKWh": 3.5, "rangeMi": 319 },
-  { "year": 2025, "make": "Chevrolet", "model": "Equinox EV", "trim": "3RS AWD", "miPerKWh": 3.1, "rangeMi": 280 },
-  { "year": 2025, "make": "Chevrolet", "model": "Silverado EV", "trim": "Work Truck AWD", "miPerKWh": 2.5, "rangeMi": 450 },
-  { "year": 2025, "make": "Chevrolet", "model": "Silverado EV", "trim": "LT AWD", "miPerKWh": 2.3, "rangeMi": 400 },
-  { "year": 2025, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select RWD SR", "miPerKWh": 3.3, "rangeMi": 230 },
-  { "year": 2025, "make": "Ford", "model": "Mustang Mach-E", "trim": "Select AWD SR", "miPerKWh": 2.9, "rangeMi": 211 },
-  { "year": 2025, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium RWD ER", "miPerKWh": 3.2, "rangeMi": 312 },
-  { "year": 2025, "make": "Ford", "model": "Mustang Mach-E", "trim": "Premium AWD ER", "miPerKWh": 2.9, "rangeMi": 277 },
-  { "year": 2025, "make": "Ford", "model": "Mustang Mach-E", "trim": "GT AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2025, "make": "Ford", "model": "F-150 Lightning", "trim": "Pro SR AWD", "miPerKWh": 2.1, "rangeMi": 230 },
-  { "year": 2025, "make": "Ford", "model": "F-150 Lightning", "trim": "XLT ER AWD", "miPerKWh": 2.0, "rangeMi": 320 },
-  { "year": 2025, "make": "Ford", "model": "F-150 Lightning", "trim": "Platinum ER AWD", "miPerKWh": 1.9, "rangeMi": 300 },
-  { "year": 2025, "make": "Rivian", "model": "R1T", "trim": "Standard AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2025, "make": "Rivian", "model": "R1T", "trim": "Adventure AWD", "miPerKWh": 2.5, "rangeMi": 314 },
-  { "year": 2025, "make": "Rivian", "model": "R1T", "trim": "Performance AWD", "miPerKWh": 2.4, "rangeMi": 305 },
-  { "year": 2025, "make": "Rivian", "model": "R1S", "trim": "Standard AWD", "miPerKWh": 2.7, "rangeMi": 260 },
-  { "year": 2025, "make": "Rivian", "model": "R1S", "trim": "Adventure AWD", "miPerKWh": 2.5, "rangeMi": 321 },
-  { "year": 2025, "make": "Rivian", "model": "R1S", "trim": "Performance AWD", "miPerKWh": 2.4, "rangeMi": 312 },
-  { "year": 2025, "make": "Hyundai", "model": "Ioniq 5", "trim": "SE Standard Range RWD", "miPerKWh": 3.5, "rangeMi": 220 },
-  { "year": 2025, "make": "Hyundai", "model": "Ioniq 5", "trim": "SEL Long Range RWD", "miPerKWh": 3.3, "rangeMi": 303 },
-  { "year": 2025, "make": "Hyundai", "model": "Ioniq 5", "trim": "Limited Long Range AWD", "miPerKWh": 3.0, "rangeMi": 266 },
-  { "year": 2025, "make": "Hyundai", "model": "Ioniq 5", "trim": "N AWD", "miPerKWh": 2.8, "rangeMi": 266 },
-  { "year": 2025, "make": "Hyundai", "model": "Ioniq 6", "trim": "SE Long Range RWD", "miPerKWh": 4.0, "rangeMi": 361 },
-  { "year": 2025, "make": "Hyundai", "model": "Ioniq 6", "trim": "SEL Long Range AWD", "miPerKWh": 3.5, "rangeMi": 316 },
-  { "year": 2025, "make": "Hyundai", "model": "Ioniq 6", "trim": "Limited Long Range AWD", "miPerKWh": 3.5, "rangeMi": 316 },
-  { "year": 2025, "make": "Kia", "model": "EV6", "trim": "Wind RWD LR", "miPerKWh": 3.5, "rangeMi": 310 },
-  { "year": 2025, "make": "Kia", "model": "EV6", "trim": "Wind AWD LR", "miPerKWh": 3.0, "rangeMi": 274 },
-  { "year": 2025, "make": "Kia", "model": "EV6", "trim": "GT-Line AWD LR", "miPerKWh": 3.0, "rangeMi": 274 },
-  { "year": 2025, "make": "Kia", "model": "EV6", "trim": "GT AWD", "miPerKWh": 2.6, "rangeMi": 206 },
-  { "year": 2025, "make": "Kia", "model": "EV9", "trim": "Light RWD", "miPerKWh": 3.0, "rangeMi": 304 },
-  { "year": 2025, "make": "Kia", "model": "EV9", "trim": "Wind AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2025, "make": "Kia", "model": "EV9", "trim": "GT-Line AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2025, "make": "BMW", "model": "iX", "trim": "xDrive40", "miPerKWh": 2.8, "rangeMi": 324 },
-  { "year": 2025, "make": "BMW", "model": "iX", "trim": "xDrive50", "miPerKWh": 2.7, "rangeMi": 324 },
-  { "year": 2025, "make": "BMW", "model": "iX", "trim": "M60", "miPerKWh": 2.5, "rangeMi": 288 },
-  { "year": 2025, "make": "BMW", "model": "i4", "trim": "eDrive35", "miPerKWh": 3.7, "rangeMi": 301 },
-  { "year": 2025, "make": "BMW", "model": "i4", "trim": "eDrive40", "miPerKWh": 3.5, "rangeMi": 301 },
-  { "year": 2025, "make": "BMW", "model": "i4", "trim": "M50", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2025, "make": "BMW", "model": "i5", "trim": "eDrive40", "miPerKWh": 3.4, "rangeMi": 295 },
-  { "year": 2025, "make": "BMW", "model": "i5", "trim": "M60 xDrive", "miPerKWh": 2.9, "rangeMi": 256 },
-  { "year": 2025, "make": "BMW", "model": "i7", "trim": "xDrive60", "miPerKWh": 2.8, "rangeMi": 318 },
-  { "year": 2025, "make": "BMW", "model": "i7", "trim": "M70 xDrive", "miPerKWh": 2.5, "rangeMi": 280 },
-  { "year": 2025, "make": "Mercedes-Benz", "model": "EQS", "trim": "450+", "miPerKWh": 3.2, "rangeMi": 350 },
-  { "year": 2025, "make": "Mercedes-Benz", "model": "EQS", "trim": "580 4MATIC", "miPerKWh": 2.9, "rangeMi": 340 },
-  { "year": 2025, "make": "Mercedes-Benz", "model": "EQB", "trim": "250+", "miPerKWh": 3.0, "rangeMi": 245 },
-  { "year": 2025, "make": "Mercedes-Benz", "model": "EQB", "trim": "350 4MATIC", "miPerKWh": 2.8, "rangeMi": 227 },
-  { "year": 2025, "make": "Cadillac", "model": "Lyriq", "trim": "RWD", "miPerKWh": 3.1, "rangeMi": 314 },
-  { "year": 2025, "make": "Cadillac", "model": "Lyriq", "trim": "AWD", "miPerKWh": 2.9, "rangeMi": 288 },
-  { "year": 2025, "make": "Cadillac", "model": "Optiq", "trim": "AWD", "miPerKWh": 3.0, "rangeMi": 300 },
-  { "year": 2025, "make": "Volkswagen", "model": "ID.4", "trim": "Standard RWD", "miPerKWh": 3.2, "rangeMi": 209 },
-  { "year": 2025, "make": "Volkswagen", "model": "ID.4", "trim": "Pro RWD", "miPerKWh": 3.2, "rangeMi": 291 },
-  { "year": 2025, "make": "Volkswagen", "model": "ID.4", "trim": "Pro S RWD", "miPerKWh": 3.2, "rangeMi": 291 },
-  { "year": 2025, "make": "Volkswagen", "model": "ID.4", "trim": "Pro S AWD", "miPerKWh": 2.9, "rangeMi": 255 },
-  { "year": 2025, "make": "Audi", "model": "Q8 e-tron", "trim": "55 quattro", "miPerKWh": 2.7, "rangeMi": 285 },
-  { "year": 2025, "make": "Audi", "model": "Q8 e-tron", "trim": "55 Sportback quattro", "miPerKWh": 2.8, "rangeMi": 300 },
-  { "year": 2025, "make": "Audi", "model": "Q8 e-tron", "trim": "SQ8 quattro", "miPerKWh": 2.5, "rangeMi": 253 },
-  { "year": 2025, "make": "Audi", "model": "e-tron GT", "trim": "quattro", "miPerKWh": 2.9, "rangeMi": 238 },
-  { "year": 2025, "make": "Audi", "model": "e-tron GT", "trim": "RS quattro", "miPerKWh": 2.7, "rangeMi": 232 },
-  { "year": 2025, "make": "Lucid", "model": "Air", "trim": "Pure RWD", "miPerKWh": 5.0, "rangeMi": 420 },
-  { "year": 2025, "make": "Lucid", "model": "Air", "trim": "Touring AWD", "miPerKWh": 4.5, "rangeMi": 425 },
-  { "year": 2025, "make": "Lucid", "model": "Air", "trim": "Grand Touring AWD", "miPerKWh": 4.6, "rangeMi": 516 },
-  { "year": 2025, "make": "Lucid", "model": "Air", "trim": "Sapphire AWD", "miPerKWh": 3.8, "rangeMi": 427 },
-  { "year": 2025, "make": "GMC", "model": "Hummer EV", "trim": "Pickup EV2 AWD", "miPerKWh": 1.9, "rangeMi": 250 },
-  { "year": 2025, "make": "GMC", "model": "Hummer EV", "trim": "Pickup EV3X AWD", "miPerKWh": 1.9, "rangeMi": 329 },
-  { "year": 2025, "make": "GMC", "model": "Hummer EV", "trim": "SUV EV3X AWD", "miPerKWh": 1.9, "rangeMi": 314 },
-  { "year": 2025, "make": "Porsche", "model": "Taycan", "trim": "RWD", "miPerKWh": 3.1, "rangeMi": 246 },
-  { "year": 2025, "make": "Porsche", "model": "Taycan", "trim": "4S", "miPerKWh": 2.8, "rangeMi": 246 },
-  { "year": 2025, "make": "Porsche", "model": "Taycan", "trim": "GTS", "miPerKWh": 2.8, "rangeMi": 246 },
-  { "year": 2025, "make": "Porsche", "model": "Taycan", "trim": "Turbo", "miPerKWh": 2.6, "rangeMi": 246 },
-  { "year": 2025, "make": "Porsche", "model": "Taycan", "trim": "Turbo GT", "miPerKWh": 2.4, "rangeMi": 222 },
-  { "year": 2025, "make": "Porsche", "model": "Taycan", "trim": "Turbo S", "miPerKWh": 2.5, "rangeMi": 225 },
-  { "year": 2025, "make": "Porsche", "model": "Taycan", "trim": "4 Cross Turismo", "miPerKWh": 2.7, "rangeMi": 233 },
-  { "year": 2025, "make": "Porsche", "model": "Taycan", "trim": "4S Cross Turismo", "miPerKWh": 2.7, "rangeMi": 233 },
-  { "year": 2025, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Single Motor", "miPerKWh": 3.3, "rangeMi": 270 },
-  { "year": 2025, "make": "Polestar", "model": "Polestar 2", "trim": "Long Range Dual Motor", "miPerKWh": 3.0, "rangeMi": 249 },
-  { "year": 2025, "make": "Polestar", "model": "Polestar 2", "trim": "Standard Range Single Motor", "miPerKWh": 3.5, "rangeMi": 245 },
-  { "year": 2025, "make": "Volvo", "model": "XC40 Recharge", "trim": "Pure Electric AWD", "miPerKWh": 2.8, "rangeMi": 223 },
-  { "year": 2025, "make": "Volvo", "model": "C40 Recharge", "trim": "Pure Electric AWD", "miPerKWh": 2.8, "rangeMi": 226 },
-  { "year": 2025, "make": "Subaru", "model": "Solterra", "trim": "AWD", "miPerKWh": 2.9, "rangeMi": 222 },
-  { "year": 2025, "make": "Toyota", "model": "bZ4X", "trim": "XLE FWD", "miPerKWh": 3.0, "rangeMi": 252 },
-  { "year": 2025, "make": "Toyota", "model": "bZ4X", "trim": "XLE AWD", "miPerKWh": 2.8, "rangeMi": 222 },
-  { "year": 2025, "make": "Genesis", "model": "GV60", "trim": "Standard AWD", "miPerKWh": 3.1, "rangeMi": 248 },
-  { "year": 2025, "make": "Genesis", "model": "GV60", "trim": "Advanced AWD", "miPerKWh": 3.0, "rangeMi": 248 },
-  { "year": 2025, "make": "Genesis", "model": "GV60", "trim": "Performance AWD", "miPerKWh": 2.8, "rangeMi": 235 },
-  { "year": 2025, "make": "Genesis", "model": "GV70 Electrified", "trim": "AWD", "miPerKWh": 2.8, "rangeMi": 236 },
-  { "year": 2025, "make": "Genesis", "model": "G80 Electrified", "trim": "AWD", "miPerKWh": 2.8, "rangeMi": 282 },
-  { "year": 2025, "make": "Nissan", "model": "Ariya", "trim": "Engage FWD", "miPerKWh": 3.3, "rangeMi": 216 },
-  { "year": 2025, "make": "Nissan", "model": "Ariya", "trim": "Engage+ FWD", "miPerKWh": 3.2, "rangeMi": 304 },
-  { "year": 2025, "make": "Nissan", "model": "Ariya", "trim": "Engage+ e-4ORCE AWD", "miPerKWh": 2.9, "rangeMi": 272 },
-  { "year": 2025, "make": "Honda", "model": "Prologue", "trim": "EX AWD", "miPerKWh": 3.0, "rangeMi": 296 },
-  { "year": 2025, "make": "Honda", "model": "Prologue", "trim": "Sport AWD", "miPerKWh": 3.0, "rangeMi": 296 },
-  { "year": 2025, "make": "Honda", "model": "Prologue", "trim": "Touring AWD", "miPerKWh": 3.0, "rangeMi": 296 },
-  { "year": 2025, "make": "Acura", "model": "ZDX", "trim": "A-Spec AWD", "miPerKWh": 2.9, "rangeMi": 288 },
-  { "year": 2025, "make": "Acura", "model": "ZDX", "trim": "Type S AWD", "miPerKWh": 2.7, "rangeMi": 270 },
-  { "year": 2025, "make": "BMW", "model": "iX2", "trim": "xDrive30", "miPerKWh": 3.0, "rangeMi": 273 },
-  { "year": 2025, "make": "Volkswagen", "model": "ID.Buzz", "trim": "Pro AWD", "miPerKWh": 2.9, "rangeMi": 234 },
-  { "year": 2025, "make": "Ram", "model": "1500 REV", "trim": "AWD", "miPerKWh": 2.0, "rangeMi": 350 },
-  { "year": 2025, "make": "Rolls-Royce", "model": "Spectre", "trim": "AWD", "miPerKWh": 2.0, "rangeMi": 260 }
+  {
+    "year": 2015,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "70D",
+    "miPerKWh": 3.1,
+    "rangeMi": 240
+  },
+  {
+    "year": 2015,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "85D",
+    "miPerKWh": 3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2015,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "P85D",
+    "miPerKWh": 2.8,
+    "rangeMi": 253
+  },
+  {
+    "year": 2015,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "90D",
+    "miPerKWh": 3.1,
+    "rangeMi": 270
+  },
+  {
+    "year": 2015,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "90D",
+    "miPerKWh": 2.8,
+    "rangeMi": 257
+  },
+  {
+    "year": 2015,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "24 kWh",
+    "miPerKWh": 3.5,
+    "rangeMi": 84
+  },
+  {
+    "year": 2016,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "75D",
+    "miPerKWh": 3.1,
+    "rangeMi": 249
+  },
+  {
+    "year": 2016,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "90D",
+    "miPerKWh": 3,
+    "rangeMi": 294
+  },
+  {
+    "year": 2016,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "P100D",
+    "miPerKWh": 2.9,
+    "rangeMi": 315
+  },
+  {
+    "year": 2016,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "75D",
+    "miPerKWh": 2.7,
+    "rangeMi": 237
+  },
+  {
+    "year": 2016,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "90D",
+    "miPerKWh": 2.6,
+    "rangeMi": 257
+  },
+  {
+    "year": 2016,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "P100D",
+    "miPerKWh": 2.5,
+    "rangeMi": 289
+  },
+  {
+    "year": 2016,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "24 kWh",
+    "miPerKWh": 3.5,
+    "rangeMi": 84
+  },
+  {
+    "year": 2016,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "30 kWh",
+    "miPerKWh": 3.5,
+    "rangeMi": 107
+  },
+  {
+    "year": 2017,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "75D",
+    "miPerKWh": 3.1,
+    "rangeMi": 249
+  },
+  {
+    "year": 2017,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "100D",
+    "miPerKWh": 3.3,
+    "rangeMi": 335
+  },
+  {
+    "year": 2017,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "P100D",
+    "miPerKWh": 2.9,
+    "rangeMi": 315
+  },
+  {
+    "year": 2017,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "75D",
+    "miPerKWh": 2.7,
+    "rangeMi": 237
+  },
+  {
+    "year": 2017,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "100D",
+    "miPerKWh": 2.8,
+    "rangeMi": 295
+  },
+  {
+    "year": 2017,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "P100D",
+    "miPerKWh": 2.5,
+    "rangeMi": 289
+  },
+  {
+    "year": 2017,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "30 kWh",
+    "miPerKWh": 3.5,
+    "rangeMi": 107
+  },
+  {
+    "year": 2017,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 238
+  },
+  {
+    "year": 2017,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "Premier",
+    "miPerKWh": 3.5,
+    "rangeMi": 238
+  },
+  {
+    "year": 2018,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "75D",
+    "miPerKWh": 3.1,
+    "rangeMi": 249
+  },
+  {
+    "year": 2018,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "100D",
+    "miPerKWh": 3.3,
+    "rangeMi": 335
+  },
+  {
+    "year": 2018,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "P100D",
+    "miPerKWh": 2.9,
+    "rangeMi": 315
+  },
+  {
+    "year": 2018,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "75D",
+    "miPerKWh": 2.7,
+    "rangeMi": 237
+  },
+  {
+    "year": 2018,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "100D",
+    "miPerKWh": 2.8,
+    "rangeMi": 295
+  },
+  {
+    "year": 2018,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "P100D",
+    "miPerKWh": 2.5,
+    "rangeMi": 289
+  },
+  {
+    "year": 2018,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range RWD",
+    "miPerKWh": 4.1,
+    "rangeMi": 310
+  },
+  {
+    "year": 2018,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 310
+  },
+  {
+    "year": 2018,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh",
+    "miPerKWh": 3.5,
+    "rangeMi": 151
+  },
+  {
+    "year": 2018,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 238
+  },
+  {
+    "year": 2018,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "Premier",
+    "miPerKWh": 3.5,
+    "rangeMi": 238
+  },
+  {
+    "year": 2019,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 370
+  },
+  {
+    "year": 2019,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 345
+  },
+  {
+    "year": 2019,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Long Range AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 325
+  },
+  {
+    "year": 2019,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 289
+  },
+  {
+    "year": 2019,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Standard Range Plus RWD",
+    "miPerKWh": 4.2,
+    "rangeMi": 240
+  },
+  {
+    "year": 2019,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 4.1,
+    "rangeMi": 322
+  },
+  {
+    "year": 2019,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 310
+  },
+  {
+    "year": 2019,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh S",
+    "miPerKWh": 3.5,
+    "rangeMi": 151
+  },
+  {
+    "year": 2019,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh SV",
+    "miPerKWh": 3.5,
+    "rangeMi": 151
+  },
+  {
+    "year": 2019,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus S",
+    "miPerKWh": 3.2,
+    "rangeMi": 226
+  },
+  {
+    "year": 2019,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus SL",
+    "miPerKWh": 3.2,
+    "rangeMi": 215
+  },
+  {
+    "year": 2019,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 238
+  },
+  {
+    "year": 2019,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "Premier",
+    "miPerKWh": 3.5,
+    "rangeMi": 238
+  },
+  {
+    "year": 2019,
+    "make": "Audi",
+    "model": "e-tron",
+    "trim": "55 quattro",
+    "miPerKWh": 2.5,
+    "rangeMi": 204
+  },
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 402
+  },
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 348
+  },
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Long Range AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 328
+  },
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 305
+  },
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Standard Range Plus RWD",
+    "miPerKWh": 4.2,
+    "rangeMi": 250
+  },
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 4.1,
+    "rangeMi": 322
+  },
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 315
+  },
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2020,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 291
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh S",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh SV",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus S",
+    "miPerKWh": 3.2,
+    "rangeMi": 226
+  },
+  {
+    "year": 2020,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus SL",
+    "miPerKWh": 3.2,
+    "rangeMi": 215
+  },
+  {
+    "year": 2020,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2020,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "Premier",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2020,
+    "make": "Audi",
+    "model": "e-tron",
+    "trim": "55 quattro",
+    "miPerKWh": 2.5,
+    "rangeMi": 222
+  },
+  {
+    "year": 2020,
+    "make": "Audi",
+    "model": "e-tron",
+    "trim": "50 quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 191
+  },
+  {
+    "year": 2020,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S",
+    "miPerKWh": 2.8,
+    "rangeMi": 203
+  },
+  {
+    "year": 2020,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo",
+    "miPerKWh": 2.6,
+    "rangeMi": 192
+  },
+  {
+    "year": 2020,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S",
+    "miPerKWh": 2.5,
+    "rangeMi": 192
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 405
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Plaid AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 396
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 371
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Plaid AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 333
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Standard Range Plus RWD",
+    "miPerKWh": 4.2,
+    "rangeMi": 263
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 4.1,
+    "rangeMi": 353
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 315
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Standard Range RWD",
+    "miPerKWh": 3.7,
+    "rangeMi": 244
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 326
+  },
+  {
+    "year": 2021,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 303
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh S",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh SV",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus S",
+    "miPerKWh": 3.2,
+    "rangeMi": 212
+  },
+  {
+    "year": 2021,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus SL",
+    "miPerKWh": 3.2,
+    "rangeMi": 212
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2021,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "Premier",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select RWD SR",
+    "miPerKWh": 3.3,
+    "rangeMi": 230
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select AWD SR",
+    "miPerKWh": 2.9,
+    "rangeMi": 211
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium RWD ER",
+    "miPerKWh": 3.2,
+    "rangeMi": 305
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium AWD ER",
+    "miPerKWh": 2.9,
+    "rangeMi": 270
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "California Route 1 RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 305
+  },
+  {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "GT AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "e-tron",
+    "trim": "55 quattro",
+    "miPerKWh": 2.5,
+    "rangeMi": 222
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "e-tron",
+    "trim": "50 quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 191
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "quattro",
+    "miPerKWh": 2.9,
+    "rangeMi": 238
+  },
+  {
+    "year": 2021,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "RS quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 232
+  },
+  {
+    "year": 2021,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 227
+  },
+  {
+    "year": 2021,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2021,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo",
+    "miPerKWh": 2.6,
+    "rangeMi": 212
+  },
+  {
+    "year": 2021,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S",
+    "miPerKWh": 2.5,
+    "rangeMi": 204
+  },
+  {
+    "year": 2021,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4 Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 215
+  },
+  {
+    "year": 2021,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 204
+  },
+  {
+    "year": 2021,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 260
+  },
+  {
+    "year": 2021,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 250
+  },
+  {
+    "year": 2021,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Single Motor",
+    "miPerKWh": 3.3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2021,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Dual Motor",
+    "miPerKWh": 3,
+    "rangeMi": 249
+  },
+  {
+    "year": 2021,
+    "make": "Volvo",
+    "model": "XC40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 208
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 405
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Plaid AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 396
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 348
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Plaid AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 333
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "RWD Standard Range",
+    "miPerKWh": 4.2,
+    "rangeMi": 272
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 4.1,
+    "rangeMi": 358
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 315
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 330
+  },
+  {
+    "year": 2022,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 303
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh S",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh SV",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus S",
+    "miPerKWh": 3.2,
+    "rangeMi": 212
+  },
+  {
+    "year": 2022,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus SL",
+    "miPerKWh": 3.2,
+    "rangeMi": 212
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "1LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "2LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Bolt EUV",
+    "trim": "LT",
+    "miPerKWh": 3.3,
+    "rangeMi": 247
+  },
+  {
+    "year": 2022,
+    "make": "Chevrolet",
+    "model": "Bolt EUV",
+    "trim": "Premier",
+    "miPerKWh": 3.3,
+    "rangeMi": 247
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select RWD SR",
+    "miPerKWh": 3.3,
+    "rangeMi": 230
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select AWD SR",
+    "miPerKWh": 2.9,
+    "rangeMi": 211
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium RWD ER",
+    "miPerKWh": 3.2,
+    "rangeMi": 314
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium AWD ER",
+    "miPerKWh": 2.9,
+    "rangeMi": 277
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "California Route 1 RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 314
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "GT AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2022,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "GT Performance AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 260
+  },
+  {
+    "year": 2022,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 314
+  },
+  {
+    "year": 2022,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SE Standard Range RWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 220
+  },
+  {
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SEL Long Range RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 303
+  },
+  {
+    "year": 2022,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 266
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light RWD SR",
+    "miPerKWh": 3.5,
+    "rangeMi": 232
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind RWD LR",
+    "miPerKWh": 3.5,
+    "rangeMi": 310
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT-Line AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2022,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 206
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive40",
+    "miPerKWh": 2.8,
+    "rangeMi": 324
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive50",
+    "miPerKWh": 2.7,
+    "rangeMi": 324
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "M60",
+    "miPerKWh": 2.5,
+    "rangeMi": 288
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "eDrive40",
+    "miPerKWh": 3.5,
+    "rangeMi": 301
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "M50",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "450+",
+    "miPerKWh": 3.2,
+    "rangeMi": 350
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "580 4MATIC",
+    "miPerKWh": 2.9,
+    "rangeMi": 340
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "250+",
+    "miPerKWh": 3,
+    "rangeMi": 245
+  },
+  {
+    "year": 2022,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "350 4MATIC",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2022,
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 312
+  },
+  {
+    "year": 2022,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 260
+  },
+  {
+    "year": 2022,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 250
+  },
+  {
+    "year": 2022,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 249
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "e-tron",
+    "trim": "55 quattro",
+    "miPerKWh": 2.5,
+    "rangeMi": 222
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "e-tron",
+    "trim": "50 quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 191
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "quattro",
+    "miPerKWh": 2.9,
+    "rangeMi": 238
+  },
+  {
+    "year": 2022,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "RS quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 232
+  },
+  {
+    "year": 2022,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Pure RWD",
+    "miPerKWh": 5,
+    "rangeMi": 410
+  },
+  {
+    "year": 2022,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Touring AWD",
+    "miPerKWh": 4.5,
+    "rangeMi": 516
+  },
+  {
+    "year": 2022,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Grand Touring AWD",
+    "miPerKWh": 4.6,
+    "rangeMi": 516
+  },
+  {
+    "year": 2022,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Dream Edition AWD",
+    "miPerKWh": 4.4,
+    "rangeMi": 520
+  },
+  {
+    "year": 2022,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup Edition 1 AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 329
+  },
+  {
+    "year": 2022,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup 3X AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 329
+  },
+  {
+    "year": 2022,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 227
+  },
+  {
+    "year": 2022,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2022,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo",
+    "miPerKWh": 2.6,
+    "rangeMi": 212
+  },
+  {
+    "year": 2022,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S",
+    "miPerKWh": 2.5,
+    "rangeMi": 204
+  },
+  {
+    "year": 2022,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4 Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 215
+  },
+  {
+    "year": 2022,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 204
+  },
+  {
+    "year": 2022,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Single Motor",
+    "miPerKWh": 3.3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2022,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Dual Motor",
+    "miPerKWh": 3,
+    "rangeMi": 249
+  },
+  {
+    "year": 2022,
+    "make": "Volvo",
+    "model": "XC40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 226
+  },
+  {
+    "year": 2022,
+    "make": "Volvo",
+    "model": "C40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 226
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Standard AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 248
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Advanced AWD",
+    "miPerKWh": 3,
+    "rangeMi": 248
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 235
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "MX-30",
+    "trim": "Premium Plus",
+    "miPerKWh": 3,
+    "rangeMi": 100
+  },
+  {
+    "year": 2022,
+    "make": "Subaru",
+    "model": "Solterra",
+    "trim": "AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 222
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE FWD",
+    "miPerKWh": 3,
+    "rangeMi": 252
+  },
+  {
+    "year": 2022,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 222
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 405
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Plaid AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 396
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 348
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Plaid AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 333
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "RWD",
+    "miPerKWh": 4.2,
+    "rangeMi": 272
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 4.1,
+    "rangeMi": 358
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 315
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "RWD",
+    "miPerKWh": 3.9,
+    "rangeMi": 330
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 330
+  },
+  {
+    "year": 2023,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 303
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh S",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh SV",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus S",
+    "miPerKWh": 3.2,
+    "rangeMi": 212
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "62 kWh Plus SL",
+    "miPerKWh": 3.2,
+    "rangeMi": 212
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "1LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "2LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Bolt EUV",
+    "trim": "LT",
+    "miPerKWh": 3.3,
+    "rangeMi": 247
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Bolt EUV",
+    "trim": "Premier",
+    "miPerKWh": 3.3,
+    "rangeMi": 247
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select RWD SR",
+    "miPerKWh": 3.3,
+    "rangeMi": 230
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select AWD SR",
+    "miPerKWh": 2.9,
+    "rangeMi": 211
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium RWD ER",
+    "miPerKWh": 3.2,
+    "rangeMi": 312
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium AWD ER",
+    "miPerKWh": 2.9,
+    "rangeMi": 277
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "California Route 1 RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 312
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "GT AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2023,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "GT Performance AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 260
+  },
+  {
+    "year": 2023,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 314
+  },
+  {
+    "year": 2023,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 305
+  },
+  {
+    "year": 2023,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 321
+  },
+  {
+    "year": 2023,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 312
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SE Standard Range RWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 220
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SEL Long Range RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 303
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 266
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SE Long Range RWD",
+    "miPerKWh": 4,
+    "rangeMi": 361
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SEL Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2023,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SE Standard Range RWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 240
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light RWD SR",
+    "miPerKWh": 3.5,
+    "rangeMi": 232
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind RWD LR",
+    "miPerKWh": 3.5,
+    "rangeMi": 310
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT-Line AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 206
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive40",
+    "miPerKWh": 2.8,
+    "rangeMi": 324
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive50",
+    "miPerKWh": 2.7,
+    "rangeMi": 324
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "M60",
+    "miPerKWh": 2.5,
+    "rangeMi": 288
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "eDrive35",
+    "miPerKWh": 3.7,
+    "rangeMi": 301
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "eDrive40",
+    "miPerKWh": 3.5,
+    "rangeMi": 301
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "M50",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "450+",
+    "miPerKWh": 3.2,
+    "rangeMi": 350
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "580 4MATIC",
+    "miPerKWh": 2.9,
+    "rangeMi": 340
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "250+",
+    "miPerKWh": 3,
+    "rangeMi": 245
+  },
+  {
+    "year": 2023,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "350 4MATIC",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2023,
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 312
+  },
+  {
+    "year": 2023,
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "trim": "AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 288
+  },
+  {
+    "year": 2023,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Standard RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 209
+  },
+  {
+    "year": 2023,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 275
+  },
+  {
+    "year": 2023,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 275
+  },
+  {
+    "year": 2023,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 255
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "55 quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 285
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "55 Sportback quattro",
+    "miPerKWh": 2.8,
+    "rangeMi": 300
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "SQ8 quattro",
+    "miPerKWh": 2.5,
+    "rangeMi": 253
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "quattro",
+    "miPerKWh": 2.9,
+    "rangeMi": 238
+  },
+  {
+    "year": 2023,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "RS quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 232
+  },
+  {
+    "year": 2023,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Pure RWD",
+    "miPerKWh": 5,
+    "rangeMi": 410
+  },
+  {
+    "year": 2023,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Touring AWD",
+    "miPerKWh": 4.5,
+    "rangeMi": 425
+  },
+  {
+    "year": 2023,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Grand Touring AWD",
+    "miPerKWh": 4.6,
+    "rangeMi": 516
+  },
+  {
+    "year": 2023,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Sapphire AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 427
+  },
+  {
+    "year": 2023,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup EV2 AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 250
+  },
+  {
+    "year": 2023,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup EV3X AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 329
+  },
+  {
+    "year": 2023,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "SUV EV3X AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 314
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 246
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S",
+    "miPerKWh": 2.8,
+    "rangeMi": 246
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "GTS",
+    "miPerKWh": 2.8,
+    "rangeMi": 246
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo",
+    "miPerKWh": 2.6,
+    "rangeMi": 246
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S",
+    "miPerKWh": 2.5,
+    "rangeMi": 225
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4 Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2023,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "GTS Sport Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2023,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Single Motor",
+    "miPerKWh": 3.3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2023,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Dual Motor",
+    "miPerKWh": 3,
+    "rangeMi": 249
+  },
+  {
+    "year": 2023,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Standard Range Single Motor",
+    "miPerKWh": 3.5,
+    "rangeMi": 245
+  },
+  {
+    "year": 2023,
+    "make": "Volvo",
+    "model": "XC40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 223
+  },
+  {
+    "year": 2023,
+    "make": "Volvo",
+    "model": "C40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 226
+  },
+  {
+    "year": 2023,
+    "make": "Subaru",
+    "model": "Solterra",
+    "trim": "AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 222
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE FWD",
+    "miPerKWh": 3,
+    "rangeMi": 252
+  },
+  {
+    "year": 2023,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 222
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Standard AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 248
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Advanced AWD",
+    "miPerKWh": 3,
+    "rangeMi": 248
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 235
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "GV70 Electrified",
+    "trim": "AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 236
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "G80 Electrified",
+    "trim": "AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 282
+  },
+  {
+    "year": 2023,
+    "make": "Fisker",
+    "model": "Ocean",
+    "trim": "Sport RWD",
+    "miPerKWh": 3,
+    "rangeMi": 250
+  },
+  {
+    "year": 2023,
+    "make": "Fisker",
+    "model": "Ocean",
+    "trim": "Ultra AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 340
+  },
+  {
+    "year": 2023,
+    "make": "Fisker",
+    "model": "Ocean",
+    "trim": "Extreme AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 360
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage FWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 216
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage+ FWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 304
+  },
+  {
+    "year": 2023,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage+ e-4ORCE AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 272
+  },
+  {
+    "year": 2023,
+    "make": "Chevrolet",
+    "model": "Silverado EV",
+    "trim": "Work Truck AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 450
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Light RWD",
+    "miPerKWh": 3,
+    "rangeMi": 304
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Wind AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2023,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "GT-Line AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 405
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Plaid AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 396
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 348
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Plaid AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 333
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "RWD",
+    "miPerKWh": 4.2,
+    "rangeMi": 272
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 4.1,
+    "rangeMi": 341
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range RWD",
+    "miPerKWh": 4.3,
+    "rangeMi": 333
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 315
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "RWD",
+    "miPerKWh": 3.9,
+    "rangeMi": 330
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 330
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 303
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "trim": "RWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 320
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "trim": "AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 340
+  },
+  {
+    "year": 2024,
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "trim": "Cyberbeast AWD",
+    "miPerKWh": 2.1,
+    "rangeMi": 301
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh S",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh SV Plus",
+    "miPerKWh": 3.2,
+    "rangeMi": 212
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "1LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "2LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Bolt EUV",
+    "trim": "LT",
+    "miPerKWh": 3.3,
+    "rangeMi": 247
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Bolt EUV",
+    "trim": "Premier",
+    "miPerKWh": 3.3,
+    "rangeMi": 247
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select RWD SR",
+    "miPerKWh": 3.3,
+    "rangeMi": 230
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select AWD SR",
+    "miPerKWh": 2.9,
+    "rangeMi": 211
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium RWD ER",
+    "miPerKWh": 3.2,
+    "rangeMi": 312
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium AWD ER",
+    "miPerKWh": 2.9,
+    "rangeMi": 277
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "California Route 1 RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 312
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "GT AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "GT Performance AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 260
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Standard AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 314
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 305
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Standard AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 321
+  },
+  {
+    "year": 2024,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 312
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SE Standard Range RWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 220
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SEL Long Range RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 303
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 266
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "N AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 266
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SE Long Range RWD",
+    "miPerKWh": 4,
+    "rangeMi": 361
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SEL Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2024,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SE Standard Range RWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 240
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Light RWD SR",
+    "miPerKWh": 3.5,
+    "rangeMi": 232
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind RWD LR",
+    "miPerKWh": 3.5,
+    "rangeMi": 310
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT-Line AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 206
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Light RWD",
+    "miPerKWh": 3,
+    "rangeMi": 304
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Wind AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "GT-Line AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive40",
+    "miPerKWh": 2.8,
+    "rangeMi": 324
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive50",
+    "miPerKWh": 2.7,
+    "rangeMi": 324
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "M60",
+    "miPerKWh": 2.5,
+    "rangeMi": 288
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "eDrive35",
+    "miPerKWh": 3.7,
+    "rangeMi": 301
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "eDrive40",
+    "miPerKWh": 3.5,
+    "rangeMi": 301
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "M50",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "450+",
+    "miPerKWh": 3.2,
+    "rangeMi": 350
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "580 4MATIC",
+    "miPerKWh": 2.9,
+    "rangeMi": 340
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "250+",
+    "miPerKWh": 3,
+    "rangeMi": 245
+  },
+  {
+    "year": 2024,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "350 4MATIC",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2024,
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 314
+  },
+  {
+    "year": 2024,
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "trim": "AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 288
+  },
+  {
+    "year": 2024,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Standard RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 209
+  },
+  {
+    "year": 2024,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 291
+  },
+  {
+    "year": 2024,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 291
+  },
+  {
+    "year": 2024,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 255
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "55 quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 285
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "55 Sportback quattro",
+    "miPerKWh": 2.8,
+    "rangeMi": 300
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "SQ8 quattro",
+    "miPerKWh": 2.5,
+    "rangeMi": 253
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "quattro",
+    "miPerKWh": 2.9,
+    "rangeMi": 238
+  },
+  {
+    "year": 2024,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "RS quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 232
+  },
+  {
+    "year": 2024,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Pure RWD",
+    "miPerKWh": 5,
+    "rangeMi": 410
+  },
+  {
+    "year": 2024,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Touring AWD",
+    "miPerKWh": 4.5,
+    "rangeMi": 425
+  },
+  {
+    "year": 2024,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Grand Touring AWD",
+    "miPerKWh": 4.6,
+    "rangeMi": 516
+  },
+  {
+    "year": 2024,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Sapphire AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 427
+  },
+  {
+    "year": 2024,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup EV2 AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 250
+  },
+  {
+    "year": 2024,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup EV3X AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 329
+  },
+  {
+    "year": 2024,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "SUV EV3X AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 314
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 246
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S",
+    "miPerKWh": 2.8,
+    "rangeMi": 246
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "GTS",
+    "miPerKWh": 2.8,
+    "rangeMi": 246
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo",
+    "miPerKWh": 2.6,
+    "rangeMi": 246
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo GT",
+    "miPerKWh": 2.4,
+    "rangeMi": 222
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S",
+    "miPerKWh": 2.5,
+    "rangeMi": 225
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4 Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2024,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "GTS Sport Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2024,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Single Motor",
+    "miPerKWh": 3.3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Dual Motor",
+    "miPerKWh": 3,
+    "rangeMi": 249
+  },
+  {
+    "year": 2024,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Standard Range Single Motor",
+    "miPerKWh": 3.5,
+    "rangeMi": 245
+  },
+  {
+    "year": 2024,
+    "make": "Volvo",
+    "model": "XC40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 223
+  },
+  {
+    "year": 2024,
+    "make": "Volvo",
+    "model": "C40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 226
+  },
+  {
+    "year": 2024,
+    "make": "Subaru",
+    "model": "Solterra",
+    "trim": "AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 222
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE FWD",
+    "miPerKWh": 3,
+    "rangeMi": 252
+  },
+  {
+    "year": 2024,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 222
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Standard AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 248
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Advanced AWD",
+    "miPerKWh": 3,
+    "rangeMi": 248
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 235
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "GV70 Electrified",
+    "trim": "AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 236
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "G80 Electrified",
+    "trim": "AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 282
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage FWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 216
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage+ FWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 304
+  },
+  {
+    "year": 2024,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage+ e-4ORCE AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 272
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Silverado EV",
+    "trim": "Work Truck AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 450
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Silverado EV",
+    "trim": "LT AWD",
+    "miPerKWh": 2.3,
+    "rangeMi": 400
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Equinox EV",
+    "trim": "LT FWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 319
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Equinox EV",
+    "trim": "2RS FWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 319
+  },
+  {
+    "year": 2024,
+    "make": "Chevrolet",
+    "model": "Equinox EV",
+    "trim": "3RS AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 280
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "trim": "Pro SR AWD",
+    "miPerKWh": 2.1,
+    "rangeMi": 230
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "trim": "XLT ER AWD",
+    "miPerKWh": 2,
+    "rangeMi": 320
+  },
+  {
+    "year": 2024,
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "trim": "Platinum ER AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 300
+  },
+  {
+    "year": 2024,
+    "make": "Ram",
+    "model": "1500 REV",
+    "trim": "AWD",
+    "miPerKWh": 2,
+    "rangeMi": 350
+  },
+  {
+    "year": 2024,
+    "make": "Honda",
+    "model": "Prologue",
+    "trim": "EX AWD",
+    "miPerKWh": 3,
+    "rangeMi": 296
+  },
+  {
+    "year": 2024,
+    "make": "Honda",
+    "model": "Prologue",
+    "trim": "Sport AWD",
+    "miPerKWh": 3,
+    "rangeMi": 296
+  },
+  {
+    "year": 2024,
+    "make": "Honda",
+    "model": "Prologue",
+    "trim": "Touring AWD",
+    "miPerKWh": 3,
+    "rangeMi": 296
+  },
+  {
+    "year": 2024,
+    "make": "Acura",
+    "model": "ZDX",
+    "trim": "A-Spec AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 288
+  },
+  {
+    "year": 2024,
+    "make": "Acura",
+    "model": "ZDX",
+    "trim": "Type S AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2024,
+    "make": "Jeep",
+    "model": "Wrangler 4xe",
+    "trim": "PHEV",
+    "miPerKWh": 2,
+    "rangeMi": 22
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "i5",
+    "trim": "eDrive40",
+    "miPerKWh": 3.4,
+    "rangeMi": 295
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "i5",
+    "trim": "M60 xDrive",
+    "miPerKWh": 2.9,
+    "rangeMi": 256
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "i7",
+    "trim": "xDrive60",
+    "miPerKWh": 2.8,
+    "rangeMi": 318
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "i7",
+    "trim": "M70 xDrive",
+    "miPerKWh": 2.5,
+    "rangeMi": 280
+  },
+  {
+    "year": 2024,
+    "make": "Cadillac",
+    "model": "Optiq",
+    "trim": "AWD",
+    "miPerKWh": 3,
+    "rangeMi": 300
+  },
+  {
+    "year": 2024,
+    "make": "Rolls-Royce",
+    "model": "Spectre",
+    "trim": "AWD",
+    "miPerKWh": 2,
+    "rangeMi": 260
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 405
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Plaid AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 396
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 348
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Plaid AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 333
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "RWD",
+    "miPerKWh": 4.2,
+    "rangeMi": 272
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 4.1,
+    "rangeMi": 358
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range RWD",
+    "miPerKWh": 4.3,
+    "rangeMi": 363
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 315
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "RWD",
+    "miPerKWh": 3.9,
+    "rangeMi": 320
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 320
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range RWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 337
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 303
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "trim": "RWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 320
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "trim": "AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 340
+  },
+  {
+    "year": 2025,
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "trim": "Cyberbeast AWD",
+    "miPerKWh": 2.1,
+    "rangeMi": 301
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh S",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh SV Plus",
+    "miPerKWh": 3.2,
+    "rangeMi": 212
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "1LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "2LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Equinox EV",
+    "trim": "LT FWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 319
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Equinox EV",
+    "trim": "2RS FWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 319
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Equinox EV",
+    "trim": "3RS AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 280
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Silverado EV",
+    "trim": "Work Truck AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 450
+  },
+  {
+    "year": 2025,
+    "make": "Chevrolet",
+    "model": "Silverado EV",
+    "trim": "LT AWD",
+    "miPerKWh": 2.3,
+    "rangeMi": 400
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select RWD SR",
+    "miPerKWh": 3.3,
+    "rangeMi": 230
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select AWD SR",
+    "miPerKWh": 2.9,
+    "rangeMi": 211
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium RWD ER",
+    "miPerKWh": 3.2,
+    "rangeMi": 312
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium AWD ER",
+    "miPerKWh": 2.9,
+    "rangeMi": 277
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "GT AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "trim": "Pro SR AWD",
+    "miPerKWh": 2.1,
+    "rangeMi": 230
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "trim": "XLT ER AWD",
+    "miPerKWh": 2,
+    "rangeMi": 320
+  },
+  {
+    "year": 2025,
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "trim": "Platinum ER AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 300
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Standard AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 314
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 305
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Standard AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 321
+  },
+  {
+    "year": 2025,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 312
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SE Standard Range RWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 220
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SEL Long Range RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 303
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 266
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "N AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 266
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SE Long Range RWD",
+    "miPerKWh": 4,
+    "rangeMi": 361
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SEL Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2025,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind RWD LR",
+    "miPerKWh": 3.5,
+    "rangeMi": 310
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT-Line AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 206
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Light RWD",
+    "miPerKWh": 3,
+    "rangeMi": 304
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Wind AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "GT-Line AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive40",
+    "miPerKWh": 2.8,
+    "rangeMi": 324
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive50",
+    "miPerKWh": 2.7,
+    "rangeMi": 324
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "M60",
+    "miPerKWh": 2.5,
+    "rangeMi": 288
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "eDrive35",
+    "miPerKWh": 3.7,
+    "rangeMi": 301
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "eDrive40",
+    "miPerKWh": 3.5,
+    "rangeMi": 301
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "M50",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "i5",
+    "trim": "eDrive40",
+    "miPerKWh": 3.4,
+    "rangeMi": 295
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "i5",
+    "trim": "M60 xDrive",
+    "miPerKWh": 2.9,
+    "rangeMi": 256
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "i7",
+    "trim": "xDrive60",
+    "miPerKWh": 2.8,
+    "rangeMi": 318
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "i7",
+    "trim": "M70 xDrive",
+    "miPerKWh": 2.5,
+    "rangeMi": 280
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "450+",
+    "miPerKWh": 3.2,
+    "rangeMi": 350
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "580 4MATIC",
+    "miPerKWh": 2.9,
+    "rangeMi": 340
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "250+",
+    "miPerKWh": 3,
+    "rangeMi": 245
+  },
+  {
+    "year": 2025,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "350 4MATIC",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 314
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "trim": "AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 288
+  },
+  {
+    "year": 2025,
+    "make": "Cadillac",
+    "model": "Optiq",
+    "trim": "AWD",
+    "miPerKWh": 3,
+    "rangeMi": 300
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Standard RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 209
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 291
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 291
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 255
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "55 quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 285
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "55 Sportback quattro",
+    "miPerKWh": 2.8,
+    "rangeMi": 300
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "SQ8 quattro",
+    "miPerKWh": 2.5,
+    "rangeMi": 253
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "quattro",
+    "miPerKWh": 2.9,
+    "rangeMi": 238
+  },
+  {
+    "year": 2025,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "RS quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 232
+  },
+  {
+    "year": 2025,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Pure RWD",
+    "miPerKWh": 5,
+    "rangeMi": 420
+  },
+  {
+    "year": 2025,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Touring AWD",
+    "miPerKWh": 4.5,
+    "rangeMi": 425
+  },
+  {
+    "year": 2025,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Grand Touring AWD",
+    "miPerKWh": 4.6,
+    "rangeMi": 516
+  },
+  {
+    "year": 2025,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Sapphire AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 427
+  },
+  {
+    "year": 2025,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup EV2 AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 250
+  },
+  {
+    "year": 2025,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup EV3X AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 329
+  },
+  {
+    "year": 2025,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "SUV EV3X AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 314
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 246
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S",
+    "miPerKWh": 2.8,
+    "rangeMi": 246
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "GTS",
+    "miPerKWh": 2.8,
+    "rangeMi": 246
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo",
+    "miPerKWh": 2.6,
+    "rangeMi": 246
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo GT",
+    "miPerKWh": 2.4,
+    "rangeMi": 222
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S",
+    "miPerKWh": 2.5,
+    "rangeMi": 225
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4 Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2025,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2025,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Single Motor",
+    "miPerKWh": 3.3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Dual Motor",
+    "miPerKWh": 3,
+    "rangeMi": 249
+  },
+  {
+    "year": 2025,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Standard Range Single Motor",
+    "miPerKWh": 3.5,
+    "rangeMi": 245
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "XC40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 223
+  },
+  {
+    "year": 2025,
+    "make": "Volvo",
+    "model": "C40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 226
+  },
+  {
+    "year": 2025,
+    "make": "Subaru",
+    "model": "Solterra",
+    "trim": "AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 222
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE FWD",
+    "miPerKWh": 3,
+    "rangeMi": 252
+  },
+  {
+    "year": 2025,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 222
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Standard AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 248
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Advanced AWD",
+    "miPerKWh": 3,
+    "rangeMi": 248
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 235
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "GV70 Electrified",
+    "trim": "AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 236
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "G80 Electrified",
+    "trim": "AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 282
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage FWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 216
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage+ FWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 304
+  },
+  {
+    "year": 2025,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage+ e-4ORCE AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 272
+  },
+  {
+    "year": 2025,
+    "make": "Honda",
+    "model": "Prologue",
+    "trim": "EX AWD",
+    "miPerKWh": 3,
+    "rangeMi": 296
+  },
+  {
+    "year": 2025,
+    "make": "Honda",
+    "model": "Prologue",
+    "trim": "Sport AWD",
+    "miPerKWh": 3,
+    "rangeMi": 296
+  },
+  {
+    "year": 2025,
+    "make": "Honda",
+    "model": "Prologue",
+    "trim": "Touring AWD",
+    "miPerKWh": 3,
+    "rangeMi": 296
+  },
+  {
+    "year": 2025,
+    "make": "Acura",
+    "model": "ZDX",
+    "trim": "A-Spec AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 288
+  },
+  {
+    "year": 2025,
+    "make": "Acura",
+    "model": "ZDX",
+    "trim": "Type S AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "iX2",
+    "trim": "xDrive30",
+    "miPerKWh": 3,
+    "rangeMi": 273
+  },
+  {
+    "year": 2025,
+    "make": "Volkswagen",
+    "model": "ID.Buzz",
+    "trim": "Pro AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 234
+  },
+  {
+    "year": 2025,
+    "make": "Ram",
+    "model": "1500 REV",
+    "trim": "AWD",
+    "miPerKWh": 2,
+    "rangeMi": 350
+  },
+  {
+    "year": 2025,
+    "make": "Rolls-Royce",
+    "model": "Spectre",
+    "trim": "AWD",
+    "miPerKWh": 2,
+    "rangeMi": 260
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 405
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model S",
+    "trim": "Plaid AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 396
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 348
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model X",
+    "trim": "Plaid AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 333
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "RWD",
+    "miPerKWh": 4.2,
+    "rangeMi": 272
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 4.1,
+    "rangeMi": 358
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Long Range RWD",
+    "miPerKWh": 4.3,
+    "rangeMi": 363
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model 3",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 315
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "RWD",
+    "miPerKWh": 3.9,
+    "rangeMi": 320
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 320
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Long Range RWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 337
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Model Y",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 303
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "trim": "RWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 320
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "trim": "AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 340
+  },
+  {
+    "year": 2026,
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "trim": "Cyberbeast AWD",
+    "miPerKWh": 2.1,
+    "rangeMi": 301
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh S",
+    "miPerKWh": 3.5,
+    "rangeMi": 149
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Leaf",
+    "trim": "40 kWh SV Plus",
+    "miPerKWh": 3.2,
+    "rangeMi": 212
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "1LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Bolt EV",
+    "trim": "2LT",
+    "miPerKWh": 3.5,
+    "rangeMi": 259
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Equinox EV",
+    "trim": "LT FWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 319
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Equinox EV",
+    "trim": "2RS FWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 319
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Equinox EV",
+    "trim": "3RS AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 280
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Silverado EV",
+    "trim": "Work Truck AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 450
+  },
+  {
+    "year": 2026,
+    "make": "Chevrolet",
+    "model": "Silverado EV",
+    "trim": "LT AWD",
+    "miPerKWh": 2.3,
+    "rangeMi": 400
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select RWD SR",
+    "miPerKWh": 3.3,
+    "rangeMi": 230
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Select AWD SR",
+    "miPerKWh": 2.9,
+    "rangeMi": 211
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium RWD ER",
+    "miPerKWh": 3.2,
+    "rangeMi": 312
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "Premium AWD ER",
+    "miPerKWh": 2.9,
+    "rangeMi": 277
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "trim": "GT AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "trim": "Pro SR AWD",
+    "miPerKWh": 2.1,
+    "rangeMi": 230
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "trim": "XLT ER AWD",
+    "miPerKWh": 2,
+    "rangeMi": 320
+  },
+  {
+    "year": 2026,
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "trim": "Platinum ER AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 300
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Standard AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 314
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1T",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 305
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Standard AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 260
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Adventure AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 321
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R1S",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.4,
+    "rangeMi": 312
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SE Standard Range RWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 220
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "SEL Long Range RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 303
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 266
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "trim": "N AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 266
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SE Long Range RWD",
+    "miPerKWh": 4,
+    "rangeMi": 361
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "SEL Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 6",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 316
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind RWD LR",
+    "miPerKWh": 3.5,
+    "rangeMi": 310
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "Wind AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT-Line AWD LR",
+    "miPerKWh": 3,
+    "rangeMi": 274
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV6",
+    "trim": "GT AWD",
+    "miPerKWh": 2.6,
+    "rangeMi": 206
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Light RWD",
+    "miPerKWh": 3,
+    "rangeMi": 304
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "Wind AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "GT-Line AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive40",
+    "miPerKWh": 2.8,
+    "rangeMi": 324
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "xDrive50",
+    "miPerKWh": 2.7,
+    "rangeMi": 324
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "iX",
+    "trim": "M60",
+    "miPerKWh": 2.5,
+    "rangeMi": 288
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "eDrive35",
+    "miPerKWh": 3.7,
+    "rangeMi": 301
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "eDrive40",
+    "miPerKWh": 3.5,
+    "rangeMi": 301
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "i4",
+    "trim": "M50",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "i5",
+    "trim": "eDrive40",
+    "miPerKWh": 3.4,
+    "rangeMi": 295
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "i5",
+    "trim": "M60 xDrive",
+    "miPerKWh": 2.9,
+    "rangeMi": 256
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "i7",
+    "trim": "xDrive60",
+    "miPerKWh": 2.8,
+    "rangeMi": 318
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "i7",
+    "trim": "M70 xDrive",
+    "miPerKWh": 2.5,
+    "rangeMi": 280
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "450+",
+    "miPerKWh": 3.2,
+    "rangeMi": 350
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQS",
+    "trim": "580 4MATIC",
+    "miPerKWh": 2.9,
+    "rangeMi": 340
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "250+",
+    "miPerKWh": 3,
+    "rangeMi": 245
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "trim": "350 4MATIC",
+    "miPerKWh": 2.8,
+    "rangeMi": 227
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 314
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "Lyriq",
+    "trim": "AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 288
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "Optiq",
+    "trim": "AWD",
+    "miPerKWh": 3,
+    "rangeMi": 300
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Standard RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 209
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 291
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S RWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 291
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "trim": "Pro S AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 255
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "55 quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 285
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "55 Sportback quattro",
+    "miPerKWh": 2.8,
+    "rangeMi": 300
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q8 e-tron",
+    "trim": "SQ8 quattro",
+    "miPerKWh": 2.5,
+    "rangeMi": 253
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "quattro",
+    "miPerKWh": 2.9,
+    "rangeMi": 238
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "e-tron GT",
+    "trim": "RS quattro",
+    "miPerKWh": 2.7,
+    "rangeMi": 232
+  },
+  {
+    "year": 2026,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Pure RWD",
+    "miPerKWh": 5,
+    "rangeMi": 420
+  },
+  {
+    "year": 2026,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Touring AWD",
+    "miPerKWh": 4.5,
+    "rangeMi": 425
+  },
+  {
+    "year": 2026,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Grand Touring AWD",
+    "miPerKWh": 4.6,
+    "rangeMi": 516
+  },
+  {
+    "year": 2026,
+    "make": "Lucid",
+    "model": "Air",
+    "trim": "Sapphire AWD",
+    "miPerKWh": 3.8,
+    "rangeMi": 427
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup EV2 AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 250
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "Pickup EV3X AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 329
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Hummer EV",
+    "trim": "SUV EV3X AWD",
+    "miPerKWh": 1.9,
+    "rangeMi": 314
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 246
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S",
+    "miPerKWh": 2.8,
+    "rangeMi": 246
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "GTS",
+    "miPerKWh": 2.8,
+    "rangeMi": 246
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo",
+    "miPerKWh": 2.6,
+    "rangeMi": 246
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo GT",
+    "miPerKWh": 2.4,
+    "rangeMi": 222
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "Turbo S",
+    "miPerKWh": 2.5,
+    "rangeMi": 225
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4 Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2026,
+    "make": "Porsche",
+    "model": "Taycan",
+    "trim": "4S Cross Turismo",
+    "miPerKWh": 2.7,
+    "rangeMi": 233
+  },
+  {
+    "year": 2026,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Single Motor",
+    "miPerKWh": 3.3,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Long Range Dual Motor",
+    "miPerKWh": 3,
+    "rangeMi": 249
+  },
+  {
+    "year": 2026,
+    "make": "Polestar",
+    "model": "Polestar 2",
+    "trim": "Standard Range Single Motor",
+    "miPerKWh": 3.5,
+    "rangeMi": 245
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "XC40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 223
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "C40 Recharge",
+    "trim": "Pure Electric AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 226
+  },
+  {
+    "year": 2026,
+    "make": "Subaru",
+    "model": "Solterra",
+    "trim": "AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 222
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE FWD",
+    "miPerKWh": 3,
+    "rangeMi": 252
+  },
+  {
+    "year": 2026,
+    "make": "Toyota",
+    "model": "bZ4X",
+    "trim": "XLE AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 222
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Standard AWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 248
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Advanced AWD",
+    "miPerKWh": 3,
+    "rangeMi": 248
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "GV60",
+    "trim": "Performance AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 235
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "GV70 Electrified",
+    "trim": "AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 236
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "G80 Electrified",
+    "trim": "AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 282
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage FWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 216
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage+ FWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 304
+  },
+  {
+    "year": 2026,
+    "make": "Nissan",
+    "model": "Ariya",
+    "trim": "Engage+ e-4ORCE AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 272
+  },
+  {
+    "year": 2026,
+    "make": "Honda",
+    "model": "Prologue",
+    "trim": "EX AWD",
+    "miPerKWh": 3,
+    "rangeMi": 296
+  },
+  {
+    "year": 2026,
+    "make": "Honda",
+    "model": "Prologue",
+    "trim": "Sport AWD",
+    "miPerKWh": 3,
+    "rangeMi": 296
+  },
+  {
+    "year": 2026,
+    "make": "Honda",
+    "model": "Prologue",
+    "trim": "Touring AWD",
+    "miPerKWh": 3,
+    "rangeMi": 296
+  },
+  {
+    "year": 2026,
+    "make": "Acura",
+    "model": "ZDX",
+    "trim": "A-Spec AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 288
+  },
+  {
+    "year": 2026,
+    "make": "Acura",
+    "model": "ZDX",
+    "trim": "Type S AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "iX2",
+    "trim": "xDrive30",
+    "miPerKWh": 3,
+    "rangeMi": 273
+  },
+  {
+    "year": 2026,
+    "make": "Volkswagen",
+    "model": "ID.Buzz",
+    "trim": "Pro AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 234
+  },
+  {
+    "year": 2026,
+    "make": "Ram",
+    "model": "1500 REV",
+    "trim": "AWD",
+    "miPerKWh": 2,
+    "rangeMi": 350
+  },
+  {
+    "year": 2026,
+    "make": "Rolls-Royce",
+    "model": "Spectre",
+    "trim": "AWD",
+    "miPerKWh": 2,
+    "rangeMi": 260
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "SE Standard RWD",
+    "miPerKWh": 3.1,
+    "rangeMi": 335
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "SEL Long Range AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 311
+  },
+  {
+    "year": 2026,
+    "make": "Hyundai",
+    "model": "Ioniq 9",
+    "trim": "Limited Long Range AWD",
+    "miPerKWh": 2.8,
+    "rangeMi": 311
+  },
+  {
+    "year": 2026,
+    "make": "Lucid",
+    "model": "Gravity",
+    "trim": "Grand Touring AWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 450
+  },
+  {
+    "year": 2026,
+    "make": "Lucid",
+    "model": "Gravity",
+    "trim": "Performance AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 420
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R2",
+    "trim": "Standard RWD",
+    "miPerKWh": 3.5,
+    "rangeMi": 300
+  },
+  {
+    "year": 2026,
+    "make": "Rivian",
+    "model": "R2",
+    "trim": "Standard AWD",
+    "miPerKWh": 3.2,
+    "rangeMi": 285
+  },
+  {
+    "year": 2026,
+    "make": "Cadillac",
+    "model": "Escalade IQ",
+    "trim": "AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 450
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Sierra EV",
+    "trim": "Work Truck AWD",
+    "miPerKWh": 2.3,
+    "rangeMi": 400
+  },
+  {
+    "year": 2026,
+    "make": "GMC",
+    "model": "Sierra EV",
+    "trim": "Denali AWD",
+    "miPerKWh": 2.2,
+    "rangeMi": 440
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX90",
+    "trim": "Twin Motor AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 300
+  },
+  {
+    "year": 2026,
+    "make": "Volvo",
+    "model": "EX90",
+    "trim": "Twin Motor Performance AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 280
+  },
+  {
+    "year": 2026,
+    "make": "Polestar",
+    "model": "Polestar 3",
+    "trim": "Long Range AWD",
+    "miPerKWh": 2.9,
+    "rangeMi": 315
+  },
+  {
+    "year": 2026,
+    "make": "Polestar",
+    "model": "Polestar 3",
+    "trim": "Long Range Performance AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 299
+  },
+  {
+    "year": 2026,
+    "make": "Polestar",
+    "model": "Polestar 4",
+    "trim": "Long Range RWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 300
+  },
+  {
+    "year": 2026,
+    "make": "Polestar",
+    "model": "Polestar 4",
+    "trim": "Long Range AWD",
+    "miPerKWh": 3,
+    "rangeMi": 280
+  },
+  {
+    "year": 2026,
+    "make": "Kia",
+    "model": "EV9",
+    "trim": "GT AWD",
+    "miPerKWh": 2.5,
+    "rangeMi": 243
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "GV80 Electrified",
+    "trim": "AWD",
+    "miPerKWh": 2.7,
+    "rangeMi": 270
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "iX3",
+    "trim": "xDrive",
+    "miPerKWh": 3.2,
+    "rangeMi": 295
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "350+",
+    "miPerKWh": 3.2,
+    "rangeMi": 305
+  },
+  {
+    "year": 2026,
+    "make": "Mercedes-Benz",
+    "model": "EQE",
+    "trim": "500 4MATIC",
+    "miPerKWh": 2.9,
+    "rangeMi": 277
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q6 e-tron",
+    "trim": "quattro",
+    "miPerKWh": 3.2,
+    "rangeMi": 307
+  },
+  {
+    "year": 2026,
+    "make": "Audi",
+    "model": "Q6 e-tron",
+    "trim": "SQ6 quattro",
+    "miPerKWh": 3,
+    "rangeMi": 285
+  }
 ]

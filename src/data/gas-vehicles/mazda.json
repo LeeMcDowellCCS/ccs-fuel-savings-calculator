@@ -1,104 +1,737 @@
 [
-  {"year":2010,"make":"Mazda","model":"Mazda3","trim":"2.0L 4-cyl","mpg":28},
-  {"year":2010,"make":"Mazda","model":"Mazda3","trim":"2.5L 4-cyl","mpg":26},
-  {"year":2011,"make":"Mazda","model":"Mazda3","trim":"2.0L 4-cyl","mpg":28},
-  {"year":2011,"make":"Mazda","model":"Mazda3","trim":"2.5L 4-cyl","mpg":26},
-  {"year":2012,"make":"Mazda","model":"Mazda3","trim":"2.0L 4-cyl","mpg":28},
-  {"year":2012,"make":"Mazda","model":"Mazda3","trim":"2.5L 4-cyl","mpg":26},
-  {"year":2013,"make":"Mazda","model":"Mazda3","trim":"2.0L 4-cyl","mpg":28},
-  {"year":2013,"make":"Mazda","model":"Mazda3","trim":"2.5L 4-cyl","mpg":26},
-  {"year":2014,"make":"Mazda","model":"Mazda3","trim":"2.0L SkyActiv FWD","mpg":32},
-  {"year":2014,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":30},
-  {"year":2015,"make":"Mazda","model":"Mazda3","trim":"2.0L SkyActiv FWD","mpg":32},
-  {"year":2015,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":30},
-  {"year":2016,"make":"Mazda","model":"Mazda3","trim":"2.0L SkyActiv FWD","mpg":32},
-  {"year":2016,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":30},
-  {"year":2017,"make":"Mazda","model":"Mazda3","trim":"2.0L SkyActiv FWD","mpg":32},
-  {"year":2017,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":30},
-  {"year":2018,"make":"Mazda","model":"Mazda3","trim":"2.0L SkyActiv FWD","mpg":32},
-  {"year":2018,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":30},
-  {"year":2019,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":32},
-  {"year":2019,"make":"Mazda","model":"Mazda3","trim":"2.5L AWD","mpg":29},
-  {"year":2020,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":32},
-  {"year":2020,"make":"Mazda","model":"Mazda3","trim":"2.5T AWD","mpg":28},
-  {"year":2021,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":32},
-  {"year":2021,"make":"Mazda","model":"Mazda3","trim":"2.5T AWD","mpg":28},
-  {"year":2022,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":32},
-  {"year":2022,"make":"Mazda","model":"Mazda3","trim":"2.5T AWD","mpg":28},
-  {"year":2023,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":32},
-  {"year":2023,"make":"Mazda","model":"Mazda3","trim":"2.5T AWD","mpg":28},
-  {"year":2024,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":32},
-  {"year":2024,"make":"Mazda","model":"Mazda3","trim":"2.5T AWD","mpg":28},
-  {"year":2025,"make":"Mazda","model":"Mazda3","trim":"2.5L SkyActiv FWD","mpg":32},
-  {"year":2025,"make":"Mazda","model":"Mazda3","trim":"2.5T AWD","mpg":28},
-
-  {"year":2010,"make":"Mazda","model":"Mazda6","trim":"2.5L 4-cyl","mpg":25},
-  {"year":2011,"make":"Mazda","model":"Mazda6","trim":"2.5L 4-cyl","mpg":25},
-  {"year":2012,"make":"Mazda","model":"Mazda6","trim":"2.5L 4-cyl","mpg":25},
-  {"year":2013,"make":"Mazda","model":"Mazda6","trim":"2.5L SkyActiv","mpg":30},
-  {"year":2014,"make":"Mazda","model":"Mazda6","trim":"2.5L SkyActiv","mpg":30},
-  {"year":2015,"make":"Mazda","model":"Mazda6","trim":"2.5L SkyActiv","mpg":30},
-  {"year":2016,"make":"Mazda","model":"Mazda6","trim":"2.5L SkyActiv","mpg":30},
-  {"year":2017,"make":"Mazda","model":"Mazda6","trim":"2.5L SkyActiv","mpg":30},
-  {"year":2018,"make":"Mazda","model":"Mazda6","trim":"2.5L SkyActiv","mpg":30},
-  {"year":2018,"make":"Mazda","model":"Mazda6","trim":"2.5T Signature","mpg":28},
-  {"year":2019,"make":"Mazda","model":"Mazda6","trim":"2.5L SkyActiv","mpg":30},
-  {"year":2019,"make":"Mazda","model":"Mazda6","trim":"2.5T Turbo","mpg":28},
-  {"year":2020,"make":"Mazda","model":"Mazda6","trim":"2.5L SkyActiv","mpg":30},
-  {"year":2020,"make":"Mazda","model":"Mazda6","trim":"2.5T Turbo","mpg":28},
-  {"year":2021,"make":"Mazda","model":"Mazda6","trim":"2.5L SkyActiv","mpg":30},
-  {"year":2021,"make":"Mazda","model":"Mazda6","trim":"2.5T Turbo","mpg":28},
-
-  {"year":2013,"make":"Mazda","model":"CX-5","trim":"2.0L SkyActiv FWD","mpg":29},
-  {"year":2013,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv AWD","mpg":26},
-  {"year":2014,"make":"Mazda","model":"CX-5","trim":"2.0L SkyActiv FWD","mpg":29},
-  {"year":2014,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv AWD","mpg":26},
-  {"year":2015,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":29},
-  {"year":2015,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv AWD","mpg":27},
-  {"year":2016,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":29},
-  {"year":2016,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv AWD","mpg":27},
-  {"year":2017,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":29},
-  {"year":2017,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv AWD","mpg":27},
-  {"year":2018,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":29},
-  {"year":2018,"make":"Mazda","model":"CX-5","trim":"2.5T AWD","mpg":26},
-  {"year":2019,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":28},
-  {"year":2019,"make":"Mazda","model":"CX-5","trim":"2.5T AWD","mpg":25},
-  {"year":2020,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":28},
-  {"year":2020,"make":"Mazda","model":"CX-5","trim":"2.5T AWD","mpg":25},
-  {"year":2021,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":28},
-  {"year":2021,"make":"Mazda","model":"CX-5","trim":"2.5T AWD","mpg":25},
-  {"year":2022,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":28},
-  {"year":2022,"make":"Mazda","model":"CX-5","trim":"2.5T AWD","mpg":25},
-  {"year":2023,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":28},
-  {"year":2023,"make":"Mazda","model":"CX-5","trim":"2.5T AWD","mpg":25},
-  {"year":2024,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":28},
-  {"year":2024,"make":"Mazda","model":"CX-5","trim":"2.5T AWD","mpg":25},
-  {"year":2025,"make":"Mazda","model":"CX-5","trim":"2.5L SkyActiv FWD","mpg":28},
-  {"year":2025,"make":"Mazda","model":"CX-5","trim":"2.5T AWD","mpg":25},
-
-  {"year":2010,"make":"Mazda","model":"CX-9","trim":"3.7L V6 FWD","mpg":17},
-  {"year":2011,"make":"Mazda","model":"CX-9","trim":"3.7L V6 FWD","mpg":17},
-  {"year":2012,"make":"Mazda","model":"CX-9","trim":"3.7L V6 FWD","mpg":17},
-  {"year":2013,"make":"Mazda","model":"CX-9","trim":"3.7L V6 FWD","mpg":17},
-  {"year":2014,"make":"Mazda","model":"CX-9","trim":"3.7L V6 FWD","mpg":17},
-  {"year":2015,"make":"Mazda","model":"CX-9","trim":"3.7L V6 FWD","mpg":17},
-  {"year":2016,"make":"Mazda","model":"CX-9","trim":"3.7L V6 FWD","mpg":17},
-  {"year":2017,"make":"Mazda","model":"CX-9","trim":"2.5T FWD","mpg":22},
-  {"year":2017,"make":"Mazda","model":"CX-9","trim":"2.5T AWD","mpg":21},
-  {"year":2018,"make":"Mazda","model":"CX-9","trim":"2.5T FWD","mpg":22},
-  {"year":2018,"make":"Mazda","model":"CX-9","trim":"2.5T AWD","mpg":21},
-  {"year":2019,"make":"Mazda","model":"CX-9","trim":"2.5T FWD","mpg":22},
-  {"year":2019,"make":"Mazda","model":"CX-9","trim":"2.5T AWD","mpg":21},
-  {"year":2020,"make":"Mazda","model":"CX-9","trim":"2.5T FWD","mpg":22},
-  {"year":2020,"make":"Mazda","model":"CX-9","trim":"2.5T AWD","mpg":21},
-  {"year":2021,"make":"Mazda","model":"CX-9","trim":"2.5T FWD","mpg":22},
-  {"year":2021,"make":"Mazda","model":"CX-9","trim":"2.5T AWD","mpg":21},
-  {"year":2022,"make":"Mazda","model":"CX-9","trim":"2.5T FWD","mpg":22},
-  {"year":2022,"make":"Mazda","model":"CX-9","trim":"2.5T AWD","mpg":21},
-  {"year":2023,"make":"Mazda","model":"CX-9","trim":"2.5T FWD","mpg":22},
-  {"year":2023,"make":"Mazda","model":"CX-9","trim":"2.5T AWD","mpg":21},
-  {"year":2024,"make":"Mazda","model":"CX-90","trim":"2.5T FWD","mpg":25},
-  {"year":2024,"make":"Mazda","model":"CX-90","trim":"3.3T AWD","mpg":23},
-  {"year":2025,"make":"Mazda","model":"CX-90","trim":"2.5T FWD","mpg":25},
-  {"year":2025,"make":"Mazda","model":"CX-90","trim":"3.3T AWD","mpg":23}
+  {
+    "year": 2010,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.0L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2010,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L 4-cyl",
+    "mpg": 26
+  },
+  {
+    "year": 2011,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.0L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2011,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L 4-cyl",
+    "mpg": 26
+  },
+  {
+    "year": 2012,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.0L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2012,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L 4-cyl",
+    "mpg": 26
+  },
+  {
+    "year": 2013,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.0L 4-cyl",
+    "mpg": 28
+  },
+  {
+    "year": 2013,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L 4-cyl",
+    "mpg": 26
+  },
+  {
+    "year": 2014,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.0L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2014,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2015,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.0L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2015,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2016,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.0L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2016,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2017,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.0L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2017,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.0L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 30
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L AWD",
+    "mpg": 29
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5T AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5T AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5T AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5T AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5T AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5T AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2010,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L 4-cyl",
+    "mpg": 25
+  },
+  {
+    "year": 2011,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L 4-cyl",
+    "mpg": 25
+  },
+  {
+    "year": 2012,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L 4-cyl",
+    "mpg": 25
+  },
+  {
+    "year": 2013,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L SkyActiv",
+    "mpg": 30
+  },
+  {
+    "year": 2014,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L SkyActiv",
+    "mpg": 30
+  },
+  {
+    "year": 2015,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L SkyActiv",
+    "mpg": 30
+  },
+  {
+    "year": 2016,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L SkyActiv",
+    "mpg": 30
+  },
+  {
+    "year": 2017,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L SkyActiv",
+    "mpg": 30
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L SkyActiv",
+    "mpg": 30
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5T Signature",
+    "mpg": 28
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L SkyActiv",
+    "mpg": 30
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5T Turbo",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L SkyActiv",
+    "mpg": 30
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5T Turbo",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5L SkyActiv",
+    "mpg": 30
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "Mazda6",
+    "trim": "2.5T Turbo",
+    "mpg": 28
+  },
+  {
+    "year": 2013,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.0L SkyActiv FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2013,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2014,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.0L SkyActiv FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2014,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2015,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2015,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2016,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2016,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2017,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2017,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv AWD",
+    "mpg": 27
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 29
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5T AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5T AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5T AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5T AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5T AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5T AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5T AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5T AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2010,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "3.7L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2011,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "3.7L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2012,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "3.7L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2013,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "3.7L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2014,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "3.7L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2015,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "3.7L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2016,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "3.7L V6 FWD",
+    "mpg": 17
+  },
+  {
+    "year": 2017,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2017,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T FWD",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Mazda",
+    "model": "CX-9",
+    "trim": "2.5T AWD",
+    "mpg": 21
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "CX-90",
+    "trim": "2.5T FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "Mazda",
+    "model": "CX-90",
+    "trim": "3.3T AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-90",
+    "trim": "2.5T FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "Mazda",
+    "model": "CX-90",
+    "trim": "3.3T AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 32
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "2.5T AWD",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5L SkyActiv FWD",
+    "mpg": 28
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-5",
+    "trim": "2.5T AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-90",
+    "trim": "2.5T FWD",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "Mazda",
+    "model": "CX-90",
+    "trim": "3.3T AWD",
+    "mpg": 23
+  }
 ]

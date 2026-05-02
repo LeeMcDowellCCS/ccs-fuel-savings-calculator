@@ -1,120 +1,863 @@
 [
-  {"year":2010,"make":"BMW","model":"3 Series","trim":"328i RWD","mpg":24},
-  {"year":2010,"make":"BMW","model":"3 Series","trim":"335i RWD","mpg":22},
-  {"year":2011,"make":"BMW","model":"3 Series","trim":"328i RWD","mpg":24},
-  {"year":2011,"make":"BMW","model":"3 Series","trim":"335i RWD","mpg":22},
-  {"year":2012,"make":"BMW","model":"3 Series","trim":"328i RWD","mpg":26},
-  {"year":2012,"make":"BMW","model":"3 Series","trim":"335i RWD","mpg":23},
-  {"year":2013,"make":"BMW","model":"3 Series","trim":"328i RWD","mpg":26},
-  {"year":2013,"make":"BMW","model":"3 Series","trim":"335i RWD","mpg":23},
-  {"year":2014,"make":"BMW","model":"3 Series","trim":"328i RWD","mpg":26},
-  {"year":2014,"make":"BMW","model":"3 Series","trim":"335i RWD","mpg":23},
-  {"year":2015,"make":"BMW","model":"3 Series","trim":"328i RWD","mpg":27},
-  {"year":2015,"make":"BMW","model":"3 Series","trim":"335i RWD","mpg":25},
-  {"year":2016,"make":"BMW","model":"3 Series","trim":"328i RWD","mpg":27},
-  {"year":2016,"make":"BMW","model":"3 Series","trim":"340i RWD","mpg":25},
-  {"year":2017,"make":"BMW","model":"3 Series","trim":"330i RWD","mpg":28},
-  {"year":2017,"make":"BMW","model":"3 Series","trim":"340i RWD","mpg":25},
-  {"year":2018,"make":"BMW","model":"3 Series","trim":"330i RWD","mpg":28},
-  {"year":2018,"make":"BMW","model":"3 Series","trim":"340i RWD","mpg":25},
-  {"year":2019,"make":"BMW","model":"3 Series","trim":"330i RWD","mpg":30},
-  {"year":2019,"make":"BMW","model":"3 Series","trim":"M340i RWD","mpg":26},
-  {"year":2020,"make":"BMW","model":"3 Series","trim":"330i RWD","mpg":30},
-  {"year":2020,"make":"BMW","model":"3 Series","trim":"M340i RWD","mpg":27},
-  {"year":2021,"make":"BMW","model":"3 Series","trim":"330i RWD","mpg":30},
-  {"year":2021,"make":"BMW","model":"3 Series","trim":"M340i RWD","mpg":27},
-  {"year":2022,"make":"BMW","model":"3 Series","trim":"330i RWD","mpg":30},
-  {"year":2022,"make":"BMW","model":"3 Series","trim":"M340i RWD","mpg":27},
-  {"year":2023,"make":"BMW","model":"3 Series","trim":"330i RWD","mpg":30},
-  {"year":2023,"make":"BMW","model":"3 Series","trim":"M340i RWD","mpg":27},
-  {"year":2024,"make":"BMW","model":"3 Series","trim":"330i RWD","mpg":30},
-  {"year":2024,"make":"BMW","model":"3 Series","trim":"M340i RWD","mpg":27},
-  {"year":2025,"make":"BMW","model":"3 Series","trim":"330i RWD","mpg":30},
-  {"year":2025,"make":"BMW","model":"3 Series","trim":"M340i RWD","mpg":27},
-
-  {"year":2010,"make":"BMW","model":"5 Series","trim":"528i RWD","mpg":22},
-  {"year":2010,"make":"BMW","model":"5 Series","trim":"535i RWD","mpg":20},
-  {"year":2011,"make":"BMW","model":"5 Series","trim":"528i RWD","mpg":25},
-  {"year":2011,"make":"BMW","model":"5 Series","trim":"535i RWD","mpg":23},
-  {"year":2012,"make":"BMW","model":"5 Series","trim":"528i RWD","mpg":25},
-  {"year":2012,"make":"BMW","model":"5 Series","trim":"535i RWD","mpg":23},
-  {"year":2013,"make":"BMW","model":"5 Series","trim":"528i RWD","mpg":25},
-  {"year":2013,"make":"BMW","model":"5 Series","trim":"535i RWD","mpg":23},
-  {"year":2014,"make":"BMW","model":"5 Series","trim":"528i RWD","mpg":25},
-  {"year":2014,"make":"BMW","model":"5 Series","trim":"535i RWD","mpg":23},
-  {"year":2015,"make":"BMW","model":"5 Series","trim":"528i RWD","mpg":25},
-  {"year":2015,"make":"BMW","model":"5 Series","trim":"535i RWD","mpg":23},
-  {"year":2016,"make":"BMW","model":"5 Series","trim":"528i RWD","mpg":25},
-  {"year":2016,"make":"BMW","model":"5 Series","trim":"535i RWD","mpg":24},
-  {"year":2017,"make":"BMW","model":"5 Series","trim":"530i RWD","mpg":27},
-  {"year":2017,"make":"BMW","model":"5 Series","trim":"540i RWD","mpg":25},
-  {"year":2018,"make":"BMW","model":"5 Series","trim":"530i RWD","mpg":27},
-  {"year":2018,"make":"BMW","model":"5 Series","trim":"540i RWD","mpg":25},
-  {"year":2019,"make":"BMW","model":"5 Series","trim":"530i RWD","mpg":28},
-  {"year":2019,"make":"BMW","model":"5 Series","trim":"540i RWD","mpg":24},
-  {"year":2020,"make":"BMW","model":"5 Series","trim":"530i RWD","mpg":28},
-  {"year":2020,"make":"BMW","model":"5 Series","trim":"540i RWD","mpg":25},
-  {"year":2021,"make":"BMW","model":"5 Series","trim":"530i RWD","mpg":28},
-  {"year":2021,"make":"BMW","model":"5 Series","trim":"540i RWD","mpg":25},
-  {"year":2022,"make":"BMW","model":"5 Series","trim":"530i RWD","mpg":28},
-  {"year":2022,"make":"BMW","model":"5 Series","trim":"540i RWD","mpg":25},
-  {"year":2023,"make":"BMW","model":"5 Series","trim":"530i RWD","mpg":28},
-  {"year":2023,"make":"BMW","model":"5 Series","trim":"540i RWD","mpg":25},
-  {"year":2024,"make":"BMW","model":"5 Series","trim":"530i RWD","mpg":30},
-  {"year":2024,"make":"BMW","model":"5 Series","trim":"540i RWD","mpg":27},
-  {"year":2025,"make":"BMW","model":"5 Series","trim":"530i RWD","mpg":30},
-  {"year":2025,"make":"BMW","model":"5 Series","trim":"540i RWD","mpg":27},
-
-  {"year":2010,"make":"BMW","model":"X3","trim":"xDrive28i AWD","mpg":20},
-  {"year":2011,"make":"BMW","model":"X3","trim":"xDrive28i AWD","mpg":22},
-  {"year":2012,"make":"BMW","model":"X3","trim":"xDrive28i AWD","mpg":22},
-  {"year":2013,"make":"BMW","model":"X3","trim":"xDrive28i AWD","mpg":22},
-  {"year":2014,"make":"BMW","model":"X3","trim":"xDrive28i AWD","mpg":22},
-  {"year":2015,"make":"BMW","model":"X3","trim":"xDrive28i AWD","mpg":22},
-  {"year":2016,"make":"BMW","model":"X3","trim":"xDrive28i AWD","mpg":22},
-  {"year":2017,"make":"BMW","model":"X3","trim":"xDrive28i AWD","mpg":22},
-  {"year":2018,"make":"BMW","model":"X3","trim":"xDrive30i AWD","mpg":25},
-  {"year":2018,"make":"BMW","model":"X3","trim":"M40i AWD","mpg":23},
-  {"year":2019,"make":"BMW","model":"X3","trim":"xDrive30i AWD","mpg":25},
-  {"year":2019,"make":"BMW","model":"X3","trim":"M40i AWD","mpg":23},
-  {"year":2020,"make":"BMW","model":"X3","trim":"xDrive30i AWD","mpg":25},
-  {"year":2020,"make":"BMW","model":"X3","trim":"M40i AWD","mpg":23},
-  {"year":2021,"make":"BMW","model":"X3","trim":"xDrive30i AWD","mpg":25},
-  {"year":2021,"make":"BMW","model":"X3","trim":"M40i AWD","mpg":23},
-  {"year":2022,"make":"BMW","model":"X3","trim":"xDrive30i AWD","mpg":25},
-  {"year":2022,"make":"BMW","model":"X3","trim":"M40i AWD","mpg":23},
-  {"year":2023,"make":"BMW","model":"X3","trim":"xDrive30i AWD","mpg":25},
-  {"year":2023,"make":"BMW","model":"X3","trim":"M40i AWD","mpg":23},
-  {"year":2024,"make":"BMW","model":"X3","trim":"xDrive30i AWD","mpg":26},
-  {"year":2024,"make":"BMW","model":"X3","trim":"M40i AWD","mpg":23},
-  {"year":2025,"make":"BMW","model":"X3","trim":"xDrive30i AWD","mpg":26},
-  {"year":2025,"make":"BMW","model":"X3","trim":"M40i AWD","mpg":23},
-
-  {"year":2010,"make":"BMW","model":"X5","trim":"xDrive35i AWD","mpg":18},
-  {"year":2011,"make":"BMW","model":"X5","trim":"xDrive35i AWD","mpg":19},
-  {"year":2012,"make":"BMW","model":"X5","trim":"xDrive35i AWD","mpg":19},
-  {"year":2013,"make":"BMW","model":"X5","trim":"xDrive35i AWD","mpg":19},
-  {"year":2014,"make":"BMW","model":"X5","trim":"xDrive35i AWD","mpg":19},
-  {"year":2015,"make":"BMW","model":"X5","trim":"xDrive35i AWD","mpg":20},
-  {"year":2015,"make":"BMW","model":"X5","trim":"xDrive50i AWD (V8)","mpg":18},
-  {"year":2016,"make":"BMW","model":"X5","trim":"xDrive35i AWD","mpg":20},
-  {"year":2016,"make":"BMW","model":"X5","trim":"xDrive50i AWD (V8)","mpg":18},
-  {"year":2017,"make":"BMW","model":"X5","trim":"xDrive35i AWD","mpg":20},
-  {"year":2017,"make":"BMW","model":"X5","trim":"xDrive50i AWD (V8)","mpg":18},
-  {"year":2018,"make":"BMW","model":"X5","trim":"xDrive35i AWD","mpg":20},
-  {"year":2018,"make":"BMW","model":"X5","trim":"xDrive50i AWD (V8)","mpg":18},
-  {"year":2019,"make":"BMW","model":"X5","trim":"xDrive40i AWD","mpg":25},
-  {"year":2019,"make":"BMW","model":"X5","trim":"xDrive50i AWD (V8)","mpg":20},
-  {"year":2020,"make":"BMW","model":"X5","trim":"xDrive40i AWD","mpg":25},
-  {"year":2020,"make":"BMW","model":"X5","trim":"xDrive50i AWD (V8)","mpg":20},
-  {"year":2021,"make":"BMW","model":"X5","trim":"xDrive40i AWD","mpg":25},
-  {"year":2021,"make":"BMW","model":"X5","trim":"M50i AWD (V8)","mpg":19},
-  {"year":2022,"make":"BMW","model":"X5","trim":"xDrive40i AWD","mpg":25},
-  {"year":2022,"make":"BMW","model":"X5","trim":"M50i AWD (V8)","mpg":19},
-  {"year":2023,"make":"BMW","model":"X5","trim":"xDrive40i AWD","mpg":25},
-  {"year":2023,"make":"BMW","model":"X5","trim":"M60i AWD (V8)","mpg":19},
-  {"year":2024,"make":"BMW","model":"X5","trim":"xDrive40i AWD","mpg":25},
-  {"year":2024,"make":"BMW","model":"X5","trim":"M60i AWD (V8)","mpg":19},
-  {"year":2025,"make":"BMW","model":"X5","trim":"xDrive40i AWD","mpg":25},
-  {"year":2025,"make":"BMW","model":"X5","trim":"M60i AWD (V8)","mpg":19}
+  {
+    "year": 2010,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "328i RWD",
+    "mpg": 24
+  },
+  {
+    "year": 2010,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "335i RWD",
+    "mpg": 22
+  },
+  {
+    "year": 2011,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "328i RWD",
+    "mpg": 24
+  },
+  {
+    "year": 2011,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "335i RWD",
+    "mpg": 22
+  },
+  {
+    "year": 2012,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "328i RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2012,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "335i RWD",
+    "mpg": 23
+  },
+  {
+    "year": 2013,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "328i RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2013,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "335i RWD",
+    "mpg": 23
+  },
+  {
+    "year": 2014,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "328i RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2014,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "335i RWD",
+    "mpg": 23
+  },
+  {
+    "year": 2015,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "328i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2015,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "335i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2016,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "328i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2016,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "340i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2017,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2017,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "340i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2018,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2018,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "340i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "M340i RWD",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "M340i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "M340i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "M340i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "M340i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "M340i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "M340i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2010,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "528i RWD",
+    "mpg": 22
+  },
+  {
+    "year": 2010,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "535i RWD",
+    "mpg": 20
+  },
+  {
+    "year": 2011,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "528i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2011,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "535i RWD",
+    "mpg": 23
+  },
+  {
+    "year": 2012,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "528i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2012,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "535i RWD",
+    "mpg": 23
+  },
+  {
+    "year": 2013,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "528i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2013,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "535i RWD",
+    "mpg": 23
+  },
+  {
+    "year": 2014,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "528i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2014,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "535i RWD",
+    "mpg": 23
+  },
+  {
+    "year": 2015,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "528i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2015,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "535i RWD",
+    "mpg": 23
+  },
+  {
+    "year": 2016,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "528i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2016,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "535i RWD",
+    "mpg": 24
+  },
+  {
+    "year": 2017,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2017,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2018,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2018,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 28
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2010,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive28i AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2011,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive28i AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2012,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive28i AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2013,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive28i AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2014,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive28i AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2015,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive28i AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2016,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive28i AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2017,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive28i AWD",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive30i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2018,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "M40i AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive30i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "M40i AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive30i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "M40i AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive30i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "M40i AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive30i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "M40i AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive30i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "M40i AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive30i AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "M40i AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive30i AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "M40i AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2010,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive35i AWD",
+    "mpg": 18
+  },
+  {
+    "year": 2011,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive35i AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2012,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive35i AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2013,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive35i AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2014,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive35i AWD",
+    "mpg": 19
+  },
+  {
+    "year": 2015,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive35i AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2015,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive50i AWD (V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2016,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive35i AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2016,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive50i AWD (V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2017,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive35i AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2017,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive50i AWD (V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2018,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive35i AWD",
+    "mpg": 20
+  },
+  {
+    "year": 2018,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive50i AWD (V8)",
+    "mpg": 18
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive40i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2019,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive50i AWD (V8)",
+    "mpg": 20
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive40i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2020,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive50i AWD (V8)",
+    "mpg": 20
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive40i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2021,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "M50i AWD (V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive40i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2022,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "M50i AWD (V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive40i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2023,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "M60i AWD (V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive40i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2024,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "M60i AWD (V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive40i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2025,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "M60i AWD (V8)",
+    "mpg": 19
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "330i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "3 Series",
+    "trim": "M340i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "530i RWD",
+    "mpg": 30
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "5 Series",
+    "trim": "540i RWD",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "xDrive30i AWD",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X3",
+    "trim": "M40i AWD",
+    "mpg": 23
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive40i AWD",
+    "mpg": 25
+  },
+  {
+    "year": 2026,
+    "make": "BMW",
+    "model": "X5",
+    "trim": "M60i AWD (V8)",
+    "mpg": 19
+  }
 ]

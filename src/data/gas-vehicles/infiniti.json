@@ -1,65 +1,436 @@
 [
-  {"year":2014,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.7L V6)","mpg":22},
-  {"year":2015,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.7L V6)","mpg":22},
-  {"year":2016,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (2.0T)","mpg":27},
-  {"year":2016,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.0T V6)","mpg":22},
-  {"year":2017,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (2.0T)","mpg":27},
-  {"year":2017,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.0T V6)","mpg":22},
-  {"year":2018,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (2.0T)","mpg":27},
-  {"year":2018,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.0T V6)","mpg":22},
-  {"year":2019,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (2.0T)","mpg":27},
-  {"year":2019,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.0T V6)","mpg":22},
-  {"year":2020,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (2.0T)","mpg":27},
-  {"year":2020,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.0T V6)","mpg":22},
-  {"year":2021,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (2.0T)","mpg":27},
-  {"year":2021,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.0T V6)","mpg":22},
-  {"year":2022,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (2.0T)","mpg":27},
-  {"year":2022,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.0T V6)","mpg":22},
-  {"year":2023,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (2.0T)","mpg":27},
-  {"year":2023,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.0T V6)","mpg":22},
-  {"year":2024,"make":"INFINITI","model":"Q50","trim":"Q50 RWD (3.0T V6)","mpg":22},
-
-  {"year":2017,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (2.0T)","mpg":26},
-  {"year":2017,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (3.0T V6)","mpg":22},
-  {"year":2018,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (2.0T)","mpg":26},
-  {"year":2018,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (3.0T V6)","mpg":22},
-  {"year":2019,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (2.0T)","mpg":26},
-  {"year":2019,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (3.0T V6)","mpg":22},
-  {"year":2020,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (2.0T)","mpg":26},
-  {"year":2020,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (3.0T V6)","mpg":22},
-  {"year":2021,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (3.0T V6)","mpg":22},
-  {"year":2022,"make":"INFINITI","model":"Q60","trim":"Q60 RWD (3.0T V6)","mpg":22},
-
-  {"year":2010,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":20},
-  {"year":2011,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":20},
-  {"year":2012,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":20},
-  {"year":2013,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":22},
-  {"year":2014,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":22},
-  {"year":2015,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":22},
-  {"year":2016,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":22},
-  {"year":2017,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":22},
-  {"year":2018,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":22},
-  {"year":2019,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":22},
-  {"year":2020,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":22},
-  {"year":2021,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":22},
-  {"year":2022,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":24},
-  {"year":2023,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":24},
-  {"year":2024,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":24},
-  {"year":2025,"make":"INFINITI","model":"QX60","trim":"QX60 AWD (3.5L V6)","mpg":24},
-
-  {"year":2011,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2012,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2013,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2014,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2015,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2016,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2017,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2018,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2019,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2020,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2021,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2022,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2023,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2024,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (5.6L V8)","mpg":15},
-  {"year":2025,"make":"INFINITI","model":"QX80","trim":"QX80 4WD (3.5T V6)","mpg":19}
+  {
+    "year": 2014,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.7L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2015,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.7L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2016,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2016,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2017,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2017,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2018,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2019,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2020,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2022,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2023,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "INFINITI",
+    "model": "Q50",
+    "trim": "Q50 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2017,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2017,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2018,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2019,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "INFINITI",
+    "model": "Q60",
+    "trim": "Q60 RWD (3.0T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2010,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2011,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2012,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 20
+  },
+  {
+    "year": 2013,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2014,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2015,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2016,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2017,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2023,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2024,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2025,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2011,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2012,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2013,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2014,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2015,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2016,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2017,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2018,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2019,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2020,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2021,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2022,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2023,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2024,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (5.6L V8)",
+    "mpg": 15
+  },
+  {
+    "year": 2025,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (3.5T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2026,
+    "make": "INFINITI",
+    "model": "QX60",
+    "trim": "QX60 AWD (3.5L V6)",
+    "mpg": 24
+  },
+  {
+    "year": 2026,
+    "make": "INFINITI",
+    "model": "QX80",
+    "trim": "QX80 4WD (3.5T V6)",
+    "mpg": 19
+  }
 ]

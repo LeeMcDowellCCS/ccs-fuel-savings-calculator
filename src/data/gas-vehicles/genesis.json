@@ -1,54 +1,394 @@
 [
-  {"year":2017,"make":"Genesis","model":"G80","trim":"G80 RWD (2.0T)","mpg":24},
-  {"year":2017,"make":"Genesis","model":"G80","trim":"G80 RWD (3.8L V6)","mpg":21},
-  {"year":2018,"make":"Genesis","model":"G80","trim":"G80 RWD (2.0T)","mpg":24},
-  {"year":2018,"make":"Genesis","model":"G80","trim":"G80 RWD (3.8L V6)","mpg":21},
-  {"year":2019,"make":"Genesis","model":"G80","trim":"G80 RWD (2.0T)","mpg":24},
-  {"year":2019,"make":"Genesis","model":"G80","trim":"G80 RWD (3.8L V6)","mpg":21},
-  {"year":2020,"make":"Genesis","model":"G80","trim":"G80 RWD (2.0T)","mpg":24},
-  {"year":2020,"make":"Genesis","model":"G80","trim":"G80 RWD (3.8L V6)","mpg":21},
-  {"year":2021,"make":"Genesis","model":"G80","trim":"G80 RWD (2.5T)","mpg":26},
-  {"year":2021,"make":"Genesis","model":"G80","trim":"G80 AWD (3.5T V6)","mpg":22},
-  {"year":2022,"make":"Genesis","model":"G80","trim":"G80 RWD (2.5T)","mpg":26},
-  {"year":2022,"make":"Genesis","model":"G80","trim":"G80 AWD (3.5T V6)","mpg":22},
-  {"year":2023,"make":"Genesis","model":"G80","trim":"G80 RWD (2.5T)","mpg":26},
-  {"year":2023,"make":"Genesis","model":"G80","trim":"G80 AWD (3.5T V6)","mpg":22},
-  {"year":2024,"make":"Genesis","model":"G80","trim":"G80 RWD (2.5T)","mpg":26},
-  {"year":2024,"make":"Genesis","model":"G80","trim":"G80 AWD (3.5T V6)","mpg":22},
-  {"year":2025,"make":"Genesis","model":"G80","trim":"G80 RWD (2.5T)","mpg":26},
-  {"year":2025,"make":"Genesis","model":"G80","trim":"G80 AWD (3.5T V6)","mpg":22},
-
-  {"year":2017,"make":"Genesis","model":"G70","trim":"G70 RWD (2.0T)","mpg":26},
-  {"year":2017,"make":"Genesis","model":"G70","trim":"G70 RWD (3.3T V6)","mpg":22},
-  {"year":2018,"make":"Genesis","model":"G70","trim":"G70 RWD (2.0T)","mpg":26},
-  {"year":2018,"make":"Genesis","model":"G70","trim":"G70 RWD (3.3T V6)","mpg":22},
-  {"year":2019,"make":"Genesis","model":"G70","trim":"G70 RWD (2.0T)","mpg":26},
-  {"year":2019,"make":"Genesis","model":"G70","trim":"G70 RWD (3.3T V6)","mpg":22},
-  {"year":2020,"make":"Genesis","model":"G70","trim":"G70 RWD (2.0T)","mpg":26},
-  {"year":2020,"make":"Genesis","model":"G70","trim":"G70 RWD (3.3T V6)","mpg":22},
-  {"year":2021,"make":"Genesis","model":"G70","trim":"G70 RWD (2.0T)","mpg":26},
-  {"year":2022,"make":"Genesis","model":"G70","trim":"G70 RWD (2.0T)","mpg":26},
-  {"year":2023,"make":"Genesis","model":"G70","trim":"G70 RWD (2.0T)","mpg":27},
-  {"year":2024,"make":"Genesis","model":"G70","trim":"G70 RWD (2.0T)","mpg":27},
-  {"year":2025,"make":"Genesis","model":"G70","trim":"G70 RWD (2.0T)","mpg":27},
-
-  {"year":2021,"make":"Genesis","model":"GV80","trim":"GV80 AWD (2.5T)","mpg":22},
-  {"year":2021,"make":"Genesis","model":"GV80","trim":"GV80 AWD (3.5T V6)","mpg":19},
-  {"year":2022,"make":"Genesis","model":"GV80","trim":"GV80 AWD (2.5T)","mpg":22},
-  {"year":2022,"make":"Genesis","model":"GV80","trim":"GV80 AWD (3.5T V6)","mpg":19},
-  {"year":2023,"make":"Genesis","model":"GV80","trim":"GV80 AWD (2.5T)","mpg":22},
-  {"year":2023,"make":"Genesis","model":"GV80","trim":"GV80 AWD (3.5T V6)","mpg":19},
-  {"year":2024,"make":"Genesis","model":"GV80","trim":"GV80 AWD (2.5T)","mpg":22},
-  {"year":2024,"make":"Genesis","model":"GV80","trim":"GV80 AWD (3.5T V6)","mpg":19},
-  {"year":2025,"make":"Genesis","model":"GV80","trim":"GV80 AWD (2.5T)","mpg":22},
-  {"year":2025,"make":"Genesis","model":"GV80","trim":"GV80 AWD (3.5T V6)","mpg":19},
-
-  {"year":2022,"make":"Genesis","model":"GV70","trim":"GV70 AWD (2.5T)","mpg":26},
-  {"year":2022,"make":"Genesis","model":"GV70","trim":"GV70 AWD (3.5T V6)","mpg":22},
-  {"year":2023,"make":"Genesis","model":"GV70","trim":"GV70 AWD (2.5T)","mpg":26},
-  {"year":2023,"make":"Genesis","model":"GV70","trim":"GV70 AWD (3.5T V6)","mpg":22},
-  {"year":2024,"make":"Genesis","model":"GV70","trim":"GV70 AWD (2.5T)","mpg":26},
-  {"year":2024,"make":"Genesis","model":"GV70","trim":"GV70 AWD (3.5T V6)","mpg":22},
-  {"year":2025,"make":"Genesis","model":"GV70","trim":"GV70 AWD (2.5T)","mpg":26},
-  {"year":2025,"make":"Genesis","model":"GV70","trim":"GV70 AWD (3.5T V6)","mpg":22}
+  {
+    "year": 2017,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2017,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (3.8L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2018,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2018,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (3.8L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2019,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2019,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (3.8L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2020,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.0T)",
+    "mpg": 24
+  },
+  {
+    "year": 2020,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (3.8L V6)",
+    "mpg": 21
+  },
+  {
+    "year": 2021,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2021,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2017,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2017,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (3.3T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2018,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2018,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (3.3T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2019,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2019,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (3.3T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2020,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2020,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (3.3T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2021,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (2.5T)",
+    "mpg": 22
+  },
+  {
+    "year": 2021,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (3.5T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (2.5T)",
+    "mpg": 22
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (3.5T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (2.5T)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (3.5T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (2.5T)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (3.5T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (2.5T)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (3.5T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2022,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2023,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2024,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2025,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 RWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "G80",
+    "trim": "G80 AWD (3.5T V6)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "G70",
+    "trim": "G70 RWD (2.0T)",
+    "mpg": 27
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (2.5T)",
+    "mpg": 22
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "GV80",
+    "trim": "GV80 AWD (3.5T V6)",
+    "mpg": 19
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (2.5T)",
+    "mpg": 26
+  },
+  {
+    "year": 2026,
+    "make": "Genesis",
+    "model": "GV70",
+    "trim": "GV70 AWD (3.5T V6)",
+    "mpg": 22
+  }
 ]
