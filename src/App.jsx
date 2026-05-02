@@ -5,6 +5,7 @@ import UtilitySelector from './components/UtilitySelector'
 import GasPrice from './components/GasPrice'
 import MilesDriven from './components/MilesDriven'
 import InstallationCost from './components/InstallationCost'
+import TCOCalculator from './components/TCOCalculator'
 import Results from './components/Results'
 import SavingsGraph from './components/SavingsGraph'
 import CTA from './components/CTA'
@@ -16,9 +17,25 @@ function calculate({ gasVehicle, evVehicle, electricRate, gasPrice, milesPerDay,
   const annualElectricCost = (annualMiles * kWhPer100Mi / 100) * electricRate
   const annualSavings = annualGasCost - annualElectricCost
   const monthlySavings = annualSavings / 12
-  const paybackMonths = installCost != null ? installCost / monthlySavings : null
+  const paybackMonths = installCost != null && monthlySavings > 0 ? installCost / monthlySavings : null
 
   return { annualGasCost, annualElectricCost, annualSavings, monthlySavings, installCost, paybackMonths }
+}
+
+function calculateTCO({ annualGasCost, annualElectricCost }, tcoInputs) {
+  const { gasPayment, gasMaintenance, evPayment, evMaintenance } = tcoInputs
+  const monthlyGasFuel = annualGasCost / 12
+  const monthlyEvFuel = annualElectricCost / 12
+  const gasMonthlyTCO = gasPayment + monthlyGasFuel + gasMaintenance
+  const evMonthlyTCO = evPayment + monthlyEvFuel + evMaintenance
+  const monthlyTCOSavings = gasMonthlyTCO - evMonthlyTCO
+  return {
+    gasPayment, gasMaintenance, evPayment, evMaintenance,
+    monthlyGasFuel, monthlyEvFuel,
+    gasMonthlyTCO, evMonthlyTCO,
+    monthlyTCOSavings,
+    annualTCOSavings: monthlyTCOSavings * 12,
+  }
 }
 
 export default function App() {
@@ -29,20 +46,23 @@ export default function App() {
   const [milesPerDay, setMilesPerDay] = useState(35)
   const [installEnabled, setInstallEnabled] = useState(false)
   const [installCost, setInstallCost] = useState(null)
+  const [tcoEnabled, setTcoEnabled] = useState(false)
+  const [tcoInputs, setTcoInputs] = useState(null)
 
   const ready = gasVehicle && evVehicle && electricRate && gasPrice
 
   const calc = useMemo(() => {
     if (!ready) return null
     return calculate({
-      gasVehicle,
-      evVehicle,
-      electricRate,
-      gasPrice,
-      milesPerDay,
+      gasVehicle, evVehicle, electricRate, gasPrice, milesPerDay,
       installCost: installEnabled ? installCost : null,
     })
   }, [gasVehicle, evVehicle, electricRate, gasPrice, milesPerDay, installEnabled, installCost])
+
+  const tco = useMemo(() => {
+    if (!calc || !tcoEnabled || !tcoInputs) return null
+    return calculateTCO(calc, tcoInputs)
+  }, [calc, tcoEnabled, tcoInputs])
 
   const missingFields = []
   if (!gasVehicle) missingFields.push('gas vehicle')
@@ -74,19 +94,20 @@ export default function App() {
             onToggle={() => setInstallEnabled(e => !e)}
             onCostChange={setInstallCost}
           />
+          <TCOCalculator
+            enabled={tcoEnabled}
+            onToggle={() => setTcoEnabled(e => !e)}
+            onChange={setTcoInputs}
+          />
         </div>
 
         <div className="mt-8 space-y-5">
           {!calc && (
             <div className="card border border-dashed border-gray-200 text-center py-10">
               <div className="text-4xl mb-3">⚡</div>
-              <p className="text-gray-500 font-medium">
-                Complete all fields to see your savings
-              </p>
+              <p className="text-gray-500 font-medium">Complete all fields to see your savings</p>
               {missingFields.length > 0 && (
-                <p className="text-sm text-gray-400 mt-1">
-                  Still needed: {missingFields.join(', ')}
-                </p>
+                <p className="text-sm text-gray-400 mt-1">Still needed: {missingFields.join(', ')}</p>
               )}
             </div>
           )}
@@ -102,7 +123,7 @@ export default function App() {
 
           {calc && (
             <>
-              <Results calc={calc} />
+              <Results calc={calc} tco={tco} />
               <SavingsGraph calc={calc} />
               <CTA />
             </>
@@ -113,19 +134,12 @@ export default function App() {
       <footer className="text-center py-6 text-xs text-gray-400 mt-8" style={{ backgroundColor: '#000000', color: '#9ca3af' }}>
         <p>
           © {new Date().getFullYear()} Car Charger Specialists, LLC · Atlanta, GA ·{' '}
-          <a
-            href="https://www.carchargerspecialists.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-white transition-colors"
-          >
+          <a href="https://www.carchargerspecialists.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
             carchargerspecialists.com
           </a>
         </p>
         <p className="mt-1">
-          <a href="tel:4045207349" className="text-gray-400 hover:text-white transition-colors">
-            404-520-7349
-          </a>
+          <a href="tel:4045207349" className="text-gray-400 hover:text-white transition-colors">404-520-7349</a>
         </p>
       </footer>
     </div>

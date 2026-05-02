@@ -37,10 +37,13 @@ export default function CTA() {
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
           onClick={(e) => { if (e.target === e.currentTarget) setShowModal(false) }}
         >
-          <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-lg max-h-[90vh] flex flex-col">
+          <div
+            className="relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl flex flex-col"
+            style={{ height: '90vh' }}
+          >
             <button
               onClick={() => setShowModal(false)}
-              className="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none z-10"
+              className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 text-3xl font-bold leading-none z-10 w-9 h-9 flex items-center justify-center rounded-full hover:bg-gray-100"
               aria-label="Close"
             >
               &times;
@@ -48,8 +51,8 @@ export default function CTA() {
             <iframe
               id="hcp-lead-iframe"
               src="https://book.housecallpro.com/lead-form/Car-Charger-Specialists-LLC/fcb749cd2e9748849f539ba8c3937347"
-              style={{ border: 'none' }}
-              className="w-full flex-1 rounded-2xl"
+              style={{ border: 'none', flex: 1, minHeight: 0 }}
+              className="w-full rounded-2xl"
               title="Get Your Charger Installed"
             />
           </div>
