@@ -25,6 +25,8 @@ import lincoln from './lincoln.json'
 import cadillac from './cadillac.json'
 import buick from './buick.json'
 import genesis from './genesis.json'
+import porsche from './porsche.json'
+import fiat from './fiat.json'
 
 const gasVehicles = [
   ...toyota,
@@ -54,6 +56,8 @@ const gasVehicles = [
   ...cadillac,
   ...buick,
   ...genesis,
+  ...porsche,
+  ...fiat,
 ]
 
 export default gasVehicles
