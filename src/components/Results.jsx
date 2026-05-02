@@ -26,12 +26,12 @@ function StatCard({ label, value }) {
   )
 }
 
-function TcoRow({ label, gasVal, evVal }) {
+function TcoRow({ label, gasVal, evVal, gasClass = 'text-red-600', evClass = 'text-green-600' }) {
   return (
-    <div className="grid grid-cols-3 text-sm py-1.5 border-b border-gray-100 last:border-0">
+    <div className="grid grid-cols-3 text-sm py-2 border-b border-gray-100 last:border-0">
       <span className="text-gray-500">{label}</span>
-      <span className="text-center font-medium text-red-600">{fmt(gasVal)}</span>
-      <span className="text-center font-medium text-green-600">{fmt(evVal)}</span>
+      <span className={`text-center font-medium ${gasClass}`}>{fmt(gasVal)}</span>
+      <span className={`text-center font-medium ${evClass}`}>{fmt(evVal)}</span>
     </div>
   )
 }
@@ -48,7 +48,7 @@ export default function Results({ calc, tco }) {
         <p className="text-sm text-gray-500">Switching from gas to electric.</p>
       </div>
 
-      {/* Monthly + Annual savings — color based on direction */}
+      {/* Monthly + Annual savings */}
       <div className="grid grid-cols-2 gap-3">
         <SavingsCard label="Monthly Savings" value={monthlySavings} positive={positive} />
         <SavingsCard label="Annual Savings" value={annualSavings} positive={positive} />
@@ -60,7 +60,7 @@ export default function Results({ calc, tco }) {
         <StatCard label="10-Year Savings" value={fmt(annualSavings * 10)} />
       </div>
 
-      {/* Percentage savings banner */}
+      {/* Fuel cost reduction % */}
       <div className={`rounded-xl px-4 py-3 flex items-center justify-between ${positive ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'}`}>
         <span className={`text-sm font-medium ${positive ? 'text-green-800' : 'text-red-800'}`}>
           Fuel Cost Reduction vs. Gas
@@ -95,25 +95,35 @@ export default function Results({ calc, tco }) {
 
       {/* TCO Section */}
       {tco && (
-        <div className="border-t border-gray-200 pt-4">
-          <h3 className="text-base font-bold text-ccs-black mb-3">Total Cost of Ownership (Monthly)</h3>
+        <div className="border-t-2 border-gray-100 pt-5">
+          <h3 className="text-base font-bold text-ccs-black mb-1">Total Cost of Ownership</h3>
+          <p className="text-xs text-gray-400 mb-4">All-in monthly comparison: payment + insurance + fuel + maintenance.</p>
 
-          {/* Headers */}
-          <div className="grid grid-cols-3 text-xs font-semibold uppercase tracking-wide text-gray-400 pb-1 border-b border-gray-200 mb-1">
+          {/* Trade-in tax savings callout */}
+          {tco.tradeInTaxSavings > 0 && (
+            <div className="rounded-lg bg-green-50 border border-green-200 px-4 py-2.5 flex items-center justify-between mb-4">
+              <span className="text-xs text-green-700 font-medium">Trade-in reduces your ad valorem tax basis</span>
+              <span className="text-sm font-bold text-green-700">You save {fmt(tco.tradeInTaxSavings)} in taxes</span>
+            </div>
+          )}
+
+          {/* Column headers */}
+          <div className="grid grid-cols-3 text-xs font-semibold uppercase tracking-wide text-gray-400 pb-1.5 border-b border-gray-200 mb-0.5">
             <span />
-            <span className="text-center text-red-500">Gas Vehicle</span>
+            <span className="text-center text-red-400">Gas Vehicle</span>
             <span className="text-center text-green-600">Electric</span>
           </div>
 
           <TcoRow label="Car Payment" gasVal={tco.gasPayment} evVal={tco.evPayment} />
+          <TcoRow label="Insurance" gasVal={tco.gasInsurance} evVal={tco.evInsurance} />
           <TcoRow label="Fuel / Electricity" gasVal={tco.monthlyGasFuel} evVal={tco.monthlyEvFuel} />
           <TcoRow label="Maintenance" gasVal={tco.gasMaintenance} evVal={tco.evMaintenance} />
 
-          {/* Totals row */}
-          <div className="grid grid-cols-3 text-sm pt-2 mt-1">
+          {/* Totals */}
+          <div className="grid grid-cols-3 text-sm pt-3 mt-1 border-t border-gray-200">
             <span className="font-bold text-gray-700">Monthly Total</span>
-            <span className="text-center text-lg font-bold text-red-600">{fmt(tco.gasMonthlyTCO)}</span>
-            <span className="text-center text-lg font-bold text-green-600">{fmt(tco.evMonthlyTCO)}</span>
+            <span className="text-center text-xl font-bold text-red-600">{fmt(tco.gasMonthlyTCO)}</span>
+            <span className="text-center text-xl font-bold text-green-600">{fmt(tco.evMonthlyTCO)}</span>
           </div>
 
           {/* TCO savings cards */}
@@ -122,15 +132,14 @@ export default function Results({ calc, tco }) {
             <SavingsCard label="Annual TCO Savings" value={tco.annualTCOSavings} positive={tco.annualTCOSavings > 0} />
           </div>
 
-          {tco.annualTCOSavings > 0 && (
+          {tco.annualTCOSavings > 0 ? (
             <p className="text-xs text-gray-400 text-center mt-3">
               Even with a new EV loan, your estimated all-in monthly cost is{' '}
               <span className="text-green-700 font-semibold">{fmt(Math.abs(tco.monthlyTCOSavings))} less per month</span> than your current gas vehicle.
             </p>
-          )}
-          {tco.annualTCOSavings <= 0 && (
+          ) : (
             <p className="text-xs text-gray-400 text-center mt-3">
-              With these inputs the EV has a higher all-in monthly cost. Try adjusting the purchase price, trade-in, or loan term.
+              With these inputs the EV has a higher all-in monthly cost. Try increasing trade-in value, extending the loan term, or negotiating a lower purchase price.
             </p>
           )}
         </div>

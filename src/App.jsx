@@ -23,18 +23,20 @@ function calculate({ gasVehicle, evVehicle, electricRate, gasPrice, milesPerDay,
 }
 
 function calculateTCO({ annualGasCost, annualElectricCost }, tcoInputs) {
-  const { gasPayment, gasMaintenance, evPayment, evMaintenance } = tcoInputs
+  const { gasPayment, gasInsurance, gasMaintenance, evPayment, evInsurance, evMaintenance, tavt, tradeInTaxSavings, totalFinanced } = tcoInputs
   const monthlyGasFuel = annualGasCost / 12
   const monthlyEvFuel = annualElectricCost / 12
-  const gasMonthlyTCO = gasPayment + monthlyGasFuel + gasMaintenance
-  const evMonthlyTCO = evPayment + monthlyEvFuel + evMaintenance
+  const gasMonthlyTCO = gasPayment + gasInsurance + monthlyGasFuel + gasMaintenance
+  const evMonthlyTCO = evPayment + evInsurance + monthlyEvFuel + evMaintenance
   const monthlyTCOSavings = gasMonthlyTCO - evMonthlyTCO
   return {
-    gasPayment, gasMaintenance, evPayment, evMaintenance,
+    gasPayment, gasInsurance, gasMaintenance,
+    evPayment, evInsurance, evMaintenance,
     monthlyGasFuel, monthlyEvFuel,
     gasMonthlyTCO, evMonthlyTCO,
     monthlyTCOSavings,
     annualTCOSavings: monthlyTCOSavings * 12,
+    tavt, tradeInTaxSavings, totalFinanced,
   }
 }
 
