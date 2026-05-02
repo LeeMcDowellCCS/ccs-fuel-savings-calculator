@@ -1,41 +1,63 @@
 import { useState, useEffect } from 'react'
+import { getFuelType, FUEL_LABELS, FUEL_COLORS } from '../utils/fuelType'
 
-const GA_FALLBACK = 3.10
-// EIA doesn't track Georgia individually — Lower Atlantic (PADD 1C) is the closest regional proxy
-const EIA_URL =
-  'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=xI8f5dCEIevB4PTyk4hvb4gsoQ0UOc92ciqedgb0&frequency=weekly&data%5B0%5D=value&facets%5Bduoarea%5D%5B%5D=R1Z&facets%5Bproduct%5D%5B%5D=EPM0&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&length=1'
+const API_BASE =
+  'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=xI8f5dCEIevB4PTyk4hvb4gsoQ0UOc92ciqedgb0' +
+  '&frequency=weekly&data%5B0%5D=value&facets%5Bduoarea%5D%5B%5D=R1Z' +
+  '&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&length=1'
 
-export default function GasPrice({ onPriceChange }) {
-  const [price, setPrice] = useState('')
-  const [source, setSource] = useState('loading')
+const PRODUCT_CODES = { regular: 'EPM0', premium: 'EPM2', diesel: 'EPD2D' }
+const FALLBACKS      = { regular: 3.10,  premium: 3.60,  diesel: 3.40  }
 
+async function fetchGrade(grade) {
+  try {
+    const r = await fetch(`${API_BASE}&facets%5Bproduct%5D%5B%5D=${PRODUCT_CODES[grade]}`)
+    const d = await r.json()
+    const v = parseFloat(d?.response?.data?.[0]?.value)
+    return isNaN(v) ? null : v
+  } catch { return null }
+}
+
+export default function GasPrice({ gasVehicle, onPriceChange }) {
+  const [prices,  setPrices]       = useState(null)   // { regular, premium, diesel }
+  const [grade,   setGrade]        = useState('regular')
+  const [override, setOverride]    = useState(null)   // user-typed price
+  const [status,  setStatus]       = useState('loading')
+  const [autoGrade, setAutoGrade]  = useState(null)   // detected from vehicle
+
+  // Fetch all three grades on mount
   useEffect(() => {
-    fetch(EIA_URL)
-      .then(r => r.json())
-      .then(data => {
-        const val = data?.response?.data?.[0]?.value
-        if (val != null && !isNaN(parseFloat(val))) {
-          const p = parseFloat(val).toFixed(2)
-          setPrice(p)
-          setSource('live')
-          onPriceChange(parseFloat(p))
-        } else {
-          throw new Error('No data')
-        }
-      })
-      .catch(() => {
-        setPrice(GA_FALLBACK.toFixed(2))
-        setSource('fallback')
-        onPriceChange(GA_FALLBACK)
-      })
+    Promise.all(['regular','premium','diesel'].map(fetchGrade)).then(([reg, prem, dies]) => {
+      const r = reg  ?? FALLBACKS.regular
+      const p = prem ?? (r + 0.50)
+      const d = dies ?? (r + 0.30)
+      setPrices({ regular: +r.toFixed(3), premium: +p.toFixed(3), diesel: +d.toFixed(3) })
+      setStatus(reg != null ? 'live' : 'fallback')
+    })
   }, [])
 
-  const handleChange = (e) => {
-    const val = e.target.value
-    setPrice(val)
-    const parsed = parseFloat(val)
-    onPriceChange(isNaN(parsed) ? null : parsed)
+  // Auto-select grade when vehicle changes
+  useEffect(() => {
+    if (!gasVehicle) return
+    const detected = getFuelType(gasVehicle)
+    setAutoGrade(detected)
+    setGrade(detected)
+    setOverride(null)
+  }, [gasVehicle])
+
+  // Report effective price upward
+  useEffect(() => {
+    if (!prices) return
+    const effective = override ?? prices[grade]
+    onPriceChange(effective)
+  }, [prices, grade, override])
+
+  const handleGradeClick = (g) => {
+    setGrade(g)
+    setOverride(null)
   }
+
+  const displayPrice = override != null ? override : (prices ? prices[grade] : '')
 
   return (
     <div className="card">
@@ -43,22 +65,53 @@ export default function GasPrice({ onPriceChange }) {
         <span className="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center text-sm font-bold text-gray-600">4</span>
         Georgia Gas Price
       </h2>
+
+      {/* Grade tabs */}
+      <div className="flex gap-2 mb-4">
+        {(['regular','premium','diesel']).map(g => (
+          <button
+            key={g}
+            onClick={() => handleGradeClick(g)}
+            className={`flex-1 py-2 rounded-lg border text-xs font-semibold transition-all ${
+              grade === g
+                ? 'border-ccs-red bg-red-50 text-ccs-red'
+                : 'border-gray-200 text-gray-500 hover:border-gray-300'
+            }`}
+          >
+            {FUEL_LABELS[g]}
+            {prices && <span className="block text-base font-bold mt-0.5">${prices[g].toFixed(2)}</span>}
+          </button>
+        ))}
+      </div>
+
+      {/* Auto-detected badge */}
+      {autoGrade && autoGrade !== 'regular' && (
+        <div className={`text-xs font-medium px-3 py-1.5 rounded-full border inline-flex items-center gap-1.5 mb-3 ${FUEL_COLORS[autoGrade]}`}>
+          <span>★</span>
+          {autoGrade === 'premium' ? 'This vehicle recommends premium fuel' : 'This vehicle uses diesel'}
+          {grade !== autoGrade && (
+            <button onClick={() => handleGradeClick(autoGrade)} className="underline ml-1">
+              Switch back
+            </button>
+          )}
+        </div>
+      )}
+
+      {/* Price input */}
       <div>
         <div className="flex items-center justify-between mb-1">
-          <label className="section-label">Price Per Gallon (Regular)</label>
-          {source === 'live' && (
+          <label className="section-label">Price Per Gallon — {FUEL_LABELS[grade]}</label>
+          {status === 'live' && (
             <span className="text-xs text-green-600 font-medium flex items-center gap-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block"></span>
-              Current GA Avg
+              <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block" />
+              Live GA Avg
             </span>
           )}
-          {source === 'fallback' && (
-            <span className="text-xs text-amber-600 font-medium">Recent estimate</span>
-          )}
-          {source === 'loading' && (
+          {status === 'fallback' && <span className="text-xs text-amber-600 font-medium">Est.</span>}
+          {status === 'loading' && (
             <span className="text-xs text-gray-400 flex items-center gap-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-gray-400 inline-block animate-pulse"></span>
-              Refreshing…
+              <span className="w-1.5 h-1.5 rounded-full bg-gray-400 inline-block animate-pulse" />
+              Loading…
             </span>
           )}
         </div>
@@ -69,15 +122,21 @@ export default function GasPrice({ onPriceChange }) {
             step="0.01"
             min="0"
             className="input-field pl-7"
-            value={price}
-            onChange={handleChange}
-            placeholder="3.10"
+            value={displayPrice}
+            onChange={e => {
+              const v = e.target.value
+              setOverride(v === '' ? null : parseFloat(v))
+            }}
+            placeholder={prices ? prices[grade].toFixed(2) : '3.10'}
           />
         </div>
-        {source === 'fallback' && (
-          <p className="text-xs text-amber-600 mt-1">
-            Live price unavailable — using a recent GA average. You can edit this.
-          </p>
+        {override != null && (
+          <button
+            className="text-xs text-ccs-red mt-1 hover:underline"
+            onClick={() => setOverride(null)}
+          >
+            Reset to live price
+          </button>
         )}
       </div>
     </div>

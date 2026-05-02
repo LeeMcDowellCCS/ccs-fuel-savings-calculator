@@ -9,6 +9,7 @@ import TCOCalculator from './components/TCOCalculator'
 import Results from './components/Results'
 import SavingsGraph from './components/SavingsGraph'
 import CTA from './components/CTA'
+import WizardCalculator from './components/WizardCalculator'
 
 function calculate({ gasVehicle, evVehicle, electricRate, gasPrice, milesPerDay, installCost }) {
   const annualMiles = milesPerDay * 365
@@ -41,6 +42,7 @@ function calculateTCO({ annualGasCost, annualElectricCost }, tcoInputs) {
 }
 
 export default function App() {
+  const [mode, setMode] = useState('classic') // 'classic' | 'wizard'
   const [gasVehicle, setGasVehicle] = useState(null)
   const [evVehicle, setEvVehicle] = useState(null)
   const [electricRate, setElectricRate] = useState(null)
@@ -72,9 +74,23 @@ export default function App() {
   if (!electricRate) missingFields.push('utility & rate')
   if (!gasPrice) missingFields.push('gas price')
 
+  if (mode === 'wizard') {
+    return <WizardCalculator onExit={() => setMode('classic')} />
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
+
+      {/* Mode toggle */}
+      <div className="max-w-5xl mx-auto px-4 pt-4 flex justify-end">
+        <button
+          onClick={() => setMode('wizard')}
+          className="flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full border-2 border-ccs-red text-ccs-red hover:bg-red-50 transition-colors"
+        >
+          ⚡ Try Quick Wizard
+        </button>
+      </div>
 
       <main className="max-w-5xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
@@ -89,7 +105,7 @@ export default function App() {
           <GasVehicleSelector onSelect={setGasVehicle} />
           <EVSelector onSelect={setEvVehicle} />
           <UtilitySelector onRateChange={setElectricRate} />
-          <GasPrice onPriceChange={setGasPrice} />
+          <GasPrice gasVehicle={gasVehicle} onPriceChange={setGasPrice} />
           <MilesDriven value={milesPerDay} onChange={setMilesPerDay} />
           <InstallationCost
             enabled={installEnabled}
