@@ -42,7 +42,7 @@ function calculateTCO({ annualGasCost, annualElectricCost }, tcoInputs) {
 }
 
 export default function App() {
-  const [mode, setMode] = useState('classic') // 'classic' | 'wizard'
+  const [mode, setMode] = useState('wizard') // 'classic' | 'wizard'
   const [gasVehicle, setGasVehicle] = useState(null)
   const [evVehicle, setEvVehicle] = useState(null)
   const [electricRate, setElectricRate] = useState(null)
@@ -83,12 +83,13 @@ export default function App() {
       <Header />
 
       {/* Mode toggle */}
-      <div className="max-w-5xl mx-auto px-4 pt-4 flex justify-end">
+      <div className="max-w-5xl mx-auto px-4 pt-4 flex justify-between items-center">
+        <span className="text-xs text-gray-400 font-medium uppercase tracking-wide">Classic View</span>
         <button
           onClick={() => setMode('wizard')}
           className="flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full border-2 border-ccs-red text-ccs-red hover:bg-red-50 transition-colors"
         >
-          ⚡ Try Quick Wizard
+          ⚡ Switch to Quick Wizard
         </button>
       </div>
 
