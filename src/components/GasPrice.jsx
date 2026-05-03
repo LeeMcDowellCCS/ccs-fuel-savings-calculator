@@ -1,28 +1,6 @@
 import { useState, useEffect } from 'react'
 import { getFuelType, FUEL_LABELS, FUEL_COLORS } from '../utils/fuelType'
-
-const EIA_BASE =
-  'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=xI8f5dCEIevB4PTyk4hvb4gsoQ0UOc92ciqedgb0' +
-  '&frequency=weekly&data%5B0%5D=value' +
-  '&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&length=1'
-
-const PRODUCT_CODES = { regular: 'EPM0', premium: 'EPM2', diesel: 'EPD2D' }
-// Georgia-specific fallbacks (GA has lower state gas tax than broader Lower Atlantic region)
-const FALLBACKS = { regular: 3.25, premium: 3.75, diesel: 3.50 }
-
-async function fetchGrade(grade) {
-  const product = `&facets%5Bproduct%5D%5B%5D=${PRODUCT_CODES[grade]}`
-  try {
-    // Try Georgia state-level data first (SGA), fall back to Lower Atlantic region (R1Z)
-    for (const area of ['SGA', 'R1Z']) {
-      const r = await fetch(`${EIA_BASE}&facets%5Bduoarea%5D%5B%5D=${area}${product}`)
-      const d = await r.json()
-      const v = parseFloat(d?.response?.data?.[0]?.value)
-      if (!isNaN(v)) return v
-    }
-    return null
-  } catch { return null }
-}
+import { fetchAllGasPrices } from '../utils/gasPriceFetch'
 
 export default function GasPrice({ gasVehicle, onPriceChange }) {
   const [prices,  setPrices]       = useState(null)
@@ -33,12 +11,9 @@ export default function GasPrice({ gasVehicle, onPriceChange }) {
 
   // Fetch all three grades on mount
   useEffect(() => {
-    Promise.all(['regular','premium','diesel'].map(fetchGrade)).then(([reg, prem, dies]) => {
-      const r = reg  ?? FALLBACKS.regular
-      const p = prem ?? (r + 0.50)
-      const d = dies ?? (r + 0.30)
-      setPrices({ regular: +r.toFixed(3), premium: +p.toFixed(3), diesel: +d.toFixed(3) })
-      setStatus(reg != null ? 'live' : 'fallback')
+    fetchAllGasPrices().then(({ prices, live }) => {
+      setPrices(prices)
+      setStatus(live ? 'live' : 'fallback')
     })
   }, [])
 
