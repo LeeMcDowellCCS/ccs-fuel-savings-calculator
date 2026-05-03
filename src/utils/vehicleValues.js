@@ -169,3 +169,45 @@ export function estimateTradeIn(gasVehicle, currentYear = new Date().getFullYear
   // Round to nearest $250 — trade-in values aren't reported with high precision
   return Math.max(500, Math.round((baseMsrp * residual) / 250) * 250)
 }
+
+// Estimates current monthly loan payment based on vehicle age and segment MSRP.
+// Assumes 60-month loan at 7% APR with 15% down at purchase. Returns $0 if
+// the vehicle is old enough that a typical loan would be paid off.
+export function estimateGasPayment(gasVehicle, currentYear = new Date().getFullYear()) {
+  if (!gasVehicle) return 0
+  const age = Math.max(0, currentYear - gasVehicle.year)
+  if (age >= 6) return 0
+  const msrp = estimateMsrpForGas(gasVehicle)
+  const principal = msrp * 0.85
+  const r = 0.07 / 12
+  const n = 60
+  const payment = principal * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1)
+  return Math.round(payment / 25) * 25
+}
+
+// Estimates monthly insurance based on vehicle segment and age.
+export function estimateGasInsurance(gasVehicle, currentYear = new Date().getFullYear()) {
+  if (!gasVehicle) return 120
+  const age = Math.max(0, currentYear - gasVehicle.year)
+  const { make, model = '', trim = '' } = gasVehicle
+  const t = `${trim} ${model}`
+  const isLuxury  = LUXURY_MAKES.includes(make)
+  const isSports  = SPORTS_PATTERNS.test(t)
+  const isTruck   = TRUCK_PATTERNS.test(t)
+  const isSuv     = SUV_PATTERNS.test(t)
+
+  let base
+  if (isSports && isLuxury) base = 250
+  else if (isSports)        base = 200
+  else if (isLuxury)        base = 200
+  else if (isSuv)           base = 150
+  else if (isTruck)         base = 140
+  else                      base = 125
+
+  // Older vehicles carry less comprehensive coverage
+  if (age >= 10)      base = Math.round(base * 0.65)
+  else if (age >= 7)  base = Math.round(base * 0.75)
+  else if (age >= 5)  base = Math.round(base * 0.85)
+
+  return Math.round(base / 5) * 5
+}
