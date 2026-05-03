@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useRef } from 'react'
 import gasVehicleData from '../data/gas-vehicles/index.js'
 import { getFuelType, FUEL_LABELS } from '../utils/fuelType'
-import { getEvMsrp, estimateTradeIn } from '../utils/vehicleValues'
+import { getEvMsrp, estimateTradeIn, estimateGasPayment, estimateGasInsurance } from '../utils/vehicleValues'
 import { fetchGasPrice, GAS_PRICE_FALLBACKS } from '../utils/gasPriceFetch'
 import CTA from './CTA'
 
@@ -440,7 +440,11 @@ export default function WizardCalculator({ onExit }) {
     if (evVehicle) setNewCarCost(getEvMsrp(evVehicle))
   }, [evVehicle])
   useEffect(() => {
-    if (gasVehicle) setTradeIn(estimateTradeIn(gasVehicle))
+    if (gasVehicle) {
+      setTradeIn(estimateTradeIn(gasVehicle))
+      setGasPayment(estimateGasPayment(gasVehicle))
+      setGasInsurance(estimateGasInsurance(gasVehicle))
+    }
   }, [gasVehicle])
 
   // ── Derived lists ──────────────────────────────────────────────────────────
@@ -777,8 +781,8 @@ export default function WizardCalculator({ onExit }) {
                 <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wide">Your Current Gas Vehicle</h3>
               </div>
               <div className="grid grid-cols-1 gap-3">
-                <NumField label="Monthly Car Payment" prefix="$" value={gasPayment} onChange={setGasPayment} hint="Enter $0 if paid off" />
-                <NumField label="Monthly Insurance"    prefix="$" value={gasInsurance} onChange={setGasInsurance} />
+                <NumField label="Monthly Car Payment" prefix="$" value={gasPayment} onChange={setGasPayment} hint="Auto-estimated from your vehicle — enter $0 if paid off" />
+                <NumField label="Monthly Insurance"    prefix="$" value={gasInsurance} onChange={setGasInsurance} hint="Auto-estimated by vehicle segment — adjust to your actual rate" />
                 <NumField label="Monthly Maintenance" prefix="$" value={gasMaintenance} onChange={setGasMaintenance} hint="Avg gas car: ~$100/mo" />
               </div>
             </div>
