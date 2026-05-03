@@ -37,20 +37,20 @@ export default function InstallationCost({ enabled, onToggle, onCostChange }) {
   return (
     <div className="card">
       <div className="flex items-center gap-2 mb-3">
-        <span className={`w-7 h-7 rounded-full flex-shrink-0 flex items-center justify-center text-sm font-bold transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-100 text-gray-600'}`}>6</span>
-        <h2 className="text-lg font-semibold text-ccs-black">Charger Installation Cost</h2>
+        <span className={`w-7 h-7 rounded-full flex-shrink-0 flex items-center justify-center text-sm font-bold transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-800 text-gray-400'}`}>6</span>
+        <h2 className="text-lg font-semibold text-white">Charger Installation Cost</h2>
       </div>
       <button
         onClick={onToggle}
         className="group"
       >
-        <span className={`text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-100 text-gray-500 group-hover:bg-gray-200'}`}>
+        <span className={`text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-800 text-gray-400 group-hover:bg-gray-700'}`}>
           {enabled ? 'Included ✓' : '+ Add Payback Calc'}
         </span>
       </button>
 
       {enabled && (
-        <div className="mt-5 space-y-5 border-t border-gray-100 pt-5">
+        <div className="mt-5 space-y-5 border-t border-gray-800 pt-5">
           <div>
             <label className="section-label">Panel / Charger Location</label>
             <div className="grid grid-cols-2 gap-2 mt-1">
@@ -60,8 +60,8 @@ export default function InstallationCost({ enabled, onToggle, onCostChange }) {
                   onClick={() => handleLocation(loc)}
                   className={`text-left px-3 py-2.5 rounded-lg border text-sm transition-all ${
                     location.id === loc.id
-                      ? 'border-ccs-red bg-red-50 text-ccs-red font-medium'
-                      : 'border-gray-200 text-gray-700 hover:border-gray-300'
+                      ? 'border-ccs-red bg-red-950/50 text-ccs-red font-medium'
+                      : 'border-gray-700 text-gray-300 hover:border-gray-600'
                   }`}
                 >
                   <div className="font-medium">{loc.label}</div>
@@ -80,8 +80,8 @@ export default function InstallationCost({ enabled, onToggle, onCostChange }) {
                   onClick={() => setIncludeCharger(val)}
                   className={`flex-1 py-2 rounded-lg border text-sm font-medium transition-all ${
                     includeCharger === val
-                      ? 'border-ccs-red bg-red-50 text-ccs-red'
-                      : 'border-gray-200 text-gray-600 hover:border-gray-300'
+                      ? 'border-ccs-red bg-red-950/50 text-ccs-red'
+                      : 'border-gray-700 text-gray-400 hover:border-gray-600'
                   }`}
                 >
                   {val ? `Yes (+$${CHARGER_COST})` : 'No (I have one)'}
@@ -93,7 +93,7 @@ export default function InstallationCost({ enabled, onToggle, onCostChange }) {
           <div>
             <div className="flex items-center justify-between mb-2">
               <label className="section-label mb-0">Estimated Install Cost</label>
-              <span className="text-2xl font-bold text-ccs-black">${totalCost.toLocaleString()}</span>
+              <span className="text-2xl font-bold text-white">${totalCost.toLocaleString()}</span>
             </div>
             <input
               type="range"

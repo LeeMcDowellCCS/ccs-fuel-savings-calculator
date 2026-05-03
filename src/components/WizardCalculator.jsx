@@ -97,7 +97,7 @@ function Progress({ step }) {
   const idx = STEPS.indexOf(step)
   const pct = idx < 0 ? 100 : Math.round(((idx + 1) / STEPS.length) * 100)
   return (
-    <div className="h-1.5 bg-gray-200">
+    <div className="h-1.5 bg-gray-800">
       <div className="h-full bg-ccs-red transition-all duration-500 ease-out" style={{ width: `${pct}%` }} />
     </div>
   )
@@ -107,21 +107,21 @@ function StepShell({ step, onBack, onExit, label, title, subtitle, children }) {
   const idx = STEPS.indexOf(step)
   const total = STEPS.length - 1
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-[#0D0D0D] flex flex-col">
       <Progress step={step} />
       <div className="max-w-2xl mx-auto w-full px-4 pt-6 pb-3 flex items-start gap-3">
         {onBack ? (
-          <button onClick={onBack} className="mt-1 text-gray-400 hover:text-gray-600 text-lg leading-none flex-shrink-0">←</button>
+          <button onClick={onBack} className="mt-1 text-gray-500 hover:text-gray-300 text-lg leading-none flex-shrink-0">←</button>
         ) : <div className="w-5 flex-shrink-0" />}
         <div className="flex-1 min-w-0">
           <div className="flex items-center justify-between gap-2">
-            <p className="text-xs text-gray-400 uppercase tracking-wider font-medium">
+            <p className="text-xs text-gray-500 uppercase tracking-wider font-medium">
               {label || (idx >= 0 ? `Step ${idx + 1} of ${total}` : 'Results')}
             </p>
-            <button onClick={onExit} className="text-xs text-gray-400 hover:text-gray-600">Classic View →</button>
+            <button onClick={onExit} className="text-xs text-gray-500 hover:text-gray-300">Classic View →</button>
           </div>
-          <h2 className="text-2xl font-bold text-gray-900 mt-1 leading-tight">{title}</h2>
-          {subtitle && <p className="text-gray-500 text-sm mt-1">{subtitle}</p>}
+          <h2 className="text-2xl font-bold text-white mt-1 leading-tight">{title}</h2>
+          {subtitle && <p className="text-gray-400 text-sm mt-1">{subtitle}</p>}
         </div>
       </div>
       <div className="max-w-2xl mx-auto w-full px-4 pb-10 flex-1">{children}</div>
@@ -136,8 +136,8 @@ function MakeGrid({ makes, selected, onSelect }) {
         <button key={make} onClick={() => onSelect(make)}
           className={`py-3.5 px-2 rounded-xl border-2 text-sm font-semibold text-center transition-all ${
             selected === make
-              ? 'border-ccs-red bg-red-50 text-ccs-red shadow-sm'
-              : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300 active:bg-gray-50'
+              ? 'border-ccs-red bg-red-950/50 text-ccs-red shadow-sm'
+              : 'border-gray-700 bg-gray-900 text-gray-300 hover:border-gray-600 active:bg-gray-800'
           }`}>{make}</button>
       ))}
     </div>
@@ -153,10 +153,10 @@ function OptionList({ items, selected, onSelect, getLabel = x => x, getSub }) {
         return (
           <button key={i} onClick={() => onSelect(item)}
             className={`w-full text-left px-4 py-3.5 rounded-xl border-2 transition-all ${
-              isSelected ? 'border-ccs-red bg-red-50' : 'border-gray-200 bg-white hover:border-gray-300 active:bg-gray-50'
+              isSelected ? 'border-ccs-red bg-red-950/50' : 'border-gray-700 bg-gray-900 hover:border-gray-600 active:bg-gray-800'
             }`}>
-            <span className={`text-sm font-semibold ${isSelected ? 'text-ccs-red' : 'text-gray-800'}`}>{label}</span>
-            {getSub && <span className="block text-xs text-gray-400 mt-0.5">{getSub(item)}</span>}
+            <span className={`text-sm font-semibold ${isSelected ? 'text-ccs-red' : 'text-gray-200'}`}>{label}</span>
+            {getSub && <span className="block text-xs text-gray-500 mt-0.5">{getSub(item)}</span>}
           </button>
         )
       })}
@@ -170,7 +170,7 @@ function YearGrid({ years, selected, onSelect }) {
       {years.map(y => (
         <button key={y} onClick={() => onSelect(y)}
           className={`py-4 rounded-xl border-2 text-sm font-bold transition-all ${
-            selected === y ? 'border-ccs-red bg-red-50 text-ccs-red shadow-sm' : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300'
+            selected === y ? 'border-ccs-red bg-red-950/50 text-ccs-red shadow-sm' : 'border-gray-700 bg-gray-900 text-gray-300 hover:border-gray-600'
           }`}>{y}</button>
       ))}
     </div>
@@ -180,15 +180,15 @@ function YearGrid({ years, selected, onSelect }) {
 function NumField({ label, prefix, suffix, value, onChange, step = 1, hint }) {
   return (
     <div>
-      <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide block mb-1">{label}</label>
-      <div className="flex items-center border-2 border-gray-200 rounded-lg overflow-hidden focus-within:border-ccs-red transition-colors">
-        {prefix && <span className="px-2.5 py-2 bg-gray-50 text-gray-500 text-sm border-r border-gray-200">{prefix}</span>}
+      <label className="text-xs font-semibold text-gray-400 uppercase tracking-wide block mb-1">{label}</label>
+      <div className="flex items-center border-2 border-gray-700 rounded-lg overflow-hidden focus-within:border-ccs-red transition-colors">
+        {prefix && <span className="px-2.5 py-2 bg-gray-800 text-gray-400 text-sm border-r border-gray-700">{prefix}</span>}
         <input type="number" min={0} step={step} value={value}
           onChange={e => onChange(Math.max(0, +e.target.value))}
-          className="flex-1 px-3 py-2 text-sm outline-none w-full bg-white" />
-        {suffix && <span className="px-2.5 py-2 bg-gray-50 text-gray-500 text-sm border-l border-gray-200">{suffix}</span>}
+          className="flex-1 px-3 py-2 text-sm outline-none w-full bg-gray-900 text-gray-100" />
+        {suffix && <span className="px-2.5 py-2 bg-gray-800 text-gray-400 text-sm border-l border-gray-700">{suffix}</span>}
       </div>
-      {hint && <p className="text-xs text-gray-400 mt-1">{hint}</p>}
+      {hint && <p className="text-xs text-gray-500 mt-1">{hint}</p>}
     </div>
   )
 }
@@ -315,55 +315,55 @@ function EmailDialog({ open, onClose, calc, gasVehicle, evVehicle, electricRate,
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
       onClick={e => { if (e.target === e.currentTarget) onClose() }}>
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md p-6 relative">
+      <div className="bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl w-full max-w-md p-6 relative">
         <button onClick={onClose}
-          className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 text-2xl leading-none w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100">
+          className="absolute top-3 right-3 text-gray-500 hover:text-gray-300 text-2xl leading-none w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-800">
           &times;
         </button>
 
         {sent ? (
           <div className="text-center py-4">
             <div className="text-5xl mb-3">📨</div>
-            <h3 className="text-xl font-bold text-gray-900 mb-2">Sent!</h3>
-            <p className="text-sm text-gray-600 mb-4">
+            <h3 className="text-xl font-bold text-white mb-2">Sent!</h3>
+            <p className="text-sm text-gray-400 mb-4">
               Your savings report is on the way. Don't see it? Check your spam folder.
             </p>
-            <p className="text-xs text-gray-400 mb-4">
+            <p className="text-xs text-gray-500 mb-4">
               Our team has been notified and will follow up to schedule your free charger install quote.
             </p>
             <a href={HCP_LEAD_URL} target="_blank" rel="noopener noreferrer"
               className="inline-block bg-ccs-red hover:bg-ccs-red-dark text-white font-semibold px-6 py-3 rounded-xl text-sm transition-colors">
               Book Your Free Quote Now →
             </a>
-            <button onClick={onClose} className="block w-full mt-3 text-xs text-gray-400 hover:text-gray-600">Close</button>
+            <button onClick={onClose} className="block w-full mt-3 text-xs text-gray-500 hover:text-gray-300">Close</button>
           </div>
         ) : (
           <>
-            <h3 className="text-xl font-bold text-gray-900 mb-1">Email My Results</h3>
-            <p className="text-sm text-gray-500 mb-4">
+            <h3 className="text-xl font-bold text-white mb-1">Email My Results</h3>
+            <p className="text-sm text-gray-400 mb-4">
               Get your personalized savings report — plus a free quote to install your home charger.
             </p>
             <div className="space-y-3">
               <div>
-                <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide block mb-1">Your Name</label>
+                <label className="text-xs font-semibold text-gray-400 uppercase tracking-wide block mb-1">Your Name</label>
                 <input type="text" value={name} onChange={e => setName(e.target.value)}
-                  className="w-full px-3 py-2.5 border-2 border-gray-200 rounded-lg text-sm outline-none focus:border-ccs-red"
+                  className="w-full px-3 py-2.5 border-2 border-gray-700 rounded-lg text-sm outline-none focus:border-ccs-red bg-gray-800 text-gray-100"
                   placeholder="Jane Doe" />
               </div>
               <div>
-                <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide block mb-1">Email Address</label>
+                <label className="text-xs font-semibold text-gray-400 uppercase tracking-wide block mb-1">Email Address</label>
                 <input type="email" value={email} onChange={e => setEmail(e.target.value)}
-                  className="w-full px-3 py-2.5 border-2 border-gray-200 rounded-lg text-sm outline-none focus:border-ccs-red"
+                  className="w-full px-3 py-2.5 border-2 border-gray-700 rounded-lg text-sm outline-none focus:border-ccs-red bg-gray-800 text-gray-100"
                   placeholder="you@example.com" />
               </div>
-              {error && <p className="text-xs text-red-600">{error}</p>}
+              {error && <p className="text-xs text-red-400">{error}</p>}
               <button onClick={handleSend} disabled={sending}
                 className="w-full py-3 bg-ccs-red hover:bg-ccs-red-dark text-white font-semibold rounded-xl text-sm transition-colors disabled:opacity-60">
                 {sending ? 'Sending…' : 'Send My Report →'}
               </button>
-              <p className="text-xs text-gray-400 text-center">
+              <p className="text-xs text-gray-500 text-center">
                 We'll BCC the CCS install team so they can prepare your custom quote.
               </p>
             </div>
@@ -592,7 +592,7 @@ export default function WizardCalculator({ onExit }) {
   if (step === 'gas-trim') return (
     <StepShell step={step} onBack={goBack} onExit={onExit} title="Which trim?" subtitle={`${gasYear} ${gasMake} ${gasModel}`}>
       {gasTrims.length === 1 ? (
-        <div className="mt-4 rounded-xl border-2 border-ccs-red bg-red-50 px-4 py-4 text-ccs-red text-sm font-semibold">
+        <div className="mt-4 rounded-xl border-2 border-ccs-red bg-red-950/50 px-4 py-4 text-ccs-red text-sm font-semibold">
           ✓ {gasTrims[0].trim} — auto-selected
         </div>
       ) : (
@@ -611,8 +611,8 @@ export default function WizardCalculator({ onExit }) {
     <StepShell step={step} onBack={goBack} onExit={onExit}
       title="Which EV are you considering?" subtitle="Select the make">
       {gasVehicle && (
-        <div className="mb-4 text-xs text-gray-500 bg-white border border-gray-200 rounded-lg px-3 py-2">
-          ✓ <span className="font-semibold text-gray-700">{gasVehicle.year} {gasVehicle.make} {gasVehicle.model} {gasVehicle.trim}</span> · {gasVehicle.mpg} MPG · {FUEL_LABELS[getFuelType(gasVehicle)]}
+        <div className="mb-4 text-xs text-gray-400 bg-gray-800 border border-gray-700 rounded-lg px-3 py-2">
+          ✓ <span className="font-semibold text-gray-200">{gasVehicle.year} {gasVehicle.make} {gasVehicle.model} {gasVehicle.trim}</span> · {gasVehicle.mpg} MPG · {FUEL_LABELS[getFuelType(gasVehicle)]}
         </div>
       )}
       <MakeGrid makes={evMakes} selected={evMake} onSelect={m => {
@@ -633,7 +633,7 @@ export default function WizardCalculator({ onExit }) {
   if (step === 'ev-trim') return (
     <StepShell step={step} onBack={goBack} onExit={onExit} title="Which trim / configuration?" subtitle={`${evMake} ${evModel}`}>
       {evTrims.length === 1 ? (
-        <div className="mt-4 rounded-xl border-2 border-ccs-red bg-red-50 px-4 py-4 text-ccs-red text-sm font-semibold">
+        <div className="mt-4 rounded-xl border-2 border-ccs-red bg-red-950/50 px-4 py-4 text-ccs-red text-sm font-semibold">
           ✓ {evTrims[0].trim} — auto-selected
         </div>
       ) : (
@@ -651,19 +651,19 @@ export default function WizardCalculator({ onExit }) {
           {MILES_PRESETS.map(p => (
             <button key={p.value} onClick={() => setMilesPerDay(p.value)}
               className={`flex-1 min-w-[70px] py-4 rounded-xl border-2 text-base font-bold transition-all ${
-                milesPerDay === p.value ? 'border-ccs-red bg-red-50 text-ccs-red' : 'border-gray-200 bg-white text-gray-700'
+                milesPerDay === p.value ? 'border-ccs-red bg-red-950/50 text-ccs-red' : 'border-gray-700 bg-gray-900 text-gray-300'
               }`}>{p.label}</button>
           ))}
         </div>
         <div>
-          <div className="flex justify-between text-sm text-gray-500 mb-1">
+          <div className="flex justify-between text-sm text-gray-400 mb-1">
             <span>5 mi</span>
-            <span className="text-2xl font-bold text-ccs-black">{milesPerDay} mi/day</span>
+            <span className="text-2xl font-bold text-white">{milesPerDay} mi/day</span>
             <span>150 mi</span>
           </div>
           <input type="range" min={5} max={150} step={5} value={milesPerDay}
             onChange={e => setMilesPerDay(+e.target.value)} className="w-full accent-ccs-red" />
-          <p className="text-xs text-gray-400 text-center mt-1">{(milesPerDay * 365).toLocaleString()} miles/year</p>
+          <p className="text-xs text-gray-500 text-center mt-1">{(milesPerDay * 365).toLocaleString()} miles/year</p>
         </div>
         <button onClick={goNext} className="w-full py-4 bg-ccs-red text-white rounded-xl font-bold text-base hover:bg-ccs-red-dark transition-colors">
           Continue →
@@ -679,19 +679,19 @@ export default function WizardCalculator({ onExit }) {
           <button key={u.id}
             onClick={() => { setUtilityId(u.id); setElectricRate(u.standardRate); setTimeout(goNext, 200) }}
             className={`w-full text-left px-4 py-4 rounded-xl border-2 transition-all ${
-              utilityId === u.id ? 'border-ccs-red bg-red-50' : 'border-gray-200 bg-white hover:border-gray-300'
+              utilityId === u.id ? 'border-ccs-red bg-red-950/50' : 'border-gray-700 bg-gray-900 hover:border-gray-600'
             }`}>
-            <div className={`font-semibold text-sm ${utilityId === u.id ? 'text-ccs-red' : 'text-gray-800'}`}>{u.name}</div>
-            <div className="text-xs text-gray-400 mt-0.5">
+            <div className={`font-semibold text-sm ${utilityId === u.id ? 'text-ccs-red' : 'text-gray-200'}`}>{u.name}</div>
+            <div className="text-xs text-gray-500 mt-0.5">
               ${u.standardRate.toFixed(4)}/kWh standard
               {u.hasTou && ` · TOU off-peak $${u.touOffPeakRate.toFixed(4)}/kWh`}
             </div>
           </button>
         ))}
         <button onClick={() => { setUtilityId('other'); setElectricRate(0.12); setTimeout(goNext, 200) }}
-          className={`w-full text-left px-4 py-3 rounded-xl border-2 transition-all ${utilityId === 'other' ? 'border-ccs-red bg-red-50' : 'border-gray-200 bg-white hover:border-gray-300'}`}>
-          <div className={`font-semibold text-sm ${utilityId === 'other' ? 'text-ccs-red' : 'text-gray-800'}`}>Other / Not sure</div>
-          <div className="text-xs text-gray-400">Uses $0.12/kWh — GA average</div>
+          className={`w-full text-left px-4 py-3 rounded-xl border-2 transition-all ${utilityId === 'other' ? 'border-ccs-red bg-red-950/50' : 'border-gray-700 bg-gray-900 hover:border-gray-600'}`}>
+          <div className={`font-semibold text-sm ${utilityId === 'other' ? 'text-ccs-red' : 'text-gray-200'}`}>Other / Not sure</div>
+          <div className="text-xs text-gray-500">Uses $0.12/kWh — GA average</div>
         </button>
       </div>
     </StepShell>
@@ -704,24 +704,24 @@ export default function WizardCalculator({ onExit }) {
       <div className="mt-4 space-y-3">
         <div className="grid grid-cols-2 gap-3">
           <button onClick={() => setInstallEnabled(true)}
-            className={`py-4 rounded-xl border-2 font-semibold transition-all ${installEnabled ? 'border-ccs-red bg-red-50 text-ccs-red' : 'border-gray-200 bg-white text-gray-700'}`}>
+            className={`py-4 rounded-xl border-2 font-semibold transition-all ${installEnabled ? 'border-ccs-red bg-red-950/50 text-ccs-red' : 'border-gray-700 bg-gray-900 text-gray-300'}`}>
             Yes, add it
           </button>
           <button onClick={() => { setInstallEnabled(false); setTimeout(goNext, 200) }}
-            className={`py-4 rounded-xl border-2 font-semibold transition-all ${!installEnabled ? 'border-gray-400 bg-gray-50 text-gray-700' : 'border-gray-200 bg-white text-gray-500'}`}>
+            className={`py-4 rounded-xl border-2 font-semibold transition-all ${!installEnabled ? 'border-gray-600 bg-gray-800 text-gray-300' : 'border-gray-700 bg-gray-900 text-gray-500'}`}>
             Skip for now
           </button>
         </div>
 
         {installEnabled && (
-          <div className="space-y-4 mt-4 border-t-2 border-gray-100 pt-4">
+          <div className="space-y-4 mt-4 border-t-2 border-gray-800 pt-4">
             <div>
-              <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide block mb-2">Panel / Charger Location</label>
+              <label className="text-xs font-semibold text-gray-400 uppercase tracking-wide block mb-2">Panel / Charger Location</label>
               <div className="grid grid-cols-2 gap-2">
                 {INSTALL_LOCATIONS.map(loc => (
                   <button key={loc.id} onClick={() => { setInstallLoc(loc); setInstallSlider(loc.min) }}
                     className={`text-left px-3 py-2.5 rounded-lg border-2 text-sm transition-all ${
-                      installLoc.id === loc.id ? 'border-ccs-red bg-red-50 text-ccs-red font-medium' : 'border-gray-200 text-gray-700'
+                      installLoc.id === loc.id ? 'border-ccs-red bg-red-950/50 text-ccs-red font-medium' : 'border-gray-700 bg-gray-900 text-gray-300'
                     }`}>
                     <div className="font-medium">{loc.label}</div>
                     <div className="text-xs text-gray-500">${loc.min.toLocaleString()}–${loc.max.toLocaleString()}</div>
@@ -730,22 +730,22 @@ export default function WizardCalculator({ onExit }) {
               </div>
             </div>
             <div>
-              <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide block mb-2">Charger Hardware</label>
+              <label className="text-xs font-semibold text-gray-400 uppercase tracking-wide block mb-2">Charger Hardware</label>
               <div className="flex gap-2">
                 <button onClick={() => setIncludeCharger(true)}
-                  className={`flex-1 py-2.5 rounded-lg border-2 text-sm font-medium ${includeCharger ? 'border-ccs-red bg-red-50 text-ccs-red' : 'border-gray-200 text-gray-600'}`}>
+                  className={`flex-1 py-2.5 rounded-lg border-2 text-sm font-medium ${includeCharger ? 'border-ccs-red bg-red-950/50 text-ccs-red' : 'border-gray-700 bg-gray-900 text-gray-400'}`}>
                   Yes (+$500)
                 </button>
                 <button onClick={() => setIncludeCharger(false)}
-                  className={`flex-1 py-2.5 rounded-lg border-2 text-sm font-medium ${!includeCharger ? 'border-ccs-red bg-red-50 text-ccs-red' : 'border-gray-200 text-gray-600'}`}>
+                  className={`flex-1 py-2.5 rounded-lg border-2 text-sm font-medium ${!includeCharger ? 'border-ccs-red bg-red-950/50 text-ccs-red' : 'border-gray-700 bg-gray-900 text-gray-400'}`}>
                   I have one
                 </button>
               </div>
             </div>
             <div>
               <div className="flex items-center justify-between mb-2">
-                <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide">Installation Cost</label>
-                <span className="text-xl font-bold text-ccs-black">${(installSlider + (includeCharger ? CHARGER_HW_COST : 0)).toLocaleString()}</span>
+                <label className="text-xs font-semibold text-gray-400 uppercase tracking-wide">Installation Cost</label>
+                <span className="text-xl font-bold text-white">${(installSlider + (includeCharger ? CHARGER_HW_COST : 0)).toLocaleString()}</span>
               </div>
               <input type="range" min={installLoc.min} max={installLoc.max} step={50}
                 value={installSlider} onChange={e => setInstallSlider(+e.target.value)}
@@ -768,21 +768,21 @@ export default function WizardCalculator({ onExit }) {
       <div className="mt-4 space-y-3">
         <div className="grid grid-cols-2 gap-3">
           <button onClick={() => setTcoEnabled(true)}
-            className={`py-4 rounded-xl border-2 font-semibold transition-all ${tcoEnabled ? 'border-ccs-red bg-red-50 text-ccs-red' : 'border-gray-200 bg-white text-gray-700'}`}>
+            className={`py-4 rounded-xl border-2 font-semibold transition-all ${tcoEnabled ? 'border-ccs-red bg-red-950/50 text-ccs-red' : 'border-gray-700 bg-gray-900 text-gray-300'}`}>
             Yes, compare TCO
           </button>
           <button onClick={() => { setTcoEnabled(false); setTimeout(goNext, 200) }}
-            className={`py-4 rounded-xl border-2 font-semibold transition-all ${!tcoEnabled ? 'border-gray-400 bg-gray-50 text-gray-700' : 'border-gray-200 bg-white text-gray-500'}`}>
+            className={`py-4 rounded-xl border-2 font-semibold transition-all ${!tcoEnabled ? 'border-gray-600 bg-gray-800 text-gray-300' : 'border-gray-700 bg-gray-900 text-gray-500'}`}>
             Skip for now
           </button>
         </div>
 
         {tcoEnabled && (
-          <div className="space-y-5 mt-4 border-t-2 border-gray-100 pt-4">
+          <div className="space-y-5 mt-4 border-t-2 border-gray-800 pt-4">
             <div>
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-2.5 h-2.5 rounded-full bg-ccs-red" />
-                <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Your Current Gas Vehicle</h3>
+                <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wide">Your Current Gas Vehicle</h3>
               </div>
               <div className="grid grid-cols-1 gap-3">
                 <NumField label="Monthly Car Payment" prefix="$" value={gasPayment} onChange={setGasPayment} hint="Enter $0 if paid off" />
@@ -792,20 +792,20 @@ export default function WizardCalculator({ onExit }) {
             </div>
             <div>
               <div className="flex items-center gap-2 mb-2">
-                <div className="w-2.5 h-2.5 rounded-full bg-green-600" />
-                <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide">New Electric Vehicle</h3>
+                <div className="w-2.5 h-2.5 rounded-full bg-green-500" />
+                <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wide">New Electric Vehicle</h3>
               </div>
               <div className="grid grid-cols-1 gap-3">
                 <NumField label={`MSRP — ${evVehicle?.year} ${evVehicle?.make} ${evVehicle?.model}`} prefix="$" value={newCarCost} onChange={setNewCarCost} step={500} hint="Pre-filled with current MSRP — adjust to actual purchase price" />
                 <NumField label={`Trade-In Value — ${gasVehicle?.year} ${gasVehicle?.make} ${gasVehicle?.model}`} prefix="$" value={tradeIn} onChange={setTradeIn} step={250} hint="Estimated by age/segment — reduces loan AND ad valorem tax" />
                 <NumField label="Ad Valorem Tax Rate" suffix="%" value={tavtRate} onChange={setTavtRate} step={0.1} hint="GA TAVT: 7% of net vehicle value (purchase − trade-in)" />
                 <div>
-                  <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide block mb-1">Loan Term</label>
+                  <label className="text-xs font-semibold text-gray-400 uppercase tracking-wide block mb-1">Loan Term</label>
                   <div className="flex gap-2 flex-wrap">
                     {LOAN_TERMS.map(t => (
                       <button key={t} onClick={() => setLoanTerm(t)}
                         className={`px-3 py-2 rounded-lg border-2 text-sm font-medium transition-all ${
-                          loanTerm === t ? 'border-ccs-red bg-red-50 text-ccs-red' : 'border-gray-200 text-gray-600'
+                          loanTerm === t ? 'border-ccs-red bg-red-950/50 text-ccs-red' : 'border-gray-700 bg-gray-900 text-gray-400'
                         }`}>{t} mo</button>
                     ))}
                   </div>
@@ -816,16 +816,16 @@ export default function WizardCalculator({ onExit }) {
               </div>
             </div>
             {tcoData && (
-              <div className="rounded-xl bg-green-50 border-2 border-green-200 p-4 text-sm">
-                <div className="text-xs font-semibold text-green-700 uppercase tracking-wide mb-2">Your Estimated EV Loan</div>
-                <div className="space-y-1 text-gray-700">
+              <div className="rounded-xl bg-green-900/20 border-2 border-green-700 p-4 text-sm">
+                <div className="text-xs font-semibold text-green-400 uppercase tracking-wide mb-2">Your Estimated EV Loan</div>
+                <div className="space-y-1 text-gray-300">
                   <div className="flex justify-between"><span>Net cost (price − trade-in)</span><span className="font-semibold">{fmt(tcoData.netCost)}</span></div>
                   <div className="flex justify-between"><span>+ Ad Valorem Tax ({tavtRate}%)</span><span className="font-semibold">{fmt(tcoData.tavt)}</span></div>
-                  <div className="flex justify-between border-t border-green-200 pt-1.5 font-bold text-gray-900"><span>Total Financed</span><span>{fmt(tcoData.totalFinanced)}</span></div>
+                  <div className="flex justify-between border-t border-green-700 pt-1.5 font-bold text-white"><span>Total Financed</span><span>{fmt(tcoData.totalFinanced)}</span></div>
                   {tcoData.tradeInTaxSavings > 0 && (
-                    <div className="text-xs text-green-700 mt-1.5">✓ Trade-in saved you {fmt(tcoData.tradeInTaxSavings)} in TAVT</div>
+                    <div className="text-xs text-green-400 mt-1.5">✓ Trade-in saved you {fmt(tcoData.tradeInTaxSavings)} in TAVT</div>
                   )}
-                  <div className="flex justify-between border-t border-green-200 pt-2 mt-1 text-green-800 font-bold text-base"><span>Monthly Payment</span><span>{fmt(tcoData.evPayment)}/mo</span></div>
+                  <div className="flex justify-between border-t border-green-700 pt-2 mt-1 text-green-400 font-bold text-base"><span>Monthly Payment</span><span>{fmt(tcoData.evPayment)}/mo</span></div>
                 </div>
               </div>
             )}
@@ -853,30 +853,30 @@ export default function WizardCalculator({ onExit }) {
     }))
 
     return (
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-[#0D0D0D]">
         <Progress step="results" />
 
         {/* Congratulations banner */}
         {positive && (
-          <div className="bg-gradient-to-r from-green-500 to-green-600 text-white py-6 px-4 text-center">
+          <div className="bg-gradient-to-r from-green-700 to-green-600 text-white py-6 px-4 text-center">
             <div className="text-4xl mb-2">🎉</div>
             <h1 className="text-2xl sm:text-3xl font-bold">Congratulations!</h1>
-            <p className="text-sm sm:text-base text-green-50 mt-1">
+            <p className="text-sm sm:text-base text-green-100 mt-1">
               You could save <span className="font-bold">{fmt(annualSavings)}/year</span> by going electric
             </p>
           </div>
         )}
         {!positive && (
-          <div className="bg-amber-100 text-amber-900 py-5 px-4 text-center">
+          <div className="bg-amber-900/40 text-amber-300 py-5 px-4 text-center border-b border-amber-700">
             <h1 className="text-xl font-bold">EV fueling costs more with these inputs</h1>
-            <p className="text-xs mt-1">Try a more efficient EV or check your utility's TOU rate.</p>
+            <p className="text-xs mt-1 text-amber-400">Try a more efficient EV or check your utility's TOU rate.</p>
           </div>
         )}
 
         {/* Header */}
         <div className="max-w-3xl mx-auto px-4 pt-5 pb-2 flex items-center justify-between">
-          <p className="text-xs text-gray-400 uppercase tracking-wide font-medium">Your Results</p>
-          <button onClick={onExit} className="text-xs text-gray-400 hover:text-gray-600">Classic View →</button>
+          <p className="text-xs text-gray-500 uppercase tracking-wide font-medium">Your Results</p>
+          <button onClick={onExit} className="text-xs text-gray-500 hover:text-gray-300">Classic View →</button>
         </div>
 
         <div className="max-w-3xl mx-auto px-4 pb-16 space-y-5">
@@ -909,32 +909,32 @@ export default function WizardCalculator({ onExit }) {
           </div>
 
           {/* % Reduction */}
-          <div className={`rounded-xl px-4 py-3 flex items-center justify-between ${positive ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'}`}>
-            <span className={`text-sm font-medium ${positive ? 'text-green-800' : 'text-red-800'}`}>Fuel Cost Reduction</span>
-            <span className={`text-2xl font-bold ${positive ? 'text-green-700' : 'text-red-700'}`}>{positive ? '▼ ' : '▲ '}{fmtPct(pctSavings)}</span>
+          <div className={`rounded-xl px-4 py-3 flex items-center justify-between ${positive ? 'bg-green-900/20 border border-green-700' : 'bg-red-900/20 border border-red-700'}`}>
+            <span className={`text-sm font-medium ${positive ? 'text-green-400' : 'text-red-400'}`}>Fuel Cost Reduction</span>
+            <span className={`text-2xl font-bold ${positive ? 'text-green-400' : 'text-red-400'}`}>{positive ? '▼ ' : '▲ '}{fmtPct(pctSavings)}</span>
           </div>
 
           {/* Vehicle comparison */}
           <div className="card">
-            <h3 className="text-base font-bold text-ccs-black mb-3">Vehicle Comparison</h3>
+            <h3 className="text-base font-bold text-white mb-3">Vehicle Comparison</h3>
             <div className="grid grid-cols-2 gap-3">
-              <div className="rounded-lg bg-red-50 border border-red-100 p-3">
+              <div className="rounded-lg bg-red-900/20 border border-red-800 p-3">
                 <div className="text-xs text-red-400 font-semibold uppercase mb-1">Gas Vehicle</div>
-                <div className="text-sm font-bold text-gray-900">{gasVehicle.year} {gasVehicle.make}</div>
-                <div className="text-sm text-gray-700">{gasVehicle.model}</div>
+                <div className="text-sm font-bold text-white">{gasVehicle.year} {gasVehicle.make}</div>
+                <div className="text-sm text-gray-300">{gasVehicle.model}</div>
                 <div className="text-xs text-gray-500 mt-0.5">{gasVehicle.trim}</div>
-                <div className="mt-2 space-y-1 text-xs text-gray-600">
+                <div className="mt-2 space-y-1 text-xs text-gray-400">
                   <div><span className="font-medium">{gasVehicle.mpg} MPG</span> combined</div>
                   <div><span className="font-medium">{fuelLabel}</span> fuel @ {fmt(effectiveGasPrice)}/gal</div>
                   <div>Cost/mile: <span className="font-medium">${costPerMileGas.toFixed(3)}</span></div>
                 </div>
               </div>
-              <div className="rounded-lg bg-green-50 border border-green-100 p-3">
+              <div className="rounded-lg bg-green-900/20 border border-green-800 p-3">
                 <div className="text-xs text-green-500 font-semibold uppercase mb-1">Electric Vehicle</div>
-                <div className="text-sm font-bold text-gray-900">{evVehicle.year} {evVehicle.make}</div>
-                <div className="text-sm text-gray-700">{evVehicle.model}</div>
+                <div className="text-sm font-bold text-white">{evVehicle.year} {evVehicle.make}</div>
+                <div className="text-sm text-gray-300">{evVehicle.model}</div>
                 <div className="text-xs text-gray-500 mt-0.5">{evVehicle.trim}</div>
-                <div className="mt-2 space-y-1 text-xs text-gray-600">
+                <div className="mt-2 space-y-1 text-xs text-gray-400">
                   <div><span className="font-medium">{evVehicle.miPerKWh} mi/kWh</span> · {evVehicle.rangeMi} mi range</div>
                   <div>Rate: <span className="font-medium">${electricRate.toFixed(4)}/kWh</span></div>
                   <div>Cost/mile: <span className="font-medium">${costPerMileEV.toFixed(3)}</span></div>
@@ -945,19 +945,19 @@ export default function WizardCalculator({ onExit }) {
 
           {/* Annual usage */}
           <div className="card">
-            <h3 className="text-base font-bold text-ccs-black mb-3">Annual Usage & Cost Breakdown</h3>
+            <h3 className="text-base font-bold text-white mb-3">Annual Usage & Cost Breakdown</h3>
             <div className="space-y-2 text-sm">
               {[
                 ['Miles driven per year', annualMiles.toLocaleString() + ' mi', null],
-                ['Gallons of gas burned', Math.round(annualGallons).toLocaleString() + ' gal', 'text-red-600'],
-                ['Annual fuel cost (gas)', fmt(annualGasCost), 'text-red-600'],
+                ['Gallons of gas burned', Math.round(annualGallons).toLocaleString() + ' gal', 'text-red-400'],
+                ['Annual fuel cost (gas)', fmt(annualGasCost), 'text-red-400'],
                 ['kWh of electricity used', Math.round(annualKWh).toLocaleString() + ' kWh', null],
-                ['Annual charging cost (EV)', fmt(annualElectricCost), 'text-green-600'],
-                ['Annual savings', fmt(annualSavings), positive ? 'text-green-700 font-bold' : 'text-red-600 font-bold'],
+                ['Annual charging cost (EV)', fmt(annualElectricCost), 'text-green-500'],
+                ['Annual savings', fmt(annualSavings), positive ? 'text-green-400 font-bold' : 'text-red-400 font-bold'],
               ].map(([label, val, cls]) => (
-                <div key={label} className="flex justify-between py-1.5 border-b border-gray-100 last:border-0">
-                  <span className="text-gray-600">{label}</span>
-                  <span className={`font-semibold ${cls || 'text-gray-800'}`}>{val}</span>
+                <div key={label} className="flex justify-between py-1.5 border-b border-gray-800 last:border-0">
+                  <span className="text-gray-400">{label}</span>
+                  <span className={`font-semibold ${cls || 'text-gray-200'}`}>{val}</span>
                 </div>
               ))}
             </div>
@@ -965,16 +965,16 @@ export default function WizardCalculator({ onExit }) {
 
           {/* Charger Install */}
           {installData && (
-            <div className="card border-2 border-blue-200 bg-blue-50">
-              <h3 className="text-base font-bold text-blue-900 mb-2">Charger Installation Payback</h3>
+            <div className="card border-2 border-blue-700 bg-blue-900/20">
+              <h3 className="text-base font-bold text-blue-300 mb-2">Charger Installation Payback</h3>
               <div className="grid grid-cols-2 gap-3 text-sm">
                 <div>
-                  <div className="text-xs text-blue-700 font-semibold uppercase">Total Install</div>
-                  <div className="text-xl font-bold text-blue-900">{fmt(installData.cost)}</div>
+                  <div className="text-xs text-blue-400 font-semibold uppercase">Total Install</div>
+                  <div className="text-xl font-bold text-blue-200">{fmt(installData.cost)}</div>
                 </div>
                 <div>
-                  <div className="text-xs text-blue-700 font-semibold uppercase">Pays for itself in</div>
-                  <div className="text-xl font-bold text-blue-900">{installData.payback || 'N/A'}</div>
+                  <div className="text-xs text-blue-400 font-semibold uppercase">Pays for itself in</div>
+                  <div className="text-xl font-bold text-blue-200">{installData.payback || 'N/A'}</div>
                 </div>
               </div>
             </div>
@@ -983,16 +983,16 @@ export default function WizardCalculator({ onExit }) {
           {/* TCO */}
           {tcoData && (
             <div className="card">
-              <h3 className="text-base font-bold text-ccs-black mb-1">Total Cost of Ownership (Monthly)</h3>
-              <p className="text-xs text-gray-400 mb-3">All-in: payment + insurance + fuel + maintenance</p>
+              <h3 className="text-base font-bold text-white mb-1">Total Cost of Ownership (Monthly)</h3>
+              <p className="text-xs text-gray-500 mb-3">All-in: payment + insurance + fuel + maintenance</p>
               {tcoData.tradeInTaxSavings > 0 && (
-                <div className="rounded-lg bg-green-50 border border-green-200 px-4 py-2 flex items-center justify-between mb-3">
-                  <span className="text-xs text-green-700 font-medium">Trade-in tax savings (TAVT)</span>
-                  <span className="text-sm font-bold text-green-700">{fmt(tcoData.tradeInTaxSavings)}</span>
+                <div className="rounded-lg bg-green-900/20 border border-green-700 px-4 py-2 flex items-center justify-between mb-3">
+                  <span className="text-xs text-green-400 font-medium">Trade-in tax savings (TAVT)</span>
+                  <span className="text-sm font-bold text-green-400">{fmt(tcoData.tradeInTaxSavings)}</span>
                 </div>
               )}
-              <div className="grid grid-cols-3 text-xs font-semibold uppercase text-gray-400 pb-1.5 border-b border-gray-200 mb-0.5">
-                <span /><span className="text-center text-red-400">Gas</span><span className="text-center text-green-600">Electric</span>
+              <div className="grid grid-cols-3 text-xs font-semibold uppercase text-gray-500 pb-1.5 border-b border-gray-700 mb-0.5">
+                <span /><span className="text-center text-red-400">Gas</span><span className="text-center text-green-500">Electric</span>
               </div>
               {[
                 ['Car Payment',      tcoData.gasPayment,    tcoData.evPayment],
@@ -1000,16 +1000,16 @@ export default function WizardCalculator({ onExit }) {
                 ['Fuel/Electricity', tcoData.monthlyGasFuel, tcoData.monthlyEvFuel],
                 ['Maintenance',      tcoData.gasMaintenance, tcoData.evMaintenance],
               ].map(([label, g, e]) => (
-                <div key={label} className="grid grid-cols-3 text-sm py-2 border-b border-gray-100">
-                  <span className="text-gray-500">{label}</span>
-                  <span className="text-center font-medium text-red-600">{fmt(g)}</span>
-                  <span className="text-center font-medium text-green-600">{fmt(e)}</span>
+                <div key={label} className="grid grid-cols-3 text-sm py-2 border-b border-gray-800">
+                  <span className="text-gray-400">{label}</span>
+                  <span className="text-center font-medium text-red-400">{fmt(g)}</span>
+                  <span className="text-center font-medium text-green-500">{fmt(e)}</span>
                 </div>
               ))}
-              <div className="grid grid-cols-3 text-sm pt-3 border-t border-gray-200">
-                <span className="font-bold text-gray-700">Monthly Total</span>
-                <span className="text-center text-xl font-bold text-red-600">{fmt(tcoData.gasMonthlyTCO)}</span>
-                <span className="text-center text-xl font-bold text-green-600">{fmt(tcoData.evMonthlyTCO)}</span>
+              <div className="grid grid-cols-3 text-sm pt-3 border-t border-gray-700">
+                <span className="font-bold text-gray-300">Monthly Total</span>
+                <span className="text-center text-xl font-bold text-red-400">{fmt(tcoData.gasMonthlyTCO)}</span>
+                <span className="text-center text-xl font-bold text-green-500">{fmt(tcoData.evMonthlyTCO)}</span>
               </div>
               <div className="grid grid-cols-2 gap-3 mt-4">
                 <div className={`rounded-xl p-3 text-center ${tcoData.monthlyTCOSavings > 0 ? 'bg-green-600' : 'bg-ccs-red'}`}>
@@ -1026,24 +1026,24 @@ export default function WizardCalculator({ onExit }) {
 
           {/* 10-yr projection */}
           <div className="card">
-            <h3 className="text-base font-bold text-ccs-black mb-3">Cumulative Cost Projection</h3>
+            <h3 className="text-base font-bold text-white mb-3">Cumulative Cost Projection</h3>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="text-xs text-gray-400 uppercase border-b border-gray-200">
+                  <tr className="text-xs text-gray-500 uppercase border-b border-gray-700">
                     <th className="text-left pb-2 font-semibold">Year</th>
                     <th className="text-right pb-2 font-semibold text-red-400">Gas Total</th>
-                    <th className="text-right pb-2 font-semibold text-green-600">EV Total</th>
-                    <th className="text-right pb-2 font-semibold text-gray-600">Savings</th>
+                    <th className="text-right pb-2 font-semibold text-green-500">EV Total</th>
+                    <th className="text-right pb-2 font-semibold text-gray-400">Savings</th>
                   </tr>
                 </thead>
                 <tbody>
                   {yearRows.map(({ y, gas, ev, saved }) => (
-                    <tr key={y} className="border-b border-gray-100 last:border-0">
-                      <td className="py-2 font-medium text-gray-700">Yr {y}</td>
-                      <td className="py-2 text-right text-red-600 font-medium">{fmt(gas)}</td>
-                      <td className="py-2 text-right text-green-600 font-medium">{fmt(ev)}</td>
-                      <td className={`py-2 text-right font-bold ${saved > 0 ? 'text-green-700' : 'text-red-600'}`}>{fmt(saved)}</td>
+                    <tr key={y} className="border-b border-gray-800 last:border-0">
+                      <td className="py-2 font-medium text-gray-300">Yr {y}</td>
+                      <td className="py-2 text-right text-red-400 font-medium">{fmt(gas)}</td>
+                      <td className="py-2 text-right text-green-500 font-medium">{fmt(ev)}</td>
+                      <td className={`py-2 text-right font-bold ${saved > 0 ? 'text-green-400' : 'text-red-400'}`}>{fmt(saved)}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -1053,29 +1053,29 @@ export default function WizardCalculator({ onExit }) {
 
           {/* Environmental */}
           {positive && (
-            <div className="card bg-green-50 border border-green-200">
-              <h3 className="text-base font-bold text-green-900 mb-3">Environmental Impact (Annual)</h3>
+            <div className="card bg-green-900/20 border border-green-700">
+              <h3 className="text-base font-bold text-green-300 mb-3">Environmental Impact (Annual)</h3>
               <div className="grid grid-cols-3 gap-3 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-green-700">{Math.round(co2SavedLbs / 2000 * 10) / 10}</div>
-                  <div className="text-xs text-green-700 mt-1">tons CO₂ avoided</div>
+                  <div className="text-2xl font-bold text-green-400">{Math.round(co2SavedLbs / 2000 * 10) / 10}</div>
+                  <div className="text-xs text-green-500 mt-1">tons CO₂ avoided</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-green-700">{treesEquiv.toLocaleString()}</div>
-                  <div className="text-xs text-green-700 mt-1">trees equivalent</div>
+                  <div className="text-2xl font-bold text-green-400">{treesEquiv.toLocaleString()}</div>
+                  <div className="text-xs text-green-500 mt-1">trees equivalent</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-green-700">{Math.round(annualGallons).toLocaleString()}</div>
-                  <div className="text-xs text-green-700 mt-1">gallons not burned</div>
+                  <div className="text-2xl font-bold text-green-400">{Math.round(annualGallons).toLocaleString()}</div>
+                  <div className="text-xs text-green-500 mt-1">gallons not burned</div>
                 </div>
               </div>
             </div>
           )}
 
           {/* Assumptions */}
-          <div className="card border border-gray-200">
-            <h3 className="text-base font-bold text-ccs-black mb-3">Assumptions Used</h3>
-            <div className="space-y-1.5 text-xs text-gray-600">
+          <div className="card border border-gray-700">
+            <h3 className="text-base font-bold text-white mb-3">Assumptions Used</h3>
+            <div className="space-y-1.5 text-xs text-gray-400">
               {[
                 [`Gas price (${fuelLabel})`, `${fmt(effectiveGasPrice)}/gal`],
                 [`Electricity rate`, `$${electricRate.toFixed(4)}/kWh`],
@@ -1086,19 +1086,19 @@ export default function WizardCalculator({ onExit }) {
                 [`CO₂ per gallon of gas`, `19.59 lbs (EPA)`],
                 [`GA grid carbon intensity`, `0.41 kg CO₂/kWh (EPA eGRID)`],
               ].map(([k,v]) => (
-                <div key={k} className="flex justify-between border-b border-gray-100 pb-1.5 last:border-0">
-                  <span>{k}</span><span className="font-medium text-gray-800">{v}</span>
+                <div key={k} className="flex justify-between border-b border-gray-800 pb-1.5 last:border-0">
+                  <span>{k}</span><span className="font-medium text-gray-200">{v}</span>
                 </div>
               ))}
             </div>
-            <div className="mt-3 pt-3 border-t border-gray-200">
-              <label className="text-xs font-medium text-gray-500">Adjust gas price:</label>
+            <div className="mt-3 pt-3 border-t border-gray-700">
+              <label className="text-xs font-medium text-gray-400">Adjust gas price:</label>
               <div className="flex items-center gap-2 mt-1">
                 <span className="text-xs text-gray-500">$</span>
                 <input type="number" step="0.01" min="0"
                   value={gasPriceOverride ?? gasPrice ?? ''}
                   onChange={e => setGasPriceOverride(+e.target.value || null)}
-                  className="w-24 border border-gray-200 rounded-lg px-2 py-1 text-sm" />
+                  className="w-24 border border-gray-700 rounded-lg px-2 py-1 text-sm bg-gray-800 text-gray-100 outline-none focus:border-ccs-red" />
                 {gasPriceOverride && (
                   <button onClick={() => setGasPriceOverride(null)} className="text-xs text-ccs-red hover:underline">Reset</button>
                 )}
@@ -1111,10 +1111,10 @@ export default function WizardCalculator({ onExit }) {
 
           {/* Back/Classic */}
           <div className="flex gap-3">
-            <button onClick={() => setStep('utility')} className="flex-1 py-3 border-2 border-gray-200 rounded-xl text-sm font-medium text-gray-600 hover:border-gray-300">
+            <button onClick={() => setStep('utility')} className="flex-1 py-3 border-2 border-gray-700 rounded-xl text-sm font-medium text-gray-400 hover:border-gray-600">
               ← Adjust inputs
             </button>
-            <button onClick={onExit} className="flex-1 py-3 border-2 border-gray-200 rounded-xl text-sm font-medium text-gray-600 hover:border-gray-300">
+            <button onClick={onExit} className="flex-1 py-3 border-2 border-gray-700 rounded-xl text-sm font-medium text-gray-400 hover:border-gray-600">
               Classic view
             </button>
           </div>
@@ -1133,7 +1133,7 @@ export default function WizardCalculator({ onExit }) {
 
   return (
     <StepShell step={step} onBack={goBack} onExit={onExit} title="One moment…">
-      <p className="text-gray-400 text-sm mt-4">Loading data, please wait…</p>
+      <p className="text-gray-500 text-sm mt-4">Loading data, please wait…</p>
     </StepShell>
   )
 }

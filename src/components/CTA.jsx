@@ -1,15 +1,19 @@
 import { useState, useEffect } from 'react'
 
+const HCP_LEAD_URL = 'https://book.housecallpro.com/lead-form/Car-Charger-Specialists-LLC/fcb749cd2e9748849f539ba8c3937347'
+
 export default function CTA() {
   const [showModal, setShowModal] = useState(false)
 
+  // Lazy-load HCP booking script only when modal first opens
   useEffect(() => {
     if (!showModal) return
-    if (document.querySelector('script[src*="housecallpro.com/script.js"]')) return
-    const script = document.createElement('script')
-    script.async = true
-    script.src = 'https://online-booking.housecallpro.com/script.js?token=fcb749cd2e9748849f539ba8c3937347&orgName=Car-Charger-Specialists-LLC'
-    document.head.appendChild(script)
+    if (document.getElementById('hcp-booking-script')) return
+    const s = document.createElement('script')
+    s.id = 'hcp-booking-script'
+    s.src = 'https://book.housecallpro.com/js/embed.js'
+    s.async = true
+    document.body.appendChild(s)
   }, [showModal])
 
   return (
@@ -38,19 +42,19 @@ export default function CTA() {
           onClick={(e) => { if (e.target === e.currentTarget) setShowModal(false) }}
         >
           <div
-            className="relative bg-white rounded-2xl shadow-2xl w-full max-w-2xl flex flex-col"
+            className="relative bg-gray-900 rounded-2xl shadow-2xl w-full max-w-2xl flex flex-col"
             style={{ height: '90vh' }}
           >
             <button
               onClick={() => setShowModal(false)}
-              className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 text-3xl font-bold leading-none z-10 w-9 h-9 flex items-center justify-center rounded-full hover:bg-gray-100"
+              className="absolute top-3 right-3 text-gray-400 hover:text-gray-200 text-3xl font-bold leading-none z-10 w-9 h-9 flex items-center justify-center rounded-full hover:bg-gray-800"
               aria-label="Close"
             >
               &times;
             </button>
             <iframe
               id="hcp-lead-iframe"
-              src="https://book.housecallpro.com/lead-form/Car-Charger-Specialists-LLC/fcb749cd2e9748849f539ba8c3937347"
+              src={HCP_LEAD_URL}
               style={{ border: 'none', flex: 1, minHeight: 0 }}
               className="w-full rounded-2xl"
               title="Get Your Charger Installed"

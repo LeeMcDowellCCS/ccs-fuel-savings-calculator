@@ -19,11 +19,11 @@ async function fetchGrade(grade) {
 }
 
 export default function GasPrice({ gasVehicle, onPriceChange }) {
-  const [prices,  setPrices]       = useState(null)   // { regular, premium, diesel }
+  const [prices,  setPrices]       = useState(null)
   const [grade,   setGrade]        = useState('regular')
-  const [override, setOverride]    = useState(null)   // user-typed price
+  const [override, setOverride]    = useState(null)
   const [status,  setStatus]       = useState('loading')
-  const [autoGrade, setAutoGrade]  = useState(null)   // detected from vehicle
+  const [autoGrade, setAutoGrade]  = useState(null)
 
   // Fetch all three grades on mount
   useEffect(() => {
@@ -36,7 +36,6 @@ export default function GasPrice({ gasVehicle, onPriceChange }) {
     })
   }, [])
 
-  // Auto-select grade when vehicle changes
   useEffect(() => {
     if (!gasVehicle) return
     const detected = getFuelType(gasVehicle)
@@ -45,7 +44,6 @@ export default function GasPrice({ gasVehicle, onPriceChange }) {
     setOverride(null)
   }, [gasVehicle])
 
-  // Report effective price upward
   useEffect(() => {
     if (!prices) return
     const effective = override ?? prices[grade]
@@ -62,7 +60,7 @@ export default function GasPrice({ gasVehicle, onPriceChange }) {
   return (
     <div className="card">
       <h2 className="section-title flex items-center gap-2">
-        <span className="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center text-sm font-bold text-gray-600">4</span>
+        <span className="w-7 h-7 rounded-full bg-gray-800 flex items-center justify-center text-sm font-bold text-gray-400">4</span>
         Georgia Gas Price
       </h2>
 
@@ -74,8 +72,8 @@ export default function GasPrice({ gasVehicle, onPriceChange }) {
             onClick={() => handleGradeClick(g)}
             className={`flex-1 py-2 rounded-lg border text-xs font-semibold transition-all ${
               grade === g
-                ? 'border-ccs-red bg-red-50 text-ccs-red'
-                : 'border-gray-200 text-gray-500 hover:border-gray-300'
+                ? 'border-ccs-red bg-red-950/50 text-ccs-red'
+                : 'border-gray-700 text-gray-400 hover:border-gray-600'
             }`}
           >
             {FUEL_LABELS[g]}
@@ -102,12 +100,12 @@ export default function GasPrice({ gasVehicle, onPriceChange }) {
         <div className="flex items-center justify-between mb-1">
           <label className="section-label">Price Per Gallon — {FUEL_LABELS[grade]}</label>
           {status === 'live' && (
-            <span className="text-xs text-green-600 font-medium flex items-center gap-1">
+            <span className="text-xs text-green-400 font-medium flex items-center gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block" />
               Live GA Avg
             </span>
           )}
-          {status === 'fallback' && <span className="text-xs text-amber-600 font-medium">Est.</span>}
+          {status === 'fallback' && <span className="text-xs text-amber-400 font-medium">Est.</span>}
           {status === 'loading' && (
             <span className="text-xs text-gray-400 flex items-center gap-1">
               <span className="w-1.5 h-1.5 rounded-full bg-gray-400 inline-block animate-pulse" />

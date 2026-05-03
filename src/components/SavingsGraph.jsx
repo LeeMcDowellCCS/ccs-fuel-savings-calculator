@@ -17,13 +17,13 @@ function formatBreakEven(years) {
 const CustomTooltip = ({ active, payload, label }) => {
   if (!active || !payload?.length) return null
   return (
-    <div className="bg-white border border-gray-200 rounded-lg shadow-lg p-3 text-sm">
-      <p className="font-semibold text-gray-700 mb-2">Year {label}</p>
+    <div className="bg-gray-900 border border-gray-700 rounded-lg shadow-lg p-3 text-sm">
+      <p className="font-semibold text-white mb-2">Year {label}</p>
       {payload.map(p => (
         <div key={p.name} className="flex items-center gap-2 mb-1">
           <span className="w-3 h-3 rounded-full flex-shrink-0" style={{ background: p.color }} />
-          <span className="text-gray-600">{p.name}:</span>
-          <span className="font-semibold text-gray-900">{fmt(p.value)}</span>
+          <span className="text-gray-400">{p.name}:</span>
+          <span className="font-semibold text-gray-100">{fmt(p.value)}</span>
         </div>
       ))}
     </div>
@@ -56,7 +56,7 @@ export default function SavingsGraph({ calc }) {
 
   return (
     <div className="card">
-      <h2 className="text-lg font-semibold text-ccs-black mb-1">10-Year Cumulative Cost Comparison</h2>
+      <h2 className="text-lg font-semibold text-white mb-1">10-Year Cumulative Cost Comparison</h2>
       <p className="text-sm text-gray-500 mb-5">Total fuel costs over time — gas vs. electric.</p>
       <ResponsiveContainer width="100%" height={320}>
         <LineChart data={data} margin={{ top: 20, right: 20, left: 10, bottom: 10 }}>

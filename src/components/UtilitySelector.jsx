@@ -36,7 +36,7 @@ export default function UtilitySelector({ onRateChange }) {
   return (
     <div className="card">
       <h2 className="section-title flex items-center gap-2">
-        <span className="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center text-sm font-bold text-gray-600">3</span>
+        <span className="w-7 h-7 rounded-full bg-gray-800 flex items-center justify-center text-sm font-bold text-gray-400">3</span>
         Electric Utility &amp; Rate
       </h2>
       <div className="space-y-3">
@@ -55,7 +55,7 @@ export default function UtilitySelector({ onRateChange }) {
         </div>
 
         {selected?.hasTou && (
-          <div className="flex items-start gap-3 bg-blue-50 border border-blue-100 rounded-lg p-3">
+          <div className="flex items-start gap-3 bg-blue-900/20 border border-blue-700 rounded-lg p-3">
             <input
               type="checkbox"
               id="tou-check"
@@ -63,10 +63,10 @@ export default function UtilitySelector({ onRateChange }) {
               onChange={handleTouChange}
               className="mt-0.5 accent-ccs-red w-4 h-4"
             />
-            <label htmlFor="tou-check" className="text-sm text-blue-900 cursor-pointer">
+            <label htmlFor="tou-check" className="text-sm text-blue-300 cursor-pointer">
               <span className="font-medium">I have a Time-of-Use (TOU) plan</span>
               {selected.touDescription && (
-                <span className="block text-blue-700 text-xs mt-0.5">{selected.touDescription}</span>
+                <span className="block text-blue-400 text-xs mt-0.5">{selected.touDescription}</span>
               )}
             </label>
           </div>

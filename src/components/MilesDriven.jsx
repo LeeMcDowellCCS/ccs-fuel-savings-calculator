@@ -4,7 +4,7 @@ export default function MilesDriven({ value, onChange }) {
   return (
     <div className="card">
       <h2 className="section-title flex items-center gap-2">
-        <span className="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center text-sm font-bold text-gray-600">5</span>
+        <span className="w-7 h-7 rounded-full bg-gray-800 flex items-center justify-center text-sm font-bold text-gray-400">5</span>
         Daily Miles Driven
       </h2>
       <div>
