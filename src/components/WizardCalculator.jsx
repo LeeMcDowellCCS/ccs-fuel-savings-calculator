@@ -925,7 +925,7 @@ export default function WizardCalculator({ onExit }) {
                 <div className="text-xs text-gray-500 mt-0.5">{gasVehicle.trim}</div>
                 <div className="mt-2 space-y-1 text-xs text-gray-400">
                   <div><span className="font-medium">{gasVehicle.mpg} MPG</span> combined</div>
-                  <div><span className="font-medium">{fuelLabel}</span> fuel @ {fmt(effectiveGasPrice)}/gal</div>
+                  <div><span className="font-medium">{fuelLabel}</span> fuel @ ${effectiveGasPrice.toFixed(3)}/gal</div>
                   <div>Cost/mile: <span className="font-medium">${costPerMileGas.toFixed(3)}</span></div>
                 </div>
               </div>
@@ -1077,7 +1077,7 @@ export default function WizardCalculator({ onExit }) {
             <h3 className="text-base font-bold text-white mb-3">Assumptions Used</h3>
             <div className="space-y-1.5 text-xs text-gray-400">
               {[
-                [`Gas price (${fuelLabel})`, `${fmt(effectiveGasPrice)}/gal`],
+                [`Gas price (${fuelLabel})`, `$${effectiveGasPrice.toFixed(3)}/gal`],
                 [`Electricity rate`, `$${electricRate.toFixed(4)}/kWh`],
                 [`Daily miles`, `${milesPerDay} mi/day`],
                 [`Annual miles`, `${annualMiles.toLocaleString()} mi`],
