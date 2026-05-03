@@ -22,7 +22,7 @@ const BCC_EMAIL = 'installations@carchargerspecialists.com'
 // ── Constants ─────────────────────────────────────────────────────────────────
 const EIA_BASE =
   'https://api.eia.gov/v2/petroleum/pri/gnd/data/?api_key=xI8f5dCEIevB4PTyk4hvb4gsoQ0UOc92ciqedgb0' +
-  '&frequency=weekly&data%5B0%5D=value&facets%5Bduoarea%5D%5B%5D=R1Z' +
+  '&frequency=weekly&data%5B0%5D=value' +
   '&sort%5B0%5D%5Bcolumn%5D=period&sort%5B0%5D%5Bdirection%5D=desc&length=1'
 
 const MILES_PRESETS = [
@@ -429,18 +429,23 @@ export default function WizardCalculator({ onExit }) {
     fetch('/data/utilities.json').then(r => r.json()).then(setUtilities).catch(() => {})
   }, [])
 
-  // Fetch gas price for the right grade when vehicle changes (or initial regular)
+  // Fetch gas price for the right grade — tries Georgia (SGA) then Lower Atlantic (R1Z)
   useEffect(() => {
     const grade = gasVehicle ? getFuelType(gasVehicle) : 'regular'
     const product = grade === 'diesel' ? 'EPD2D' : grade === 'premium' ? 'EPM2' : 'EPM0'
-    fetch(`${EIA_BASE}&facets%5Bproduct%5D%5B%5D=${product}`)
-      .then(r => r.json())
-      .then(d => {
-        const v = parseFloat(d?.response?.data?.[0]?.value)
-        if (!isNaN(v)) { setGasPrice(v); setGasPriceOverride(null) }
-        else setGasPrice(grade === 'premium' ? 3.60 : grade === 'diesel' ? 3.40 : 3.10)
-      })
-      .catch(() => setGasPrice(grade === 'premium' ? 3.60 : grade === 'diesel' ? 3.40 : 3.10))
+    const fallback = grade === 'premium' ? 3.75 : grade === 'diesel' ? 3.50 : 3.25
+    const tryFetch = async () => {
+      for (const area of ['SGA', 'R1Z']) {
+        try {
+          const r = await fetch(`${EIA_BASE}&facets%5Bduoarea%5D%5B%5D=${area}&facets%5Bproduct%5D%5B%5D=${product}`)
+          const d = await r.json()
+          const v = parseFloat(d?.response?.data?.[0]?.value)
+          if (!isNaN(v)) { setGasPrice(v); setGasPriceOverride(null); return }
+        } catch {}
+      }
+      setGasPrice(fallback)
+    }
+    tryFetch()
   }, [gasVehicle?.make, gasVehicle?.model, gasVehicle?.trim])
 
   // Auto-populate MSRP and trade-in when vehicles change
