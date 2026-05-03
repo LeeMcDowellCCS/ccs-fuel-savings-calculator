@@ -48,10 +48,29 @@ export default function Results({ calc, tco }) {
         <p className="text-sm text-gray-400">Switching from gas to electric.</p>
       </div>
 
-      {/* Monthly + Annual savings */}
+      {/* Net monthly impact hero — only when TCO data is available */}
+      {tco && (
+        <div className={`rounded-xl p-4 text-center border-2 ${tco.monthlyTCOSavings > 0 ? 'border-green-500 bg-green-900/20' : 'border-ccs-red bg-red-900/20'}`}>
+          <div className="text-xs font-semibold uppercase tracking-wider mb-1 text-gray-400">All-In Monthly Impact</div>
+          <div className={`text-3xl font-bold ${tco.monthlyTCOSavings > 0 ? 'text-green-400' : 'text-red-400'}`}>
+            {tco.monthlyTCOSavings > 0 ? '▼ ' : '▲ '}{fmt(Math.abs(tco.monthlyTCOSavings))}/mo
+          </div>
+          <div className="text-xs text-gray-400 mt-1">
+            switching {tco.monthlyTCOSavings > 0 ? 'saves you' : 'costs you'} this much all-in each month
+          </div>
+        </div>
+      )}
+
+      {/* Fuel savings section label */}
+      <div className="flex items-center gap-2">
+        <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">⛽ Fuel Savings</span>
+        <div className="flex-1 h-px bg-gray-800" />
+      </div>
+
+      {/* Monthly + Annual fuel savings */}
       <div className="grid grid-cols-2 gap-3">
-        <SavingsCard label="Monthly Savings" value={monthlySavings} positive={positive} />
-        <SavingsCard label="Annual Savings" value={annualSavings} positive={positive} />
+        <SavingsCard label="Monthly Fuel Savings" value={monthlySavings} positive={positive} />
+        <SavingsCard label="Annual Fuel Savings" value={annualSavings} positive={positive} />
       </div>
 
       {/* 5- and 10-year */}
@@ -93,9 +112,22 @@ export default function Results({ calc, tco }) {
         </div>
       )}
 
+      {/* TCO nudge when not filled in */}
+      {!tco && (
+        <div className="rounded-xl border border-dashed border-gray-700 px-4 py-3 text-center">
+          <p className="text-sm text-gray-400 font-medium">Want the full financial picture?</p>
+          <p className="text-xs text-gray-500 mt-1">Add your car payment & insurance in the section above to see whether switching saves money overall — not just on fuel.</p>
+        </div>
+      )}
+
       {/* TCO Section */}
       {tco && (
         <div className="border-t-2 border-gray-800 pt-5">
+          <p className="text-xs text-gray-400 mb-3">
+            Fuel {positive ? 'saves you' : 'costs you'}{' '}
+            <span className={`font-semibold ${positive ? 'text-green-400' : 'text-red-400'}`}>{fmt(Math.abs(monthlySavings))}/mo</span>
+            . Here's how that rolls up into your full monthly cost:
+          </p>
           <h3 className="text-base font-bold text-white mb-1">Total Cost of Ownership</h3>
           <p className="text-xs text-gray-500 mb-4">All-in monthly comparison: payment + insurance + fuel + maintenance.</p>
 
