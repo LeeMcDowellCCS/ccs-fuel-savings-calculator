@@ -95,7 +95,7 @@ export function GasVehicleSelector({ onSelect }) {
   return (
     <div className="card">
       <h2 className="section-title flex items-center gap-2">
-        <span className="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center text-sm font-bold text-gray-600">1</span>
+        <span className="w-7 h-7 rounded-full bg-gray-800 flex items-center justify-center text-sm font-bold text-gray-400">1</span>
         Your Current Gas Vehicle
       </h2>
       <CascadeSelects vehicles={vehicles} onSelect={onSelect} label="Gas Vehicle" />

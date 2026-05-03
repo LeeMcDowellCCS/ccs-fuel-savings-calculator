@@ -15,18 +15,18 @@ function NumericInput({ label, prefix, suffix, value, onChange, min = 0, step = 
   return (
     <div>
       <label className="section-label">{label}</label>
-      {note && <p className="text-xs text-gray-400 mb-1">{note}</p>}
-      <div className="flex items-center border border-gray-200 rounded-lg overflow-hidden focus-within:border-ccs-red transition-colors">
-        {prefix && <span className="px-3 py-2.5 bg-gray-50 text-gray-500 text-sm border-r border-gray-200">{prefix}</span>}
+      {note && <p className="text-xs text-gray-500 mb-1">{note}</p>}
+      <div className="flex items-center border border-gray-700 rounded-lg overflow-hidden focus-within:border-ccs-red transition-colors">
+        {prefix && <span className="px-3 py-2.5 bg-gray-800 text-gray-400 text-sm border-r border-gray-700">{prefix}</span>}
         <input
           type="number"
           min={min}
           step={step}
           value={value}
           onChange={e => onChange(Math.max(min, +e.target.value))}
-          className="flex-1 px-3 py-2.5 text-sm outline-none bg-white"
+          className="flex-1 px-3 py-2.5 text-sm outline-none bg-gray-900 text-gray-100"
         />
-        {suffix && <span className="px-3 py-2.5 bg-gray-50 text-gray-500 text-sm border-l border-gray-200">{suffix}</span>}
+        {suffix && <span className="px-3 py-2.5 bg-gray-800 text-gray-400 text-sm border-l border-gray-700">{suffix}</span>}
       </div>
     </div>
   )
@@ -35,36 +35,36 @@ function NumericInput({ label, prefix, suffix, value, onChange, min = 0, step = 
 function LoanBreakdown({ newCarCost, tradeIn, tavtRate, apr, loanTerm, evPayment, totalFinanced, tavt, tradeInTaxSavings }) {
   const netCost = Math.max(0, newCarCost - tradeIn)
   return (
-    <div className="mt-5 rounded-xl border border-green-200 bg-green-50 p-4 space-y-2 text-sm">
-      <div className="text-xs font-semibold text-green-700 uppercase tracking-wide mb-3">EV Purchase Breakdown</div>
+    <div className="mt-5 rounded-xl border border-green-700 bg-green-900/20 p-4 space-y-2 text-sm">
+      <div className="text-xs font-semibold text-green-400 uppercase tracking-wide mb-3">EV Purchase Breakdown</div>
 
-      <div className="flex justify-between text-gray-600">
+      <div className="flex justify-between text-gray-400">
         <span>New EV Price</span>
         <span className="font-medium">{fmt(newCarCost)}</span>
       </div>
       {tradeIn > 0 && (
-        <div className="flex justify-between text-green-700">
+        <div className="flex justify-between text-green-400">
           <span>− Trade-In Value</span>
           <span className="font-semibold">− {fmt(tradeIn)}</span>
         </div>
       )}
-      <div className="flex justify-between text-gray-700 border-t border-green-200 pt-2">
+      <div className="flex justify-between text-gray-300 border-t border-green-700 pt-2">
         <span>Net Vehicle Cost</span>
         <span className="font-semibold">{fmt(netCost)}</span>
       </div>
-      <div className="flex justify-between text-gray-600">
+      <div className="flex justify-between text-gray-400">
         <span>+ Ad Valorem Tax ({tavtRate}%)</span>
         <span className="font-medium">+ {fmt(tavt)}</span>
       </div>
-      <div className="flex justify-between text-gray-800 border-t border-green-200 pt-2 font-bold">
+      <div className="flex justify-between text-white border-t border-green-700 pt-2 font-bold">
         <span>Total Financed</span>
         <span>{fmt(totalFinanced)}</span>
       </div>
 
       {tradeIn > 0 && tradeInTaxSavings > 0 && (
-        <div className="mt-3 flex items-center justify-between rounded-lg bg-white border border-green-300 px-3 py-2">
-          <span className="text-xs text-green-700 font-medium">Trade-in Tax Savings ({tavtRate}% of {fmt(tradeIn)})</span>
-          <span className="text-sm font-bold text-green-700">+ {fmt(tradeInTaxSavings)} saved</span>
+        <div className="mt-3 flex items-center justify-between rounded-lg bg-green-900/40 border border-green-700 px-3 py-2">
+          <span className="text-xs text-green-400 font-medium">Trade-in Tax Savings ({tavtRate}% of {fmt(tradeIn)})</span>
+          <span className="text-sm font-bold text-green-400">+ {fmt(tradeInTaxSavings)} saved</span>
         </div>
       )}
 
@@ -111,28 +111,28 @@ export default function TCOCalculator({ enabled, onToggle, onChange }) {
   return (
     <div className="card lg:col-span-2">
       <div className="flex items-center gap-2 mb-3">
-        <span className={`w-7 h-7 rounded-full flex-shrink-0 flex items-center justify-center text-sm font-bold transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-100 text-gray-600'}`}>7</span>
-        <h2 className="text-lg font-semibold text-ccs-black">Total Cost of Ownership</h2>
-        <span className="text-xs text-gray-400 font-normal">(optional)</span>
+        <span className={`w-7 h-7 rounded-full flex-shrink-0 flex items-center justify-center text-sm font-bold transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-800 text-gray-400'}`}>7</span>
+        <h2 className="text-lg font-semibold text-white">Total Cost of Ownership</h2>
+        <span className="text-xs text-gray-500 font-normal">(optional)</span>
       </div>
       <button onClick={onToggle} className="group">
-        <span className={`text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-100 text-gray-500 group-hover:bg-gray-200'}`}>
+        <span className={`text-xs font-medium px-3 py-1.5 rounded-full transition-colors ${enabled ? 'bg-ccs-red text-white' : 'bg-gray-800 text-gray-400 group-hover:bg-gray-700'}`}>
           {enabled ? 'Enabled ✓' : '+ Include Full TCO'}
         </span>
       </button>
-      <p className="text-xs text-gray-400 mt-2">
+      <p className="text-xs text-gray-500 mt-2">
         Compare all-in monthly costs including payment, insurance, fuel, and maintenance — gas vs. electric.
       </p>
 
       {enabled && (
-        <div className="mt-5 border-t border-gray-100 pt-5">
+        <div className="mt-5 border-t border-gray-800 pt-5">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
             {/* ── Gas Vehicle ── */}
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <div className="w-2.5 h-2.5 rounded-full bg-ccs-red flex-shrink-0" />
-                <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Your Current Gas Vehicle</h3>
+                <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wide">Your Current Gas Vehicle</h3>
               </div>
               <NumericInput
                 label="Monthly Car Payment"
@@ -160,8 +160,8 @@ export default function TCOCalculator({ enabled, onToggle, onChange }) {
             {/* ── New EV ── */}
             <div className="space-y-4">
               <div className="flex items-center gap-2">
-                <div className="w-2.5 h-2.5 rounded-full bg-green-600 flex-shrink-0" />
-                <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Your New Electric Vehicle</h3>
+                <div className="w-2.5 h-2.5 rounded-full bg-green-500 flex-shrink-0" />
+                <h3 className="text-sm font-semibold text-gray-300 uppercase tracking-wide">Your New Electric Vehicle</h3>
               </div>
               <NumericInput label="Purchase Price" prefix="$" value={newCarCost} onChange={setNewCarCost} step={500} />
               <NumericInput
@@ -188,7 +188,7 @@ export default function TCOCalculator({ enabled, onToggle, onChange }) {
                     <button
                       key={t}
                       onClick={() => setLoanTerm(t)}
-                      className={`px-3 py-1.5 rounded-lg border text-sm font-medium transition-all ${loanTerm === t ? 'border-ccs-red bg-red-50 text-ccs-red' : 'border-gray-200 text-gray-600 hover:border-gray-300'}`}
+                      className={`px-3 py-1.5 rounded-lg border text-sm font-medium transition-all ${loanTerm === t ? 'border-ccs-red bg-red-950/50 text-ccs-red' : 'border-gray-700 text-gray-400 hover:border-gray-600'}`}
                     >
                       {t} mo
                     </button>

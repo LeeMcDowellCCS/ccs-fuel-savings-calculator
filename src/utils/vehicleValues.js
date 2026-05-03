@@ -132,8 +132,6 @@ export function getEvMsrp(evVehicle) {
 }
 
 // ── Trade-in value estimator ────────────────────────────────────────────────
-// Estimates a starting MSRP based on make tier + body type, then applies
-// straight-line + curve depreciation by age.
 const LUXURY_MAKES = ['BMW','Mercedes-Benz','Mercedes','Audi','Lexus','Porsche','Volvo','Cadillac','Lincoln','Acura','Infiniti','Genesis','Maserati','Alfa Romeo','Land Rover','Jaguar']
 const PREMIUM_MAKES = ['Buick','Volkswagen','Mazda','Mini']
 

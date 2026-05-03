@@ -10,6 +10,7 @@ import Results from './components/Results'
 import SavingsGraph from './components/SavingsGraph'
 import CTA from './components/CTA'
 import WizardCalculator from './components/WizardCalculator'
+import WelcomePage from './components/WelcomePage'
 
 function calculate({ gasVehicle, evVehicle, electricRate, gasPrice, milesPerDay, installCost }) {
   const annualMiles = milesPerDay * 365
@@ -42,7 +43,7 @@ function calculateTCO({ annualGasCost, annualElectricCost }, tcoInputs) {
 }
 
 export default function App() {
-  const [mode, setMode] = useState('wizard') // 'classic' | 'wizard'
+  const [mode, setMode] = useState('welcome') // 'welcome' | 'wizard' | 'classic'
   const [gasVehicle, setGasVehicle] = useState(null)
   const [evVehicle, setEvVehicle] = useState(null)
   const [electricRate, setElectricRate] = useState(null)
@@ -74,20 +75,24 @@ export default function App() {
   if (!electricRate) missingFields.push('utility & rate')
   if (!gasPrice) missingFields.push('gas price')
 
+  if (mode === 'welcome') {
+    return <WelcomePage onGetStarted={() => setMode('wizard')} />
+  }
+
   if (mode === 'wizard') {
     return <WizardCalculator onExit={() => setMode('classic')} />
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-[#0D0D0D]">
       <Header />
 
       {/* Mode toggle */}
       <div className="max-w-5xl mx-auto px-4 pt-4 flex justify-between items-center">
-        <span className="text-xs text-gray-400 font-medium uppercase tracking-wide">Classic View</span>
+        <span className="text-xs text-gray-500 font-medium uppercase tracking-wide">Classic View</span>
         <button
           onClick={() => setMode('wizard')}
-          className="flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full border-2 border-ccs-red text-ccs-red hover:bg-red-50 transition-colors"
+          className="flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full border-2 border-ccs-red text-ccs-red hover:bg-red-950/30 transition-colors"
         >
           ⚡ Switch to Quick Wizard
         </button>
@@ -95,8 +100,8 @@ export default function App() {
 
       <main className="max-w-5xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-ccs-black mb-2">Fuel Savings Calculator</h1>
-          <p className="text-gray-500 max-w-xl mx-auto">
+          <h1 className="text-3xl font-bold text-white mb-2">Fuel Savings Calculator</h1>
+          <p className="text-gray-400 max-w-xl mx-auto">
             See exactly how much you'll save switching from gas to electric —
             based on your actual vehicle, utility, and driving habits.
           </p>
@@ -122,18 +127,18 @@ export default function App() {
 
         <div className="mt-8 space-y-5">
           {!calc && (
-            <div className="card border border-dashed border-gray-200 text-center py-10">
+            <div className="card border border-dashed border-gray-700 text-center py-10">
               <div className="text-4xl mb-3">⚡</div>
-              <p className="text-gray-500 font-medium">Complete all fields to see your savings</p>
+              <p className="text-gray-400 font-medium">Complete all fields to see your savings</p>
               {missingFields.length > 0 && (
-                <p className="text-sm text-gray-400 mt-1">Still needed: {missingFields.join(', ')}</p>
+                <p className="text-sm text-gray-500 mt-1">Still needed: {missingFields.join(', ')}</p>
               )}
             </div>
           )}
 
           {calc && calc.annualSavings <= 0 && (
-            <div className="card border border-amber-200 bg-amber-50">
-              <p className="text-amber-800 font-medium text-sm">
+            <div className="card border border-amber-700 bg-amber-900/20">
+              <p className="text-amber-300 font-medium text-sm">
                 ⚠️ With these inputs, the EV costs more to charge than the gas vehicle costs to fuel.
                 Try adjusting the gas price, electric rate, or selecting a more efficient EV.
               </p>
@@ -150,15 +155,15 @@ export default function App() {
         </div>
       </main>
 
-      <footer className="text-center py-6 text-xs text-gray-400 mt-8" style={{ backgroundColor: '#000000', color: '#9ca3af' }}>
+      <footer className="text-center py-6 text-xs text-gray-500 mt-8" style={{ backgroundColor: '#000000' }}>
         <p>
           © {new Date().getFullYear()} Car Charger Specialists, LLC · Atlanta, GA ·{' '}
-          <a href="https://www.carchargerspecialists.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://www.carchargerspecialists.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
             carchargerspecialists.com
           </a>
         </p>
         <p className="mt-1">
-          <a href="tel:4045207349" className="text-gray-400 hover:text-white transition-colors">404-520-7349</a>
+          <a href="tel:4045207349" className="text-gray-500 hover:text-white transition-colors">404-520-7349</a>
         </p>
       </footer>
     </div>

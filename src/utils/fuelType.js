@@ -54,7 +54,7 @@ export function getFuelType({ make, model, trim = '' }) {
 
 export const FUEL_LABELS = { regular: 'Regular', premium: 'Premium', diesel: 'Diesel' }
 export const FUEL_COLORS = {
-  regular: 'text-gray-700 bg-gray-100',
-  premium: 'text-amber-700 bg-amber-50 border-amber-200',
-  diesel:  'text-blue-700 bg-blue-50 border-blue-200',
+  regular: 'text-gray-300 bg-gray-800',
+  premium: 'text-amber-400 bg-amber-900/30 border-amber-700',
+  diesel:  'text-blue-400 bg-blue-900/30 border-blue-700',
 }
