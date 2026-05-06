@@ -6,6 +6,7 @@ export default function GasPrice({ gasVehicle, onPriceChange }) {
   const [prices,  setPrices]       = useState(null)
   const [grade,   setGrade]        = useState('regular')
   const [override, setOverride]    = useState(null)
+  const [rawInput, setRawInput]    = useState(null) // raw string while user is editing
   const [status,  setStatus]       = useState('loading')
   const [autoGrade, setAutoGrade]  = useState(null)
 
@@ -36,7 +37,7 @@ export default function GasPrice({ gasVehicle, onPriceChange }) {
     setOverride(null)
   }
 
-  const displayPrice = override != null ? override : (prices ? prices[grade] : '')
+  const displayPrice = rawInput ?? (override != null ? override : (prices ? prices[grade] : ''))
 
   return (
     <div className="card">
@@ -102,10 +103,13 @@ export default function GasPrice({ gasVehicle, onPriceChange }) {
             min="0"
             className="input-field pl-7"
             value={displayPrice}
+            onFocus={e => setRawInput(e.target.value)}
             onChange={e => {
-              const v = e.target.value
-              setOverride(v === '' ? null : parseFloat(v))
+              setRawInput(e.target.value)
+              const v = parseFloat(e.target.value)
+              setOverride(!isNaN(v) ? v : null)
             }}
+            onBlur={() => setRawInput(null)}
             placeholder={prices ? prices[grade].toFixed(2) : '3.10'}
           />
         </div>
