@@ -394,6 +394,7 @@ export default function WizardCalculator({ onExit }) {
   const [utilityId,    setUtilityId]    = useState(null)
   const [gasPrice,     setGasPrice]     = useState(null)
   const [gasPriceOverride, setGasPriceOverride] = useState(null)
+  const [gasPriceRaw, setGasPriceRaw]  = useState(null) // raw string while user is editing
 
   // Charger install (optional)
   const [installEnabled, setInstallEnabled] = useState(false)
@@ -1127,8 +1128,14 @@ export default function WizardCalculator({ onExit }) {
               <div className="flex items-center gap-2 mt-1">
                 <span className="text-xs text-gray-500">$</span>
                 <input type="number" step="0.01" min="0"
-                  value={gasPriceOverride ?? gasPrice ?? ''}
-                  onChange={e => setGasPriceOverride(+e.target.value || null)}
+                  value={gasPriceRaw ?? (gasPriceOverride ?? gasPrice ?? '')}
+                  onFocus={e => setGasPriceRaw(e.target.value)}
+                  onChange={e => {
+                    setGasPriceRaw(e.target.value)
+                    const v = parseFloat(e.target.value)
+                    setGasPriceOverride(!isNaN(v) ? v : null)
+                  }}
+                  onBlur={() => setGasPriceRaw(null)}
                   className="w-24 border border-gray-700 rounded-lg px-2 py-1 text-sm bg-gray-800 text-gray-100 outline-none focus:border-ccs-red" />
                 {gasPriceOverride && (
                   <button onClick={() => setGasPriceOverride(null)} className="text-xs text-ccs-red hover:underline">Reset</button>
