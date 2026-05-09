@@ -5,6 +5,7 @@ const CONFIGS = {
     logoSrc: '/ccs-logo.png',
     logoAlt: 'Car Charger Specialists',
     logoHref: 'https://www.carchargerspecialists.com',
+    logoClass: 'h-24 sm:h-32',
     primaryColor: '#E8272A',
     primaryColorDark: '#C41F22',
     // null = show all EV makes; array = restrict to listed makes
@@ -39,6 +40,7 @@ const CONFIGS = {
     logoSrc: '/rivian-logo.png',
     logoAlt: 'Rivian',
     logoHref: 'https://www.rivian.com',
+    logoClass: 'h-48 sm:h-64',
     primaryColor: '#006544',
     primaryColorDark: '#00522F',
     evMakes: ['Rivian'],
