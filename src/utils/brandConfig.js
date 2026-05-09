@@ -69,7 +69,6 @@ const CONFIGS = {
     footerCity: null,
     footerTagline: 'Electric Adventure Vehicles',
   },
-}
 
   tesla: {
     name: 'Tesla',
@@ -109,4 +108,5 @@ const CONFIGS = {
 }
 
 const key = import.meta.env.VITE_BRAND ?? 'ccs'
+
 export const brand = CONFIGS[key] ?? CONFIGS.ccs
