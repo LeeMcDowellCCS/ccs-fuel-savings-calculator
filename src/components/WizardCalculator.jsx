@@ -499,11 +499,14 @@ export default function WizardCalculator({ onExit }) {
     }
   }, [step, evTrims])
 
-  // Fire confetti when results show
+  // Scroll to top and fire confetti when results show
   useEffect(() => {
-    if (step === 'results' && !confettiFired.current) {
-      confettiFired.current = true
-      setTimeout(fireConfetti, 200)
+    if (step === 'results') {
+      window.scrollTo({ top: 0, behavior: 'instant' })
+      if (!confettiFired.current) {
+        confettiFired.current = true
+        setTimeout(fireConfetti, 200)
+      }
     }
     if (step !== 'results') confettiFired.current = false
   }, [step])
