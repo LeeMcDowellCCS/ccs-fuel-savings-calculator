@@ -12,7 +12,7 @@ export default function WelcomePage({ onGetStarted }) {
         {/* Logo */}
         <a href={brand.logoHref} target="_blank" rel="noopener noreferrer" className="mb-8 block">
           {brand.logoSrc ? (
-            <img src={brand.logoSrc} alt={brand.logoAlt} className="h-24 sm:h-32 w-auto mx-auto" />
+            <img src={brand.logoSrc} alt={brand.logoAlt} className={`${brand.logoClass ?? 'h-24 sm:h-32'} w-auto mx-auto`} />
           ) : (
             <span className="text-4xl sm:text-5xl font-bold text-white tracking-tight">{brand.name}</span>
           )}
