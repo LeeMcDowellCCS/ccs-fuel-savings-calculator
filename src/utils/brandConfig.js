@@ -76,7 +76,7 @@ const CONFIGS = {
     logoSrc: '/tesla-energy-logo.png',
     logoAlt: 'Tesla',
     logoHref: 'https://www.tesla.com',
-    logoClass: 'h-16 sm:h-20',
+    logoClass: 'h-32 sm:h-40',
     primaryColor: '#E82127',
     primaryColorDark: '#C41A1F',
     evMakes: ['Tesla'],
