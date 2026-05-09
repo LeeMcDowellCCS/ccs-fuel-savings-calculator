@@ -36,7 +36,7 @@ const CONFIGS = {
   rivian: {
     name: 'Rivian',
     shortName: 'Rivian',
-    logoSrc: null, // no logo file — renders brand name as text
+    logoSrc: '/rivian-logo.png',
     logoAlt: 'Rivian',
     logoHref: 'https://www.rivian.com',
     primaryColor: '#006544',
