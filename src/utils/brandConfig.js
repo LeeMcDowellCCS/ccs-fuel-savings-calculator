@@ -71,5 +71,42 @@ const CONFIGS = {
   },
 }
 
+  tesla: {
+    name: 'Tesla',
+    shortName: 'Tesla',
+    logoSrc: '/tesla-logo.png',
+    logoAlt: 'Tesla',
+    logoHref: 'https://www.tesla.com',
+    logoClass: 'h-16 sm:h-20',
+    primaryColor: '#E82127',
+    primaryColorDark: '#C41A1F',
+    evMakes: ['Tesla'],
+    poweredBy: {
+      text: 'Powered by Car Charger Specialists',
+      logoSrc: '/ccs-logo.png',
+      href: 'https://www.carchargerspecialists.com',
+    },
+    tagline: 'See How Much You Save\nwith a Tesla',
+    description: "Enter your current vehicle and driving habits. We'll calculate your exact fuel savings switching to a Tesla Model 3, Y, S, X, or Cybertruck.",
+    benefits: [
+      '⚡ Personalized to your exact vehicle & utility',
+      '🚗 Compare Model 3, Y, S, X, and Cybertruck',
+      '🌱 See your environmental impact too',
+    ],
+    reviews: null,
+    ctaLabel: 'Get Your Charger Installed',
+    ctaUrl: 'https://book.housecallpro.com/lead-form/Car-Charger-Specialists-LLC/fcb749cd2e9748849f539ba8c3937347',
+    ctaUseModal: true,
+    ctaDescription: 'Car Charger Specialists installs Level 2 EV chargers across the Atlanta metro area. Tesla Certified. Fast. Reliable.',
+    phone: null,
+    phoneTel: null,
+    website: 'https://www.tesla.com',
+    websiteDisplay: 'tesla.com',
+    footerName: 'Tesla',
+    footerCity: null,
+    footerTagline: 'Electric Vehicles',
+  },
+}
+
 const key = import.meta.env.VITE_BRAND ?? 'ccs'
 export const brand = CONFIGS[key] ?? CONFIGS.ccs
