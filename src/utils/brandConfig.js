@@ -73,7 +73,7 @@ const CONFIGS = {
   tesla: {
     name: 'Tesla',
     shortName: 'Tesla',
-    logoSrc: '/tesla-energy.png',
+    logoSrc: '/tesla-energy-logo.png',
     logoAlt: 'Tesla',
     logoHref: 'https://www.tesla.com',
     logoClass: 'h-16 sm:h-20',
