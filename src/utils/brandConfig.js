@@ -44,6 +44,11 @@ const CONFIGS = {
     primaryColor: '#006544',
     primaryColorDark: '#00522F',
     evMakes: ['Rivian'],
+    poweredBy: {
+      text: 'Powered by Car Charger Specialists',
+      logoSrc: '/ccs-logo.png',
+      href: 'https://www.carchargerspecialists.com',
+    },
     tagline: 'See How Much You Save\nwith a Rivian',
     description: "Enter your current vehicle and driving habits. We'll calculate your exact fuel savings switching to a Rivian R1T, R1S, or R2.",
     benefits: [
