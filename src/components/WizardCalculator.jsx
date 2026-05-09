@@ -470,10 +470,12 @@ export default function WizardCalculator({ onExit }) {
   }, [evVehicles, evMake])
   const evTrims   = useMemo(() => {
     if (!evMake || !evModel) return []
-    const entry = evModels.find(e => e.model === evModel)
-    if (!entry) return []
-    return evVehicles.filter(v => v.make === evMake && v.model === evModel && v.year === entry.year)
-  }, [evVehicles, evMake, evModel, evModels])
+    // Return all trims across all years so models with trims spanning multiple
+    // model years (e.g. R2 Standard RWD 2027 vs Performance AWD 2026) all appear.
+    return evVehicles
+      .filter(v => v.make === evMake && v.model === evModel)
+      .sort((a, b) => b.year - a.year)
+  }, [evVehicles, evMake, evModel])
 
   // Auto-advance when brand restricts to a single EV make
   useEffect(() => {
@@ -639,7 +641,7 @@ export default function WizardCalculator({ onExit }) {
         </div>
       ) : (
         <OptionList items={evTrims} selected={evVehicle?.trim} getLabel={t => t.trim}
-          getSub={t => `${t.miPerKWh} mi/kWh · ${t.rangeMi} mi range`}
+          getSub={t => `${t.year} · ${t.miPerKWh} mi/kWh · ${t.rangeMi} mi range`}
           onSelect={t => { setEvVehicle(t); setTimeout(() => setStep('miles'), 200) }} />
       )}
     </StepShell>
