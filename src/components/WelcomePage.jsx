@@ -18,6 +18,19 @@ export default function WelcomePage({ onGetStarted }) {
           )}
         </a>
 
+        {/* Powered-by badge — shown for white-label brands */}
+        {brand.poweredBy && (
+          <a
+            href={brand.poweredBy.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 -mt-4 mb-6 opacity-60 hover:opacity-90 transition-opacity"
+          >
+            <span className="text-xs text-gray-400">{brand.poweredBy.text}</span>
+            <img src={brand.poweredBy.logoSrc} alt="Car Charger Specialists" className="h-4 w-auto" />
+          </a>
+        )}
+
         {/* Headline */}
         <h1 className="text-3xl sm:text-4xl font-bold text-white leading-tight mb-4">
           {line1}{line2 && <><br />{line2}</>}
