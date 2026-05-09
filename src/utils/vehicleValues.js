@@ -35,7 +35,7 @@ const MSRP_LOOKUP = {
   // Rivian
   'Rivian|R1T':        { base: 71700, perTrim: { 'Quad Motor Large Pack': 99900, 'Tri Motor Large Pack': 99900, 'Performance Dual Motor Large Pack': 86700 } },
   'Rivian|R1S':        { base: 77700, perTrim: { 'Quad Motor Large Pack': 105900, 'Tri Motor Large Pack': 105900, 'Performance Dual Motor Large Pack': 92700 } },
-  'Rivian|R2':         { base: 45000 },
+  'Rivian|R2':         { base: 48490, perTrim: { 'Performance AWD': 57990, 'Premium AWD': 53990, 'Standard RWD': 48490 } },
 
   // BMW
   'BMW|i4':            { base: 52200, perTrim: { 'M50 xDrive': 74400, 'xDrive40 Gran Coupe AWD': 58300 } },

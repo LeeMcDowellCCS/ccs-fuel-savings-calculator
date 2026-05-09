@@ -4795,17 +4795,25 @@
     "year": 2026,
     "make": "Rivian",
     "model": "R2",
-    "trim": "Standard RWD",
-    "miPerKWh": 3.5,
-    "rangeMi": 300
+    "trim": "Performance AWD",
+    "miPerKWh": 3.0,
+    "rangeMi": 270
   },
   {
     "year": 2026,
     "make": "Rivian",
     "model": "R2",
-    "trim": "Standard AWD",
-    "miPerKWh": 3.2,
-    "rangeMi": 285
+    "trim": "Premium AWD",
+    "miPerKWh": 3.3,
+    "rangeMi": 330
+  },
+  {
+    "year": 2027,
+    "make": "Rivian",
+    "model": "R2",
+    "trim": "Standard RWD",
+    "miPerKWh": 3.7,
+    "rangeMi": 345
   },
   {
     "year": 2026,
