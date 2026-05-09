@@ -3,21 +3,16 @@ import gasVehicleData from '../data/gas-vehicles/index.js'
 import { getFuelType, FUEL_LABELS } from '../utils/fuelType'
 import { getEvMsrp, estimateTradeIn, estimateGasPayment, estimateGasInsurance } from '../utils/vehicleValues'
 import { fetchGasPrice, GAS_PRICE_FALLBACKS } from '../utils/gasPriceFetch'
+import { brand } from '../utils/brandConfig'
 import CTA from './CTA'
 
 // ── Email service config ──────────────────────────────────────────────────────
-// To enable real email sending, sign up at https://emailjs.com (free 200/mo),
-// configure a service + template, then replace these values. The template
-// should include a hard-coded BCC: installations@carchargerspecialists.com.
-// Until set, the "Email My Results" button uses a mailto: fallback.
 const EMAILJS_CONFIG = {
   serviceId:  'YOUR_SERVICE_ID',
   templateId: 'YOUR_TEMPLATE_ID',
   publicKey:  'YOUR_PUBLIC_KEY',
 }
 const EMAILJS_READY = !EMAILJS_CONFIG.serviceId.startsWith('YOUR_')
-const HCP_LEAD_URL =
-  'https://book.housecallpro.com/lead-form/Car-Charger-Specialists-LLC/fcb749cd2e9748849f539ba8c3937347'
 const BCC_EMAIL = 'installations@carchargerspecialists.com'
 
 // ── Constants ─────────────────────────────────────────────────────────────────
@@ -249,15 +244,13 @@ function EmailDialog({ open, onClose, calc, gasVehicle, evVehicle, electricRate,
     lines.push(`  READY TO START SAVING?`)
     lines.push(`════════════════════════════════════════`)
     lines.push(``)
-    lines.push(`To unlock these savings, you need a Level 2 EV charger installed`)
-    lines.push(`at home. Car Charger Specialists is Tesla Certified, fast, and`)
-    lines.push(`reliable — serving the Atlanta metro area.`)
+    lines.push(brand.ctaDescription)
     lines.push(``)
-    lines.push(`📅 BOOK YOUR FREE QUOTE: ${HCP_LEAD_URL}`)
-    lines.push(`📞 OR CALL: 404-520-7349`)
+    lines.push(`👉 ${brand.ctaLabel.toUpperCase()}: ${brand.ctaUrl}`)
+    if (brand.phone) lines.push(`📞 OR CALL: ${brand.phone}`)
     lines.push(``)
-    lines.push(`— The Car Charger Specialists Team`)
-    lines.push(`Atlanta, GA · carchargerspecialists.com`)
+    lines.push(`— The ${brand.name} Team`)
+    lines.push(brand.footerCity ? `${brand.footerCity} · ${brand.websiteDisplay}` : brand.websiteDisplay)
     return lines.join('\n')
   }
 
@@ -282,7 +275,7 @@ function EmailDialog({ open, onClose, calc, gasVehicle, evVehicle, electricRate,
       pct_savings:     fmtPct(calc.pctSavings),
       gas_vehicle:     `${gasVehicle.year} ${gasVehicle.make} ${gasVehicle.model} ${gasVehicle.trim}`,
       ev_vehicle:      `${evVehicle.year} ${evVehicle.make} ${evVehicle.model} ${evVehicle.trim}`,
-      lead_form_url:   HCP_LEAD_URL,
+      lead_form_url:   brand.ctaUrl,
       message_body:    buildEmailBody(),
     })
   }
@@ -330,7 +323,7 @@ function EmailDialog({ open, onClose, calc, gasVehicle, evVehicle, electricRate,
             <p className="text-xs text-gray-500 mb-4">
               Our team has been notified and will follow up to schedule your free charger install quote.
             </p>
-            <a href={HCP_LEAD_URL} target="_blank" rel="noopener noreferrer"
+            <a href={brand.ctaUrl} target="_blank" rel="noopener noreferrer"
               className="inline-block bg-ccs-red hover:bg-ccs-red-dark text-white font-semibold px-6 py-3 rounded-xl text-sm transition-colors">
               Book Your Free Quote Now →
             </a>
@@ -463,7 +456,10 @@ export default function WizardCalculator({ onExit }) {
     return gasVehicleData.filter(v => v.make === gasMake && v.year === gasYear && v.model === gasModel)
   }, [gasMake, gasYear, gasModel])
 
-  const evMakes   = useMemo(() => [...new Set(evVehicles.map(v => v.make))].sort(), [evVehicles])
+  const evMakes   = useMemo(() => {
+    const all = [...new Set(evVehicles.map(v => v.make))].sort()
+    return brand.evMakes ? all.filter(m => brand.evMakes.includes(m)) : all
+  }, [evVehicles])
   const evModels  = useMemo(() => {
     if (!evMake) return []
     const latestYear = {}
@@ -478,6 +474,14 @@ export default function WizardCalculator({ onExit }) {
     if (!entry) return []
     return evVehicles.filter(v => v.make === evMake && v.model === evModel && v.year === entry.year)
   }, [evVehicles, evMake, evModel, evModels])
+
+  // Auto-advance when brand restricts to a single EV make
+  useEffect(() => {
+    if (step === 'ev-make' && evMakes.length === 1 && !evMake) {
+      setEvMake(evMakes[0])
+      setTimeout(() => setStep('ev-model'), 200)
+    }
+  }, [step, evMakes])
 
   // Auto-advance single-option trims
   useEffect(() => {
@@ -884,9 +888,9 @@ export default function WizardCalculator({ onExit }) {
               className="py-4 px-4 bg-ccs-red hover:bg-ccs-red-dark text-white rounded-xl font-bold text-base transition-colors shadow-md flex items-center justify-center gap-2">
               📧 Email My Results
             </button>
-            <a href={HCP_LEAD_URL} target="_blank" rel="noopener noreferrer"
+            <a href={brand.ctaUrl} target="_blank" rel="noopener noreferrer"
               className="py-4 px-4 bg-green-600 hover:bg-green-700 text-white rounded-xl font-bold text-base transition-colors shadow-md flex items-center justify-center gap-2">
-              📅 Book Free Quote
+              📅 {brand.ctaLabel}
             </a>
           </div>
 

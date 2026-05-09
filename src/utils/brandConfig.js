@@ -1,0 +1,68 @@
+const CONFIGS = {
+  ccs: {
+    name: 'Car Charger Specialists',
+    shortName: 'CCS',
+    logoSrc: '/ccs-logo.png',
+    logoAlt: 'Car Charger Specialists',
+    logoHref: 'https://www.carchargerspecialists.com',
+    primaryColor: '#E8272A',
+    primaryColorDark: '#C41F22',
+    // null = show all EV makes; array = restrict to listed makes
+    evMakes: null,
+    tagline: 'How Much Could You Save\nGoing Electric?',
+    description: "Answer a few quick questions about your current vehicle and driving habits. We'll calculate your exact fuel savings — down to the penny.",
+    benefits: [
+      '⚡ Personalized to your exact vehicle & utility',
+      '📊 Full cost breakdown — fuel, payments, insurance',
+      '🌱 See your environmental impact too',
+    ],
+    reviews: {
+      label: '5.0 · 715 Google Reviews',
+      href: 'https://share.google/IqHZXHVdPeyNVS3k2',
+    },
+    ctaLabel: 'Get Your Charger Installed',
+    ctaUrl: 'https://book.housecallpro.com/lead-form/Car-Charger-Specialists-LLC/fcb749cd2e9748849f539ba8c3937347',
+    ctaUseModal: true,
+    ctaDescription: 'Car Charger Specialists installs Level 2 EV chargers across the Atlanta metro area. Tesla Certified. Fast. Reliable.',
+    phone: '404-520-7349',
+    phoneTel: '4045207349',
+    website: 'https://www.carchargerspecialists.com',
+    websiteDisplay: 'carchargerspecialists.com',
+    footerName: 'Car Charger Specialists, LLC',
+    footerCity: 'Atlanta, GA',
+    footerTagline: "Atlanta's #1 EV Charger Installer",
+  },
+
+  rivian: {
+    name: 'Rivian',
+    shortName: 'Rivian',
+    logoSrc: null, // no logo file — renders brand name as text
+    logoAlt: 'Rivian',
+    logoHref: 'https://www.rivian.com',
+    primaryColor: '#006544',
+    primaryColorDark: '#00522F',
+    evMakes: ['Rivian'],
+    tagline: 'See How Much You Save\nwith a Rivian',
+    description: "Enter your current vehicle and driving habits. We'll calculate your exact fuel savings switching to a Rivian R1T, R1S, or R2.",
+    benefits: [
+      '⚡ Personalized to your exact vehicle & utility',
+      '🛻 Compare R1T, R1S, and R2 configurations',
+      '🌱 See your environmental impact too',
+    ],
+    reviews: null,
+    ctaLabel: 'Explore Rivian Vehicles',
+    ctaUrl: 'https://www.rivian.com/vehicles',
+    ctaUseModal: false,
+    ctaDescription: "Ready to make the switch? Explore Rivian's lineup of electric adventure vehicles.",
+    phone: null,
+    phoneTel: null,
+    website: 'https://www.rivian.com',
+    websiteDisplay: 'rivian.com',
+    footerName: 'Rivian',
+    footerCity: null,
+    footerTagline: 'Electric Adventure Vehicles',
+  },
+}
+
+const key = import.meta.env.VITE_BRAND ?? 'ccs'
+export const brand = CONFIGS[key] ?? CONFIGS.ccs
