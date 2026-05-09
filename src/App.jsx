@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react'
+import { brand } from './utils/brandConfig'
 import Header from './components/Header'
 import { GasVehicleSelector, EVSelector } from './components/VehicleSelector'
 import UtilitySelector from './components/UtilitySelector'
@@ -75,16 +76,21 @@ export default function App() {
   if (!electricRate) missingFields.push('utility & rate')
   if (!gasPrice) missingFields.push('gas price')
 
+  const brandStyle = (
+    <style>{`:root{--brand-primary:${brand.primaryColor};--brand-primary-dark:${brand.primaryColorDark}}`}</style>
+  )
+
   if (mode === 'welcome') {
-    return <WelcomePage onGetStarted={() => setMode('wizard')} />
+    return <>{brandStyle}<WelcomePage onGetStarted={() => setMode('wizard')} /></>
   }
 
   if (mode === 'wizard') {
-    return <WizardCalculator onExit={() => setMode('classic')} />
+    return <>{brandStyle}<WizardCalculator onExit={() => setMode('classic')} /></>
   }
 
   return (
     <div className="min-h-screen bg-[#0D0D0D]">
+      {brandStyle}
       <Header />
 
       {/* Mode toggle */}
@@ -157,14 +163,16 @@ export default function App() {
 
       <footer className="text-center py-6 text-xs text-gray-500 mt-8" style={{ backgroundColor: '#000000' }}>
         <p>
-          © {new Date().getFullYear()} Car Charger Specialists, LLC · Atlanta, GA ·{' '}
-          <a href="https://www.carchargerspecialists.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
-            carchargerspecialists.com
+          © {new Date().getFullYear()} {brand.footerName}{brand.footerCity ? ` · ${brand.footerCity}` : ''}{' '}·{' '}
+          <a href={brand.website} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">
+            {brand.websiteDisplay}
           </a>
         </p>
-        <p className="mt-1">
-          <a href="tel:4045207349" className="text-gray-500 hover:text-white transition-colors">404-520-7349</a>
-        </p>
+        {brand.phone && (
+          <p className="mt-1">
+            <a href={`tel:${brand.phoneTel}`} className="text-gray-500 hover:text-white transition-colors">{brand.phone}</a>
+          </p>
+        )}
       </footer>
     </div>
   )
