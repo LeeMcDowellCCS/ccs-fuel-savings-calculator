@@ -513,6 +513,18 @@ export default function WizardCalculator({ onExit }) {
   // Reset year + trim when model changes
   useEffect(() => { setEvYear(null); setEvVehicle(null) }, [evModel])
 
+  const startOver = () => {
+    setStep('gas-make')
+    setGasMake(null); setGasYear(null); setGasModel(null); setGasVehicle(null)
+    setEvMake(null); setEvModel(null); setEvYear(null); setEvVehicle(null)
+    setMilesPerDay(35); setElectricRate(null); setUtilityId(null)
+    setGasPrice(null); setGasPriceOverride(null); setGasPriceRaw(null)
+    setInstallEnabled(false); setInstallLoc(INSTALL_LOCATIONS[0]); setInstallSlider(INSTALL_LOCATIONS[0].min); setIncludeCharger(false)
+    setTcoEnabled(false); setGasPayment(500); setGasInsurance(150); setGasMaintenance(100)
+    setNewCarCost(45000); setTradeIn(0); setTavtRate(7); setLoanTerm(60); setApr(6.5)
+    setEvInsurance(160); setEvMaintenance(42); setShowEmail(false)
+  }
+
   // Scroll to top and fire confetti when results show
   useEffect(() => {
     if (step === 'results') {
@@ -909,6 +921,7 @@ export default function WizardCalculator({ onExit }) {
 
         {/* Header */}
         <div className="max-w-3xl mx-auto px-4 pt-5 pb-2 flex items-center justify-between">
+          <button onClick={startOver} className="text-xs text-gray-500 hover:text-white transition-colors">← Start Over</button>
           <p className="text-xs text-gray-500 uppercase tracking-wide font-medium">Your Results</p>
           <button onClick={onExit} className="text-xs text-gray-500 hover:text-gray-300">Classic View →</button>
         </div>
