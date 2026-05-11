@@ -25,7 +25,7 @@ const MILES_PRESETS = [
 
 const STEPS = [
   'gas-make','gas-year','gas-model','gas-trim',
-  'ev-make','ev-model','ev-trim',
+  'ev-make','ev-model','ev-year','ev-trim',
   'miles','utility',
   'install','tco',
   'results',
@@ -377,8 +377,9 @@ export default function WizardCalculator({ onExit }) {
   const [gasVehicle, setGasVehicle] = useState(null)
 
   // EV vehicle
-  const [evMake,   setEvMake]     = useState(null)
-  const [evModel,  setEvModel]    = useState(null)
+  const [evMake,    setEvMake]    = useState(null)
+  const [evModel,   setEvModel]   = useState(null)
+  const [evYear,    setEvYear]    = useState(null)
   const [evVehicle, setEvVehicle] = useState(null)
 
   // Inputs
@@ -468,14 +469,18 @@ export default function WizardCalculator({ onExit }) {
     })
     return Object.keys(latestYear).sort().map(m => ({ model: m, year: latestYear[m] }))
   }, [evVehicles, evMake])
-  const evTrims   = useMemo(() => {
+  const evYears   = useMemo(() => {
     if (!evMake || !evModel) return []
-    // Return all trims across all years so models with trims spanning multiple
-    // model years (e.g. R2 Standard RWD 2027 vs Performance AWD 2026) all appear.
-    return evVehicles
-      .filter(v => v.make === evMake && v.model === evModel)
-      .sort((a, b) => b.year - a.year)
+    return [...new Set(
+      evVehicles.filter(v => v.make === evMake && v.model === evModel).map(v => v.year)
+    )].sort((a, b) => b - a)
   }, [evVehicles, evMake, evModel])
+  const evTrims   = useMemo(() => {
+    if (!evMake || !evModel || !evYear) return []
+    return evVehicles
+      .filter(v => v.make === evMake && v.model === evModel && v.year === evYear)
+      .sort((a, b) => a.trim.localeCompare(b.trim))
+  }, [evVehicles, evMake, evModel, evYear])
 
   // Auto-advance when brand restricts to a single EV make
   useEffect(() => {
@@ -485,7 +490,7 @@ export default function WizardCalculator({ onExit }) {
     }
   }, [step, evMakes])
 
-  // Auto-advance single-option trims
+  // Auto-advance single-option trims / years
   useEffect(() => {
     if (step === 'gas-trim' && gasTrims.length === 1) {
       setGasVehicle(gasTrims[0])
@@ -493,11 +498,20 @@ export default function WizardCalculator({ onExit }) {
     }
   }, [step, gasTrims])
   useEffect(() => {
+    if (step === 'ev-year' && evYears.length === 1) {
+      setEvYear(evYears[0])
+      setTimeout(() => setStep('ev-trim'), 350)
+    }
+  }, [step, evYears])
+  useEffect(() => {
     if (step === 'ev-trim' && evTrims.length === 1) {
       setEvVehicle(evTrims[0])
       setTimeout(() => setStep('miles'), 350)
     }
   }, [step, evTrims])
+
+  // Reset year + trim when model changes
+  useEffect(() => { setEvYear(null); setEvVehicle(null) }, [evModel])
 
   // Scroll to top and fire confetti when results show
   useEffect(() => {
@@ -629,22 +643,36 @@ export default function WizardCalculator({ onExit }) {
   )
 
   if (step === 'ev-model') return (
-    <StepShell step={step} onBack={goBack} onExit={onExit} title={`Which ${evMake} model?`} subtitle="Showing latest model year available">
+    <StepShell step={step} onBack={goBack} onExit={onExit} title={`Which ${evMake} model?`}>
       <OptionList items={evModels} selected={evModel}
-        getLabel={e => e.model} getSub={e => `${e.year}`}
-        onSelect={e => { setEvModel(e.model); setEvVehicle(null); setTimeout(() => setStep('ev-trim'), 200) }} />
+        getLabel={e => e.model}
+        onSelect={e => { setEvModel(e.model); setTimeout(() => setStep('ev-year'), 200) }} />
+    </StepShell>
+  )
+
+  if (step === 'ev-year') return (
+    <StepShell step={step} onBack={goBack} onExit={onExit} title="Which model year?" subtitle={`${evMake} ${evModel}`}>
+      {evYears.length === 1 ? (
+        <div className="mt-4 rounded-xl border-2 border-ccs-red bg-red-950/50 px-4 py-4 text-ccs-red text-sm font-semibold">
+          ✓ {evYears[0]} — auto-selected
+        </div>
+      ) : (
+        <OptionList items={evYears} selected={evYear}
+          getLabel={y => `${y}`}
+          onSelect={y => { setEvYear(y); setEvVehicle(null); setTimeout(() => setStep('ev-trim'), 200) }} />
+      )}
     </StepShell>
   )
 
   if (step === 'ev-trim') return (
-    <StepShell step={step} onBack={goBack} onExit={onExit} title="Which trim / configuration?" subtitle={`${evMake} ${evModel}`}>
+    <StepShell step={step} onBack={goBack} onExit={onExit} title="Which trim / configuration?" subtitle={`${evYear} ${evMake} ${evModel}`}>
       {evTrims.length === 1 ? (
         <div className="mt-4 rounded-xl border-2 border-ccs-red bg-red-950/50 px-4 py-4 text-ccs-red text-sm font-semibold">
           ✓ {evTrims[0].trim} — auto-selected
         </div>
       ) : (
         <OptionList items={evTrims} selected={evVehicle?.trim} getLabel={t => t.trim}
-          getSub={t => `${t.year} · ${t.miPerKWh} mi/kWh · ${t.rangeMi} mi range`}
+          getSub={t => `${t.miPerKWh} mi/kWh · ${t.rangeMi} mi range`}
           onSelect={t => { setEvVehicle(t); setTimeout(() => setStep('miles'), 200) }} />
       )}
     </StepShell>
