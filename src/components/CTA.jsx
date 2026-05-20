@@ -21,7 +21,12 @@ export default function CTA() {
 
       {brand.ctaUseModal ? (
         <button
-          onClick={() => setShowModal(true)}
+          onClick={() => {
+            if (brand.gtagConversion && window.gtag) {
+              window.gtag('event', 'conversion', { send_to: brand.gtagConversion, value: 1.0, currency: 'USD' })
+            }
+            setShowModal(true)
+          }}
           className="inline-block bg-ccs-red hover:bg-ccs-red-dark text-white font-semibold px-8 py-3.5 rounded-xl text-base transition-colors shadow-lg"
         >
           {brand.ctaLabel}

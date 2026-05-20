@@ -32,6 +32,8 @@ const CONFIGS = {
     footerName: 'Car Charger Specialists, LLC',
     footerCity: 'Atlanta, GA',
     footerTagline: "Atlanta's #1 EV Charger Installer",
+    gtagId: 'AW-18156257910',
+    gtagConversion: 'AW-18156257910/lOQ9CMfjuKscEPaEytFD',
   },
 
   rivian: {

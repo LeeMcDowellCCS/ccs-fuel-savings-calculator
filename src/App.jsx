@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { brand } from './utils/brandConfig'
 import Header from './components/Header'
 import { GasVehicleSelector, EVSelector } from './components/VehicleSelector'
@@ -45,6 +45,19 @@ function calculateTCO({ annualGasCost, annualElectricCost }, tcoInputs) {
 
 export default function App() {
   const [mode, setMode] = useState('welcome') // 'welcome' | 'wizard' | 'classic'
+
+  useEffect(() => {
+    if (!brand.gtagId) return
+    const s = document.createElement('script')
+    s.async = true
+    s.src = `https://www.googletagmanager.com/gtag/js?id=${brand.gtagId}`
+    document.head.appendChild(s)
+    window.dataLayer = window.dataLayer || []
+    function gtag() { window.dataLayer.push(arguments) }
+    window.gtag = gtag
+    gtag('js', new Date())
+    gtag('config', brand.gtagId)
+  }, [])
   const [gasVehicle, setGasVehicle] = useState(null)
   const [evVehicle, setEvVehicle] = useState(null)
   const [electricRate, setElectricRate] = useState(null)
