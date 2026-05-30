@@ -6,15 +6,6 @@ import { fetchGasPrice, GAS_PRICE_FALLBACKS } from '../utils/gasPriceFetch'
 import { brand } from '../utils/brandConfig'
 import CTA from './CTA'
 
-// ── Email service config ──────────────────────────────────────────────────────
-const EMAILJS_CONFIG = {
-  serviceId:  'YOUR_SERVICE_ID',
-  templateId: 'YOUR_TEMPLATE_ID',
-  publicKey:  'YOUR_PUBLIC_KEY',
-}
-const EMAILJS_READY = !EMAILJS_CONFIG.serviceId.startsWith('YOUR_')
-const BCC_EMAIL = 'installations@carchargerspecialists.com'
-
 // ── Constants ─────────────────────────────────────────────────────────────────
 
 const MILES_PRESETS = [
@@ -254,51 +245,24 @@ function EmailDialog({ open, onClose, calc, gasVehicle, evVehicle, electricRate,
     return lines.join('\n')
   }
 
-  const sendViaEmailJS = async () => {
-    if (!window.emailjs) {
-      await new Promise((resolve, reject) => {
-        const s = document.createElement('script')
-        s.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js'
-        s.onload = resolve
-        s.onerror = reject
-        document.head.appendChild(s)
-      })
-    }
-    window.emailjs.init(EMAILJS_CONFIG.publicKey)
-    return window.emailjs.send(EMAILJS_CONFIG.serviceId, EMAILJS_CONFIG.templateId, {
-      to_name: name,
-      to_email: email,
-      bcc_email: BCC_EMAIL,
-      subject: 'Your EV Savings Report — Car Charger Specialists',
-      monthly_savings: fmt(calc.monthlySavings),
-      annual_savings:  fmt(calc.annualSavings),
-      pct_savings:     fmtPct(calc.pctSavings),
-      gas_vehicle:     `${gasVehicle.year} ${gasVehicle.make} ${gasVehicle.model} ${gasVehicle.trim}`,
-      ev_vehicle:      `${evVehicle.year} ${evVehicle.make} ${evVehicle.model} ${evVehicle.trim}`,
-      lead_form_url:   brand.ctaUrl,
-      message_body:    buildEmailBody(),
-    })
-  }
-
-  const sendViaMailto = () => {
-    const subject = encodeURIComponent('Your EV Savings Report — Car Charger Specialists')
-    const body = encodeURIComponent(buildEmailBody())
-    const link = `mailto:${email}?bcc=${BCC_EMAIL}&subject=${subject}&body=${body}`
-    window.location.href = link
-  }
-
   const handleSend = async () => {
     setError('')
     if (!email || !email.includes('@')) { setError('Please enter a valid email address'); return }
     setSending(true)
     try {
-      if (EMAILJS_READY) await sendViaEmailJS()
-      else sendViaMailto()
+      const res = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          to: email,
+          subject: `Your EV Savings Report — ${brand.name}`,
+          text: buildEmailBody(),
+        }),
+      })
+      if (!res.ok) throw new Error('send failed')
       setSent(true)
-    } catch (e) {
-      setError('Could not send via email service — opening your email client instead.')
-      sendViaMailto()
-      setSent(true)
+    } catch {
+      setError('Could not send email. Please try again or contact us directly.')
     } finally {
       setSending(false)
     }
